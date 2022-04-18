@@ -683,7 +683,7 @@ li_qui, lictum, 3
 li^cu^i, 3
 and
 tu^i, 3
-a_rum, and its derivatives
+<itype>a_rum</itype>, and its derivatives
 or in two words, de longe
 messu^i, messum, 3
 lsi, mulctum, 2
