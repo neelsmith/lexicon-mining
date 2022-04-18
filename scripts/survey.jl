@@ -1,11 +1,23 @@
-# if running from root of repository:
+#############
+# Read mainentries.cex and extract morphological info.
+#
+# If NOT running from root of repository,
+# adjust paths here:
 f = joinpath(pwd(), "cex", "lewis-short", "mainentries.cex")
-lns = readlines(f)
 target = joinpath(pwd(), "cex", "lewis-short", "morphinfo.cex")
+repo = pwd()
+#############
 
+
+# main script
+using Pkg
+Pkg.activate(repo)
+Pkg.resolve()
+Pkg.instantiate()
 
 using EzXML
 
+lns = readlines(f)
 
 morphinfo = ["id|label|lemma|pos|itype|gen|mood"]#|tns"]
 for (i,ln) in enumerate(lns)
