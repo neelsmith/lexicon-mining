@@ -12,7 +12,7 @@ for (i,ln) in enumerate(lns)
         id = doc.root["id"]
         k = doc.root["key"]
         cleaner = replace(k, r"[_^]" => "")
-        push!(metadata, join([id,cleaner], "|"))
+        push!(metadata, join([id,cleaner], "||"))
     catch e
         println("ERROR AT LINE $(i)")
         println(e)
@@ -21,7 +21,7 @@ for (i,ln) in enumerate(lns)
 end
 
 prs = zip(metadata, lns)
-cexlines = map(pr -> pr[1] * "|" * pr[2], prs)
+cexlines = map(pr -> pr[1] * "||" * pr[2], prs)
 
 open("entries.cex", "w") do io
     write(io, join(cexlines,"\n"))
