@@ -1,2 +1,7 @@
 [deps]
 EzXML = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
+SplitApplyCombine = "03a91e81-4c3e-53e1-a0a4-9c0c8f19dd66"
+
+[compat]
+EzXML = "1"
+SplitApplyCombine = "1"
