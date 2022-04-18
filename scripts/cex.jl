@@ -1,6 +1,9 @@
-
+#=
+Read src.cex, and format entries.cex
+=#
 # if running from root of repository:
 f = joinpath(pwd(), "cex", "lewis-short", "src.cex")
+target = joinpath(pwd(),"cex", "lewis-short", "entries.cex")
 lns = readlines(f)
 
 using EzXML
@@ -23,6 +26,6 @@ end
 prs = zip(metadata, lns)
 cexlines = map(pr -> pr[1] * "||" * pr[2], prs)
 
-open("entries.cex", "w") do io
+open(target, "w") do io
     write(io, join(cexlines,"\n"))
 end
