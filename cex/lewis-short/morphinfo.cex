@@ -212,7 +212,7 @@ n277|abusus|a^bu_sus||u_s|m.|
 n278|abutor|a^bu_tor|v. dep.|u_sus, 3||
 n279|Abydus|A^by_dus|adj.|i|f.|
 n280|Abyla|A^by^la||ae|f.|
-n282|AC1|AC1||a Latin root, denoting||
+n282|AC1|AC1||||
 n283|ac2|ac2||||
 n288|Academus|A^ca^de_mus||i|m.|
 n291|Acamas|A^ca^mas||antis|m.|
@@ -348,7 +348,7 @@ n469|Achaemenius|A^chaeme^ni^us|adj.|a, um||
 n470|Achaetus|A^chaetus||i|m.|
 n471|Achaeus1|A^chaeus1||i|m.|
 n472|Achaeus2|A^chaeus2|adj.|a, um||
-n473|Achaia|A^cha_ia|adj.|or|f.|
+n473|Achaia|A^cha_ia|adj.|ae|f.|
 n474|achantum|a^chantum||i|n.|
 n475|achanum|a^cha^num||i|n.|
 n476|Acharnae|A^charnae||a_rum|f.|
@@ -2260,11 +2260,11 @@ n3116|apparatrix|appa^ra_trix||i_cis|f.|
 n3117|apparatus1|appa^ra_tus1|p. a.|a, um||
 n3118|apparatus2|appa^ra_tus2||u_s|m.|
 n3119|apparentia|appa_renti^a||ae|f.|
-n3120|appareo|appa_re^o|v. n.|Ritschl||
+n3120|appareo|appa_re^o|v. n.|ui, itum, 2||
 n3121|apparesco|appa_resco||e^re||
 n3123|apparitio|appa_ri^ti^o||o_nis|f.|
 n3124|apparitor|appa_ri^tor||o_ris|m.|
-n3126|apparo|appa^ro|v. a.|Ritschl||
+n3126|apparo|appa^ro|v. a.|a_vi, a_tum, 1||
 n3128|appellatio|appella_ti^o||o_nis|f.|
 n3129|appellativus|appella_ti_vus|adj.|a, um||
 n3130|appellator|appella_tor||o_ris|m.|
@@ -2287,7 +2287,7 @@ n3148|appetitio|appe^ti_ti^o||o_nis|f.|
 n3149|appetitor|appe^ti_tor||o_ris|m.|
 n3150|appetitus1|appe^ti_tus1||a, um||part.
 n3151|appetitus2|appe^ti_tus2||u_s|m.|
-n3152|appeto1|appe^to1|v. a.|Ritschl|n.|
+n3152|appeto1|appe^to1|v. a.|ii, i_tum, 3|n.|
 n3154|Appia|Appi^a||||
 n3155|Appianus1|Appi^a_nus1|adj.|a, um|m.|
 n3156|Appianus2|Appi^a_nus2|adj.|a, um||
@@ -2302,14 +2302,14 @@ n3166|applausus|applausus||a, um||part.
 n3168|applicatio|appli^ca_ti^o||o_nis|f.|
 n3169|applicatus|appli^ca_tus|p. a.|a, um||
 n3170|applicitus|appli^ci^tus|p. a.|a, um||
-n3171|applico|appli^co|v. a.|Ritschl||
+n3171|applico|appli^co|v. a.|i^tum, 1||
 n3172|applodo|applo_do||||
 n3173|apploro|applo_ro|v. n.|a_vi, 1||
 n3174|applosus|applo_sus||a, um||part.
 n3175|appluda|applu_da||||
 n3176|applumbo|applumbo|v. a.|a_re||
-n3177|appono|appo_no|v. a.|Ritschl|n.|
-n3180|apporto|apporto|v. a.|Ritschl||
+n3177|appono|appo_no|v. a.|po_su^i, po^si^tum, 3|n.|
+n3180|apporto|apporto|v. a.|a_vi, a_tum, 1||
 n3181|apposco|apposco|v. a.|e^re||
 n3182|apposite|appo^si^te_|adv.|||
 n3183|appositio|appo^si^ti^o||o_nis|f.|
@@ -2333,7 +2333,7 @@ n3202|approbe|appro^be_|adv.|||
 n3203|approbo|appro^bo|v. a.|a_vi, a_tum, 1||
 n3204|approbus|appro^bus|adj.|a, um||
 n3205|appromissor|appro_missor||o_ris|m.|
-n3208|appropero|appro^pe^ro|v. a.|Ritschl|n.|
+n3208|appropero|appro^pe^ro|v. a.|Merkel|n.|
 n3209|appropinquatio|appro^pinqua_ti^o||o_nis|f.|
 n3210|appropinquo|appro^pinquo|v. n.|a_vi, a_tum, 1||
 n3214|appugno|appugno|v. a.|a_re||
@@ -2369,7 +2369,7 @@ n3245|apte|apte_|adv.|||
 n3246|apto|apto|p. a.|a_vi, a_tum, 1||
 n3248|aptus|aptus|p. a.|a, um||
 n3249|apua|apua||||
-n3250|apud|a^pu^d|prep.|Ritschl||
+n3250|apud|a^pu^d|prep.|||
 n3251|Apuleius|A_pu^le_ius||||
 n3252|Apulia|A_pu_lia||||
 n3254|Apus2|Apus2||||
@@ -2882,7 +2882,7 @@ n3951|aspargo1|aspargo1||e^re||
 n3952|aspargo2|aspargo2||i^nis||
 n3953|Aspasia|Aspa_si^a||ae|f.|
 n3954|aspectabilis|aspecta_bi^lis|adj.|e||
-n3957|aspecto|aspecto|v. freq. a.|Lachmann||
+n3957|aspecto|aspecto|v. freq. a.|a_vi, a_tum, 1||
 n3958|aspectus1|aspectus1||a, um||part.
 n3959|aspectus2|aspectus2||u_s|m.|
 n3960|aspello|aspello|v. a.|e^re||
@@ -2891,7 +2891,7 @@ n3963|asper1|asper1|adj.|e^ra, e^rum|n.|
 n3964|Asper2|Asper2||eri|m.|
 n3965|asperatus|aspe^ra_tus||a, um||part.
 n3966|aspere|aspe^re_|adv.|||
-n3967|aspergo1|aspergo1|v. a.|Ritschl||
+n3967|aspergo1|aspergo1|v. a.|ersi, ersum, 3||
 n3968|aspergo2|aspergo2||i^nis|f.|
 n3969|asperitas|aspe^ri^tas||a_tis|f.|
 n3970|asperiter|aspe^ri^ter|adv.|||
@@ -2909,7 +2909,7 @@ n3982|asperugo|aspe^ru_go||i^nis|f.|
 n3984|Asphaltites|Asphalti_tes||ae|m.|
 n3986|aspicio|aspi^ci^o|v. a.|spexi, spectum, 3||
 n3989|aspiratio|aspi_ra_ti^o||o_nis|f.|
-n3990|aspiro|aspi_ro|v. n.|Kayser, Halm||
+n3990|aspiro|aspi_ro|v. n.|a_vi, a_tum, 1||
 n3992|aspisatis|aspi_sa^tis||is|f.|
 n3995|asporto|asporto|v. a.|a_vi, a_tum, 1||
 n3996|aspratilis|aspra_ti^lis|adj.|e||
@@ -2923,7 +2923,7 @@ n4006|assatura|assa_tu_ra||ae|f.|
 n4007|assecla|asse^cla||ae|comm.|
 n4008|assectatio|assecta_ti^o||o_nis|f.|
 n4009|assectator|assecta_tor||o_ris|m.|
-n4010|assector|assector||Kayser, Halm||
+n4010|assector|assector||||
 n4013|assefolium|asse^fo^li^um||ii|n.|
 n4014|assellor|assellor|v. dep.|a_tus, 1||
 n4015|assenesco|asse^nesco||e^re||
@@ -2941,7 +2941,7 @@ n4029|assequor|asse^quor|v. dep.|3||
 n4030|asser|asser||e^ris|m.|
 n4031|asserculus|assercu^lus||i|m.|
 n4032|assero1|asse^ro1|v. a.|se_vi, situm, 3||
-n4033|assero2|asse^ro2|v. a.|Ritschl, Fleckeisen||
+n4033|assero2|asse^ro2|v. a.|se^ru^i, sertum, 3||
 n4034|assertio|asserti^o||o_nis|f.|
 n4035|assertor|assertor||o_ris|m.|
 n4038|assertus|assertus||a, um||part.
@@ -2951,29 +2951,29 @@ n4044|assessura|assessu_ra||ae|f.|
 n4045|assessus1|assessus1||a, um||part.
 n4048|asseveranter|asse^ve_ranter||||
 n4049|asseveratio|asse^ve_ra_ti^o||o_nis|f.|
-n4050|assevero|asse^ve_ro|v. a.|Ritschl||
+n4050|assevero|asse^ve_ro|v. a.|a_vi, a_tum, 1||
 n4051|assibilo|assi_bi^lo|v. n.|a_re||
 n4053|assicco|assicco|v. a.|a_re||
 n4054|assiculus|assi^cu^lus||||
 n4056|assideo|assi^de^o|v. n.|se_di, sessum, 2||
-n4057|assido|assi_do|v. n.|Ritschl||
+n4057|assido|assi_do|v. n.|3||
 n4058|assidue|assi^du^e_|adv.|||
 n4059|assiduitas|assi^du^i^tas||a_tis|f.|
 n4060|assiduo1|assi^du^o_1|adv.|||
 n4062|assiduus1|assi^du^us1||i|m.|
-n4063|assiduus2|assi^du^us2|adj.|Ritschl||
+n4063|assiduus2|assi^du^us2|adj.|a, um||
 n4064|assignatio|assigna_ti^o||o_nis|f.|
 n4066|assignifico|assigni^fi^co|v. a.|a_re||
 n4067|assigno|assigno|v. a.|a_vi, a_tum, 1||
 n4068|assilio|assi^li^o|v. n.|sultum, 4||
 n4069|assimilanter|assi^mi^lanter|adv.|||
 n4070|assimilatio|assi^mi^la_tio||||
-n4071|assimilis|assi^mi^lis|adj.|Ritschl, Baiter||
+n4071|assimilis|assi^mi^lis|adj.|e||
 n4072|assimiliter|assi^mi^li^ter|adv.|||
 n4073|assimulanter|assi^mu^lanter|adv.|||
 n4074|assimulaticius|assi^mu^la_ti^ci^us|adj.|a, um||
 n4075|assimulatio|assi^mu^la_ti^o||o_nis|f.|
-n4076|assimulo|assi^mu^lo|v. a.|Ritschl, Lachmann|n.|
+n4076|assimulo|assi^mu^lo|v. a.|a_vi, a_tum, 1|n.|
 n4078|assis1|assis1||is|m.|
 n4079|assis2|assis2||is|m.|
 n4080|assisto|assisto|v. n.|3||
@@ -2983,7 +2983,7 @@ n4083|assitus2|assi^tus2|adj.|a, um||
 n4084|Assius|Assi^us|adj.|a, um||
 n4085|asso|asso|v. a.|a_vi, 1||
 n4086|associo|asso^ci^o|v. a.|a_vi, a_tum, 1||
-n4088|assoleo|asso^le^o|v. n.|Ritschl||
+n4088|assoleo|asso^le^o|v. n.|e_re||
 n4089|assolo|asso^lo|v. a.|a_vi, 1||
 n4090|assono|asso^no|v. n.|a_re||
 n4091|assuctus|assuctus||a, um||part.
@@ -3024,7 +3024,7 @@ n4144|astipulatio|asti^pu^la_ti^o||o_nis|f.|
 n4145|astipulator|asti^pu^la_tor||o_ris|m.|
 n4147|astipulor|asti^pu^lor|v. dep.|a_ri, 1||
 n4148|astituo|asti^tu^o|v. a.|u^i, u_tum, 3||
-n4149|asto|asto|v. n.|Ritschl||
+n4149|asto|asto|v. n.|1||
 n4150|Astomi|Asto^mi||o_rum|m.|
 n4152|Astraea|Astraea||ae|f.|
 n4153|Astraeus|Astraeus||i|m.|
@@ -3035,7 +3035,7 @@ n4166|astrictus|astrictus|p. a.|a, um||
 n4169|astrifer|astri^fer|adj.|fe^ra, fe^rum||
 n4171|astrificus|astri^fi^cus|adj.|a, um||
 n4172|astriger|astri^ger|adj.|ge^ra, ge^rum||
-n4175|astringo|astringo|v. a.|Ritschl, Baiter, Halm, Jahn||
+n4175|astringo|astringo|v. a.|inxi, ictum, 3||
 n4178|astrites|astri_tes||||
 n4179|Astroarche|Astro^arche_||e_s|f.|
 n4188|astructio|astructi^o||o_nis|f.|
@@ -3182,7 +3182,7 @@ n4379|attractio|attracti^o||o_nis|f.|
 n4381|attractus1|attractus1|p. a.|a, um||part.
 n4383|attraho|attra^ho|v. a.|traxi, tractum, 3||
 n4384|attrectatio|attrecta_ti^o||o_nis|f.|
-n4386|attrecto|attrecto|v. a.|Ritschl||
+n4386|attrecto|attrecto|v. a.|a_vi, a_tum, 1||
 n4387|attremo|attre^mo|v. n.|e^re||
 n4390|attribuo|attri^bu^o|v. a.|u^i, u_tum, 3|n.|
 n4391|attributio|attri^bu_ti^o||o_nis|f.|
@@ -4406,7 +4406,7 @@ n6070|caerimonior|caeri^mo_nior||a_ri, 1||
 n6071|caerimoniosus|caeri^mo_ni^o_sus|adj.|a||
 n6072|Caerites|Caeri^tes||um||
 n6073|Caeroesi|Caeroesi||o_rum|m.|
-n6076|caeruleus1|caeru^le^us1|adj.|and in poetry equally common|n.|
+n6076|caeruleus1|caeru^le^us1|adj.|a, um|n.|
 n6077|Caeruleus2|Caeru^le^us2||i|m.|
 n6078|caesa|caesa||ae|f.|
 n6080|Caesar|Caesar|adj.|a^ris|m.|
@@ -5278,7 +5278,7 @@ n7264|cavum|ca^vum||i||
 n7265|cavus|ca^vus|adj.|a, um|n.|
 n7266|Caycus|Ca^y_cus||i|m.|
 n7267|Caystros|Ca^ystro^s|adj.|i|m.|
-n7268|ce|ce^||an inseparable strengthening demonstrative particle||
+n7268|ce|ce^||||
 n7269|Cea|Ce_a||ae|f.|
 n7270|Cebenna|Ce^benna||ae||
 n7271|Cebren|Ce_^bre_n||e_nis|m.|
@@ -5917,7 +5917,7 @@ n8278|circumroto|circumro^to|v. a.|a_re||
 n8279|circumsaepio|circumsaepi^o|v. a.|sepsi, septum, i_re||
 n8282|circumscariphicatus|circumsca^ri^phi^ca_tus||||part.
 n8284|circumscribo|circumscri_bo|v. a.|psi, ptum, 3||
-n8285|circumscripte|circumscripte_|adv.|circumscri, bo||
+n8285|circumscripte|circumscripte_|adv.|circumscribo||
 n8286|circumscriptio|circumscripti^o||o_nis|f.|
 n8287|circumscriptor|circumscriptor||o_ris|m.|
 n8288|circumscriptorie|circumscripto_ri^e_|adv.|||
@@ -6047,7 +6047,7 @@ n8467|clabulare|cla_bu^la_re|adj.|is|n.|
 n8468|clacendix|clacendix||||
 n8469|clades|cla_des||is|f.|
 n8470|Claeon|Claeon||ontis|m.|
-n8472|clam|clam|adv.|or||
+n8472|clam|clam|adv.|||
 n8473|clamator|cla_ma_tor||o_ris|m.|
 n8475|clamatus|cla_ma_tus||u_s|m.|
 n8477|clamito|cla_mi^to||a_vi, a_tum||
@@ -6100,7 +6100,7 @@ n8529|claudicatio|claudi^ca_ti^o||o_nis|f.|
 n8530|claudico|claudi^co|v. n.|a_re||
 n8532|Claudiopolis|Claudi^o^po^lis||i|f.|
 n8533|clauditas|claudi^tas||a_tis|f.|
-n8534|Claudius|Claudi^us|adj.|like claudo and clodo, codex and caudex, plostrum and plaustrum||
+n8534|Claudius|Claudi^us|adj.|a, um||
 n8535|claudo1|claudo1|v. a.|si, sum, 3|n.|
 n8536|claudo2|claudo2||e^re||
 n8537|claudus|claudus|adj.|a, um||
@@ -8452,7 +8452,7 @@ n11539|Cremutius|Cre^mu_ti^us||i^i|m.|
 n11541|Crenaeus|Cre_naeus||i|m.|
 n11542|Crene|Cre_ne_||e_s|f.|
 n11543|creo1|cre^o1|v. a.|a_vi, a_tum, 1|n.|
-n11544|Creo2|Cre^o2||or|m.|
+n11544|Creo2|Cre^o2||ontis|m.|
 n11546|crepatura|cre^pa_tu_ra||ae|f.|
 n11548|creper|cre^per|adj.|e^ra, e^rum|n.|
 n11551|crepidarius|cre^pi^da_ri^us|adj.|a, um||
@@ -9507,7 +9507,7 @@ n12933|deliquesco|de_li^quesco||li^cu^i, 3||
 n12934|deliquia|de_li^qui^a||ae|f.|
 n12935|deliquio|de_li^quio||o_nis|f.|
 n12936|deliquium1|de_li^qui^um1||ii|n.|
-n12938|deliquo|de_li^quo|v. a.|and||
+n12938|deliquo|de_li^quo|v. a.|a_re||
 n12940|deliramentum|de_li_ra_mentum||i|n.|
 n12941|deliratio|de_li_ra_ti^o||o_nis|f.|
 n12943|delirium|de_li_ri^um||ii|n.|
@@ -9663,7 +9663,7 @@ n13139|Deoius|De_o_i^us||a, um||
 n13140|deonero|de^o^ne^ro||a_vi, a_tum, 1||
 n13141|deoperio|de^o^pe^rio||ui, rtum, 4||
 n13142|deopto|de^opto||a_re||
-n13144|deorsum|de^orsum|adv.|like prorsus, quorsus, rursus, adversus||
+n13144|deorsum|de^orsum|adv.|||
 n13145|deorsus|de^orsus||||
 n13146|deosculor|de^oscu^lor||a_tus, 1||
 n13147|depaciscor|de_pa^ciscor||||
@@ -10384,7 +10384,7 @@ n14136|dirus|di_rus|adj.|a, um|f.|
 n14138|dirutus|di_ru^tus||a, um||part.
 n14139|dis1|di_s1||di_tis||
 n14140|Dis2|Di_s2||i_tis|m.|
-n14141|dis3|di^s3||an inseparable particle|f.|
+n14141|dis3|di^s3|||f.|
 n14142|discalceatus|discalce^a_tus||a, um||
 n14145|discedo|disce_do|v. n.|cessi, cessum, 3||
 n14146|discentia|discenti^a||ae|f.|
@@ -10529,7 +10529,7 @@ n14313|dispensus|dispensus||a, um||part.
 n14315|disperditio|disperdi^ti^o||||
 n14316|disperdo|disperdo||di^di, di^tum, 3||
 n14317|dispereo|dispe^re^o||ii, 4||
-n14318|dispergo|dispergo|adv.|Hence||
+n14318|dispergo|dispergo|adv.|||
 n14320|disperse|disperse_||||
 n14321|dispersio|dispersi^o||o_nis|f.|
 n14322|dispersus|dispersus||a, um||part.
@@ -10607,7 +10607,7 @@ n14409|dissimulator|dissi^mu^la_tor||o_ris|m.|
 n14410|dissimulo|dissi^mu^lo|v. a.|a_vi, a_tum, 1||
 n14412|dissipatio|dissi^pa_ti^o||o_nis|f.|
 n14414|dissipatrix|dissi^pa_trix||i_cis|f.|
-n14415|dissipo|dissi^po|v. a.|or||
+n14415|dissipo|dissi^po|v. a.|a_vi, a_tum||
 n14416|dissiptum|dissiptum||another form of dissaeptum||
 n14417|dissitus1|dissi^tus1||a, um||part.
 n14418|dissitus2|dissi^tus2|adj.|a, um||
@@ -11110,7 +11110,7 @@ n15057|ebur|e^bur||o^ris|n.|
 n15058|eburarius|e^bu^ra_ri^us||||
 n15059|eburatus|e^bu^ra_tus|adj.|a, um||
 n15060|Eburini|Eburi_ni|adj.|o_rum|m.|
-n15062|eburneus|e^burne^us|adj.|and||
+n15062|eburneus|e^burne^us|adj.|a, um||
 n15063|Eburobrittium|Ebu^ro^britti^um||i|n.|
 n15064|Eburones|Eburo_nes||um|m.|
 n15065|Eburovices|Ebu_ro^vi_ces||||
@@ -11901,9 +11901,9 @@ n16289|ethnicalis|ethni^ca_lis|adj.|e||
 n16290|ethnice|ethni^ce_|adv.|||
 n16296|etiam|e^ti^am||||
 n16297|etiamdum|e^ti^amdum||||
-n16298|etiamnum|e^ti^amnum||and||
+n16298|etiamnum|e^ti^amnum||||
 n16299|etiamsi|e^ti^amsi||||
-n16300|etiamtum|e^ti^amtum|adj.|and||
+n16300|etiamtum|e^ti^amtum|adj.|||
 n16301|Etruria|E_^tru_ri^a|adj.|ae|f.|
 n16302|etsi|etsi||||
 n16305|etymologicus|e^ty^mo^lo^gi^cus|adj.|a, um||
@@ -12346,7 +12346,7 @@ n16887|eximo|exi^mo|v. a.|e_mi, emptum, 3||
 n16888|exin|exin|adv.|||
 n16889|exinanio|exi^na_ni^o|v. a.|i_vi or i^i, i_tum, 4||
 n16890|exinanitio|exi^na_ni_ti^o||o_nis|f.|
-n16891|exinde|exinde_|adv.|like him, illim||
+n16891|exinde|exinde_|adv.|||
 n16894|existimabilis|existi^ma_bi^lis|adj.|e||
 n16895|existimatio|existi^ma_ti^o||o_nis|f.|
 n16896|existimator|existi^ma_tor||o_ris|m.|
@@ -13410,7 +13410,7 @@ n18142|fiduciarius|fi_du_ci^a_ri^us|adj.|a, um||
 n18143|fiducio|fi_du_ci^o|v. a.|a_vi, a_tum, 1||
 n18144|fidus1|fi_dus1|adj.|a, um||
 n18145|fidus2|fi_dus2||||
-n18147|figlinus|fi_^gli_nus|adj.|or|f.|
+n18147|figlinus|fi_^gli_nus|adj.|a, um|f.|
 n18148|figmen|figmen||i^nis|n.|
 n18149|figmentum|figmentum||i|n.|
 n18150|figo|fi_go|v. a.|xi, xum, 3||
@@ -15114,7 +15114,7 @@ n20278|hastula|hastu^la||ae|f.|
 n20279|Haterianus|Hate^ri^a_nus|adj.|a, um||
 n20280|hau1|hau1|interj.|||
 n20281|hau2|hau2||||
-n20282|haud|haud|adv.|or, as one word||
+n20282|haud|haud|adv.|an intensive nondum||
 n20283|hauddum|hauddum||||
 n20284|haurio|hauri^o|v. a.|hausi, haustum, 4||
 n20286|hauritus|hauri_tus||a, um||
@@ -15605,7 +15605,7 @@ n21026|hostis|hostis||is|comm.|
 n21027|Hostius|Hosti^us||a||
 n21029|hostus1|hostus1||i|m.|
 n21030|Hostus2|Hostus2||i|m.|
-n21031|huc|huc|adv.|like illoc, istoc||
+n21031|huc|huc|adv.|||
 n21032|hucine|huci^ne_|adv.|||
 n21033|hucusque|hucusque|adv.|||
 n21034|hui|hui|interj.|||
@@ -16388,7 +16388,7 @@ n22065|improvise|impro_vi_se_||||
 n22066|improvisus|impro_vi_sus|adj.|a, um|n.|
 n22067|imprudens|impru_dens|adj.|entis||
 n22068|imprudentia|impru_denti^a||ae|f.|
-n22069|impubes|impu_bes|adj.|e^ris, and|com.|
+n22069|impubes|impu_bes|adj.|is|com.|
 n22071|impudens|impu^dens|adj.|entis||
 n22072|impudenter|impu^denter|adv.|||
 n22073|impudentia|impu^denti^a||ae|f.|
@@ -16782,7 +16782,7 @@ n22555|inconvincibilis|inconvinci^bi^lis|adj.|e||
 n22557|inconvulsus|inconvulsus|adj.|a, um||
 n22558|incopiosus|inco_pi^o_sus|adj.|a, um||
 n22560|incoquo|inco^quo|v. a.|xi, ctum, 3||
-n22561|incoram|inco_ram|adv.|or, separately||
+n22561|incoram|inco_ram|adv.|||
 n22562|incoronatus|inco^ro_na_tus|adj.|a, um||
 n22563|incorporabilis|incorpo^ra_bi^lis|adj.|e||
 n22564|incorporalis|incorpo^ra_lis|adj.|e|n.|
@@ -16824,7 +16824,7 @@ n22606|increpito|incre^pi^to||a_vi, a_tum, 1||
 n22607|increpitus1|incre^pi^tus1||a, um||part.
 n22608|increpitus2|incre^pi^tus2||u_s|m.|
 n22609|increpo|incre^po|v. n.|u^i, i^tum||part.
-n22610|increpundia|incre^pundia||for usual crepundia||
+n22610|increpundia|incre^pundia||||
 n22611|incresco|incresco|v. n.|e_vi||
 n22612|increto|incre_to|v. a.|a_re||
 n22613|incretus1|incre_tus1||a, um||part.
@@ -19452,7 +19452,7 @@ n25618|Ladas|La_das||ae|m.|
 n25619|Ladon|La_don||o_nis|m.|
 n25620|Laeana|Laea_na|adj.|ae|f.|
 n25621|Laeca|Laeca||ae|m.|
-n25622|laecasin|laecasin||an imprecation||
+n25622|laecasin|laecasin||||
 n25623|laedo|laedo|v. a.|si, sum, 3||
 n25624|Laelaps|Laelaps||a^pis|m.|
 n25625|Laelius|Laeli^us||a||
@@ -20241,7 +20241,7 @@ n26630|limeum|lime^um||i|n.|
 n26631|Limia|Limia||ae||
 n26634|limigenus|li_mi^ge^nus|adj.|a, um||
 n26635|liminaris|li_mi^na_ris|adj.|e||
-n26636|liminium|li^mi^ni^um||a lengthened form of limen, assumed as accounting for the form postliminium||
+n26636|liminium|li^mi^ni^um||||
 n26637|limis|li_mis||e||
 n26638|limitaneus|li_mita_ne^us|adj.|a, um||
 n26639|limitaris|li_mi^ta_ris|adj.|e||
@@ -21002,7 +21002,7 @@ n27597|magis1|magis1|adv.|||
 n27599|magister|ma^gister|adj.|tri|m.|
 n27600|magisterium|ma^giste^ri^um||ii|n.|
 n27601|magisterius|ma^giste^ri^us|adj.|a, um||
-n27602|magistero|ma^giste^ro|v. a.|and||
+n27602|magistero|ma^giste^ro|v. a.|a_vi, a_tum, 1||
 n27603|magistra|ma^gistra|adj.|ae|f.|
 n27604|magistralis|ma^gistra_lis|adj.|e||
 n27606|magistratio|ma^gistra_ti^o||o_nis|f.|
@@ -22632,7 +22632,7 @@ n29735|mortaliter|morta_li^ter|adv.|||
 n29736|mortariolum|morta_ri^o^lum||i|n.|
 n29737|mortarium|morta_ri^um||ii|n.|
 n29738|morticinus|morti^ci_nus|adj.|a, um||
-n29739|mortifer|morti^fer|adj.|or||
+n29739|mortifer|morti^fer|adj.|e^ra, e^rum||
 n29740|mortificatio|morti^fi^ca_ti^o||o_nis|f.|
 n29741|mortifico|morti^fi^co|v. a.|1||
 n29742|mortificus|morti^fi^cus|adj.|a, um||
@@ -22729,7 +22729,7 @@ n29844|mulio1|mu_li^o1||o_nis|m.|
 n29845|Mulio2|Mu_li^o2||o_nis|m.|
 n29846|mulionicus|mu_li^o_ni^cus|adj.|a, um||
 n29847|mulleolus|mulle^o^lus||a, um||
-n29848|mulleus|mulle^us||or|m.|
+n29848|mulleus|mulle^us||i|m.|
 n29850|mullulus|mullu^lus||i|m.|
 n29851|mullus|mullus||i|m.|
 n29853|mulomedicina|mu_lo^me^di^ci_na||ae|f.|
@@ -23333,7 +23333,7 @@ n30618|necesso|ne^cesso|v. a.|a_re||
 n30619|necessum|ne^cessum||||
 n30621|nechon|nechon||i|n.|
 n30622|necne|necne^|adv.|||
-n30623|necnon|necnon||also separately||
+n30623|necnon|necnon||||
 n30624|neco|ne^co|v. a.|a_vi, a_tum||
 n30625|necopinans|ne^co^pi_nans|adv.|antis||
 n30626|necopinato|ne^co^pi_na_to_|adv.|||
@@ -23591,7 +23591,7 @@ n30949|Nigris|Ni_^gris||is|m.|
 n30950|nigritia|ni_^gri^ti^a||ae|f.|
 n30952|nigro|ni_^gro|v. n.|a_vi, a_tum, 1||
 n30953|nigror|ni_^gror||o_ris|m.|
-n30954|nihil|ni^hil|adv.|or|n.|
+n30954|nihil|ni^hil|adv.|i|n.|
 n30955|nihildum|ni^hildum||||
 n30956|nihili|ni^hi^li||v nihil||
 n30957|nihilo1|ni^hi^lo1||||
@@ -23639,7 +23639,7 @@ n31004|Nisa|Ni_sa||ae|f.|
 n31005|Nisaeus|Ni_saeus||a, um||
 n31006|Niseis|Ni_se_is||i^dis||
 n31007|Niseius|Ni_se_i^us||a, um||
-n31008|nisi|ni^si^||Lex Rubria||
+n31008|nisi|ni^si^||||
 n31009|Nisias|Ni_si^as||a^dis|f.|
 n31010|Nisibis|Ni^si^bis||is|f.|
 n31011|nisus1|ni_sus1||a, um||part.
@@ -24719,7 +24719,7 @@ n32332|Oenus2|Oenu_s2|||m.|
 n32333|Oenusa|Oenu_sa||ae|f.|
 n32334|Oenusae|Oenu_sae||a_rum|f.|
 n32335|Oeonae|Oeo_nae||a_rum|f.|
-n32338|oesus|oesus||an ancient form for usus||
+n32338|oesus|oesus||||
 n32339|Oesyma|Oesy^ma||ae|f.|
 n32341|Oeta|Oeta|adj.|ae|f.|
 n32344|ofella1|o^fella1||ae|f.|
@@ -26204,7 +26204,7 @@ n34249|pavus|pa_vus||i||
 n34250|pax1|pax1||pa_cis|f.|
 n34251|Pax2|Pax2||Pa_cis|m.|
 n34252|paxillus|paxillus||i|m.|
-n34253|pe|pe||an enclitic particle with an intensive force||
+n34253|pe|pe||||
 n34254|peccamen|pecca_men||i^nis|n.|
 n34255|peccans|peccans|p. a.|antis||part.
 n34256|peccanter|peccanter|adv.|||
@@ -26309,7 +26309,7 @@ n34377|Pegasus2|Pe_ga^sus2|adj.|i|m.|
 n34380|pegmaris|pegma_ris|adj.|e||
 n34381|pegris|pegris||i^dis|f.|
 n34382|pejeratio|pe_je^ra_ti^o||o_nis|f.|
-n34383|pejero|pe_je^ro|v. n.|or||
+n34383|pejero|pe_je^ro|v. n.|a_vi, a_tum, 1||
 n34384|pejor|pe_jor||us||
 n34385|pejoro|pe_jo_ro|v. a.|a_re|n.|
 n34386|pejus|pe_jus|adv.|||
@@ -27478,7 +27478,7 @@ n35770|pessum1|pessum1|adv.|||
 n35772|pessumdo|pessumdo||da^re||
 n35773|pessus|pessus||i||
 n35774|pestibilis|pesti^bi^lis|adj.|e||
-n35775|pestifer|pesti^fer|adj.|and|m.|
+n35775|pestifer|pesti^fer|adj.|e^ra, e^rum|m.|
 n35776|pestilens|pesti^lens|adj.|entis|m.|
 n35777|pestilentia|pesti^lenti^a||ae|f.|
 n35778|pestilentiarius|pesti^lenti^a_ri^us|adj.|a, um||
@@ -29362,7 +29362,7 @@ n38078|praeterfero|praeterfe^ro|v. a.|la_tum, ferre||
 n38079|praeterfluo|praeterflu^o|v. n.|e^re||
 n38080|praeterfugio|praeterfu^gi^o|v. a.|e^re, 3||
 n38081|praetergredior|praetergre^di^or||gressus, 3||
-n38082|praeterhac|praete^rha_c|adv.|also separate||
+n38082|praeterhac|praete^rha_c|adv.|||
 n38083|praeteriens|praete^ri^ens||||part.
 n38084|praeterinquiro|praete^rinqui_ro|v. a.|e^re||
 n38085|praeteritio|praete^ri^ti^o||o_nis|f.|
@@ -29975,7 +29975,7 @@ n38809|promulsis|pro_mulsis||i^dis|f.|
 n38810|promulsus|pro_mulsus||a, um||part.
 n38812|promunturium|pro_muntu^ri^um||i^i|n.|
 n38813|promus|pro_mus|adj.|a, um|m.|
-n38814|promuscis|promuscis||i^dis, a corrupt form for proboscis||
+n38814|promuscis|promuscis||i^dis||
 n38816|promutuus|pro_mu_tu^us|adj.|a, um|n.|
 n38817|pronaos|pro^na_os||i||
 n38818|pronato|pro_na^to|v. n.|a_re||
@@ -30550,7 +30550,7 @@ n39592|Punicanus|Pu_ni^ca_nus|adj.|a, um||
 n39593|Punice|Pu_ni^ce_|adv.|||
 n39594|puniceus|pu_ni^ce^us|adj.|a, um||
 n39595|Punicus|Pu_ni^cus||a, um||
-n39596|punio|pu_ni^o|v. a.|or||
+n39596|punio|pu_ni^o|v. a.|i_vi or ii, i_tum, 4||
 n39597|punior|pu_ni^or||i_ri||
 n39598|punitio|pu_ni_ti^o||o_nis|f.|
 n39599|punitor|pu_ni_tor||o_ris|m.|
@@ -30855,7 +30855,7 @@ n39961|quaestura|quaestu_ra||ae|f.|
 n39962|quaestus|quaestus||u_s|m.|
 n39964|qualibet|qua_li^bet||||
 n39965|qualis|qua_lis|pron. adj.|e||
-n39966|qualiscumque|qua_liscumque|adj.|Hence||
+n39966|qualiscumque|qua_liscumque|adj.|||
 n39967|qualislibet|qua_lisli^bet||||
 n39968|qualisnam|qua_lisnam||||
 n39969|qualisqualis|qua_lisqua_lis|adj.|qua_lequa_le||
@@ -33007,7 +33007,7 @@ n42565|sapientia|sa^pi^enti^a||ae|f.|
 n42568|sapineus1|sapi_ne^us1|adj.|a, um||
 n42569|Sapineus2|Sa_pi^ne^us2||a, um||
 n42570|sapinus|sapi_nus||i|f.|
-n42571|sapio|sa^pi^o|v. n.|I_vi or i^i|m.|
+n42571|sapio|sa^pi^o|v. n.|i_vi or i^i|m.|
 n42572|Sapis|Sa_pis|adj.|is|m.|
 n42574|saponatum|sa_po_na_tum||i|n.|
 n42575|sapor|sa^por||o_ris|m.|
@@ -33056,7 +33056,7 @@ n42633|sardonychatus|sardo^ny^cha_tus|adj.|a, um||
 n42635|Sardous|Sardo_us||a, um||
 n42636|Sardus|Sardus||a, um||
 n42637|Sare|Sare_||e_s|f.|
-n42640|sario|sari^o||I_re||
+n42640|sario|sari^o||i_re||
 n42643|saritorius|sari_to_ri^us||||
 n42644|sarmadacus|sarmada^cus||i||
 n42645|Sarmata|Sarma^ta|adj.|ae|m.|
@@ -33249,7 +33249,7 @@ n42896|scateo|sca^teo|v. n.|e_re||
 n42897|Scatinius|Sca_ti_ni^us||ii||
 n42898|scato|sca^to||e_re||
 n42900|scaturigines|sca^tu_ri_gi^nes||um|f.|
-n42902|scaturio|sca^tu_ri^o|v. n.|I_re||
+n42902|scaturio|sca^tu_ri^o|v. n.|i_re||
 n42903|Scaurianus|Scauri^a_nus|adj.|a, um||
 n42904|Scaurus|Scaurus|adj.|i|m.|
 n42906|scelerate|sce^le^ra_te_|adv.|||
@@ -33298,7 +33298,7 @@ n42971|scinifes|sci^ni^fes||||
 n42972|scintilla|scintilla||ae|f.|
 n42974|scintillo|scintillo|v. n.|a_vi, 1||
 n42975|scintillula|scintillu^la||ae|f.|
-n42976|scio|sci^o|v. a.|I_vi, I_tum, 4||
+n42976|scio|sci^o|v. a.|i_vi, I_tum, 4||
 n42977|sciolus|sci^o^lus||i|m.|
 n42978|Sciopodes|Sci^o^po^des||||
 n42980|Scipiades|Sci_pi^a^des||ae||
@@ -33389,7 +33389,7 @@ n43106|scriptulum|scriptu^lum||i||
 n43107|scriptum|scriptum||i||
 n43108|scriptura|scriptu_ra||ae|f.|
 n43109|scripturarius|scriptu_ra_ri^us|adj.|a, um|m.|
-n43110|scripturio|scriptu_ri^o||I_re||
+n43110|scripturio|scriptu_ri^o||i_re||
 n43111|scriptus1|scriptus1||a, um||part.
 n43112|scriptus2|scriptus2||u_s|m.|
 n43113|scripularis|scri_pu^la_ris|adj.|e||
@@ -34038,7 +34038,7 @@ n43935|Servianus|Servi^a_nus||a, um||
 n43937|Servilianus|Servi_li^a_nus||a, um||
 n43938|servilis|servi_lis|adj.|e||
 n43939|Servilius|Servi_li^us|adj.|i|m.|
-n43940|servio|servi^o|v. n.|I_vi and ii, I_tum, 4||
+n43940|servio|servi^o|v. n.|i_vi and ii, I_tum, 4||
 n43941|servitium|servi^ti^um||ii|n.|
 n43942|servitor|servi_tor||o_ris|m.|
 n43944|servitudo|servi^tu_do||i^nis|f.|
@@ -34192,7 +34192,7 @@ n44137|Sichaeus|Si^chaeus||||
 n44138|Sicilia|Si^ci^li^a||ae||
 n44140|sicilicus|si_ci_li^cus||i|m.|
 n44141|Siciliensis|Si^ci^li^ensis||e||
-n44143|sicilio|si_ci_li^o|v. a.|I_re||
+n44143|sicilio|si_ci_li^o|v. a.|i_re||
 n44144|sicilis|si_ci_lis||is|f.|
 n44146|Sicimina|Sicimina||ae||
 n44147|sicine|si_ci^ne_|adv.|||
@@ -34203,7 +34203,7 @@ n44153|sicubi|si_cu^bi|adv.|||
 n44155|Siculi|Si^cu^li|adj.|o_rum|m.|
 n44156|Siculus|Si^cu^lus||a, um||
 n44157|sicunde|si_cunde_|adv.|||
-n44158|sicut|si_cut|adv.|and||
+n44158|sicut|si_cut|adv.|||
 n44159|sicuti|si_cu^ti||||
 n44160|Sicyon|Si^cy^on|adj.|o_nis|f.|
 n44162|Sida|Si_da||ae|f.|
@@ -34394,7 +34394,7 @@ n44388|singularius|si^ngu^la_ri^us|adj.|a, um||
 n44389|singulatim|singu^la_tim|adv.|||
 n44390|singuli|singu^li||ae, a||
 n44391|singultim|singultim|adv.|||
-n44392|singultio|singulti^o|v. n.|I_re||
+n44392|singultio|singulti^o|v. n.|i_re||
 n44393|singulto|singulto|v. n.|a_tum, 1||
 n44394|singultus|singultus||u_s|m.|
 n44395|singulus|singu^lus||a, um||
@@ -34477,7 +34477,7 @@ n44495|sitibundus|si^ti^bundus|adj.|a, um||
 n44497|siticulosus|si^ti_cu^lo_sus|adj.|a, um||
 n44498|sitiens|si^ti^ens|p. a.|entis||part.
 n44499|sitienter|si^ti^enter|adv.|||
-n44500|sitio|si^ti^o|v. n.|I_vi or i^i, 4||
+n44500|sitio|si^ti^o|v. n.|i_vi or i^i, 4||
 n44501|Sitiogagus|Sitiogagus||i|m.|
 n44502|sitis|si^tis||is|f.|
 n44505|sititor|si^ti_tor||o_ris|m.|
@@ -34673,7 +34673,7 @@ n44753|Sophrona|So_phro^na||ae|f.|
 n44754|Sophroniscus|So_phroniscus||i|m.|
 n44755|sophus1|so^phus1||i||
 n44756|Sophus2|So^phus2||i|m.|
-n44757|sopio|so_pio|v. a.|I_vi or i^i, I_tum, 4||
+n44757|sopio|so_pio|v. a.|i_vi or i^i, I_tum, 4||
 n44758|Sopolis|Sopolis||i^dis|m.|
 n44759|sopor|so^por||o_ris|m.|
 n44760|soporatio|so^po_ra_ti^o||o_nis|f.|
@@ -34715,7 +34715,7 @@ n44807|sorticula|sorti^cu^la||ae||
 n44808|Sortientes|Sorti^entes||ium|m.|
 n44810|sortiger|sorti^ger||ge^ri||
 n44811|sortilegus|sorti^le^gus|adj.|a, um|m.|
-n44812|sortio|sorti^o||I_re||part.
+n44812|sortio|sorti^o||i_re||part.
 n44813|sortior|sorti^or||I_tus, 4||
 n44814|sortis|sortis||is||
 n44815|sortitio|sorti_ti^o||o_nis|f.|
@@ -35011,7 +35011,7 @@ n45200|'st|'st||||
 n45201|Staberius|Sta^be^ri^us||ii|m.|
 n45202|Stabiae|Sta^bi^ae|adj.|a_rum|f.|
 n45204|stabilimentum|sta^bi^li_mentum||i|n.|
-n45205|stabilio|sta^bi^li^o|v. a.|I_vi, I_tum||
+n45205|stabilio|sta^bi^li^o|v. a.|i_vi, I_tum||
 n45206|stabilis|sta^bi^lis|adj.|e||
 n45207|stabilitas|sta^bi^li^tas||a_tis|f.|
 n45208|stabiliter|sta^bi^li^ter|adv.|||
@@ -35427,7 +35427,7 @@ n45765|subalaris|su^ba_la_ris|adj.|e|f.|
 n45768|subalbidus|su^balbi^dus|adj.|a, um||
 n45770|subalpinus|su^balpi_nus|adj.|a, um||
 n45772|subamarus|su^ba^ma_rus|adj.|a, um||
-n45773|subaperio|su^ba^pe^ri^o|v. a.|I_re||
+n45773|subaperio|su^ba^pe^ri^o|v. a.|i_re||
 n45775|subaquilus|su^ba^qui^lus|adj.|a, um||
 n45779|subarmalis|su^barma_lis|adj.|e|n.|
 n45780|subaro|su^ba^ro|v. a.|a_tum, 1||
@@ -35441,7 +35441,7 @@ n45790|subausterus|su^bauste_rus|adj.|a, um||
 n45792|Subballio|Subballi^o||o_nis|m.|
 n45794|subbibo|subbi^bo|v. a.|bi^bi, 3||
 n45795|subblandior|subblandi^or||I_ri||
-n45797|subbullio|subbulli^o|v. n.|I_re, 4||
+n45797|subbullio|subbulli^o|v. n.|i_re, 4||
 n45798|subc|subc||||
 n45802|subdefectio|subde_fecti^o||o_nis|f.|
 n45803|subdeficio|subde_fi^ci^o|v. n.|e^re||
@@ -35514,7 +35514,7 @@ n45889|subinscribo|su^binscri_bo|v. a.|e^re, 3||
 n45891|subintellego|su^bintelle^go|v. a.|e^re||
 n45892|subintro|su^bintro|v. n.|a_vi, a_tum, 1||
 n45893|subintroduco|su^bintro_du_co|v. a.|e^re||
-n45894|subintroeo|su^bintro^e^o|v. a.|I_re||
+n45894|subintroeo|su^bintro^e^o|v. a.|i_re||
 n45895|subintromitto|su^bintro_mitto|v. a.|e^re, 3||
 n45896|subinvideo|su^binvi^de^o|v. a.|sum, 2||
 n45898|subirascor|su^bi_rascor|p. a.|a_tus, 3||
@@ -35642,7 +35642,7 @@ n46043|subsericus|subse_ri^cus|adj.|a, um||
 n46044|subsero1|subse^ro1|v. a.|e^re||
 n46045|subsero2|subse^ro2|v. a.|sertum, 3||
 n46046|subsertus|subsertus||a, um||part.
-n46047|subservio|subservi^o|v. n.|I_re||
+n46047|subservio|subservi^o|v. n.|i_re||
 n46048|subsessa|subsessa||ae|f.|
 n46049|subsessor|subsessor||o_ris|m.|
 n46050|subsicivus|subsi^ci_vus|adj.|a, um|n.|
@@ -35762,7 +35762,7 @@ n46220|subversio|subversi^o||o_nis|f.|
 n46222|subversor|subversor||o_ris|m.|
 n46223|subversus|subversus||a, um||part.
 n46224|subverto|subverto|v. a.|ti, sum, 3||
-n46227|subvestio|subvesti^o|v. a.|I_re, 4||
+n46227|subvestio|subvesti^o|v. a.|i_re, 4||
 n46230|subviridis|subvi^ri^dis|adj.|e||
 n46231|subvolo|subvo^lo|v. n.|a_re||
 n46232|subvolsus|subvolsus||a, um||part.
@@ -35911,7 +35911,7 @@ n46415|sufficientia|suffi^ci^enti^a||ae|f.|
 n46416|sufficio|suffi^ci^o|v. a.|fe_ci, fectum, 3|n.|
 n46417|suffigo|suffi_go|v. a.|xi, xum, 3||
 n46420|suffimentum|suffi_mentum||i|n.|
-n46421|suffio|suffi^o|v. a.|I_vi or i^i, I_tum, 4||
+n46421|suffio|suffi^o|v. a.|i_vi or i^i, I_tum, 4||
 n46423|suffitio|suffi_ti^o||o_nis|f.|
 n46425|suffitus1|suffi_tus1||a, um||part.
 n46426|suffitus2|suffi_tus2||u_s|m.|
@@ -35987,7 +35987,7 @@ n46518|sulfuratus|sulfu^ra_tus|adj.|a, um|n.|
 n46519|sulfureus|sulfu^re^us|adj.|a, um||
 n46520|sulfurosus|sulfu^ro_sus|adj.|a, um||
 n46522|Sulla|Sulla|adj.|ae|m.|
-n46523|sullaturio|sulla_tu^ri^o||I_re||
+n46523|sullaturio|sulla_tu^ri^o||i_re||
 n46524|Sulmo|Sulmo|adj.|o_nis|m.|
 n46525|sulphur|sulphur||||
 n46526|Sulpicilla|Sulpi^cilla||ae|f.|
@@ -36022,7 +36022,7 @@ n46565|summissio|summissi^o||o_nis|f.|
 n46566|summissus1|summissus1|p. a.|a, um||part.
 n46567|summissus2|summissus2||u_s|m.|
 n46568|summitas|summi^tas||a_tis|f.|
-n46569|summitto|summitto|v. a.|mI_si, missum, 3|n.|
+n46569|summitto|summitto|v. a.|mi_si, missum, 3|n.|
 n46570|Summoenium|Summoeni^um|adj.|ii|n.|
 n46571|summoleste|summo^leste_|adv.|||
 n46572|summolestus|summo^lestus|adj.|a, um||
@@ -36085,7 +36085,7 @@ n46640|superaugmentum|su^pe^raugmentum||i|n.|
 n46641|superbe|su^perbe_|adv.|||
 n46642|superbia|su^perbi^a||ae|f.|
 n46643|superbibo|su^perbi^bo|v. n.|e^re||
-n46646|superbio|su^perbi^o|v. n.|I_re, 4||
+n46646|superbio|su^perbi^o|v. n.|i_re, 4||
 n46647|superbiter|su^perbi^ter|adv.|||
 n46648|superbus|su^perbus|adj.|a, um|m.|
 n46649|supercado|su^perca^do|v. n.|ce^ci^di, 3||
@@ -36208,7 +36208,7 @@ n46806|supermando|su^permando|v. a.|e^re||
 n46807|supermeo|su^perme^o|v. n.|a_re||
 n46808|supermetior|su^perme_ti^or||mensus, 4||
 n46809|supermico|su^permi^co|v. a.|a_re||
-n46810|supermitto|su^permitto|v. a.|mI_si, 3||
+n46810|supermitto|su^permitto|v. a.|mi_si, 3||
 n46814|supernans|su^pernans||nantis||part.
 n46815|supernas|su^pernas|adj.|a_tis||
 n46816|supernato|su^perna^to|v. n.|a_re||
@@ -36224,7 +36224,7 @@ n46825|superobductus|su^pe^robductus||a, um||part.
 n46826|superobruo|su^pe^robru^o|v. a.|u^i, u^tum, 3||
 n46827|superobrutus|su^pe^robru^tus||a, um||part.
 n46828|superobumbro|su^pe^ro^bumbro|v. a.|a_re, 1||
-n46830|superoperio|su^pe^ro^pe^ri^o|v. n.|I_re, 4||
+n46830|superoperio|su^pe^ro^pe^ri^o|v. n.|i_re, 4||
 n46831|superordinatio|su^pe^rordi^na_ti^o||o_nis|f.|
 n46832|superordino|su^pe^rordi^no|v. a.|a_re, 1||
 n46833|superparticularis|su^perparti^cu^la_ris|adj.|e||
@@ -36279,7 +36279,7 @@ n46888|supertendo|su^pe^rtendo|v. n.|e^re, 3||
 n46890|supertertius|su^perterti^us|adj.|a, um||
 n46891|supertextor|su^pertextor||o_ris|m.|
 n46892|supertollo|su^pe^rtollo|v. a.|e^re, 3||
-n46894|supertranseo|su^pertranse^o|v. n.|I_re||
+n46894|supertranseo|su^pertranse^o|v. n.|i_re||
 n46895|superumerale|su^pe^rumerale||is|n.|
 n46897|superunctus|su^pe^runctus||a, um||part.
 n46899|superungo|su^pe^rungo|v. a.|xi, ctum, 3||
@@ -36324,7 +36324,7 @@ n46948|suppernatus|supperna_tus|adj.|a, um||
 n46949|suppes|suppe_s|adj.|pe^dis||
 n46950|suppetiae|suppe^ti^ae||a_rum|f.|
 n46951|suppetior|suppe^ti^or||a_tus, 1||
-n46952|suppeto|suppe^to|v. n.|I_vi or i^i, I_tum, 3||
+n46952|suppeto|suppe^to|v. n.|i_vi or i^i, I_tum, 3||
 n46953|suppilo|suppi_lo|v. a.|a_tum, 1||
 n46954|suppingo1|suppingo1|v. a.|pactum, 3||
 n46957|supplantatio|supplanta_ti^o||o_nis|f.|
@@ -36395,7 +36395,7 @@ n47032|surdus|surdus|adj.|a, um||
 n47033|surena1|sure_na1||ae|f.|
 n47034|surena2|sure_na2||ae|m.|
 n47035|surgo|surgo|v. a.||n.|
-n47036|surio|surio|v. n.|I_re||
+n47036|surio|surio|v. n.|i_re||
 n47037|Surium|Surium||ii|n.|
 n47038|Surius|Suri^us||ii|m.|
 n47039|surpiculus|surpi^cu^lus||||
@@ -37127,7 +37127,7 @@ n48028|tetre|te_tre_|adv.|||
 n48029|Tetrica|Te^tri^ca||ae|f.|
 n48030|tetricitas|te_^tri^ci^tas||||
 n48031|tetricus|te_^tri^cus||||
-n48032|tetrinnio|te_^trinni^o|v. n.|I_re||
+n48032|tetrinnio|te_^trinni^o|v. n.|i_re||
 n48033|tetritudo|te_^tri^tu_do||||
 n48037|tetuli|te^tu^li||||
 n48038|Teucer|Teucer|adj.|cri|m.|
@@ -37366,13 +37366,13 @@ n48383|tineo|ti^ne^o|v. n.|a_re, 1||
 n48386|Tinge|Tinge_|adj.|a, um|f.|
 n48387|tingo|tingo|v. a.|nxi, nctum, 3|m.|
 n48388|tiniaria|ti^ni^a_ri^a||ae|f.|
-n48390|tinnio|tinni^o|v. n.|I_vi or i^i, I_tum, 4||
+n48390|tinnio|tinni^o|v. n.|i_vi or i^i, I_tum, 4||
 n48391|tinnito|tinni^to||a_re||
 n48392|tinnitus|tinni_tus||u_s|m.|
 n48393|tinnulus|tinnu^lus|adj.|a, um||
 n48394|tinnunculus|tinnunculus||i|m.|
 n48396|tintinnabulum|tintinna_bu^lum||i|n.|
-n48398|tintinnio|tintinni^o||I_re||
+n48398|tintinnio|tintinni^o||i_re||
 n48399|tintinno|tintinno|v. n.|a_re||
 n48402|tinus|ti_nus||i|m.|
 n48405|Tiphys|Ti_phys||y^os|m.|
@@ -37454,7 +37454,7 @@ n48492|Tolumnius|To^lumni^us||ii|m.|
 n48493|tolutaris|to^lu_ta_ris||e||
 n48494|tolutarius|to^lu_ta_ri^us|adj.|a, um||
 n48497|tolutim|to^lu_tim|adv.|||
-n48499|tomaculum|to^ma_cu^lum||or|n.|
+n48499|tomaculum|to^ma_cu^lum||i|n.|
 n48500|Tomarus|To^ma^rus||||
 n48502|tomentum|to_mentum||i|n.|
 n48503|tomex|to_mex||i^cis||
@@ -37664,7 +37664,7 @@ n48767|transditus|transdi^tus||a, um||part.
 n48768|transdo|transdo||e^re||
 n48769|transduco|transdu_co||e^re||
 n48770|transenna|transenna||ae|f.|
-n48771|transeo|transe^o|v. n.|I_vi or i^i, i^tum, I_re||
+n48771|transeo|transe^o|v. n.|i_vi or i^i, i^tum, I_re||
 n48772|transero|transe^ro|v. a.|sertum, 3||
 n48773|transertus|transertus||a, um||part.
 n48774|transeunter|transe^unter|adv.|||
@@ -37692,7 +37692,7 @@ n48799|transfunctorius|transfuncto_ri^us|adj.|a, um||
 n48800|transfundo|transfundo|v. a.|fu_di, fu_sum, 3||
 n48801|transfusio|transfu_si^o||o_nis|f.|
 n48802|transfusus|transfu_sus||a, um||part.
-n48803|transglutio|transglu_ti^o|v. a.|I_re||
+n48803|transglutio|transglu_ti^o|v. a.|i_re||
 n48804|transgredior|transgre^dior||gressus, 3|n.|
 n48805|transgressibilis|transgressi^bi^lis|adj.|e||
 n48806|transgressio|transgressi^o||o_nis|f.|
@@ -37701,7 +37701,7 @@ n48808|transgressor|transgressor||o_ris|m.|
 n48809|transgressus1|transgressus1||a, um||part.
 n48810|transgressus2|transgressus2||u_s|m.|
 n48811|transigo|transi^go|v. a.|e_gi, actum, 3|n.|
-n48812|transilio|transi^li^o|v. n.|I_vi or u^i||
+n48812|transilio|transi^li^o|v. n.|i_vi or u^i||
 n48814|transilitio|transi^li_ti^o||o_nis|f.|
 n48815|transilitor|transi^li_tor||o_ris|m.|
 n48817|transitio|transi^ti^o||o_nis|f.|
@@ -37733,7 +37733,7 @@ n48847|transmigro|transmi_^gro|v. n.|a_vi, 1||
 n48848|transmissio|transmissi^o||o_nis|f.|
 n48849|transmissus1|transmissus1||a, um||part.
 n48850|transmissus2|transmissus2||u_s|m.|
-n48851|transmitto|transmitto|v. a.|mI_si, missum, 3||
+n48851|transmitto|transmitto|v. a.|mi_si, missum, 3||
 n48852|transmontanus|transmonta_nus||i||
 n48853|transmotio|transmo_ti^o||o_nis|f.|
 n48854|transmoveo|transmo^ve^o|v. a.|o_tum, 2||
@@ -37757,7 +37757,7 @@ n48875|transscendo|transscendo||e^re||
 n48876|transscido|transsci_do||e^re||
 n48877|transscribo|transscri_bo||e^re||
 n48878|transsero|transse^ro||e_re||
-n48879|transsilio|transsi^li^o||I_re||
+n48879|transsilio|transsi^li^o||i_re||
 n48880|transspectus|transspectus||u_s||
 n48881|transspicio|transspi^ci^o||e^re||
 n48882|transsulto|transsulto||a_re||
@@ -37775,7 +37775,7 @@ n48899|transvectio|transvecti^o||o_nis|f.|
 n48900|transvectus|transvectus||a, um||part.
 n48901|transveho|transve^ho|v. a.|xi, ctum, 3||
 n48902|transvena|transve^na||ae|m.|
-n48904|transvenio|transve^ni^o|v. n.|I_re||
+n48904|transvenio|transve^ni^o|v. n.|i_re||
 n48905|transverbero|transverbe^ro|v. a.|a_vi, a_tum, 1||
 n48906|transversarius|transversa_ri^us|adj.|a, um|n.|
 n48907|transverse|transverse_|adv.|||
@@ -37788,7 +37788,7 @@ n48914|transvoratio|transvo^ra_ti^o||o_nis|f.|
 n48915|transvoro|transvo^ro|v. a.|a_vi, 1||
 n48916|transvorsus|transvorsus||||
 n48920|Trapezus|Tra^pe_zu_s||untis|f.|
-n48921|Trasumenus|Tra^su^me_nus|adj.|Trasimenus lacus, or simply Trasimenus||
+n48921|Trasumenus|Tra^su^me_nus|adj.|a, um||
 n48923|Trausius|Trausi^us||ii|m.|
 n48925|traversus|tra_versus||a, um||
 n48927|travolo|tra_vo^lo||a_re||
@@ -38241,7 +38241,7 @@ n49522|tussiculosus|tussi^cu^lo_sus|adj.|a, um||
 n49523|tussicus|tussi^cus||i|m.|
 n49524|tussiens|tussiens||entis|m.|
 n49525|tussilago|tussi^la_go||i^nis|f.|
-n49526|tussio|tussi^o|v. n.|I_re||
+n49526|tussio|tussi^o|v. n.|i_re||
 n49527|tussis|tussis||is|f.|
 n49528|tusus|tu_sus||a, um||part.
 n49530|tutamen|tu_ta_men||i^nis|n.|
@@ -38721,7 +38721,7 @@ n50081|vadum|va^dum||i|n.|
 n50082|vadus|va^dus||i||
 n50083|vae|vae|interj.|||
 n50084|vaecors|vaecors||||
-n50085|vaeneo|vaene^o||I_re||
+n50085|vaeneo|vaene^o||i_re||
 n50087|vafer|va^fer|adj.|fra, frum||
 n50088|vaframentum|va_^fra_mentum||i|n.|
 n50089|vafre|va_^fre_|adv.|||
@@ -38733,7 +38733,7 @@ n50095|vage|va^ge_|adv.|||
 n50096|Vagia|Vagi^a||ae|m.|
 n50097|Vagienni|Vagienni||o_rum|m.|
 n50098|vagina|va_gi_na||ae|f.|
-n50100|vagio|va_gi^o|v. n.|I_vi or i^i, 4||
+n50100|vagio|va_gi^o|v. n.|i_vi or i^i, 4||
 n50101|vagitus|va_gi_tus||u_s|m.|
 n50102|vago|va^go|v. n.|a_re, 1||
 n50103|vagor1|va^gor1||a_tus, 1||
@@ -39022,7 +39022,7 @@ n50418|venenifer|ve^ne_ni^fer|adj.|fe^ra, fe^rum|m.|
 n50419|veneno|ve^ne_no|v. a.|a_vi, a_tum, 1|n.|
 n50420|venenosus|ve^ne_no_sus|adj.|a, um||
 n50421|venenum|ve^ne_num||i|n.|
-n50422|veneo|ve_ne^o|v. n.|I_vi or ii, I_^tum, 4||
+n50422|veneo|ve_ne^o|v. n.|i_vi or ii, I_^tum, 4||
 n50423|venerabilis|ve^ne^ra_bi^lis|adj.|e||
 n50424|venerabiliter|ve^ne^ra_bi^li^ter|adv.|||
 n50425|venerabundus|ve^ne^ra_bundus|adj.|a, um||
@@ -39244,7 +39244,7 @@ n50673|vervecinus|verve_ci_nus|adj.|a, um||
 n50674|vervex|vervex||e_cis|m.|
 n50675|Vesaevus|Ve^saevus||||
 n50676|vesania|ve_sa_ni^a||ae|f.|
-n50677|vesanio|ve_sa_ni^o|v. n.|I_re, 4||
+n50677|vesanio|ve_sa_ni^o|v. n.|i_re, 4||
 n50678|vesanus|ve_sa_nus|adj.|a, um||
 n50679|Vesbius|Vesbi^us||i||
 n50680|Vescia|Vescia|adj.|ae|f.|
@@ -39291,7 +39291,7 @@ n50728|vestigium|vesti_gi^um||ii|n.|
 n50729|vestigo|vesti_go|v. a.|a_re, 1||
 n50730|vestimentum|vesti_mentum||i|n.|
 n50731|Vestini|Vesti_ni|adj.|o_rum|m.|
-n50732|vestio|vesti^o|v. a.|I_vi or i^i, I_tum, 4||
+n50732|vestio|vesti^o|v. a.|i_vi or i^i, I_tum, 4||
 n50733|vestiplica|vesti^pli^ca||ae|f.|
 n50735|vestis|vestis||is|f.|
 n50736|vestispica|vesti^spi^ca||ae|f.|
@@ -39494,7 +39494,7 @@ n50959|vinalia|vi_na_li^a||i^um||
 n50960|vinalis|vi_na_lis|adj.|e|n.|
 n50962|vinarius|vi_na_ri^us|adj.|a, um|m.|
 n50963|vinca pervinca|vinca pervinca||ae|f.|
-n50965|vinciam|vinciam||dicebant continentem||
+n50965|vinciam|vinciam||||
 n50966|vincibilis|vinci^bi^lis|adj.|e||
 n50967|vincio|vinci^o|v. a.|vinxi, vinctum||
 n50968|vinco|vinco|v. a.|vI_ci, victum, 3|n.|
@@ -39504,7 +39504,7 @@ n50971|vinctura|vinctu_ra||ae|f.|
 n50972|vinctus1|vinctus1||a, um||part.
 n50973|vinctus2|vinctus2||u_s|m.|
 n50974|vinculo|vincu^lo|v. a.|a_vi, a_tum, 1||
-n50975|vinculum|vincu^lum||or|n.|
+n50975|vinculum|vincu^lum||i|n.|
 n50976|Vindelici|Vinde^li^ci|adj.|o_rum|m.|
 n50977|vindemia|vinde_mi^a||ae|f.|
 n50978|vindemialis|vinde_mi^a_lis|adj.|e||
@@ -39597,7 +39597,7 @@ n51076|viriae|vi^ri^ae||a_rum|f.|
 n51077|Viriathus|Vi^ri^a_thus|adj.|i|m.|
 n51078|viriatus|vi^ri^a_tus|adj.|a, um||
 n51080|viriculum|vi_ri^cu^lum||i|n.|
-n51081|viridarium|vi^ri^da_ri^um||and|n.|
+n51081|viridarium|vi^ri^da_ri^um||ii|n.|
 n51082|viride|vi^ri^de^|adv.|||
 n51083|viridesco|vi^ri^desco||e^re, 3||
 n51084|viridia|vi^ri^di^a||i^um||
