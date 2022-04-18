@@ -1,9 +1,10 @@
 #=
-Read src.cex, and format entries.cex
+Read src.cex, and format mainentries.cex
 =#
+#
 # if running from root of repository:
 f = joinpath(pwd(), "cex", "lewis-short", "src.cex")
-target = joinpath(pwd(),"cex", "lewis-short", "entries.cex")
+target = joinpath(pwd(),"cex", "lewis-short", "mainentries.cex")
 lns = readlines(f)
 
 using EzXML

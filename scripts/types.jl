@@ -1,5 +1,5 @@
 # if running from root of repository:
-f = joinpath(pwd(), "cex", "lewis-short", "entries.cex")
+f = joinpath(pwd(), "cex", "lewis-short", "mainentries.cex")
 lns = readlines(f)
 typelist = []
 using EzXML

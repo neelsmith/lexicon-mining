@@ -1,6 +1,9 @@
 # if running from root of repository:
-f = joinpath(pwd(), "cex", "lewis-short", "entries.cex")
+f = joinpath(pwd(), "cex", "lewis-short", "mainentries.cex")
 lns = readlines(f)
+target = joinpath(pwd(), "cex", "lewis-short", "morphinfo.cex")
+
+
 using EzXML
 
 
@@ -42,6 +45,6 @@ for (i,ln) in enumerate(lns)
 end
 
 
-open("morphinfo.cex", "w") do io
+open(target, "w") do io
     write(io, join(morphinfo,"\n"))
 end
