@@ -28,10 +28,9 @@ adj.|a_rum|54
 adj.|a_tis|7
 adj.|acris, acre|1
 adj.|actis|1
-adj.|ae|293
+adj.|ae|295
 adj.|ae and is|1
 adj.|ae, a|2
-adj.|ae, and|2
 adj.|alte^ru_^tra|1
 adj.|antis|49
 adj.|artis|1
@@ -410,7 +409,6 @@ v. a.|Dietsch|2
 v. a.|Holder|1
 v. a.|I_si, I_sum, 3|1
 v. a.|I_tus, 4|1
-v. a.|Kayser|3
 v. a.|Liv 33|1
 v. a.|Merkel|1
 v. a.|a, um|3
@@ -433,7 +431,7 @@ v. a.|a_vi, 1|68
 v. a.|a_vi, a^tum, 1|1
 v. a.|a_vi, a_re|5
 v. a.|a_vi, a_tum|29
-v. a.|a_vi, a_tum, 1|919
+v. a.|a_vi, a_tum, 1|921
 v. a.|a_vi, a_tum, a_re|12
 v. a.|a_vi, a_tum, a_re, 1|1
 v. a.|a_vi, a_tum, l|3
@@ -786,7 +784,7 @@ v. a.|rexi, rectum, 3|5
 v. a.|ri^pu^i|1
 v. a.|ri^pu^i, reptum, 3|3
 v. a.|ri^pui, reptum, 3|1
-v. a.|ro_si, ro_sum, 3|1
+v. a.|ro_si, ro_sum, 3|2
 v. a.|ro_sum, 3|1
 v. a.|rsi, rsum, 2|1
 v. a.|rsi, rtum|1
@@ -1010,11 +1008,10 @@ v. dep.|a_tus|5
 v. dep.|a_tus sum|2
 v. dep.|a_tus sum, 1|4
 v. dep.|a_tus sum, a_ri|1
-v. dep.|a_tus, 1|65
+v. dep.|a_tus, 1|66
 v. dep.|a_tus, a_ri|2
 v. dep.|a_vi, 1|1
 v. dep.|a_vi, a_tum, 1|1
-v. dep.|a_vi, a_tum, 1, and|1
 v. dep.|aptus, 3|1
 v. dep.|ctus, 3|1
 v. dep.|cu_tus|1
@@ -1344,17 +1341,14 @@ v. n.|xi, ctum, 3|2
 v. n.|xi, ctum, e^re|1
 v. n.|xi, e^re|1
 v. n.|xi, xum, 3|4
-||2697
+||2719
 |1|24
 |2|2
 |3|13
 |4|4
-|COLLEGIVS, ii|1
 |Ca_ris|1
 |Castellum|1
 |Eris|1
-|Halm|1
-|Haubold|1
 |I_cis|32
 |I_lis|1
 |I_nis|1
@@ -1381,22 +1375,11 @@ v. n.|xi, xum, 3|4
 |Sesothide|1
 |Tabernae|1
 |a|112
-|a consonant which|1
-|a form of apud|1
-|a name comically formed|1
-|a pronominal suffix|1
-|a pronominal suffix appended to adjective and|1
-|a pronominal suffix attached to substantive and|1
 |a um|3
 |a, u_m|1
 |a, ud|1
-|a, um|1959
-|a, um, Palilicius|1
-|a, um, an ancient form for unus|1
+|a, um|1964
 |a, um, and i|1
-|a, um, better written separately|1
-|a, um, for artus|1
-|a, um, old form for ille|1
 |a^cis|14
 |a^cu^i, 3|3
 |a^dis|50
@@ -1437,7 +1420,6 @@ v. n.|xi, xum, 3|4
 |a_vi, a_re|1
 |a_vi, a_tum|1
 |a_vi, a_tum, 1|136
-|a_vi, a_tum, 1, and|1
 |a_vi, a_tum, a_re|1
 |a_vi, a_tum, l|1
 |a_vit, 3|1
@@ -1447,12 +1429,9 @@ v. n.|xi, xum, 3|4
 |acui, 3|1
 |adis|3
 |adnominatio, adnosco|1
-|adverbially|1
-|ae|3630
+|ae|3634
 |ae and o_rum|1
 |ae, a|43
-|ae, and|2
-|ae, and its derivatives|1
 |ae, o^|1
 |aec, oc, and uc|1
 |aeris|1
@@ -1461,18 +1440,7 @@ v. n.|xi, xum, 3|4
 |ai or i|1
 |aliqua|1
 |alsi, 3|1
-|also Genita Mana|1
-|an old form for Pyrrhus|1
-|an old form for lacrima|1
-|and its derivatives|1
-|and, only in inscriptions|1
-|and, separate|1
 |angis|1
-|another form of dissaeptum|1
-|another orthography for chondrille|1
-|another reading for Alius|1
-|another reading for parapeteuma|1
-|another reading for pedicellus|1
 |antis|67
 |antos|1
 |aqua|1
@@ -1484,6 +1452,7 @@ v. n.|xi, xum, 3|4
 |arsi, 3|2
 |arsi, arsum, 3|1
 |arum|4
+|as a deity whose temple adjoined that of Virtus, and who was worshipped with uncovered head|1
 |assis|1
 |attu^li|1
 |bae, bo|1
@@ -1525,7 +1494,6 @@ v. n.|xi, xum, 3|4
 |co^lo_ris|1
 |co_tis|1
 |colluxi, 3|1
-|constat dimetro|1
 |cortis|1
 |cre_vi, cre_tum, 3|2
 |cri|3
@@ -1640,9 +1608,6 @@ v. n.|xi, xum, 3|4
 |factus, fieri|2
 |faecis|1
 |falcis|1
-|false reading for adligato raphano|1
-|false reading for eureos|1
-|false reading for navatae|1
 |faseolus|1
 |fassus, 2|1
 |faxo|1
@@ -1786,12 +1751,12 @@ v. n.|xi, xum, 3|4
 |i_vi, i_re|1
 |i_vi, i_tum, 4|2
 |i_vi, or i^i, i_tum, 4|1
-|icis|5
+|icis|6
 |idis|8
 |idis and i^dos|1
 |idos|1
 |igis|1
-|ii|925
+|ii|926
 |ii, 4|1
 |in|1
 |indecl.|61

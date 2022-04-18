@@ -1380,7 +1380,7 @@ n1799|Alethia|A^le_thi_a||ae|f.|
 n1800|Aletinus|A^le_ti_nus||i|m.|
 n1801|Aletrium|A^le_tri^um|adj.|i|n.|
 n1803|Aleuas|A^leuas||ae|m.|
-n1804|Aleus1|A_le^us1||another reading for Alius||
+n1804|Aleus1|A_le^us1||||
 n1806|alex|a_lex||||
 n1807|Alexamenus|A^lexa^me^nus||i|m.|
 n1808|Alexander|A^lexander||dri|m.|
@@ -2059,7 +2059,7 @@ n2753|anteeo|ante^e^o|v. n.|i_vi or ii, i_re||
 n2754|antefactus|ante^factus||a||
 n2755|antefero|ante^fe^ro|v. a.|tu^li, la_tum, ferre||
 n2756|antefixus|ante^fixus||a, um|n.|part.
-n2758|antegestus|ante^gestus||a, um, better written separately||
+n2758|antegestus|ante^gestus||a, um||
 n2759|antegredior|ante^gre^di^or|v. dep.|gressus, 3||
 n2761|antehac|ante^ha_c||like antidea for antea, and antideo for anteeo||
 n2762|anteidea|anteide^a_||||
@@ -2246,7 +2246,7 @@ n3067|Apollonides|A^pollo_ni^des||ae|m.|
 n3068|Apollonius|A^pollo_ni^us||ii|m.|
 n3074|Aponus|A^po^nus|adj.|i|m.|
 n3075|apophasis|a^po^pha^sis||is|f.|
-n3083|apor|apor||a form of apud||
+n3083|apor|apor||||
 n3085|aporiatio|a^po^ri^a_ti^o||o_nis|f.|
 n3095|apostatrix|a^posta_trix|adj.|i_cis|f.|
 n3097|apostolatus|a^posto^la_tus||u_s|m.|
@@ -2525,7 +2525,7 @@ n3458|Arcitenens|Arci^te^nens|adj.|like arquus for arcus, quur for cur||
 n3459|arcte|arcte_|adv.|||
 n3462|arcto|arcto||||
 n3464|arctophyllum|arcto^phyllum||||
-n3468|arctus1|arctus1||a, um, for artus||
+n3468|arctus1|arctus1||a, um||
 n3469|arctus2|arctus2||i|m.|
 n3470|arcuarius|arcu^a_ri^us|adj.|a, um|m.|
 n3472|arcuatim|arcu^a_tim|adv.|||
@@ -2733,7 +2733,7 @@ n3745|Arria|Arri^a||ae|f.|
 n3746|arrideo|arri_de^o|v. n.|ri_si, ri_sum, 2||
 n3747|arrigo|arri^go|v. a.|Dietsch||
 n3749|arripio|arri^pi^o|v. a.|ri^pu^i, reptum, 3||
-n3752|arrodo|arro_do|v. a.|Kayser||
+n3752|arrodo|arro_do|v. a.|ro_si, ro_sum, 3||
 n3753|arrogans|arro^gans|p. a.|antis||
 n3754|arroganter|arro^ganter|adv.|||
 n3755|arrogantia|arro^gantia||ae|f.|
@@ -2993,7 +2993,7 @@ n4096|assuetudo|assu^e_tu_do||i^nis|f.|
 n4097|assuetus|assu^e_tus|p. a.|||
 n4099|assula|assu^la||ae|f.|
 n4100|assulatim|assu^la_tim|adv.|||
-n4103|assulto|assulto||Halm||
+n4103|assulto|assulto||||
 n4104|assultus|assultus||u_s|m.|
 n4105|assum|assum||||
 n4107|assumo|assu_mo|v. a.|mpsi, mptum, 3||
@@ -3143,13 +3143,13 @@ n4328|attempero|attempe^ro|v. a.|a_re||
 n4329|attendo|attendo|v. a.|tendi, tentum, 3||
 n4331|attente|attente_|adv.|||
 n4332|attentio|attenti^o||o_nis|f.|
-n4333|attento|attento|v. a.|Kayser||
+n4333|attento|attento|v. a.|a_vi, a_tum, 1||
 n4334|attentus1|attentus1|p. a.|a, um||
 n4335|attentus2|attentus2||a, um||part.
 n4336|attenuate|atte^nu^a_te_|adv.|||
 n4337|attenuatio|atte^nu^a_ti^o||o_nis|f.|
 n4338|attenuatus|atte^nu^a_tus|p. a.|a, um||
-n4339|attenuo|atte^nu^o|v. a.|Kayser||
+n4339|attenuo|atte^nu^o|v. a.|a_vi, a_tum, 1||
 n4341|attero|atte^ro|v. a.|tri_vi, tri_tum, 3|n.|
 n4345|attestatio|attesta_ti^o||o_nis|f.|
 n4346|attestor|attestor|v. dep.|a_tus, 1||
@@ -3490,7 +3490,7 @@ n4793|Baccheius|Bacche_i^us||a, um||
 n4794|Baccheus|Bacche_us||a||
 n4796|Bacchiadae|Bacchi^a^dae||a_rum|m.|
 n4797|Bacchicus|Bacchi^cus||||
-n4798|Bacchilidium|Bacchi^li^di^um||constat dimetro||
+n4798|Bacchilidium|Bacchi^li^di^um||||
 n4799|Bacchis|Bacchis||i^dis|f.|
 n4801|Bacchius1|Bacchi^us1||a, um||
 n4802|Bacchius2|Bacchi_us2||a, um||
@@ -4250,7 +4250,7 @@ n5863|Buris2|Bu_ris2||is|f.|
 n5864|burius|buri^us||ii|m.|
 n5865|burra|burra||ae|f.|
 n5869|burricus|burri^cus||i|m.|
-n5871|Burrus2|Burrus2||an old form for Pyrrhus||
+n5871|Burrus2|Burrus2||||
 n5872|Bursaonenses|Bursa^o_nenses||i^um|m.|
 n5874|busequa|bu_se^qua||||
 n5875|Busiris|Bu_si_ris||i^dis and i^dos||
@@ -5134,7 +5134,7 @@ n7017|castus2|castus2||u_s|m.|
 n7018|casualis|ca_su^a_lis|adj.|e||
 n7019|casualiter|ca_su^a_li^ter|adv.|||
 n7020|casula|ca^su^la||ae|f.|
-n7021|casus1|ca_sus1||adverbially|m.|
+n7021|casus1|ca_sus1|||m.|
 n7022|Casus2|Ca_sus2||i|m.|
 n7025|Catabathmos|Ca^ta^bathmos||i|m.|
 n7026|catabolcnses|ca^ta^bo^lcnses||ium|m.|
@@ -6482,7 +6482,7 @@ n9050|collegatarius|colle_ga_ta_ri^us||i|m.|
 n9051|collegialis|colle_gi^a_lis|adj.|e||
 n9052|collegiarius|colle_gi^a_ri^us|adj.|a, um||
 n9053|collegiatus|colle_gi^a_tus||i|m.|
-n9054|collegium|colle_gi^um||COLLEGIVS, ii|m.|
+n9054|collegium|colle_gi^um||ii|m.|
 n9059|collevo|colle_vo|v. a.|a_re||
 n9061|collibertus|colli_bertus||i|m.|
 n9062|collibet|colli^bet||buit or bi_tum est, 2||
@@ -7253,7 +7253,7 @@ n10035|condolesco|condo^lesco||lu^i, 3||
 n10038|condono|condo_no|v. a.|a_vi, a_tum, 1||
 n10039|condormio|condormi^o||i_re||
 n10040|condormisco|condormisco||dormi_vi, 3||
-n10041|condrilla|condrilla||another orthography for chondrille||
+n10041|condrilla|condrilla||||
 n10042|Condrusi|Condru_si||o_rum|m.|
 n10043|conducenter|condu_center|adv.|||
 n10044|conducibilis|condu_ci^bi^lis|adj.|e||
@@ -9634,7 +9634,7 @@ n13104|dense|dense_||||
 n13105|Denseletae|Densele_tae||a_rum|m.|
 n13106|denseo|denseo||e_re||
 n13107|densitas|densi^tas||a_tis|f.|
-n13108|denso|denso||a_vi, a_tum, 1, and||
+n13108|denso|denso||||
 n13109|densus|densus|adj.|a, um||
 n13110|dentale|denta_le||is|n.|
 n13111|dentaneus|denta_ne^us||a, um||
@@ -10608,7 +10608,7 @@ n14410|dissimulo|dissi^mu^lo|v. a.|a_vi, a_tum, 1||
 n14412|dissipatio|dissi^pa_ti^o||o_nis|f.|
 n14414|dissipatrix|dissi^pa_trix||i_cis|f.|
 n14415|dissipo|dissi^po|v. a.|a_vi, a_tum||
-n14416|dissiptum|dissiptum||another form of dissaeptum||
+n14416|dissiptum|dissiptum||||
 n14417|dissitus1|dissi^tus1||a, um||part.
 n14418|dissitus2|dissi^tus2|adj.|a, um||
 n14419|dissociabilis|disso^ci^a_bi^lis|adj.|e||
@@ -11150,7 +11150,7 @@ n15133|edecimo|e_de^ci^mo|v. a.|a_tum, 1||
 n15134|edento|e_dento|v. a.|a_vi, a_tum, 1||
 n15135|edentulus|e_dentu^lus|adj.|a, um||
 n15136|edepol|e^de^pol||||
-n15137|edera|e^de^ra||ae, and its derivatives||
+n15137|edera|e^de^ra||ae||
 n15138|Edessa|E^dessa|adj.|ae|f.|
 n15139|edibilis|e^di^bi^lis|adj.|e||
 n15140|edico|e_di_co|v. a.|xi, ctum, 3||
@@ -11586,7 +11586,7 @@ n15734|enascor|e_nascor||||
 n15735|enater|e_na^te_r||e^ris|m.|
 n15736|enato|e_na^to|v. n.|a_vi, 1||
 n15737|enatus|e_na_tus||a, um||part.
-n15738|enavatae|e_na_va_tae||false reading for navatae||
+n15738|enavatae|e_na_va_tae||||
 n15739|enavigo|e_na_vi^go|v. n.|a_vi, a_tum, 1||
 n15741|encaenio|encaeni^o||a_re||
 n15742|encanthis|encanthis||i^dis|f.|
@@ -11683,7 +11683,7 @@ n15904|Ephialtes|E^phi^a_ltes||ae|m.|
 n15907|ephod|ephod||indecl.|n.|
 n15908|ephorus1|e^pho^rus1||i|m.|
 n15909|Ephorus2|E^pho^rus2||i|m.|
-n15910|Ephyra|E^phy^ra|adj.|ae, and|f.|
+n15910|Ephyra|E^phy^ra|adj.|ae|f.|
 n15916|Epicharmus|E^pi^charmus||i|m.|
 n15924|Epicrates|E^pi_cra^tes||ae|m.|
 n15926|Epictetus|E^picte_tus||i|m.|
@@ -11935,7 +11935,7 @@ n16345|Eumelus|Eume_lus||i|m.|
 n16346|Eumenes|Eume^nes||is|m.|
 n16347|Eumenides|Eume^ni^des||um|f.|
 n16350|Eumolpus|Eumolpus||i|m.|
-n16351|euneos|eune^os||false reading for eureos||
+n16351|euneos|eune^os||||
 n16352|eunuchinus|eunu_chi_nus|adj.|a, um||
 n16358|euoe|euoe|interj.|||
 n16360|Eupalium|Eupa^lium||ii|n.|
@@ -14588,7 +14588,7 @@ n19552|gesum|ge_sum||i||
 n19553|Getae|Ge^tae|adj.|a_rum|m.|
 n19555|Getice|Ge^ti^ce|adv.|||
 n19556|Geticus|Ge^ti^cus||a, um||
-n19557|Getuli|Ge_tu_li_||and its derivatives||
+n19557|Getuli|Ge_tu_li_||||
 n19558|geum|ge_um||i|n.|
 n19559|gibba|gibba||ae||
 n19560|gibber1|gibber1|adj.|e^ra, e^rum||
@@ -14737,7 +14737,7 @@ n19763|Gorge|Gorge||e_s|f.|
 n19764|Gorgias|Gorgi^as||ae|m.|
 n19765|Gorgo|Gorgo|adj.|o^nis|f.|
 n19766|Gorgobina|Gorgobi^na||ae|f.|
-n19767|Gorgonidonii|Gorgo^ni^do_ni^i||a name comically formed||
+n19767|Gorgonidonii|Gorgo^ni^do_ni^i||||
 n19769|Gortyn|Gortyn||y_nos||
 n19770|Gortyna|Gorty_na|adj.|ae|f.|
 n19773|Gothi|Go^thi|adj.|o_rum|m.|
@@ -15492,7 +15492,7 @@ n20886|honeste|ho^neste_|adv.|||
 n20887|honestitudo|ho^nesti^tu_do||i^nis|f.|
 n20888|honesto|ho^nesto|v. a.|a_vi, a_tum, 1||
 n20889|honestus|ho^nestus|adj.|a um|m.|
-n20890|honor|ho^nor||Haubold|n.|
+n20890|honor|ho^nor||as a deity whose temple adjoined that of Virtus, and who was worshipped with uncovered head|n.|
 n20891|honorabilis|ho^no_ra_bi^lis|adj.|e||
 n20892|honorarium|ho^no_ra_ri^um||i^i|n.|
 n20893|honorarius|ho^no_ra_ri^us|adj.|a, um|n.|
@@ -19025,7 +19025,7 @@ n25142|Iverna|Iverna||||
 n25144|Ixion|Ixi_on|adj.|o^nis|m.|
 n25145|Ixor|Ixor||o_ris|m.|
 n25147|Izi|Izi||o_rum|m.|
-n25148|J|J||a consonant which||
+n25148|J|J||||
 n25149|Jabolenus|Ja^bo^le_nus||i|m.|
 n25150|jacea|jacea||ae|f.|
 n25151|jaceo|ja^ce^o|v. n.|cu^i, ci^tum||
@@ -19392,7 +19392,7 @@ n25543|lacesso|la^cesso|v. a.|i_vi or i^i, i_tum, 3||
 n25544|Lacetani|Laceta_ni||o_rum|m.|
 n25546|Laches|La^che_s|||m.|
 n25547|Lachesis|La^che^sis||is|f.|
-n25548|lachrima|lachri^ma||an old form for lacrima||
+n25548|lachrima|lachri^ma||||
 n25549|Laciades|La^ci^a^des||ae|m.|
 n25550|lacinia|la^ci^ni^a||ae|f.|
 n25552|laciniose|la^ci^ni^o_se_|adv.|||
@@ -19498,7 +19498,7 @@ n25671|Lageus|La_ge_us||a, um||
 n25672|lago|lago||inis|f.|
 n25673|lagoena|la^goena||||
 n25675|Lagon|La_go_n||o^nis|m.|
-n25676|lagona|la^go_na||false reading for adligato raphano||
+n25676|lagona|la^go_na||||
 n25678|lagopus|la^go_pu_s||o^dis|f.|
 n25679|Lagos|Lagos||i|f.|
 n25680|laguncula|la^guncu^la||ae|f.|
@@ -21157,7 +21157,7 @@ n27803|mammula1|mammu^la1||ae|f.|
 n27804|Mammula2|Mammu^la2||ae|m.|
 n27807|Mamurius|Ma_mu_^ri^us||ii|m.|
 n27808|Mamurra|Ma_murra||ae|m.|
-n27809|Mana1|Ma_na1||also Genita Mana|f.|
+n27809|Mana1|Ma_na1||ae|f.|
 n27810|mana2|mana2||ae||
 n27813|manalis1|ma_na_lis1|adj.|e|n.|
 n27814|Manalis2|Ma_na_lis2|adj.|e||
@@ -21994,7 +21994,7 @@ n28886|messorius|messo_ri^us|adj.|a, um||
 n28887|messuarius|messu^a_ri^us||a, um||
 n28888|messura|messu_ra||ae|f.|
 n28889|messus|messus||a, um||part.
-n28892|met|met||a pronominal suffix attached to substantive and||
+n28892|met|met||||
 n28893|meta|me_ta||ae|f.|
 n28895|Metabus|Me^ta^bus||i|m.|
 n28898|Metagon|Me^ta^gon||ontis|m.|
@@ -22914,7 +22914,7 @@ n30053|murmuratio|murmu^ra_ti^o||o_nis|f.|
 n30054|murmurator|murmu^ra_tor||o_ris|m.|
 n30055|murmurillo|murmu^rillo||1||
 n30057|murmuriosus|murmu^ri^o_sus|adj.|a, um||
-n30058|murmuro|murmu^ro|v. dep.|a_vi, a_tum, 1, and||
+n30058|murmuro|murmu^ro|v. dep.|a_tus, 1||
 n30059|muro|mu_ro|v. a.|a_vi, a_tum, 1||
 n30060|Murocincta|Murocincta||ae|f.|
 n30062|murra2|murra2||ae|f.|
@@ -23686,7 +23686,7 @@ n31059|nixus1|nixus1||a, um||part.
 n31060|nixus2|nixus2||u_s|m.|
 n31061|no1|no1|v. n.|na_vi, 1|f.|
 n31062|No2|No2||||
-n31063|Noa|No_a||ae, and|m.|
+n31063|Noa|No_a||ae|m.|
 n31064|Nobilior|No_bi^li^or||o_ris|m.|
 n31065|nobilis|no_bi^lis|adj.|e|m.|
 n31066|nobilitas|no_bi^li^tas||a_tis|f.|
@@ -24714,7 +24714,7 @@ n32325|Oenopia|Oeno^pi^a|adj.|ae|f.|
 n32326|Oenopion|Oeno^pi^on||o_nis|m.|
 n32327|Oenopius|Oeno^pi^us||a, um||
 n32330|Oenotria|Oeno_tri^a|adj.|ae|f.|
-n32331|oenus1|oenus1||a, um, an ancient form for unus||
+n32331|oenus1|oenus1||a, um||
 n32332|Oenus2|Oenu_s2|||m.|
 n32333|Oenusa|Oenu_sa||ae|f.|
 n32334|Oenusae|Oenu_sae||a_rum|f.|
@@ -24859,7 +24859,7 @@ n32502|ollaris|olla_ris|adj.|e||
 n32504|ollarius|olla_ri^us|adj.|a, um|n.|
 n32506|ollicula|olli^cu^la||ae|f.|
 n32507|ollula|ollu^la||ae|f.|
-n32508|ollus|ollus||a, um, old form for ille||
+n32508|ollus|ollus||a, um||
 n32509|olma|olma||ae|f.|
 n32510|olo|o^lo||e^re||
 n32512|olor1|o^lor1||o_ris|m.|
@@ -25494,7 +25494,7 @@ n33351|paedidus|paedi^dus|adj.|a, um||
 n33352|paedor|paedor||o_ris|m.|
 n33353|paegniarius|paegni^a_ri^us|adj.|a, um||
 n33354|Paegnium|Paegni^um||ii|n.|
-n33355|paelex|paelex||and, only in inscriptions|f.|
+n33355|paelex|paelex||icis|f.|
 n33356|Paeligni|Paeligni||||
 n33357|paeminosus|paemi^no_sus|adj.|a, um||
 n33358|paene|paene|adv.|||
@@ -25880,7 +25880,7 @@ n33873|parilicium|pa^ri_li^ci^um||||
 n33874|parilis|pa^ri^lis|adj.|e||
 n33875|parilitas|pa^ri^li^tas||a_tis|f.|
 n33876|pariliter|pa^ri^li^ter|adv.|||
-n33877|Parilitius|Pa^ri_li^ti^us||a, um, Palilicius||
+n33877|Parilitius|Pa^ri_li^ti^us||a, um||
 n33878|pario1|pa^ri^o1|v. a.|a_vi, a_tum, 1|n.|
 n33879|pario2|pa^ri^o2|v. a.|pe^pe^ri, pa^ri^tum, and partum, 3|n.|
 n33880|pario3|pa^ri^o3||i_re||
@@ -26296,7 +26296,7 @@ n34360|pedo2|pe_do2|v. n.|pe^pe_di||part.
 n34361|pedo3|pe^do3||o_nis|m.|
 n34362|Pedo4|Pe^do4||o_nis|m.|
 n34364|Peducaeus|Pe^du_caeus|adj.|i|m.|
-n34365|peduclus|pe^du_clus||another reading for pedicellus||
+n34365|peduclus|pe^du_clus||||
 n34368|peduculus|pe^du_cu^lus||i|m.|
 n34369|pedulis|pe^du_lis|adj.|e|n.|
 n34370|pedum1|pe^dum1||i|n.|
@@ -26879,7 +26879,7 @@ n35089|periodeuta|pe^ri^o^deuta||ae|m.|
 n35092|perior|pe^ri^or||i_ri||
 n35096|Periphas|Pe^ri^phas||antis|m.|
 n35105|periratus|pe^ri_ra_tus|adj.|a, um||
-n35108|perisseuma|pe^risseuma||another reading for parapeteuma||
+n35108|perisseuma|pe^risseuma||||
 n35118|perite|pe^ri_te_|adv.|||
 n35119|Perithous|Pe_ri_tho^us||i||
 n35120|peritia|pe^ri_ti^a||ae|f.|
@@ -27948,7 +27948,7 @@ n36402|pirum|pi^rum||i|n.|
 n36403|pirus|pi^rus||i|f.|
 n36404|Pirustae|Pi_rustae||a_rum|m.|
 n36405|pisa1|pi_sa1||ae||
-n36406|Pisa2|Pi_sa2|adj.|ae, and|f.|
+n36406|Pisa2|Pi_sa2|adj.|ae|f.|
 n36407|Pisae|Pi_sae|adj.|a_rum|f.|
 n36408|Pisander|Pi_sander||dri|m.|
 n36409|Pisanus|Pi_sa_nus||a, um||
@@ -30102,7 +30102,7 @@ n38968|propulsus1|pro_pulsus1||a, um||part.
 n38969|propulsus2|pro_pulsus2||u_s|m.|
 n38970|propungo|pro_pungo|v. a.|e^re, 3||
 n38973|proquaestore|pro_quaesto_re||||
-n38974|proquam|pro_quam||and, separate||
+n38974|proquam|pro_quam||||
 n38975|proquirito|pro_qui^ri_to|v. a.|a_tum, 1||
 n38977|prorepo|pro_re_po|v. n.|psi, ptum, 3||
 n38980|proriga|pro_ri^ga||ae|m.|
@@ -30365,7 +30365,7 @@ n39353|Psylli|Psylli||o_rum|m.|
 n39355|psythia|psy^thi^a||ae||
 n39357|Psyttalia|Psytta^li^a||ae|f.|
 n39358|ptarmicus|ptarmi^cus||a, um|n.|
-n39359|pte|pte^||a pronominal suffix appended to adjective and||
+n39359|pte|pte^||||
 n39360|Pteleum|Pte^le^um||i|n.|
 n39361|Ptenethu|Pte^ne^thu||indecl.|n.|
 n39362|Pterelas|Pte^re^las||ae|m.|
@@ -33588,7 +33588,7 @@ n43348|Segni|Segni||o_rum|m.|
 n43350|segnis|segnis|adj.|e||
 n43351|segnitas|segni^tas||a_tis|f.|
 n43352|segniter|segni^ter|adv.|||
-n43353|segnitia|segni^ti^a||ae, and|f.|
+n43353|segnitia|segni^ti^a||ae|f.|
 n43354|segnities|segni^ti^es||||
 n43355|Segobriga|Se_go^_bri_ga||ae|f.|
 n43356|Segontiaci|Segonti^a^ci||o_rum|m.|
@@ -36806,7 +36806,7 @@ n47600|Taygete|Ta_y^ge^te_||e_s|f.|
 n47601|Taygetus|Ta_y^ge^tus||i|m.|
 n47602|Tazata|Tazata||ae|f.|
 n47603|te1|te_1||||
-n47604|te2|te^2||a pronominal suffix||
+n47604|te2|te^2||||
 n47605|Teanum|Te^a_num||i|n.|
 n47606|Teate|Te^a_te||is|n.|
 n47607|Teates|Te^a_tes||um|m.|

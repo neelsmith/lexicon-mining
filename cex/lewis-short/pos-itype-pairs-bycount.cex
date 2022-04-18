@@ -1,14 +1,14 @@
 adj.|a, um|4563
-|ae|3630
+|ae|3634
 |i|3418
-||2697
+||2719
 |o_nis|2502
 adv.||2125
-|a, um|1959
+|a, um|1964
 adj.|e|1623
 |o_ris|1182
-|ii|925
-v. a.|a_vi, a_tum, 1|919
+|ii|926
+v. a.|a_vi, a_tum, 1|921
 |u_s|718
 |a_tis|577
 |o_rum|575
@@ -17,7 +17,7 @@ p. a.|a, um|523
 |i^nis|371
 v. a.|a_re|349
 adj.|i|346
-adj.|ae|293
+adj.|ae|295
 |e_s|280
 |a_rum|265
 |e^re|249
@@ -49,7 +49,7 @@ adj.|entis|69
 v. a.|a_vi, 1|68
 |antis|67
 |i^cis|67
-v. dep.|a_tus, 1|65
+v. dep.|a_tus, 1|66
 v. n.|e^re|63
 |indecl.|61
 v. freq. a.|a_re|61
@@ -236,6 +236,7 @@ v. a.|i_vi or ii, i_tum, 4|6
 |fe_ci, factum, 3|6
 p. a.|ntis|6
 |mu^i, 3|6
+|icis|6
 v. a.|fo_di, fossum, 3|6
 |mensus, 4|6
 |o^pis|6
@@ -269,7 +270,6 @@ v. a.|mpsi|5
 v. a.|ti^nu^i, tentum, 2|5
 v. a.|rexi, rectum, 3|5
 subst.|ae|5
-|icis|5
 |rui, 3|5
 p. a.|u_s|5
 |e_ri|5
@@ -363,7 +363,6 @@ v. n.|ste^ti, 1|3
 v. a.|essi, essum, 3|3
 subst.|o_rum|3
 v. a.|ri^pu^i, reptum, 3|3
-v. a.|Kayser|3
 v. a.|a, um|3
 v. a.|mpsi, mptum, 3|3
 v. a.|struxi, structum, 3|3
@@ -489,6 +488,7 @@ v. dep.|a_tus, a_ri|2
 |arsi, 3|2
 v. n.|repsi, reptum, 3|2
 v. a.|Dietsch|2
+v. a.|ro_si, ro_sum, 3|2
 v. a.|exi, ectum, 3|2
 v. n.|scendi, scensum, 3|2
 v. dep.|3|2
@@ -591,7 +591,6 @@ v. a.|finxi, fictum, 3|2
 adj.|i_nis|2
 v. n.|psi, 3|2
 v. n.|i_vi or ii|2
-adj.|ae, and|2
 v. a.|nxi, nctum, 4|2
 v. n.|ii, i_tum, 4|2
 v. a.|factum, 3|2
@@ -650,7 +649,6 @@ adj.|ma^ris|2
 adj.|dis|2
 adv.|neglego|2
 |is and i|2
-|ae, and|2
 v. n.|i_vi or i^i|2
 v. a.|tu^di, tu_sum|2
 v. n.|ui, 3|2
@@ -765,7 +763,6 @@ v. n.|ulsi, 2|1
 adj.|cris, e|1
 |o^nos|1
 adj.|a_li^ti^s|1
-|another reading for Alius|1
 v. n.|alsi, 2|1
 |alsi, 3|1
 |aliqua|1
@@ -800,13 +797,11 @@ adj.|fera, ferum|1
 v. dep.|ni_sus or nixus, 3|1
 v. a.|qui_si_vi, si_tum, 3|1
 v. n.|i_vi or ii, i_re|1
-|a, um, better written separately|1
 |like antidea for antea, and antideo for anteeo|1
 |is and ae|1
 |antos|1
 |vicus|1
 v. dep.|aptus, 3|1
-|a form of apud|1
 v. n.|ui, itum, 2|1
 v. a.|ii, i_tum, 3|1
 v. a.|i^tum, 1|1
@@ -820,7 +815,6 @@ adj.|a^dis|1
 |cui, ctum|1
 v. a.|i_vi, i_tum, 3|1
 adj.|like arquus for arcus, quur for cur|1
-|a, um, for artus|1
 p. a.|rsi, rsum, 2|1
 |i^e_tis|1
 adj.|po^tentis|1
@@ -837,7 +831,6 @@ v. a.|ersi, ersum, 3|1
 v. dep.|sensus, 4|1
 v. a.|se_vi, situm, 3|1
 v. n.|sultum, 4|1
-|Halm|1
 subst.|u^ris|1
 adv.|u_s|1
 |i_dis|1
@@ -860,7 +853,6 @@ adj.|spi^cis|1
 |o_nis or u_s|1
 v. a.|velli or vulsi, vulsum or volsum, 3|1
 |terra|1
-|constat dimetro|1
 adj.|insulae|1
 |balux|1
 |v Barcas|1
@@ -873,7 +865,6 @@ v. n.|xi, ctum, e^re|1
 v. a.|bi^bi|1
 adj.|u_m|1
 v. n.|a_re, a_vi, a_tum|1
-|an old form for Pyrrhus|1
 v. n.|a_vi, a_tum, a_re|1
 v. n.|ce^ci^di, ca_sum, 3|1
 v. a.|ce^ci_di|1
@@ -892,7 +883,6 @@ v. a.|a_tus, a_re|1
 |carnis|1
 adj.|i^nis|1
 interj.|o^ris|1
-|adverbially|1
 |like codex, plostrum|1
 |ce^re|1
 v. n.|ca_vi, cautum|1
@@ -945,7 +935,6 @@ v. a.|co^e_gi, co^actum|1
 |factus, fie^ri|1
 v. dep.|lapsus|1
 |u_ s|1
-|COLLEGIVS, ii|1
 |buit or bi_tum est, 2|1
 prep.|le_gi, lectum, 3|1
 |li^qui, e^re|1
@@ -990,7 +979,6 @@ v. n.|pu^i, pi^tum, 1|1
 prep.|o_nis|1
 |cu^i, ctum, 2|1
 |dormi_vi, 3|1
-|another orthography for chondrille|1
 v. a.|fertum, 4|1
 v. a.|contu^li, colla_tum|1
 p. a.|fi^sus sum, 3|1
@@ -1094,7 +1082,6 @@ p. a.|ui, u_tum, 3|1
 |lsi, mulctum, 2|1
 |nasci|1
 |dentis|1
-|a_vi, a_tum, 1, and|1
 |ui, rtum, 4|1
 p. a.|di^di, di^tum, 3|1
 |e_vi, 2|1
@@ -1160,7 +1147,6 @@ v. dep.|iri, 4|1
 v. a.|se_vi|1
 p. a.|ru^i, rtum|1
 v. n.|u^i, 4|1
-|another form of dissaeptum|1
 adj.|rtis|1
 |dinis|1
 v. a.|rsi, rtum|1
@@ -1178,7 +1164,6 @@ adj.|like Casmena, Casmili|1
 |myrrha|1
 v. a.|bi, bi^tum, 3|1
 adj.|ecquid|1
-|ae, and its derivatives|1
 v. n.|i_vi or ii, 4|1
 v. a.|fertus, 4|1
 v. a.|ecferre|1
@@ -1200,7 +1185,6 @@ v. n.|nsi, 2|1
 v. a.|ii, i_tum, 4|1
 v. a.|i^tum, 3|1
 v. a.|lsum, 2|1
-|false reading for navatae|1
 v. a.|cu^i|1
 v. n.|tu^i, 2|1
 |ri^dis|1
@@ -1217,7 +1201,6 @@ v. n.|di, sum, 3|1
 |for editur|1
 adj.|is and e^os|1
 |on|1
-|false reading for eureos|1
 v. a.|verri, versum, 3|1
 |e_ri, 2|1
 v. a.|vici, victum, 3|1
@@ -1308,10 +1291,8 @@ v. n.|ga_vi_sus, 2|1
 |scalae, or|1
 |gentis|1
 v. a.|gessi, gestum|1
-|and its derivatives|1
 |gli_ris|1
 |glo_ris|1
-|a name comically formed|1
 |y_nos|1
 |gre^gis|1
 |gru^is|1
@@ -1327,7 +1308,7 @@ interj.|e^os|1
 |e^mis|1
 adj.|actis|1
 |idos|1
-|Haubold|1
+|as a deity whose temple adjoined that of Virtus, and who was worshipped with uncovered head|1
 v. dep.|hori|1
 |horru^i, 3|1
 adj.|e^nis|1
@@ -1441,7 +1422,6 @@ adj.|e_lis|1
 |verbum|1
 |Portus|1
 |Ity^os, Ity^n or Ity^m|1
-|a consonant which|1
 v. n.|cu^i, ci^tum|1
 |je^ci^no^ris|1
 adv.|a_ri|1
@@ -1454,11 +1434,9 @@ v. dep.|e^re|1
 |lapsus|1
 |like arbos, honos|1
 |lactis|1
-|an old form for lacrima|1
 |not lacry^ma|1
 |l|1
 |a^pis|1
-|false reading for adligato raphano|1
 |o^dis|1
 v. a.|bi, bitum|1
 |Lartis|1
@@ -1502,7 +1480,6 @@ adj.|tri|1
 v. n.|ctum, 3|1
 v. a.|ma_lui, malle|1
 |mertis|1
-|also Genita Mana|1
 |ari|1
 v. n.|nsi, nsum|1
 adj.|u^is, and e_tis|1
@@ -1528,7 +1505,6 @@ v. n.|ire, 4|1
 |for merx|1
 |i^tus|1
 |ygis|1
-|a pronominal suffix attached to substantive and|1
 v. dep.|mensus|1
 v. a.|messu^i|1
 |for minium|1
@@ -1555,7 +1531,6 @@ v. n.|i_vi and i^i, i_tum, 4|1
 |e_ris and e^ri|1
 v. a.|si, sum or ctum, 2|1
 adj.|fe^rum|1
-v. dep.|a_vi, a_tum, 1, and|1
 |muris|1
 |My^os|1
 |had its full|1
@@ -1627,7 +1602,6 @@ v. n.|curri, rarely cucurri|1
 adv.|o_ci^us|1
 v. a.|o_disse|1
 adj.|o^dis and i|1
-|a, um, an ancient form for unus|1
 v. a.|obtu^li, obla_tum|1
 v. n.|e_ci, ectum, 3|1
 v. a.|tum, 4|1
@@ -1635,7 +1609,6 @@ v. a.|tum, 4|1
 v. n.|lu^i, 2|1
 v. a.|e_ci, actum, 3|1
 |for Olearos|1
-|a, um, old form for ille|1
 adj.|1|1
 |mellis|1
 v. a.|u^i, ertum, 4|1
@@ -1656,7 +1629,6 @@ v. a.|di, sum, and tum|1
 adj.|y^os|1
 adv.|a_tum|1
 adj.|fe_ra, fo^rum|1
-|and, only in inscriptions|1
 |u_s or o_nis|1
 adj.|a^dis and a^dos|1
 |palla^i, 3|1
@@ -1666,7 +1638,6 @@ v. a.|nxi, nctum, and pe_gi or pe^pi^gi, pactum|1
 v. n.|pe^perci|1
 |i^um, v parentalis|1
 v. n.|u^i, pa_ri^tum, 2|1
-|a, um, Palilicius|1
 v. a.|pe^pe^ri, pa^ri^tum, and partum, 3|1
 |e_this|1
 adv.|partis|1
@@ -1689,7 +1660,6 @@ v. a.|pexi|1
 p. a.|a_ri|1
 |peco^ris|1
 v. n.|pe^pe_di|1
-|another reading for pedicellus|1
 v. a.|pe^pu^li, pulsum, 3|1
 v. n.|pe^pendi, 2|1
 v. a.|pe^pendi, pensum, 3|1
@@ -1723,7 +1693,6 @@ v. a.|perrexi, perrectum, 3|1
 v. a.|si, stum, 4|1
 v. a.|ui, 2|1
 v. dep.|a_tus sum, a_ri|1
-|another reading for parapeteuma|1
 p. a.|e_re|1
 v. n.|mansi, mansum, 2|1
 v. a.|scu^i, stum, and xtum, 2|1
@@ -1739,7 +1708,6 @@ v. n.|pa_vi, pastum, 3|1
 v. a.|pendi, pensum, 3|1
 |pessus, 3|1
 v. a.|i_vi, i_tum|1
-v. a.|ro_si, ro_sum, 3|1
 adv.|entis|1
 p. a.|cu_tus and quu_tus, 3|1
 v. n.|serpsi, 3|1
@@ -1851,7 +1819,6 @@ v. a.|lixi|1
 v. a.|mo_vi, mo_tum|1
 v. n.|di, sum, 2|1
 v. a.|1, a_tum, a_re|1
-|and, separate|1
 v. a.|pu^i, reptum, 3|1
 v. a.|ru^i, ru^tum, 3|1
 v. n.|sti^ti, sta_tum, 1|1
@@ -1861,7 +1828,6 @@ adv.|provideo|1
 v. n.|vi_di, vi_sum, 2|1
 |pi^ra|1
 adj.|i_^dis|1
-|a pronominal suffix appended to adjective and|1
 v. a.|u^i, or pu^di^tum est, e_re|1
 |i^lis|1
 |chri|1
@@ -2091,7 +2057,6 @@ adv.|tacite|1
 v. a.|te^ti^gi, tactum, 3|1
 adj.|tanta^dem, tantundem|1
 |o_nis or ontis|1
-|a pronominal suffix|1
 |is or ae|1
 adv.|tempestive|1
 v. a.|te^tendi, tentum and tensum, 3|1
