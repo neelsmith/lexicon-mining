@@ -10,9 +10,8 @@ using Pkg
 Pkg.activate(repo)
 Pkg.resolve()
 Pkg.instantiate()
-
-
 using LexiconMining
+
 mainentries = formatentries(f)
 open(target, "w") do io
     write(io, join(mainentries,"\n"))
