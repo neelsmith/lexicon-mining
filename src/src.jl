@@ -46,3 +46,40 @@ function typelist(f)
     end
     typelist
 end
+
+
+
+
+
+"""Read source file `f` and compute occurrences of pos*itype.
+$(SIGNATURES)
+"""
+function pos_itype_counts(f)
+    lns = readlines(f)
+
+    pairlist = []
+    for ln in lns
+        cols = split(ln,"|")
+        push!(pairlist,cols[4] * "|" * cols[5])
+    end
+
+    grouped = group(pairlist)
+    counts = []
+    for k in keys(grouped)
+        push!(counts, (k, length(grouped[k])))
+    end
+    sorted = sort(counts, by = pr -> pr[1])
+
+    tab = map(pr -> string(pr[1], "|", pr[2]), sorted)
+    byfreq = sort(counts, by = pr -> pr[2], rev = true)
+    freqtab = map(pr -> string(pr[1], "|", pr[2]), byfreq)
+end
+
+#=
+open(target, "w") do io
+        write(io,join(tab,"\n"))
+    end
+
+
+    
+=#
