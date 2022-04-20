@@ -7,6 +7,7 @@ version = "0.1.0"
 EzXML = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
 PolytonicGreek = "72b824a7-2b4a-40fa-944c-ac4f345dc63a"
 SplitApplyCombine = "03a91e81-4c3e-53e1-a0a4-9c0c8f19dd66"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]
 EzXML = "1"
