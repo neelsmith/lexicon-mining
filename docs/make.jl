@@ -11,7 +11,6 @@ Pkg.activate(".")
 Pkg.instantiate()
 
 using Documenter, DocStringExtensions
-using CitableObject
 using Tabulae
 
 
