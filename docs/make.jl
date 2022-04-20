@@ -11,7 +11,7 @@ Pkg.activate(".")
 Pkg.instantiate()
 
 using Documenter, DocStringExtensions
-using Tabulae
+using LexiconMining
 
 
 makedocs(
