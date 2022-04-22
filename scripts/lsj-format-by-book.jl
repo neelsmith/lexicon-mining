@@ -2,8 +2,6 @@
 # for LSJ data for α in this repository
 #
 # Run from root of repository:
-
-
 repo = pwd()
 using Pkg
 Pkg.activate(repo)
