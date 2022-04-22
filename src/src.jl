@@ -53,13 +53,21 @@ function typelist(lns, reader::Type{StringReader})
     typelist
 end
 
+function pos_itype_counts(v::Vector{MorphData})
+    @info("Woohoo! Found it!")
 
-"""Read morphological data file `f` and compute occurrences of pos*itype.
-$(SIGNATURES)
-"""
-function pos_itype_counts(f)
-    lns = readlines(f)
-    pos_itype_counts(lns, StringReader)
+    strs = map(md -> md.pos * "|" * md.itype,  v)
+    grouped = group(strs)
+    counts = []
+    for k in keys(grouped)
+        push!(counts, (k, length(grouped[k])))
+    end
+    byfreq = sort(counts, by = pr -> pr[2], rev = true)
+    map(pr -> string(pr[1], "|", pr[2]), byfreq)
+end
+
+function pos_itype_counts(f, reader::Type{FileReader})
+    pos_itype_ocunts(readlines(f), StringReader)
 end
 
 """Compute occurrences of pos*itype in `lns`,
@@ -67,6 +75,9 @@ a Vector of morphological data lines.
 $(SIGNATURES)
 """
 function pos_itype_counts(lns, reader::Type{StringReader})
+    mdata = lns .|> morphData
+    pos_itype_counts(mdata)
+    #=
     pairlist = []
     for ln in lns
         cols = split(ln,"|")
@@ -83,4 +94,5 @@ function pos_itype_counts(lns, reader::Type{StringReader})
     #tab = map(pr -> string(pr[1], "|", pr[2]), sorted)
     byfreq = sort(counts, by = pr -> pr[2], rev = true)
     freqtab = map(pr -> string(pr[1], "|", pr[2]), byfreq)
+    =#
 end
