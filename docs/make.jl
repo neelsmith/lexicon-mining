@@ -17,11 +17,16 @@ using LexiconMining
 makedocs(
     sitename="LexiconMining.jl",
     pages = [
-        "Home" => Any[
-            "User's guide" => "index.md",
-            "Data" => "data.md"
+        "User's guide" => Any[
+            "Overview" => "index.md",
+            "Data" => "data.md",
+            "Building source files" => "buildingsrc.md",
+            "Extracting morphological data" => "morphtables.md",
+            
+        ],
+        "Code APIs" => Any[
+            "Code APIs" => "api.md"
         ]
-        
     ],
     )
 

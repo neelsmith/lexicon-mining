@@ -10,7 +10,7 @@ function formatentries(f)
             doc = parsexml(ln)
             id = doc.root["id"]
             k = doc.root["key"]
-            cleaner = replace(k, r"[_^]" => "")
+            cleaner = replace(k, r"[_^0-9]" => "")
             push!(metadata, join([id,cleaner], "||"))
         catch e
             println("ERROR AT LINE $(i)")
@@ -29,7 +29,13 @@ $(SIGNATURES)
 """
 function typelist(f)
     lns = readlines(f)
+    typelist(lns, StringReader)
+end
 
+"""Determine list of unique values for `@type` attribute on entries in lns, a Vector of source data lines.
+$(SIGNATURES)
+"""
+function typelist(lns, reader::Type{StringReader})
     typelist = []
     for (i,ln) in enumerate(lns)
         cols = split(ln, "||")
@@ -48,15 +54,19 @@ function typelist(f)
 end
 
 
-
-
-
-"""Read source file `f` and compute occurrences of pos*itype.
+"""Read morphological data file `f` and compute occurrences of pos*itype.
 $(SIGNATURES)
 """
 function pos_itype_counts(f)
     lns = readlines(f)
+    pos_itype_counts(lns, StringReader)
+end
 
+"""Compute occurrences of pos*itype in `lns`,
+a Vector of morphological data lines.
+$(SIGNATURES)
+"""
+function pos_itype_counts(lns, reader::Type{StringReader})
     pairlist = []
     for ln in lns
         cols = split(ln,"|")
@@ -70,16 +80,7 @@ function pos_itype_counts(f)
     end
     sorted = sort(counts, by = pr -> pr[1])
 
-    tab = map(pr -> string(pr[1], "|", pr[2]), sorted)
+    #tab = map(pr -> string(pr[1], "|", pr[2]), sorted)
     byfreq = sort(counts, by = pr -> pr[2], rev = true)
     freqtab = map(pr -> string(pr[1], "|", pr[2]), byfreq)
 end
-
-#=
-open(target, "w") do io
-        write(io,join(tab,"\n"))
-    end
-
-
-    
-=#

@@ -10,7 +10,7 @@ Pkg.activate(repo)
 Pkg.resolve()
 Pkg.instantiate()
 
-morphinfo = survey(f)
+morphinfo = extractmorph(f)
 open(target, "w") do io
     write(io, join(morphinfo,"\n"))
 end

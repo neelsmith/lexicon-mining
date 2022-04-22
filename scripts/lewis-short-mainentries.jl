@@ -1,8 +1,8 @@
-# Read src.cex, and format mainentries.cex
+# Read source, and format morphological data file
 # for Lewis-Short data in this repository
 #
 # Run from root of repository:
-f = joinpath(pwd(), "cex", "lewis-short", "src.cex")
+f = joinpath(pwd(), "source-data", "lewis-short", "src.cex")
 target = joinpath(pwd(),"cex", "lewis-short", "mainentries.cex")
 
 repo = pwd()
