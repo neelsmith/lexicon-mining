@@ -1,5 +1,5 @@
 #freader::Type{FileReader}
-function extractmorph(f, reader::Type{StringReader}; header = true)
+function extractmorph(lns, reader::Type{StringReader}; header = true)
     morphinfo = header ? ["id|label|lemma|pos|itype|gen|mood"] : [] #tns
     for (i,ln) in enumerate(lns)
         @info("$(i) / $(length(lns))")

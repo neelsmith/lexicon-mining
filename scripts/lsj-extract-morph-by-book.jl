@@ -7,7 +7,7 @@ using Pkg
 Pkg.activate(repo)
 Pkg.resolve()
 Pkg.instantiate()
-
+using LexiconMining
 
 function extractbook(n)
     f = joinpath(pwd(), "cex", "lsj", "mainentries", "lsj_main_$(n).cex")
@@ -17,4 +17,9 @@ function extractbook(n)
     open(target, "w") do io
         write(io, join(morphinfo,"\n"))
     end
+end
+
+for arg in ARGS
+    println("Extracting for file $(arg):")
+    extractbook(arg)
 end

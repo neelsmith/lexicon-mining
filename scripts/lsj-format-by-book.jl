@@ -22,6 +22,6 @@ function formatbook(n)
     end
 end
 
-for i in 9:27
+for i in 1:27
     formatbook(i)
 end
