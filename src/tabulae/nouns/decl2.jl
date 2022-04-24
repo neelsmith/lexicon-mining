@@ -20,13 +20,13 @@ function format_itype_i(datum::MorphData)
         # "os", "us" are acceptable 2nd-declension masculine endings:
         if endswith(datum.label, "us")
             stemurn = "lsnouns.$(datum.id)"
-            lexurn = "ls.$(datum.id)"
+            lexurn = "lsx.$(datum.id)"
             stem = replace(datum.label, r"us$" => "")
             inflclass = "us_i"
             join([stemurn, lexurn, stem, gndr, inflclass], "|")
         elseif endswith(datum.label, "os")
             stemurn = "lsnouns.$(datum.id)"
-            lexurn = "ls.$(datum.id)"
+            lexurn = "lsx.$(datum.id)"
             stem = replace(datum.label, r"os$" => "")
             inflclass = "os_i"
             join([stemurn, lexurn, stem, gndr, inflclass], "|")
@@ -40,13 +40,13 @@ function format_itype_i(datum::MorphData)
         # "os", "us" are acceptable 2nd-declension feminine endings:
         if endswith(datum.label, "us")
             stemurn = "lsnouns.$(datum.id)"
-            lexurn = "ls.$(datum.id)"
+            lexurn = "lsx.$(datum.id)"
             stem = replace(datum.label, r"us$" => "")
             inflclass = "us_i"
             join([stemurn, lexurn, stem, gndr, inflclass], "|")
         elseif endswith(datum.label, "os")
             stemurn = "lsnouns.$(datum.id)"
-            lexurn = "ls.$(datum.id)"
+            lexurn = "lsx.$(datum.id)"
             stem = replace(datum.label, r"os$" => "")
             inflclass = "os_i"
             join([stemurn, lexurn, stem, gndr, inflclass], "|")
@@ -60,14 +60,14 @@ function format_itype_i(datum::MorphData)
         # "um", "on" are acceptable 2nd-declension neuter endings:
         if endswith(datum.label, "um")
             stemurn = "lsnouns.$(datum.id)"
-            lexurn = "ls.$(datum.id)"
+            lexurn = "lsx.$(datum.id)"
             stem = replace(datum.label, r"um$" => "")
             inflclass = "us_i"
             join([stemurn, lexurn, stem, gndr, inflclass], "|")
 
         elseif endswith(datum.label, "on")
             stemurn = "lsnouns.$(datum.id)"
-            lexurn = "ls.$(datum.id)"
+            lexurn = "lsx.$(datum.id)"
             stem = replace(datum.label, r"on$" => "")
             inflclass = "on_i"
             join([stemurn, lexurn, stem, gndr, inflclass], "|")

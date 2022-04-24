@@ -15,6 +15,8 @@ include("tabulae/nouns.jl")
 include("tabulae/nouns/decl1.jl")
 include("tabulae/nouns/decl2.jl")
 
+include("tabulae/verbs.jl")
+
 export formatentries
 export typelist
 export pos_itype_counts
