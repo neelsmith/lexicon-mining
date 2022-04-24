@@ -1,15 +1,15 @@
 module LexiconMining
 using EzXML
 using SplitApplyCombine
-using PolytonicGreek
 using CitableBase
 
 using Documenter
 using DocStringExtensions
 
 
-include("src.jl")
 include("morphology.jl")
+include("src.jl")
+
 include("tabulae/tabulae.jl")
 include("tabulae/nouns.jl")
 include("tabulae/nouns/decl1.jl")
