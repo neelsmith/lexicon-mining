@@ -39,7 +39,7 @@ end
 
 function format_conj1(m::MorphData)
     id = m.id
-    "latcommon.verb$(id)|lsj$(id)|$(m.label[1:end-1])|conj1"
+    "latcommon.verb$(id)|ls.$(id)|$(m.label[1:end-1])|conj1"
 end
 #|Notes
 #latcommon.verbn2280|ls.n2280|am|conj1
