@@ -1,14 +1,13 @@
 name = "LexiconMining"
 uuid = "d7cc8c4b-a12f-4850-86db-026797cdfce2"
 authors = ["Neel Smith  <dnsmith.neel@gmail.com>"]
-version = "0.2.0"
+version = "0.2.1"
 
 [deps]
 CitableBase = "d6f014bd-995c-41bd-9893-703339864534"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 EzXML = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
-PolytonicGreek = "72b824a7-2b4a-40fa-944c-ac4f345dc63a"
 SplitApplyCombine = "03a91e81-4c3e-53e1-a0a4-9c0c8f19dd66"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
@@ -17,5 +16,4 @@ CitableBase = "10"
 DocStringExtensions = "0.8"
 Documenter = "0.27"
 EzXML = "1"
-PolytonicGreek = "0.14"
 SplitApplyCombine = "1"

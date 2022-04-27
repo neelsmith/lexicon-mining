@@ -1,7 +1,7 @@
-# Read 3-column source, and compose a Tabulae data set.
+# Read morphdata and compose tabulae data set.
 #
 # Run from root of repository:
-f = joinpath(pwd(), "source-data", "lewis-short", "src.cex")
+f = joinpath(pwd(), "cex", "lewis-short", "morphinfo.cex")
 destdir = joinpath(pwd(),"datasets", "lewis-short")
 
 repo = pwd()
@@ -11,4 +11,5 @@ Pkg.resolve()
 Pkg.instantiate()
 using LexiconMining
 
-tabulae(f, destdir)
+mdata = readlines(f) .|> morphData
+tabulae(mdata, destdir)
