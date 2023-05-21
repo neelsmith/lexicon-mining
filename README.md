@@ -7,4 +7,4 @@
 
 ### TBA
 
-Add note on relation of this package to `LSJMining`.
+Add note on relation of this package to `LSJMining`. 
