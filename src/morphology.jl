@@ -1,3 +1,16 @@
+"Morphological data to look for in TEI lexicon's `freeEntry` elements."
+struct MorphData
+    # id|label|lemma|pos|itype|gen|mood
+    id
+    label
+    lemma
+    pos
+    itype
+    gen
+    mood
+end
+
+
 #freader::Type{FileReader}
 function extractmorph(lns, reader::Type{StringReader}; header = true)
     morphinfo = header ? ["id|label|lemma|pos|itype|gen|mood"] : [] #tns
@@ -94,16 +107,7 @@ end
 end
 =#
 
-struct MorphData
-    # id|label|lemma|pos|itype|gen|mood
-    id
-    label
-    lemma
-    pos
-    itype
-    gen
-    mood
-end
+
 
 function morphData(s)
     cols = split(s, "|")

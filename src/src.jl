@@ -1,4 +1,4 @@
-"""Read source file `f` and format content for `mainentries.cex`
+"""Read XML source file `f` with one TEI `freeEntry` element per line, and format content with extracted ID and key.
 $(SIGNATURES)
 """
 function formatentries(f)
@@ -24,7 +24,7 @@ function formatentries(f)
 end
 
 
-"""Read source file `f` and determine list of unique values for `@type` attribute on entries.
+"""Read XML source file `f` and determine list of unique values for `@type` attribute on entries.
 $(SIGNATURES)
 """
 function typelist(f)
@@ -54,8 +54,6 @@ function typelist(lns, reader::Type{StringReader})
 end
 
 function pos_itype_counts(v::Vector{MorphData})
-    @info("Woohoo! Found it!")
-
     strs = map(md -> md.pos * "|" * md.itype,  v)
     grouped = group(strs)
     counts = []

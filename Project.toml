@@ -1,7 +1,7 @@
 name = "LexiconMining"
 uuid = "d7cc8c4b-a12f-4850-86db-026797cdfce2"
 authors = ["Neel Smith  <dnsmith.neel@gmail.com>"]
-version = "0.2.1"
+version = "0.2.2"
 
 [deps]
 CitableBase = "d6f014bd-995c-41bd-9893-703339864534"
@@ -13,7 +13,7 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]
 CitableBase = "10"
-DocStringExtensions = "0.8"
+DocStringExtensions = "0.9"
 Documenter = "0.27"
 EzXML = "1"
 SplitApplyCombine = "1"
