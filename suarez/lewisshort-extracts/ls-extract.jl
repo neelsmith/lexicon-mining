@@ -23,7 +23,7 @@ using JSON
 
 
 ## 1. Configure suarez
-mybearerkey = "sk-ff7e8eb3ed834982b52697c558a4db81"
+mybearerkey = ""
 
 """Submit a query to suarez and get reply body as a Dict parsed from JSON."""
 function querysuarez(s, bearerkey = mybearerkey)
