@@ -1,30 +1,30 @@
-dirlist = map(i -> string("tranche", i), collect(0:10))
+dirlist = map(i -> joinpath(pwd(), "suarez", "lewisshort-extracts", "extracted", string("tranche", i)), collect(0:10))
 
 good = 0
 badlist = []
 data = []
 for d in dirlist
-for f in readdir(d)
-    src = joinpath(d, f)
-    lns = readlines(src)
-    if isempty(lns)
-        @warn("Empty line from file $(f)")
-    elseif length(lns) > 1
-        @info("Multiple lines in $(src)")
-        push!(badlist, src)
-    else
-       
-        cols = split(lns[1], "|") 
-        if length(cols) == 5
-            good = good + 1
-            entry = (seq = cols[1], urn = cols[2], lemma =  cols[3], pos = cols[4], morphology = cols[5])
-            push!(data,entry)
+    for f in readdir(d)
+        src = joinpath(d, f)
+        lns = readlines(src)
+        if isempty(lns)
+            @warn("Empty line from file $(f)")
+        elseif length(lns) > 1
+            @info("Multiple lines in $(src)")
+            push!(badlist, src)
         else
-            @warn("$(length(cols)) columns in $(src)")
         
+            cols = split(lns[1], "|") 
+            if length(cols) == 5
+                good = good + 1
+                entry = (seq = cols[1], urn = cols[2], lemma =  cols[3], pos = cols[4], morphology = cols[5])
+                push!(data,entry)
+            else
+                @warn("$(length(cols)) columns in $(src)")
+            
+            end
         end
     end
-end
 end
 
 println("Total good records: $(good)")
