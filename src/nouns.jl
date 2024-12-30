@@ -174,7 +174,7 @@ function decl4class(noun::LSNoun)
 end
 
 function decl5class(noun::LSNoun)
-    if endswith(noun.gensg, "es") && endswith(noun.nomsg, "ei")
+    if endswith(noun.gensg, "ei") && endswith(noun.nomsg, "es")
         "es_ei"
        
     else
@@ -221,7 +221,7 @@ end
     √  "x_cis"    => 9
     √  "er_ri"    => 8
     √   "es_itis"  => 8
-      "es_ei"    => 7
+    √  "es_ei"    => 7
       "us_eris"  => 7
     √  "s_dis"    => 5
       "er_ris"   => 5
