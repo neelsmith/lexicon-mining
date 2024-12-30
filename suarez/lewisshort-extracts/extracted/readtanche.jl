@@ -1,7 +1,9 @@
 dirlist = map(i -> joinpath(pwd(), "suarez", "lewisshort-extracts", "extracted", string("tranche", i)), collect(0:10))
 
 
-
+"""Read CGPT output from a list of directories, and create
+named tuples. Return two vectors, one with good data, one with list of failures.
+"""
 function readdata(dirs)
     good = 0
     badlist = []
@@ -87,16 +89,30 @@ noundecls = map(n -> n.declension, nouns) |> countmap
 
 decl3 = filter(n -> n.declension == 3, nouns)
 
-map(decl3) do n
-    if length(n.gs) < 3
+
+decl3patterns = map(decl3) do n
+    if length(n.gs) < 4
         @warn("gen.s. too short! $(n.gs) for nom.s. $(n.ns) $(n.urn)")
         ""
     else
-        string("-", n.ns[end]," -", n.gs[end-2:end])
+        string("-", n.ns[end-1:end]," -", n.gs[end-3:end])
     end
 end
 
+decl3counts = decl3patterns |> countmap |> OrderedDict
+sort!(decl3counts, rev = true, byvalue = true)
 
+decl2 = filter(n -> n.declension == 2, nouns)
+decl2patterns = map(decl2) do n
+    if length(n.ns) < 3
+        @warn("nom.s. too short! nom.s. $(n.ns), $(n.gs)  for $(n.urn)")
+        ""
+    else
+        string("-", n.ns[end-1:end]," -", n.gs[end])
+    end
+end
+decl2counts = decl2patterns |> countmap |> OrderedDict
+sort!(decl2counts, rev = true, byvalue = true)
 
 verbdata = filter(tpl -> occursin("verb", tpl.pos), data)
 
