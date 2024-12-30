@@ -1,4 +1,8 @@
 module LexiconMining
+
+import Base: show
+import Base: ==
+
 using EzXML
 using SplitApplyCombine
 using CitableBase
