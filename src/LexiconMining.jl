@@ -3,6 +3,9 @@ using EzXML
 using SplitApplyCombine
 using CitableBase
 
+
+using Unicode
+
 using Documenter
 using DocStringExtensions
 
@@ -32,7 +35,10 @@ export tabulae
 
 
 include("suarez.jl")
+include("nouns.jl")
 export readdata
+export LSNoun, nouns
+export verbs
 
 
 end # module
