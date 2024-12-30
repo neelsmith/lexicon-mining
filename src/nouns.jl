@@ -6,11 +6,6 @@ struct LSNoun
     declension::Int
 end
 
-function show()
-
-endj
-
-
 
 """Override Base.show for LSNoun type.
 $(SIGNATURES)
@@ -64,7 +59,7 @@ end
 noun morphology in type-specific structure.
 $(SIGNATURES)
 """
-function SOREALLYnouns(datatuples)
+function nouns(datatuples)
     noundata = filter(tpl -> lowercase(strip(tpl.pos)) == "noun", datatuples)
     map(noundata) do tpl
         cols = split(tpl.morphology,",")
@@ -126,6 +121,69 @@ function decl2class(noun::LSNoun)
     end
 end
 
+
+function decl3class(noun::LSNoun)
+    
+    if endswith(noun.gensg, "onis") && endswith(noun.nomsg, "o")
+        "o_onis"
+    elseif endswith(noun.gensg, "inis") && endswith(noun.nomsg, "o")
+        "o_inis"
+    elseif endswith(noun.gensg, "inis") && endswith(noun.nomsg, "en")
+        "en_inis"
+    
+        
+    elseif endswith(noun.gensg, "dis") && endswith(noun.nomsg, "s")
+        "s_dis"
+    elseif endswith(noun.gensg, "itis") && endswith(noun.nomsg, "es")
+        "es_itis"
+    elseif endswith(noun.gensg, "tis") && endswith(noun.nomsg, "s")
+        "s_tis"
+    
+
+    elseif endswith(noun.gensg, "icis") && endswith(noun.nomsg, "ex")
+        "ex_icis"
+    elseif endswith(noun.gensg, "cis") && endswith(noun.nomsg, "x")
+        "x_cis"
+     elseif endswith(noun.gensg, "gis") && endswith(noun.nomsg, "x")
+        "x_gis"
+    
+    elseif endswith(noun.gensg, "eris") && endswith(noun.nomsg, "us")
+        "us_eris"
+    elseif endswith(noun.gensg, "oris") && endswith(noun.nomsg, "us")
+        "us_oris"
+    
+    elseif endswith(noun.gensg, "is") && endswith(noun.nomsg, "is")
+        "is_is"
+    
+    elseif endswith(noun.gensg, "is")
+        "0_is"
+    else 
+        @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
+        ""
+    end
+end
+
+function decl4class(noun::LSNoun)
+    if endswith(noun.gensg, "us") && endswith(noun.nomsg, "us")
+        "us_us"
+       
+    else
+        @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
+        ""
+    end
+end
+
+function decl5class(noun::LSNoun)
+    if endswith(noun.gensg, "es") && endswith(noun.nomsg, "ei")
+        "es_ei"
+       
+    else
+        @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
+        ""
+    end
+end
+
+
 function tabulaeclass(noun::LSNoun)
     if noun.declension == 1
         decl1class(noun)
@@ -134,13 +192,13 @@ function tabulaeclass(noun::LSNoun)
         decl2class(noun)
 
     elseif noun.declension == 3
-        ""
+        decl3class(noun)
 
     elseif noun.declension == 4
-        ""
+        decl4class(noun)
 
     elseif noun.declension == 5
-        ""
+        decl5class(noun)
 
 
     else
@@ -148,149 +206,6 @@ function tabulaeclass(noun::LSNoun)
         ""
     end
 end
-
-    #= Second declension:
-    else
-
-
-    elseif endswith(noun.gensg, "onis") && endswith(noun.nomsg, "o")
-        if noun.declension == 3
-            "o_onis"
-        else 
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-            ""
-        end
-
-
- 
-
-    elseif endswith(noun.gensg, "inis") && endswith(noun.nomsg, "o")
-        if noun.declension == 3
-            "o_inis"
-        else 
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-            ""
-        end
-
-
-
-
-
-    elseif endswith(noun.gensg, "inis") && endswith(noun.nomsg, "en")
-        if noun.declension == 3
-            "en_inis"
-        else 
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-            ""
-        end
-
-    elseif endswith(noun.gensg, "itis") && endswith(noun.nomsg, "es")
-        if noun.declension == 3
-            "es_itis"
-        else 
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-            ""
-        end
-
-    elseif endswith(noun.gensg, "tis") && endswith(noun.nomsg, "s")
-        if noun.declension == 3
-            "s_tis"
-        else 
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-            ""
-        end
-
-    elseif endswith(noun.gensg, "dis") && endswith(noun.nomsg, "s")
-        if noun.declension == 3
-            "s_dis"
-        else 
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-            ""
-        end   
-   
-        
-    elseif endswith(noun.gensg, "icis") && endswith(noun.nomsg, "ex")
-        if noun.declension == 3
-            "ex_icis"
-        else 
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-            ""
-        end 
-
-    elseif endswith(noun.gensg, "cis") && endswith(noun.nomsg, "x")
-        if noun.declension == 3
-            "x_cis"
-        else 
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-            ""
-        end        
-
-    elseif endswith(noun.gensg, "gis") && endswith(noun.nomsg, "x")
-        if noun.declension == 3
-            "x_gis"
-        else 
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-            ""
-        end
-
-        
-    elseif endswith(noun.gensg, "eris") && endswith(noun.nomsg, "us")
-        if noun.declension == 3
-            "us_eris"
-        else 
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-            ""
-        end
-
-    elseif endswith(noun.gensg, "oris") && endswith(noun.nomsg, "us")
-        if noun.declension == 3
-            "us_oris"
-        else 
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-            ""
-        end
-
-
-    elseif endswith(noun.gensg, "is") && endswith(noun.nomsg, "is")
-        if noun.declension == 3
-            "is_is"
-        else 
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-            ""
-        end
-
-    elseif endswith(noun.gensg, "is")
-        if noun.declension == 3
-            "0_is"
-        else 
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-            ""
-        end
-
-    # Fourth declension:
-    elseif endswith(noun.gensg, "us") && endswith(noun.nomsg, "us")
-        if noun.declension == 4
-            "us_us"
-        else 
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-            ""
-        end        
-
-    # Fifth declension:
-    elseif endswith(noun.gensg, "es") && endswith(noun.nomsg, "ei")
-        if noun.declension == 5
-            "es_ei"
-        else 
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-        ""
-        end 
-    else
-
-        ""
-    end
-
-end
-=#
 
 #=
     √ "us_i"     => 175
@@ -332,4 +247,4 @@ end
       "os_i"     => 1
       "0_is"     => 43      
         =#
-    end
+    
