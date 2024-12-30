@@ -32,8 +32,15 @@ end
 function label(a::LSAdjective)
     if a.tabulaeclass == "us_a_um"
         join([a.mnomsg, a.fnomsg, a.nnomsg], ", ")
+
+    elseif a.tabulaeclass == "is_e"
+        join([a.mnomsg, a.nnomsg], ", ")
+
+    elseif a.tabulaeclass == "ns_ntis"
+        join([a.mnomsg, a.mgensg], ", ")
+
     else
-        a.mnomsg
+        string(a.mnomsg, " of tabulae class ", a.tabulaeclass)
     end
 end
 
@@ -118,6 +125,9 @@ end
 
 
 function formadjective(id, cols)
+    col1 = Unicode.normalize(cols[1]; stripmark = true)
+    col2 = Unicode.normalize(cols[2]; stripmark = true)
+    col3 = Unicode.normalize(cols[3]; stripmark = true)
     if endswith(cols[1],"us") && 
         endswith(cols[2], "a") &&
         endswith(cols[3], "um")
@@ -128,7 +138,7 @@ function formadjective(id, cols)
             fnomsg = tidyfeminine(cols[2])
             fgensg = replace(fnomsg, r"a$" => "ae")
 
-            nnomsg = replace(mnomsg, r"s#" => "m")
+            nnomsg = replace(mnomsg, r"s$" => "m")
             ngensg = mgensg
 
             LSAdjective(id,
@@ -137,9 +147,9 @@ function formadjective(id, cols)
             nnomsg, ngensg,
             tabclass)
 
-    elseif  endswith(cols[1],"is") && 
-            endswith(cols[2], "is") &&
-            endswith(cols[3], "e")
+    elseif  endswith(col1,"is") && 
+            endswith(col2, "is") &&
+            endswith(col3, "e")
             tabclass = "is_e"
 
             mnomsg = tidymasculine(cols[1])
