@@ -40,6 +40,8 @@ export tabulae
 
 include("suarez.jl")
 include("nouns.jl")
+include("verbs.jl")
+
 export readdata
 export LSNoun, nouns
 export verbs

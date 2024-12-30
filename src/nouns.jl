@@ -70,7 +70,7 @@ function nouns(datatuples)
             ns = Unicode.normalize(strip(nsraw), stripmark = true)
             gs = Unicode.normalize(strip(gsraw), stripmark = true)
             gender = normalizegender(genderraw)
-            shortid = replace(tpl.urn, r"[^:]+:" => "")
+            shortid = trimid(tpl.urn)
     
             decl = if endswith(gs, "ae")
                 1
