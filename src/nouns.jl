@@ -36,6 +36,10 @@ function ==(n1::LSNoun, n2::LSNoun)
     n1.declension == n2.declension
 end
 
+
+"""Standardize string value for gender.
+$(SIGNATURES)
+"""
 function normalizegender(s)
     genderval = Unicode.normalize(strip(s), stripmark = true)
 
@@ -61,15 +65,15 @@ noun morphology in type-specific structure.
 $(SIGNATURES)
 """
 function nouns(datatuples)
-    noundata = filter(tpl -> lowercase(strip(tpl.pos)) == "noun", datatuples)
+    noundata = filter(tpl -> tpl.pos == "noun", datatuples)
     map(noundata) do tpl
         cols = split(tpl.morphology,",")
         if length(cols) > 2
             nsraw = cols[1]
             gsraw = cols[2]
             genderraw = cols[3]
-            ns = Unicode.normalize(strip(nsraw), stripmark = true)
-            gs = Unicode.normalize(strip(gsraw), stripmark = true)
+            ns = Unicode.normalize(nsraw, stripmark = true)
+            gs = Unicode.normalize(gsraw, stripmark = true)
             gender = normalizegender(genderraw)
             shortid = trimid(tpl.urn)
     

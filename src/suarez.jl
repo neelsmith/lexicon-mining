@@ -1,5 +1,4 @@
-"""Read CGPT output from a list of directories, and create
-named tuples. Return two vectors, one with good data, one with list of failures.
+"""Create named tuples structuring CGPT output written to files in a list of directories. Return two vectors, one with structured tuples, one with list of data that couldn't be parsed.
 """
 function readdata(dirs)
     good = 0
@@ -19,7 +18,8 @@ function readdata(dirs)
                 cols = split(lns[1], "|") 
                 if length(cols) == 5
                     good = good + 1
-                    entry = (seq = tidyvalue(cols[1]), urn = tidyvalue(cols[2]), lemma =  tidyvalue(cols[3]), pos = tidyvalue(cols[4]), morphology = tidyvalue(cols[5]))
+                    seqnum = parse(Int, tidyvalue(cols[1]))
+                    entry = (seq = seqnum, urn = tidyvalue(cols[2]), lemma =  tidyvalue(cols[3]), pos = tidyvalue(cols[4]), morphology = tidyvalue(cols[5]))
                     push!(data,entry)
                 else
                     @warn("$(length(cols)) columns in $(src)")
@@ -28,10 +28,14 @@ function readdata(dirs)
             end
         end
     end
-    (data, badlist)
+
+    (sort(data, by = x -> x.seq), badlist)
 end
 
 
+"""Normalize the string value for a data cell.
+$(SIGNATURES)
+"""
 function tidyvalue(s)
     lowercase(strip(s))
 end

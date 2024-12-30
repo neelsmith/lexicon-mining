@@ -13,38 +13,16 @@ using Unicode
 using Documenter
 using DocStringExtensions
 
-
-#include("morphology.jl")
-#include("src.jl")
-
-#include("tabulae/tabulae.jl")
-#include("tabulae/nouns.jl")
-#include("tabulae/nouns/decl1.jl")
-#include("tabulae/nouns/decl2.jl")
-
-#include("tabulae/verbs.jl")
-
-
-#=
-export formatentries
-export typelist
-export pos_itype_counts
-
-export extractmorph
-
-export MorphData, morphData
-
-export tabulae
-=#
-
-
 include("suarez.jl")
 include("nouns.jl")
+include("adjectives.jl")
 include("verbs.jl")
 
 export readdata
 export LSNoun, nouns
-export verbs
+export LSVerb, verbs
+
+export LSAdjective, adjectives
 
 
 end # module
