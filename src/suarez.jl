@@ -19,7 +19,7 @@ function readdata(dirs)
                 cols = split(lns[1], "|") 
                 if length(cols) == 5
                     good = good + 1
-                    entry = (seq = cols[1], urn = cols[2], lemma =  cols[3], pos = cols[4], morphology = cols[5])
+                    entry = (seq = tidyvalue(cols[1]), urn = tidyvalue(cols[2]), lemma =  tidyvalue(cols[3]), pos = tidyvalue(cols[4]), morphology = tidyvalue(cols[5]))
                     push!(data,entry)
                 else
                     @warn("$(length(cols)) columns in $(src)")
@@ -31,6 +31,10 @@ function readdata(dirs)
     (data, badlist)
 end
 
+
+function tidyvalue(s)
+    lowercase(strip(s))
+end
 
 """Trim a URN down to its object identifier.
 $(SIGNATURES)

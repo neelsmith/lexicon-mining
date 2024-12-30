@@ -1,3 +1,56 @@
+"""Morphological information from Lewis-Short for a noun."""
+struct LSVerb
+    lsid 
+    conjugation
+    pp1
+    pp2
+    pp3
+    pp4
+end
+
+
+"""Override Base.show for LSNoun type.
+$(SIGNATURES)
+"""
+function show(io::IO, v::LSVerb)
+    msg = [v.lsid, 
+            " ", 
+
+           v.pp1, 
+           " (",
+           
+            v.conjugation,
+            ") ",
+
+
+            
+            v.pp2,  
+            ", ", 
+            
+            v.pp3,  
+            ", ", 
+
+            v.pp4,  
+            
+    ]
+    print(io, join(msg))
+end
+
+"""Override Base.== for gerundive rule type.
+$(SIGNATURES)
+"""
+function ==(v1::LSVerb, v2::LSVerb)
+    v1.lsid == v2.lsid &&
+    v1.conjugation == v2.conjugation &&
+    v1.pp1 == v2.pp1 &&
+    v1.pp2  == v2.pp2 && 
+    v1.pp3 == v2.pp3
+    v1.pp4 == v2.pp4
+end
+
+
+
+
 function activeinfinitive(lemma, conj)
     if conj == 1
         replace(lemma, r"o$" => "are")
@@ -31,7 +84,6 @@ end
 
 
 function guessinfinitive(lemma, conj::Int)
-
     if endswith(lemma, "o")
         activeinfinitive(lemma, conj)
     elseif endswith(lemma,"or")
@@ -69,13 +121,6 @@ function structure4(cols)
         pp1 = replace(pp2, r"re$" => "o")
     end
 
-
-    
-    
-    
-
-    #@info("4 $(cols)")
-    
     if isempty(pp1)
         @warn("NO first pp")
     elseif isempty(pp2)
@@ -88,15 +133,15 @@ function structure4(cols)
         @warn("No fourth pp")
         
     end
-    #@info("Guess at: $(pp1)/$(pp2)/$(pp3)/$(pp4)")
+
     [conjugation, pp1, pp2, pp3, pp4]
 end
 
 function verbs(datatuples)
 
-    verbdata = filter(tpl -> occursin("verb", tpl.pos), datatuples)
+    verbdata = filter(tpl -> occursin("verb", tpl.pos) && ! occursin("dverb", tpl.pos), datatuples)
 
-    goodverbs = []
+    goodverbs = LSVerb[]
     badverbs = []
     
     for tpl in verbdata
@@ -106,13 +151,13 @@ function verbs(datatuples)
 
         if length(cols) == 5    
             (conjugation, pp1, pp2, pp3, pp4 ) = cleaner # Unicode.normalize.(cols, stripmark = true)
-            push!(goodverbs, (id = shortid, conjugation = conjugation, pp1 = pp1,pp2 = pp2, pp3 = pp3, pp4 = pp4))
-
+            #push!(goodverbs, (id = shortid, conjugation = conjugation, pp1 = pp1,pp2 = pp2, pp3 = pp3, pp4 = pp4))
+            push!(goodverbs, LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 ))
 
         elseif length(cols) == 4
             @info("4 for $(shortid): $(cleaner)")
             (conjugation, pp1, pp2, pp3, pp4 ) = structure4(cleaner)
-            push!(goodverbs, (id = shortid, conjugation = conjugation, pp1 = pp1,pp2 = pp2, pp3 = pp3, pp4 = pp4 ))
+            push!(goodverbs, LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 ))
 
 
 

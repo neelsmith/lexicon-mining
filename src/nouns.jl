@@ -1,3 +1,4 @@
+"""Morphological information from Lewis-Short for a noun."""
 struct LSNoun
     lsid
     nomsg
