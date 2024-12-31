@@ -4,7 +4,7 @@
 #
 # Run this from repository root to serve:
 #
-#   julia -e 'using LiveServer; serve(dir="docs/build")'julia -e 'using LiveServer; serve(dir="docs/build")' 
+#   julia -e 'using LiveServer; serve(dir="docs/build")'
 #
 using Pkg
 Pkg.activate(".")
@@ -17,15 +17,8 @@ using LexiconMining
 makedocs(
     sitename="LexiconMining.jl",
     pages = [
-        "User's guide" => Any[
+        "Home" => Any[
             "Overview" => "index.md",
-            "Data" => "data.md",
-            "Building source files" => "buildingsrc.md",
-            "Extracting morphological data" => "morphtables.md",
-            
-        ],
-        "Code APIs" => Any[
-            "Code APIs" => "api.md"
         ]
     ],
     )
