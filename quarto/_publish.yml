@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 328c3ba5-1837-4a4a-96ca-5bda1692d6cf
+      url: https://neelsmith.quarto.pub/lexiconmining

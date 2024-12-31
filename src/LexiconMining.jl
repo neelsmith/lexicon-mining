@@ -1,31 +1,33 @@
 module LexiconMining
+
+import Base: show
+import Base: ==
+
 using EzXML
 using SplitApplyCombine
 using CitableBase
 
+
+using Unicode
+
 using Documenter
 using DocStringExtensions
 
+include("suarez.jl")
+include("nouns.jl")
+include("adjectives.jl")
+include("verbs.jl")
 
-include("morphology.jl")
-include("src.jl")
+include("generatecex/nounscex.jl")
 
-include("tabulae/tabulae.jl")
-include("tabulae/nouns.jl")
-include("tabulae/nouns/decl1.jl")
-include("tabulae/nouns/decl2.jl")
 
-include("tabulae/verbs.jl")
+export readdata
+export LSNoun, nouns
+export LSVerb, verbs
+export LSAdjective, adjectives
 
-export formatentries
-export typelist
-export pos_itype_counts
 
-export extractmorph
+export tabulaecex
 
-export MorphData, morphData
-
-export tabulae
-# export kanones
 
 end # module
