@@ -48,3 +48,17 @@ function trimid(urnstring)
 end
 
 
+"""Find dataset for the orthography of a given string.
+$(SIGNATURES)
+"""
+function latindataset(s)
+    if occursin("j", s) 
+        "lat25"
+    elseif occursin("v", s) 
+        "lat24"
+    elseif occursin("i", s) || occursin("u", s)  
+        "lat23"
+    else
+        "latcommon"
+    end
+end 

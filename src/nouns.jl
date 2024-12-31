@@ -99,6 +99,10 @@ function nouns(datatuples)
     end    
 end
 
+
+"""Find Tabulae class for a first declension noun.
+$(SIGNATURES)
+"""
 function decl1class(noun::LSNoun)
     if endswith(noun.gensg, "ae") && endswith(noun.nomsg, "a")
             "a_ae"
@@ -110,7 +114,9 @@ function decl1class(noun::LSNoun)
     end
 end
 
-
+"""Find Tabulae class for a second declension noun.
+$(SIGNATURES)
+"""
 function decl2class(noun::LSNoun)
     if endswith(noun.gensg, "i") && 
         (endswith(noun.nomsg, "us") || endswith(noun.nomsg, "um"))
@@ -126,7 +132,9 @@ function decl2class(noun::LSNoun)
     end
 end
 
-
+"""Find Tabulae class for a third declension noun.
+$(SIGNATURES)
+"""
 function decl3class(noun::LSNoun)
     
     if endswith(noun.gensg, "onis") && endswith(noun.nomsg, "o")
@@ -168,6 +176,9 @@ function decl3class(noun::LSNoun)
     end
 end
 
+"""Find Tabulae class for a fourth declension noun.
+$(SIGNATURES)
+"""
 function decl4class(noun::LSNoun)
     if endswith(noun.gensg, "us") && endswith(noun.nomsg, "us")
         "us_us"
@@ -178,6 +189,9 @@ function decl4class(noun::LSNoun)
     end
 end
 
+"""Find Tabulae class for a fifth declension noun.
+$(SIGNATURES)
+"""
 function decl5class(noun::LSNoun)
     if endswith(noun.gensg, "ei") && endswith(noun.nomsg, "es")
         "es_ei"
@@ -188,7 +202,10 @@ function decl5class(noun::LSNoun)
     end
 end
 
-
+"""Find Tabulae class for a noun. 
+Returns empty string if no class found.
+$(SIGNATURES)
+"""
 function tabulaeclass(noun::LSNoun)
     if noun.declension == 1
         decl1class(noun)
@@ -250,6 +267,29 @@ end
       √ "ex_icis"  => 1
       ""         => 1
       "os_i"     => 1
-      "0_is"     => 43      
+      "0_is"     => 43   
+      
+      
+      """Morphological information from Lewis-Short for a noun."""
+struct LSNoun
+    lsid
+    nomsg
+    gensg
+    gender
+    declension::Int
+end
+StemUrn|LexicalEntity|Stem|Gender|InflClass
+latcommon.noun1626|ls.n1626|agricol|masculine|a_ae
+
         =#
     
+
+
+        
+"""Compose a Vector of delimited-text lines defining
+Tabulae stem(s) for a noun.
+$(SIGNATURES)    
+"""
+function tabulaecex(n::LSNoun)        
+
+end

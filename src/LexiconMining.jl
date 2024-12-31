@@ -21,8 +21,10 @@ include("verbs.jl")
 export readdata
 export LSNoun, nouns
 export LSVerb, verbs
-
 export LSAdjective, adjectives
+
+
+export tabulaecex
 
 
 end # module
