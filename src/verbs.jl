@@ -137,6 +137,9 @@ function structure4(cols)
     [conjugation, pp1, pp2, pp3, pp4]
 end
 
+"""Parse LSVerbs out of datatuples.
+$(SIGNATURES)
+"""
 function verbs(datatuples)
 
     verbdata = filter(tpl -> occursin("verb", tpl.pos) && ! occursin("dverb", tpl.pos), datatuples)
@@ -150,37 +153,19 @@ function verbs(datatuples)
         cleaner = Unicode.normalize.(cols, stripmark = true)
 
         if length(cols) == 5    
-            (conjugation, pp1, pp2, pp3, pp4 ) = cleaner # Unicode.normalize.(cols, stripmark = true)
-            #push!(goodverbs, (id = shortid, conjugation = conjugation, pp1 = pp1,pp2 = pp2, pp3 = pp3, pp4 = pp4))
+            (conjugation, pp1, pp2, pp3, pp4 ) = cleaner 
             push!(goodverbs, LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 ))
 
         elseif length(cols) == 4
-            @info("4 for $(shortid): $(cleaner)")
+            @info("4 columns for verb $(shortid): $(cleaner)")
             (conjugation, pp1, pp2, pp3, pp4 ) = structure4(cleaner)
             push!(goodverbs, LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 ))
-
-
 
         else
             push!(badverbs, tpl)
         end
     end
-    
 
-
-    #filter(verbdata) do tpl
-    #    cols = 
-    #    length(cols) != 5
-    #end
-
-#=
-    fivepieces = filter(verbdata) do tpl
-        cols = split(tpl.morphology,",")
-        length(cols) == 5
-    end
-     = 
-    end
-=#
     (goodverbs, badverbs)
 end
 

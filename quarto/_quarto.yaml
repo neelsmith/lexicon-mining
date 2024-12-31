@@ -1,0 +1,23 @@
+project:
+  type: website
+jupyter: julia-1.10  
+theme: spacelab
+execute:
+  freeze: auto
+date: last-modified  
+margin-header: "Package version: `0.3.0`"
+
+format:
+  html: 
+    toc: true
+
+
+website:
+  
+  title: "lexiconmining"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd

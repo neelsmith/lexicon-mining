@@ -18,6 +18,9 @@ include("nouns.jl")
 include("adjectives.jl")
 include("verbs.jl")
 
+include("generatecex/nounscex.jl")
+
+
 export readdata
 export LSNoun, nouns
 export LSVerb, verbs

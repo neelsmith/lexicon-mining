@@ -1,4 +1,4 @@
-
+"""Structure of an adjective read from Lewis-Short."""
 struct LSAdjective
     lsid
     mnomsg
@@ -16,19 +16,13 @@ end
 $(SIGNATURES)
 """
 function show(io::IO, a::LSAdjective)
-    msg = [a.lsid, 
-            " ", 
-            label(a)
-            #", ", 
-            #n.gensg, 
-            #" (",
-            #n.declension,
-            #"), ", 
-            #n.gender
-    ]
-    print(io, join(msg))
+    msg = string(a.lsid, " ", label(a))
+    print(io, msg)
 end
 
+"""Compose a label for an `LSAdjective`.
+$(SIGNATURES)
+"""
 function label(a::LSAdjective)
     if a.tabulaeclass == "us_a_um"
         join([a.mnomsg, a.fnomsg, a.nnomsg], ", ")
@@ -44,7 +38,7 @@ function label(a::LSAdjective)
     end
 end
 
-"""Override Base.== for gerundive rule type.
+"""Override Base.== for LSAdjective type.
 $(SIGNATURES)
 """
 function ==(a1::LSAdjective, a2::LSAdjective)
@@ -55,6 +49,9 @@ function ==(a1::LSAdjective, a2::LSAdjective)
 end
 
 
+"""Remove extraneous parenthetic notes from masculine gender strings.
+$(SIGNATURES)
+"""
 function tidymasculine(adjstring)
     normed = Unicode.normalize(adjstring, stripmark = true)
     strip1 = replace(normed, "(m)" => "")
@@ -62,6 +59,9 @@ function tidymasculine(adjstring)
     replace(strip2, "(masc.)" => "")
 end
 
+"""Remove extraneous parenthetic notes from feminine gender strings.
+$(SIGNATURES)
+"""
 function tidyfeminine(adjstring)
     normed = Unicode.normalize(adjstring, stripmark = true)
     strip1 = replace(normed, "(f)" => "")
@@ -69,7 +69,9 @@ function tidyfeminine(adjstring)
     replace(strip2, "(fem.)" => "")
 end
 
-
+"""Remove extraneous parenthetic notes from neuter gender strings.
+$(SIGNATURES)
+"""
 function tidyneuter(adjstring)
     normed = Unicode.normalize(adjstring, stripmark = true)
     strip1 = replace(normed, "(n)" => "")
@@ -79,27 +81,19 @@ end
 
 
 
-"""Extract adjective entries from list of data tuples, and format 
+"""Extract adjective entries from a list of data tuples, and format 
 adjective morphology in type-specific structure.
 $(SIGNATURES)
 """
 function adjectives(datatuples)::Vector{LSAdjective}
     adjdata = filter(tpl -> tpl.pos == "adjective", datatuples)
-
-    goodadjs = []
-
+    
     #for adj in adjdata
     good = map(adjdata) do adj
         shortid = trimid(adj.urn)
-
-
         cols = strip.(split(adj.morphology, ","))        
         if length(cols) == 3
-            #m = tidymasculine(cols[1])
-            #f = tidyfeminine(cols[2])
-            #n = tidyneuter(cols[3])
             formadjective(shortid, cols)
-            #LSAdjective(shortid, m, f, n)
         end
     end
     filter(adj -> ! isnothing(adj), good)
@@ -107,24 +101,18 @@ end
 
 
 
-
+"""Find Tabulae class for an adjective.
+$(SIGNATURES)
+"""
 function tabulaeclass(adj::LSAdjective)
     adj.tabulaeclass
 end
-#=
-function tabulaeclass(adj::LSAdjective)
 
 
-
-    else
-        ""
-    end
-end
-=#
-
-
-
-function formadjective(id, cols)
+"""Form an adjective from an ID value and three columns of morphological data.
+$(SIGNATURES)
+"""
+function formadjective(id, cols)::LSAdjective
     col1 = Unicode.normalize(cols[1]; stripmark = true)
     col2 = Unicode.normalize(cols[2]; stripmark = true)
     col3 = Unicode.normalize(cols[3]; stripmark = true)

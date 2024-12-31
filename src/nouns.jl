@@ -221,17 +221,14 @@ function tabulaeclass(noun::LSNoun)
 
     elseif noun.declension == 5
         decl5class(noun)
-
-
     else
-
         ""
     end
 end
 
 #=
-    √ "us_i"     => 175
-    √  "a_ae"     => 127
+    √√ "us_i"     => 175
+    √√  "a_ae"     => 127
     √  "o_onis"   => 49
 
     √  "s_tis"    => 42
@@ -268,28 +265,27 @@ end
       ""         => 1
       "os_i"     => 1
       "0_is"     => 43   
-      
-      
-      """Morphological information from Lewis-Short for a noun."""
-struct LSNoun
-    lsid
-    nomsg
-    gensg
-    gender
-    declension::Int
-end
-StemUrn|LexicalEntity|Stem|Gender|InflClass
-latcommon.noun1626|ls.n1626|agricol|masculine|a_ae
-
-        =#
+=#
     
 
 
-        
-"""Compose a Vector of delimited-text lines defining
-Tabulae stem(s) for a noun.
-$(SIGNATURES)    
-"""
-function tabulaecex(n::LSNoun)        
+function latindataset(n::LSNoun)
+    if latindataset(n.nomsg) == "lat25" || 
+        latindataset(n.gensg) == "lat25"
+        "lat25"
 
+    elseif latindataset(n.nomsg) == "lat24" || 
+        latindataset(n.gensg) == "lat24"
+        "lat24"
+  
+    elseif latindataset(n.nomsg) == "lat23" || 
+        latindataset(n.gensg) == "lat23"        
+        "lat23"
+        
+    else
+        "latcommon"
+    end
 end
+
+
+
