@@ -1,5 +1,6 @@
 #=
-Extract morphological data from Lewis-Short.
+
+Use API to Holy Cross suarez AI to extract morphological data and short definitions from Lewis-Short.
 
 Three sections:
 
@@ -51,12 +52,10 @@ function querysuarez(s, bearerkey = mybearerkey)
 	end
 end
 
-
 """Extract message content from ChatGPT reply."""
 function messagebody(chatjson)	
 	chatjson["choices"][1]["message"]["content"] 
 end
-
 
 
 ### 2. Get Lewis-Short into Julia structure:
@@ -88,9 +87,7 @@ end
 
 
 
-
 # 3. Ask chatgpt about Lewis-Short articles
-
 preface = """I have a digital version of Lewis and Short's Latin Dictionary formatted in Markdown. I would like to extract morphological information and brief definitions from articles in the dictionary. Please extract from the article a head word (lemma), a short definition (only a few words or phrases please), and identify the part of speech.  Your reply should be a single line of delimited text without any Markdown formatting.
 
 If the article is only a crossreference to another article, please reply with the head word of the article and the second article it points to.
@@ -129,7 +126,6 @@ function writeanalysisfile(u, ls, outdir, bearerkey)
 		
 	end
 end
-
 
 """Extract morphjological data from a given range of Lewis-Short articles
 and write to delimited file."""
