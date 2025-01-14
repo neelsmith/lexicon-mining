@@ -8,18 +8,15 @@ Three sections:
 3. query a range of Lewis-Short and write results to files
 =#
 
-# Uncomment if you're not running in a preconfigured environment:
-#
+# Uncomment this section if you're not running in a preconfigured environment:
+#=
 using Pkg
 Pkg.add("HTTP")
 Pkg.add("JSON")
-#
-
+=#
 using Downloads
-
 using HTTP
 using JSON
-
 
 ## 1. Preonfigure suarez or supply when submitting query
 mybearerkey = ""
@@ -145,7 +142,6 @@ function extractrange(starti, endi, lexicon; outputroot = "extracted", bearerkey
 end
 
 ls  = getls()
-
 
 ## Extract data!
 outputdir = joinpath(pwd(), "scratch", "extracts")
