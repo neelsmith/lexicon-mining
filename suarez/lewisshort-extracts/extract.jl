@@ -140,6 +140,6 @@ end
 ls  = getls()
 
 ## Extract data!
-outputdir = joinpath(pwd(), "scratch", "extracts")
-extractrange(11001, 11002, ls; outputroot = outputdir, bearerkey = "")
+outputdir = joinpath(pwd(), "suarez", "lewisshort-extracts", "extracts-cycle2")
+extractrange(11000, 11999, ls; outputroot = outputdir, bearerkey = "")
 
