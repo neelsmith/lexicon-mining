@@ -5,7 +5,7 @@ engine: julia
 # Mining Lewis-Short's *Latin Dictionary*
 
 
-`LexiconMining.jl` is an unpublished Julia package to extract latent morphological data from a digital edition of Lewis-Short's *Latin Dictionary*, and format it for use with the Tabulae system for building Latin morphological parsers.
+`LexiconMining.jl` is an unpublished Julia package to extract latent morphological data and short definitions from a digital edition of Lewis-Short's *Latin Dictionary*, and format it for use with the Tabulae system for building Latin morphological parsers.
 
 In 2025, the `LexiconMining` package is being completely rewritten to use ChatGPT for the first round of data extraction. The process could be outlined as:
 
