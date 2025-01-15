@@ -141,5 +141,6 @@ ls  = getls()
 
 ## Extract data!
 outputdir = joinpath(pwd(), "suarez", "lewisshort-extracts", "extracts-cycle2")
-extractrange(13000, 50999, ls; outputroot = outputdir, bearerkey = "")
+isdir(outputdir)
+extractrange(30462, 30471, ls; outputroot = outputdir, bearerkey = "")
 
