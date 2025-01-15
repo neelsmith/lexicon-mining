@@ -23,3 +23,7 @@ website:
         file: index.qmd
       - text: "ChatGPT"        
         file: cgpt.qmd
+      - text: "Julia objects"        
+        file: objectmodel.qmd        
+      - text: "Tabulae"        
+        file: tabulae.qmd        

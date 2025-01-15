@@ -9,9 +9,10 @@ engine: julia
 
 With version `0.3`, the `LexiconMining` package is being completely rewritten to use ChatGPT for the first round of data extraction. The process can be outlined as:
 
-1. Use ChatGPT to extract morphological data from Christopher Blackwell's Markdown edition of Lewis-Short.
-2. Parse the ChatGPT output into a Julia object model for each morphological type ("part of speech").
-3. Create delimited-text representations of the data usable with [Tabulae](https://github.com/neelsmith/Tabulae.jl) 
+1. [Use ChatGPT](./cgpt.qmd) to extract morphological data from Christopher Blackwell's Markdown edition of Lewis-Short.
+2. [Parse the ChatGPT output](./objectmodel.qmd) into a Julia object model for each morphological type ("part of speech").
+3. [Create a morphological dataset](./tabulae.qmd) usable with Tabulae
+(See  [documentation for Tabulae](https://neelsmith.quarto.pub/tabulae/).)
 
 
 
