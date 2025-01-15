@@ -1,0 +1,8 @@
+---
+engine: julia
+---
+
+# Reference
+
+- the [prompt used to query ChatGPT](./prompt.qmd)
+- the [file format](./delimited.qmd) used to write results of ChatGPT queries

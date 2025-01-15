@@ -7,7 +7,7 @@ engine: julia
 ```{julia}
 #| echo: false
 #| output: false
-repo = pwd() |> dirname
+repo = pwd() |> dirname |> dirname
 ``` 
 
 

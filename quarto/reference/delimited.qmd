@@ -1,0 +1,19 @@
+---
+engine: julia
+---
+
+# File format for output of ChatGPT analysis
+
+Each article in Lewis-Short is represented by a one-line delimited-text file with six columns separated by the pipe character `|`. The six columns represent:
+
+1. a sequence number in Lewis-Short. This can be used to sort a selection of entries into the original alphabetic sequence of Lewis-Short.
+2. a Cite2Urn for the article.
+3. a dictionary headword, or lemma.
+4. a brief English definition.
+5. identification of the part of speech.
+6. morphological information.
+
+The format of the sixth column 
+Example of a verb:
+
+`32377|urn:cite2:hmt:ls.markdown:n32374|offĕro|to bring before; to present, offer; to show|verb (compound)|3, offĕro, obtŭli, oblātum`

@@ -1,0 +1,9 @@
+---
+engine: julia
+---
+
+# Cookbook
+
+Recipes to perform specific tasks:
+
+- [parse the output](./objectmodel.qmd) of ChatGPT's extracts from *Lewis-Short*

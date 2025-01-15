@@ -21,9 +21,34 @@ website:
     left:
       - text: "Home"
         file: index.qmd
-      - text: "ChatGPT"        
-        file: cgpt.qmd
-      - text: "Julia objects"        
-        file: objectmodel.qmd        
-      - text: "Tabulae"        
-        file: tabulae.qmd        
+      - text: "Concepts"
+        file: concepts/index.qmd         
+      - text: "Tutorials"
+        file: tutorials/index.qmd          
+      - text: "Recipes"
+        file: guides/index.qmd           
+      - text: "Reference"
+        file: reference/index.qmd 
+    right:   
+      - icon: github
+        href: https://github.com/neelsmith/LexiconMining.jl
+        aria-label: GitHub
+      - icon: person-circle
+        menu:
+          - text: "Neel Smith: digital scholarship"
+            href: https://neelsmith.quarto.pub
+        aria-label: "More of my work"
+  sidebar:
+    - title: "Concepts"
+      contents: 
+        - concepts/index.qmd
+        - concepts/cgpt.qmd    
+    - title: "Recipes"
+      contents: 
+        - guides/index.qmd  
+        - guides/objectmodel.qmd                  
+    - title: "Reference"
+      contents: 
+        - reference/index.qmd  
+        - reference/prompt.qmd         
+        - reference/delimited.qmd         
