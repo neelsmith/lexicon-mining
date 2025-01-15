@@ -9,15 +9,17 @@ function gaps(dir)
         # All good!
         []
     else
-        re = r"n([0-9]+).cex"
+        re = r"n([0-9]+)([a-z]*).cex"
         nummatches = match(re, cex[1])
-        
+        #@info("Matching $(cex[1]): $(nummatches)")
         currentcount = parse(Int, nummatches.captures[1])
         for f in cex[2:end]
             newmatches = match(re, f)
+            #@info("Matching $(f): $(newmatches)")
             newcount = parse(Int, newmatches.captures[1])
             #@debug("Compare $(currentcount) : $(newcount)")
-            if newcount == currentcount + 1
+            if newcount == currentcount ||
+                newcount == currentcount + 1
                 # All good!
             else
                 push!(mia, f)
