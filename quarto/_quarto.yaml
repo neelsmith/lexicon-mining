@@ -21,3 +21,5 @@ website:
     left:
       - text: "Home"
         file: index.qmd
+      - text: "ChatGPT"        
+        file: cgpt.qmd
