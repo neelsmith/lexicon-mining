@@ -6,3 +6,5 @@ engine: julia
 
 - Building corpus-specific parsers (TBA)
 - [Querying ChatGPT](./cgpt.qmd)
+- Building a Tabulae data set (TBA)
+- Tailoring a parser to a corpus
