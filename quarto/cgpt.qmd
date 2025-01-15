@@ -6,13 +6,21 @@ engine: julia
 
 ## Background
 
-Holy Cross (my home institution) is making a number of current LLMs available to faculty members through a custom system called suarez. The system includes an OpenWeb API which I use to query ChatGPT 4o about articles in Lewis Short.  Each query uses the same instructions followed by the Markdown text of one article.
-
-All of this is done in the script `suarez/extract.jl`.
+Holy Cross (my home institution) is making a number of current LLMs available to faculty members through a custom system called suarez. The system includes an OpenWeb API which I use to query ChatGPT 4o about articles in Lewis Short.  
 
 
 
-## The prompt
+## How it works
+
+To query ChatGPT without losing context, I submit an individual query for each article in Lewis-Short (more than 51,000 articles). Each query uses the same instructions followed by the Markdown text of the article.
+
+The reply gives me a single line in delimited -text format. I write each reply together with a URN identifying the Lewis-Short article to a one-line file. This effectively saves my work in progress, since one of the challenges of collecting the data is that over many hundreds or thousands of queries, time-out errors occur from time to time. To simplify managing tens of thousands of short files, I querying script writes them in subdirectories each containing  1000 articles.
+
+The querying is done in the script `suarez/extract.jl`. The script `suarez/findmissing.jl` examiunes an output directory of 1000 files and identifies any missing articles in the continuous sequence.
+
+## An example
+
+### The prompt
 
 The prompt is composed of these instructions
 followed by the Markdown text of an article from Lewis-Short:
@@ -26,18 +34,12 @@ followed by the Markdown text of an article from Lewis-Short:
 *The fourth column should be a comma-delimited list of information as follows: for nouns, nominative singular, genitive singular, gender; for verbs, conjugation number and principal parts; for adjectives, nominative singular of masculine, feminine and neuter; for prepositions, cases the preposition can be constructed with; for other parts of speech, the label "uninflected".*
 
 
-
-
-
-## Example
-
-
-
-Article from Lewis-Short:
+Here is an arbitrarily chosen article from Lewis-Short illustrating a number of challenges to interpret algorithmically:
 
 >   offĕro ( obf-), obtŭli, oblātum, v. a. ob-fero, `I` *to bring before; to present*, *offer; to show*, *exhibit* (class.; cf. obicio, ostendo). `I` In gen.: incommode illis fors obtulerat adventum meum, Ter. Hec. 3, 3, 10; cf.: opportune te obtulisti mihi obviam, id. Ad. 3, 2, 24; id. Hec. 5, 3, 10; Cic. Att. 3, 10, 2: strictamque aciem venientibus offert, **presents**, **opposes**, Verg. A. 6, 291 : speciem offerre, **to present a false appearance**, Cic. Div. 1, 37, 81.—In *pass.* : offerri, mid., *to show one's self*, *appear; to meet*, *encounter* : multis in difficillimis rebus praesens auxilium ejus (numinis) oblatum est, Cic. Verr. 2, 4, 49, § 108 : oblata religio est, **a religious scruple struck him**, id. Fam. 10, 12, 3 : metu oblato, id. ib. 15, 1, 5 : lex quaedam videbatur oblata, id. Phil. 1, 2, 4.— `II` In partic. `I.A` *To offer*, *expose; to bring forward*, *adduce* : ne offeramus nos periculis sine causā, Cic. Off. 1, 24, 83; so, se morti, Caes. B. G. 7, 77 : se ad mortem, Cic. Tusc. 1, 15, 32 : obtulimus nos ad prima pericula, Ov. M. 13, 42 : vitam in discrimen, Cic. Sest. 28, 61 : moram offerre alicui, Plaut. Poen. 4, 2, 30 : nam tu nunc vides pro tuo caro capite carum offerre me meum caput vilitati, id. Capt. 2, 2, 34 : sponte suā leto caput obvius optulit ipse, Lucr. 3, 1041; cf. Cic. Sull. 30, 84; id. Sest. 1, 1; Liv. 3, 1; 31, 50: criminibus oblatis, **brought forward**, **adduced**, Cic. Lael. 18, 65.— `I.B` *To offer*, *proffer; to bring*, *cause*, *occasion*, *confer*, *bestow; to inflict*, etc. (cf. promitto, recipio, infero): foedus, Verg. A. 12, 109 : in omnia ultro suam offerens operam, Liv. 40, 23 : di tibi semper omnia optata offerant, Ter. Ad. 5, 9, 21 : alicui optatissimum beneficium, Caes. B. G. 6, 42 : hoc tantum boni, quod vobis ab dis immortalibus oblatum et datum est, Cic. Imp. Pomp. 16, 49 : datum atque oblatum, Cic. Verr. 1, 1, 1; 2, 4, 49, § 103: ut nunc hac re mihi opem et auxilium offeras, *bring me aid and assistance*, *help me*, Lucil. ap. Non. 360, 25: laetitiam, **to procure**, Ter. Hec. 5, 3, 18 : alicui injuriam, id. ib. 5, 1, 14 : vitium virgini, id. ib. 3, 3, 23 : stuprum alicui, Cic. Phil. 2, 38, 99 : mortem alicui, id. Sest. 21, 48 : sibi molestiam atque aerumnam offerre, *to bring*, *procure*, *occasion*, Lucil. ap. Non. 360, 23: occasio ad occupandam Asiam oblata, Cic. Imp. Pomp. 2, 4: seque offert suscepturum, **offers**, Tac. A. 11, 33 : rusticus offerebat se intercessurum senatus consulto, id. ib. 16, 26 : oblatā facultate in castra sese receperunt, Caes. B. G. 1, 72.— `I.A.2` In eccl. Lat. *To offer to God*, *to consecrate*, *dedicate*, Prud. Cath. 5, 150; Vulg. Exod. 38, 24; 39, 32.— *To offer up*, *sacrifice*, Sulp. Sev. Dial. 2, 2: Domino, Vulg. Gen. 4, 3 : pro filio, id. ib. 22, 13 : ex scelere, id. Prov. 21, 27 : semet ipsum Deo, id. Heb. 9, 14 et saep.
 
 
-Structured result:
+Here is the contents of the output file:
 
 > `32377|urn:cite2:hmt:ls.markdown:n32374|offĕro|to bring before; to present, offer; to show|verb (compound)|3, offĕro, obtŭli, oblātum`
+
