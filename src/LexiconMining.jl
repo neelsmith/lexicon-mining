@@ -14,9 +14,14 @@ using Documenter
 using DocStringExtensions
 
 include("suarez.jl")
+include("tranchereader.jl")
+
+
 include("nouns.jl")
 include("adjectives.jl")
 include("verbs.jl")
+
+
 
 include("generatecex/nounscex.jl")
 
