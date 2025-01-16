@@ -85,18 +85,30 @@ end
 adjective morphology in type-specific structure.
 $(SIGNATURES)
 """
-function adjectives(datatuples)::Vector{LSAdjective}
+function adjectives(datatuples; includebad=false)#::Vector{LSAdjective}
     adjdata = filter(tpl -> tpl.pos == "adjective", datatuples)
     
-    #for adj in adjdata
-    good = map(adjdata) do adj
+    #
+    good = []
+    bad = []
+    #map(adjdata) do adj
+    for adj in adjdata
         shortid = trimid(adj.urn)
         cols = strip.(split(adj.morphology, ","))        
         if length(cols) == 3
-            formadjective(shortid, cols)
+            adjform = formadjective(shortid, cols)
+            if isnothing(adjform)
+                push!(bad, adj)
+            else
+                push!(good, adjform)
+            end        
         end
     end
-    filter(adj -> ! isnothing(adj), good)
+    if includebad
+        (good, bad)
+    else
+        good
+    end
 end
 
 
