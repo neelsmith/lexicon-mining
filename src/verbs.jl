@@ -140,7 +140,7 @@ end
 """Parse LSVerbs out of datatuples.
 $(SIGNATURES)
 """
-function verbs(datatuples)
+function verbs(datatuples; includebad = false)
 
     verbdata = filter(tpl -> occursin("verb", tpl.pos) && ! occursin("dverb", tpl.pos), datatuples)
 
@@ -165,7 +165,10 @@ function verbs(datatuples)
             push!(badverbs, tpl)
         end
     end
-
-    (goodverbs, badverbs)
+    if includebad
+        (goodverbs, badverbs)
+    else
+        goodverbs
+    end
 end
 

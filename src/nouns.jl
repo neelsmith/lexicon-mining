@@ -64,9 +64,12 @@ end
 noun morphology in type-specific structure.
 $(SIGNATURES)
 """
-function nouns(datatuples)
+function nouns(datatuples; includebad = false)
     noundata = filter(tpl -> tpl.pos == "noun", datatuples)
-    map(noundata) do tpl
+    good = []
+    bad = []
+
+    for tpl in noundata
         cols = split(tpl.morphology,",")
         if length(cols) > 2
             nsraw = cols[1]
@@ -90,13 +93,18 @@ function nouns(datatuples)
             else
                 0
             end
-            LSNoun(shortid, ns, gs, gender, decl)
+            push!(good, LSNoun(shortid, ns, gs, gender, decl))
         
         else
             @warn("$(tpl.urn): wrong number of columns for noun")
-            nothing
+            push!(bad, tpl)
         end
     end    
+    if includebad
+        (good, bad)
+    else
+        good
+    end
 end
 
 
