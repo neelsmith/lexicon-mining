@@ -15,6 +15,7 @@ SplitApplyCombine = "03a91e81-4c3e-53e1-a0a4-9c0c8f19dd66"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+WGLMakie = "276b4fcb-3e11-5398-bf8b-a0c2d153d008"
 
 [compat]
 CitableBase = "10"
@@ -27,3 +28,4 @@ OrderedCollections = "1.7.0"
 SplitApplyCombine = "1"
 StatsBase = "0.34.4"
 Unicode = "1.11.0"
+WGLMakie = "0.11.0"
