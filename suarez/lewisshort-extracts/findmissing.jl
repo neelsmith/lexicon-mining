@@ -1,3 +1,9 @@
+#=
+Simple-minded examination of file names to see if they are in numeric sequence.
+
+This will fail on tranche0 (and any directory where the numeric component of the file names does not have a consistent number of digits) since the alphabetic sort this script works through will result in sequences like 1, 10.., 2, 20..
+
+=#
 extractroot = joinpath(pwd(), "suarez", "lewisshort-extracts", "extracts-cycle2")
 
 
