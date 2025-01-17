@@ -83,7 +83,7 @@ lexical / good
 
 
 
-The information in these named can be quite useful by itself. Let's look at a couple of examples.
+The information in these named tuples can be quite useful by itself even before we integrate it into a Tabulae parser. Let's look at a couple of examples.
 
 ### Example 1: format a brief dictionary entry
 
@@ -93,7 +93,7 @@ We'll take an arbitrary sliver of 9 entries from the lexical data for this tutor
 sliver = lexicaldata[10002:10010]
 ```
 
-We can write a function to format the entry like a familiar glossary or vocabulary entry in a textbook. We'll compose a single string with some highlighting in Markdown to make the entry more easily readable.
+Here's a basic string formatting function to present the entry like a familiar glossary or vocabulary entry in a textbook. It composes a single string with some labels and light highlighting in Markdown to make the entry more easily readable.
 
 ```{julia}
 function markdown_gloss(tpl)
@@ -107,12 +107,13 @@ end
 ```
 
 
-We these our new function map each article to a single string for one glossary entry, then join the entries together, separating them with two newlines (`\n\n`).
+We can use our new function to map each article to a single string for one glossary entry, then join the entries together, separating them with two newlines (`\n\n`).
 ```{julia}
 glosses = map(tpl -> markdown_gloss(tpl), sliver)
 glosstext = "#### Sample glossary\n\n" * join(glosses, "\n\n")
 ```
-The result is a single string with our Markdown glossary. We can use `Markdown.parse` to get a visual rendering of the string.
+
+The result is a single string containing the Markdown glossary for our selection of entries. We can use `Markdown.parse` to get a visual rendering of the string.
 
 ```{julia}
 #| output: asis
@@ -126,17 +127,22 @@ Markdown.parse(glosstext)
 
 It would be interesting to know how ChatGPT has classified the part of speech for each article. Let's start by isolating part of speech values.
 
-
 ```{julia}
 posvalues = map(tpl -> tpl.pos, lexicaldata)
 ```
 
-The Julia `StatsBase` module will count occurrences of a value for us; if we convert the results to an ordered dictionary, we can sort the results.
-
+The Julia `StatsBase` module will count occurrences of a value for us; if we convert the results to an ordered dictionary, we can sort the results by frequency. Sorting in "reverse" order sorts from most frequent to least frequent value.
 
 
 ```{julia}
 using StatsBase, OrderedCollections
 poscounts = countmap(posvalues) |> OrderedDict
 sort!(poscounts; rev=true, byvalue=true)
+```
+
+Although a Latinist might first notice the outlier labels with only a handful of values (e.g., empty string, or `adv`), ChatGPT's classification is very useful, even before we regularize the exceptions: the top eight categories (from `noun` down to `pronoun` in the list above) cover 99% of the lexical entries in Lewis-Short.
+
+```{julia}
+top8 = collect(values(poscounts))[1:8]
+sum(top8) / lexical
 ```
