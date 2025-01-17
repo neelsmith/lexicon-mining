@@ -17,18 +17,20 @@ function noun_a_ae_cex(n::LSNoun; divider = "|")
     ds = latindataset(n)
     stemurn = string(ds, ".noun", n.lsid)
     lexentity = string("ls.", n.lsid)
-    stem = replace(n.gensg, r"ae$" => "")
+    stem1 = replace(n.gensg, r"ae$" => "")
+    stem = replace(stem1, "-" => "")  |> strip
     gender = n.gender
-    join([stemurn, lexentity, stem, gender], divider)
+    join([stemurn, lexentity, stem, gender, "a_ae"], divider)
 end
 
 
 
 function noun_us_i_cex(n::LSNoun; divider = "|")
     ds = latindataset(n)
-    stemurn = string(ds, ".noun", n.lsid)
+    stemurn = string(ds, ".noun", n.lsid) 
     lexentity = string("ls.", n.lsid)
-    stem = replace(n.gensg, r"i$" => "")
+    stem1 = replace(n.gensg, r"i$" => "")
+    stem = replace(stem1, "-" => "")  |> strip
     gender = n.gender
-    join([stemurn, lexentity, stem, gender], divider)
+    join([stemurn, lexentity, stem, gender,"us_i"], divider)
 end

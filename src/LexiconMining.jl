@@ -26,6 +26,8 @@ include("verbs.jl")
 include("generatecex/nounscex.jl")
 include("generatecex/cextables.jl")
 
+include("tabulae.jl")
+
 export readdata
 export LSNoun, nouns
 export LSVerb, verbs
@@ -34,6 +36,6 @@ export LSAdjective, adjectives
 
 export tabulaecex
 export cextable
-
+export tabulae
 
 end # module
