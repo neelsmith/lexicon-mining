@@ -1,0 +1,89 @@
+---
+engine: julia
+---
+
+# Read ChatGPT's summaries of Lewis-Short
+
+```{julia}
+#| echo: false
+#| output: false
+repo = pwd() |> dirname |> dirname
+```
+
+## Find ChatGPT's summaries in the github repository
+
+In the `LexiconMining.jl` github repository, the `summaries` directory has ChatGPT's summaries of Lewis-Short articles in subdirectories with slices of 1,000 entries named `tranche0` .. `tranche51`.
+
+We'll start by getting a list of full paths theses directories in your local file system. Define a variable named `repo` to point to the root directory of the `LexiconMining` repository, and collect file names:
+
+
+```{julia}
+summariesdir = joinpath(repo, "summaries")
+tranchenames = filter(readdir(summariesdir)) do dir
+    startswith(dir, "tranche")
+end
+tranchepaths = map(name -> joinpath(summariesdir, name), tranchenames)
+length(tranchepaths)
+```
+
+
+## Read summaries into a simple named tuple
+
+`LexiconMining` includes a `readdata` function that takes a list of directories, and reads all the summaries into named tuples. It returns two objects: the first is a vector of the named tuples for each successfully parsed record; the second is a list of the records it could not parse.
+
+```{julia}
+#| warning: false
+#| output: false
+using LexiconMining
+(data, errs) = readdata(tranchepaths)
+```
+
+
+How many Lewis-Short articles did ChatGPT summarize?
+```{julia}
+good = length(data)
+bad = length(errs)
+totalarticles = good + bad
+```
+
+
+Almost 99% of ChatGPT's summaries can be parsed into these tuples.
+
+```{julia}
+pct = good / totalarticles
+```
+
+## Working with the named tuples
+
+Each tuple has a number with the sequence of its article in Lewis-Short, a Cite2URN identifying the article, a dictionary headword (or *lemma*), a brief defintion, a part of speech, and morphological information that will vary in format depending on the part of speech.  Here's ChatGPT's summary the 100th entry in Lewis-Short:
+
+```{julia}
+data[100]
+```
+
+
+
+This information can be quite useful by itself. Let's look at a couple of examples.
+
+
+### Example 1: eliminating cross references
+
+Many articles in Lewis-Short are actually just cross references to other articles. This is helpful for a human reader, but we want to exclude these in building a morphological database.
+
+```{julia}
+lexicaldata = filter(data) do tpl
+    tpl.pos != "crossreference" &&
+    tpl.pos != "participle"
+end
+```
+
+
+
+
+### Example 1: format a brief dictionary entry
+
+
+```{julia}
+data[100:110]
+```
+(seq = 103, urn = "urn:cite2:hmt:ls.markdown:n102", lemma = "ab-jurgo", definition = "to deny or refuse reproachfully", pos = "verb (compound)", morphology = "1st, ab-jurgo, ab-jurgare, ab-jurgavi, ab-jurgatum")

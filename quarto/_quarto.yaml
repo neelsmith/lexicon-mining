@@ -5,7 +5,7 @@ theme: spacelab
 execute:
   freeze: auto
 date: last-modified  
-margin-header: "Package version: `0.3.0`"
+margin-header: "Package version: `0.4.0`"
 
 format:
   html: 
@@ -42,7 +42,11 @@ website:
     - title: "Concepts"
       contents: 
         - concepts/index.qmd
-        - concepts/cgpt.qmd    
+        - concepts/cgpt.qmd 
+    - title: "Tutorials"
+      contents: 
+        - tutorials/index.qmd           
+        - tutorials/readsummaries.qmd           
     - title: "Recipes"
       contents: 
         - guides/index.qmd  

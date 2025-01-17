@@ -13,11 +13,13 @@ engine: julia
 
 ## Data sets in the LexiconMining github repository
 
-ChatGPT's summaries of Lewis-Short:
+### ChatGPT's summaries of Lewis-Short
 
 - the unaltered replies are in the `suarez/lewisshort-extracts` subdirectory [here](https://github.com/neelsmith/LexiconMining.jl/tree/main/suarez/lewisshort-extracts)
 - the postprocessed content is in the `summaries` subdirectory [here](https://github.com/neelsmith/LexiconMining.jl/tree/main/summaries)
 
+
+### Tabulae datasets 
 
 Tabulae datasets generated from ChatGPT's summaries are in this github repository:
 

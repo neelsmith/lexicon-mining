@@ -14,7 +14,7 @@ using Documenter
 using DocStringExtensions
 
 include("suarez.jl")
-include("tranchereader.jl")
+#include("tranchereader.jl")
 
 
 include("nouns.jl")
