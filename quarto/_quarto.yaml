@@ -53,3 +53,4 @@ website:
         - reference/prompt.qmd         
         - reference/delimited.qmd         
         - reference/postprocessing.qmd
+        - reference/datasets.qmd
