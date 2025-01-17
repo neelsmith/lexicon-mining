@@ -14,7 +14,7 @@ repo = pwd() |> dirname |> dirname
 
 In the `LexiconMining.jl` github repository, the `summaries` directory has ChatGPT's summaries of Lewis-Short articles in subdirectories with slices of 1,000 entries named `tranche0` .. `tranche51`.
 
-We'll start by getting a list of full paths theses directories in your local file system. Define a variable named `repo` to point to the root directory of the `LexiconMining` repository, and collect file names:
+We'll start by getting a list of full paths to these directories in your local file system. Define a variable named `repo` to point to the root directory of the `LexiconMining` repository, and collect file names:
 
 
 ```{julia}
@@ -27,7 +27,7 @@ length(tranchepaths)
 ```
 
 
-## Read summaries into a simple named tuple
+## Read summaries into a named tuple
 
 `LexiconMining` includes a `readdata` function that takes a list of directories, and reads all the summaries into named tuples. It returns two objects: the first is a vector of the named tuples for each successfully parsed record; the second is a list of the records it could not parse.
 
@@ -47,7 +47,7 @@ totalarticles = good + bad
 ```
 
 
-Almost 99% of ChatGPT's summaries can be parsed into these tuples.
+Almost 99% of ChatGPT's summaries can be parsed into these tuples:
 
 ```{julia}
 pct = good / totalarticles
@@ -55,35 +55,88 @@ pct = good / totalarticles
 
 ## Working with the named tuples
 
-Each tuple has a number with the sequence of its article in Lewis-Short, a Cite2URN identifying the article, a dictionary headword (or *lemma*), a brief defintion, a part of speech, and morphological information that will vary in format depending on the part of speech.  Here's ChatGPT's summary the 100th entry in Lewis-Short:
+Each tuple has the following fields: a number with the sequence of its article in Lewis-Short (`seq`), a Cite2URN identifying the article (`urn`), a dictionary headword (or *lemma*, `lemma`), a brief definition (`definition`), a part of speech (`pos`), and morphological information that will vary in format depending on the part of speech (`morphology`).  Here is what ChatGPT's summary of the 100th entry in Lewis-Short looks like:
 
 ```{julia}
 data[100]
 ```
 
-
-
-This information can be quite useful by itself. Let's look at a couple of examples.
-
-
-### Example 1: eliminating cross references
+### Eliminating cross references
 
 Many articles in Lewis-Short are actually just cross references to other articles. This is helpful for a human reader, but we want to exclude these in building a morphological database.
+
+These duplicate references show up in two categories for part of speech in ChatGPT's summaries. Most obviously, some entries are identified with `crossreference`. Others are identified as `participle`: all such entries refer to the article for the verb the participle is derived from. We can eliminate both categories:
 
 ```{julia}
 lexicaldata = filter(data) do tpl
     tpl.pos != "crossreference" &&
     tpl.pos != "participle"
 end
+lexical = length(lexicaldata)
+```
+
+About 5% of the article in Lewis-Short are actually just cross references.
+
+```{julia}
+lexical / good
 ```
 
 
 
+The information in these named can be quite useful by itself. Let's look at a couple of examples.
 
 ### Example 1: format a brief dictionary entry
 
 
+We'll take an arbitrary sliver of 9 entries from the lexical data for this tutorial. Obviously, you could identify a meaningful selection from the data (most securely, by selecting entries based on the article's URN).
 ```{julia}
-data[100:110]
+sliver = lexicaldata[10002:10010]
 ```
-(seq = 103, urn = "urn:cite2:hmt:ls.markdown:n102", lemma = "ab-jurgo", definition = "to deny or refuse reproachfully", pos = "verb (compound)", morphology = "1st, ab-jurgo, ab-jurgare, ab-jurgavi, ab-jurgatum")
+
+We can write a function to format the entry like a familiar glossary or vocabulary entry in a textbook. We'll compose a single string with some highlighting in Markdown to make the entry more easily readable.
+
+```{julia}
+function markdown_gloss(tpl)
+    string(
+        "**", tpl.lemma, "**",
+        " *", tpl.definition, "*. ",
+        "Part of speech: *", tpl.pos, "*",
+        " Forms: **", tpl.morphology, "**"
+    )
+end
+```
+
+
+We these our new function map each article to a single string for one glossary entry, then join the entries together, separating them with two newlines (`\n\n`).
+```{julia}
+glosses = map(tpl -> markdown_gloss(tpl), sliver)
+glosstext = "#### Sample glossary\n\n" * join(glosses, "\n\n")
+```
+The result is a single string with our Markdown glossary. We can use `Markdown.parse` to get a visual rendering of the string.
+
+```{julia}
+#| output: asis
+using Markdown
+Markdown.parse(glosstext)
+```
+
+
+
+### Example 2: count distribution of articles by part of speech
+
+It would be interesting to know how ChatGPT has classified the part of speech for each article. Let's start by isolating part of speech values.
+
+
+```{julia}
+posvalues = map(tpl -> tpl.pos, lexicaldata)
+```
+
+The Julia `StatsBase` module will count occurrences of a value for us; if we convert the results to an ordered dictionary, we can sort the results.
+
+
+
+```{julia}
+using StatsBase, OrderedCollections
+poscounts = countmap(posvalues) |> OrderedDict
+sort!(poscounts; rev=true, byvalue=true)
+```
