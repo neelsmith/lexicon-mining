@@ -64,9 +64,9 @@ end
 noun morphology in type-specific structure.
 $(SIGNATURES)
 """
-function nouns(datatuples; includebad = false)
+function nouns(datatuples; includebad = false)::Union{Vector{LSNoun}, Tuple{Vector{Any}, Vector{Any}}}
     noundata = filter(tpl -> tpl.pos == "noun", datatuples)
-    good = []
+    good = LSNoun[]
     bad = []
 
     for tpl in noundata

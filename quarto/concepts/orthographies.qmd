@@ -1,0 +1,19 @@
+---
+engine: julia
+---
+
+# Orthographic systems and Latin parsers
+
+::: {.callout-caution title="Content TBA"}
+
+- Tabulae datasets require a specified orthography.
+- choose parser for a corpus: no guessing or defaulting!
+- Lewis-Short is in latin25
+- how do we generalize?
+- strategy: support 4 datasets to build 3 orthographies
+- can generate from that:
+    - common
+    - latin24
+    - latin23
+
+---

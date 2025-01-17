@@ -5,6 +5,7 @@ engine: julia
 # Concepts
 
 - Building corpus-specific parsers (TBA)
+- [Orthographic systems](./orthographies.qmd) and parsers
 - [Querying ChatGPT](./cgpt.qmd)
 - Building a Tabulae data set (TBA)
 - Tailoring a parser to a corpus

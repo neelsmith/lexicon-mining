@@ -1,0 +1,59 @@
+---
+engine: julia
+---
+
+# Build Tabulae datasets
+
+```{julia}
+#| echo: false
+#| output: false
+repo = pwd() |> dirname |> dirname
+summariesdir = joinpath(repo, "summaries")
+tranchenames = filter(readdir(summariesdir)) do dir
+    startswith(dir, "tranche")
+end
+tranchepaths = map(name -> joinpath(summariesdir, name), tranchenames)
+length(tranchepaths)
+```
+
+
+::: {.callout-caution title="Content TBA"}
+
+- orthographies. 
+:::
+
+
+## Start from named tuple data
+
+You can build Tabulae datasets from the named tuple reading of ChatGPT summaries of Lewis-Short articles. See [this tutorial](./readsummaries.qmd)
+```{julia}
+#| warning: false
+#| output: false
+using LexiconMining
+(data, errs) = readdata(tranchepaths)
+```
+
+## Extrapolate morphology
+
+- specific to each PoS 
+
+
+```{julia}
+#| warning: false
+lsnouns = nouns(data)
+```
+
+## Translate morphological objects to Tabulae tables
+
+```{julia}
+nounscex = cextable(lsnouns)
+```
+
+```{julia}
+#| warning: false
+nounscexlines = tabulaecex.(lsnouns)
+```
+
+We now have a bazillion lines of in tabulae format.
+
+Write to a single table
