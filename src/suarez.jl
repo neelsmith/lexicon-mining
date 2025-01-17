@@ -16,10 +16,11 @@ function readdata(dirs)
             else
             
                 cols = split(lns[1], "|") 
-                if length(cols) == 5
+                if length(cols) == 6
                     good = good + 1
-                    seqnum = parse(Int, tidyvalue(cols[1]))
-                    entry = (seq = seqnum, urn = tidyvalue(cols[2]), lemma =  tidyvalue(cols[3]), pos = tidyvalue(cols[4]), morphology = tidyvalue(cols[5]))
+                    (seq, urn, lemma, definition, pos, morphology) = cols
+                    seqnum = parse(Int, tidyvalue(seq))
+                    entry = (seq = seqnum, urn = tidyvalue(urn), lemma =  tidyvalue(lemma), definition = tidyvalue(definition), pos = tidyvalue(pos), morphology = tidyvalue(morphology))
                     push!(data,entry)
                 else
                     @warn("$(length(cols)) columns in $(src)")

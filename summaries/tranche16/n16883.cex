@@ -1,0 +1,18 @@
+16886|urn:cite2:hmt:ls.markdown:n16883|If you're asking for the extraction based on the guidelines you've specified, here’s what the output might look like for an example entry:
+
+**Example Input (Markdown formatted article):**  
+```
+# ager, agri, m.  
+1. A field, land, soil (in a literal sense).  
+
+# exim, v. exinde 
+```
+
+**Output (processed examples):**  
+For a regular entry:  
+`ager|a field, land|noun|ager, agri, m.`  
+
+For a cross-reference:  
+`exim|exinde`  
+
+Let me know if you have more Markdown examples or clarifications for processing systematically!

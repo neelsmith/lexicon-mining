@@ -1,0 +1,8 @@
+---
+engine: julia
+---
+
+# Tutorials
+
+- build a generic Latin parser in a specified orthography (TBA)
+- tailor a parser to a corpus (TBA)

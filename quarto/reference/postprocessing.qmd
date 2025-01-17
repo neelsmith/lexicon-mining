@@ -1,0 +1,81 @@
+---
+engine: julia
+---
+
+# Postprocessing raw extracts
+
+```{julia}
+#| echo: false
+#| output: false
+repo = pwd() |> dirname |> dirname
+trancheroot = joinpath(repo, "suarez", "lewisshort-extracts", "extracts-cycle2")
+```
+
+
+```{julia}
+#| warning: false
+using LexiconMining
+tranchedirs = filter(d -> startswith(d,"tranche"),readdir(trancheroot))
+tranchepaths = map(dir -> joinpath(trancheroot, dir), tranchedirs)
+(data,errs) = readdata(tranchepaths)
+```
+
+What percentage were parseable?
+
+```{julia}
+length(data) / (length(data) + length(errs))
+```
+## Cleaning up syntax
+
+- globally replace "`"
+
+## Normalizing values
+
+```{julia}
+posvalues = map(tpl -> tpl.pos, data)
+using StatsBase, OrderedCollections
+poscounts = sort(OrderedDict(countmap(posvalues)), byvalue=true, rev=true)
+```
+
+```{julia}
+println(join(collect(keys(poscounts)),"\n"))
+```
+
+### Unify various forms of terminology
+
+E.g., 
+"adv." -> "adverb"
+
+
+What percentage had immediately usable values for pos?
+
+```{julia}
+sum(collect(values(poscounts))[1:10]) / (length(data) + length(errs))
+```
+
+
+## Remove articles not referring to lexemes
+
+
+
+```{julia}
+
+lexical = filter(data) do tpl
+tpl.pos != "crossreference" &&
+tpl.pos != "participle"
+end
+lexposvalues = map(lex -> lex.pos, lexical)
+```
+
+```{julia}
+lexposcounts = sort(OrderedDict(countmap(lexposvalues)), byvalue=true, rev=true)
+```
+
+How many of these have good values?
+
+```{julia}
+
+lexcounts = collect(values(lexposcounts))
+
+sum(lexcounts[1:8]) / sum(lexcounts)
+```

@@ -1,6 +1,0 @@
-main
-spur
-hapax
-greek
-gloss
-foreign

@@ -1,0 +1,15 @@
+---
+engine: julia
+---
+
+# The prompt
+
+The prompt to ChatGPT is composed of the following instructions, followed by the Markdown text of a singe Lewis-Short article:
+
+*I have a digital version of Lewis and Short's Latin Dictionary formatted in Markdown. I would like to extract morphological information and brief definitions from articles in the dictionary. Please extract from the article a head word (lemma), a short definition (only a few words or phrases please), and identify the part of speech.  Your reply should be a single line of delimited text without any Markdown formatting.*
+
+*If the article is only a crossreference to another article, please reply with the head word of the article and the second article it points to.*
+
+*Otherwise, your reply should have four columns separated by a pipe character: head word, summary definition, part of speech and information specific to each part of speech. If the part of speech is a verb and the verb is a compound of a simplex form, please append the note "(compound)" to the part of speech.*
+
+*The fourth column should be a comma-delimited list of information as follows: for nouns, nominative singular, genitive singular, gender; for verbs, conjugation number and principal parts; for adjectives, nominative singular of masculine, feminine and neuter; for prepositions, cases the preposition can be constructed with; for other parts of speech, the label "uninflected".*
