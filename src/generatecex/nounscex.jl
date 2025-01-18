@@ -14,23 +14,37 @@ end
 
 
 function noun_a_ae_cex(n::LSNoun; divider = "|")
-    ds = latindataset(n)
-    stemurn = string(ds, ".noun", n.lsid)
     lexentity = string("ls.", n.lsid)
-    stem1 = replace(n.gensg, r"ae$" => "")
-    stem = replace(stem1, "-" => "")  |> strip
     gender = n.gender
-    join([stemurn, lexentity, stem, gender, "a_ae"], divider)
+
+    stem1 = replace(n.gensg, r"ae$" => "")
+    stem = suareznorm(stem1)
+    
+
+    if iscommon(stem)
+        [join(["latcommonnoun.$(n.lsid)", lexentity, stem, gender, "a_ae"], divider)]
+    else
+        l23 = join(["lat23noun.$(n.lsid)", lexentity, stem, gender, "a_ae"], divider)
+        l24 = join(["lat24noun.$(n.lsid)", lexentity, stem, gender, "a_ae"], divider)
+        l25 = join(["lat25noun.$(n.lsid)", lexentity, stem, gender, "a_ae"], divider)
+        [l23, l24, l25]
+    end
 end
 
 
-
 function noun_us_i_cex(n::LSNoun; divider = "|")
-    ds = latindataset(n)
-    stemurn = string(ds, ".noun", n.lsid) 
     lexentity = string("ls.", n.lsid)
-    stem1 = replace(n.gensg, r"i$" => "")
-    stem = replace(stem1, "-" => "")  |> strip
     gender = n.gender
-    join([stemurn, lexentity, stem, gender,"us_i"], divider)
+
+    stem1 = replace(n.gensg, r"i$" => "")
+    stem = suareznorm(stem1)
+
+    if iscommon(stem)
+        [join(["latcommonnoun.$(n.lsid)", lexentity, stem, gender, "us_i"], divider)]
+    else
+        l23 = join(["lat23noun.$(n.lsid)", lexentity, stem, gender, "us_i"], divider)
+        l24 = join(["lat24noun.$(n.lsid)", lexentity, stem, gender, "us_i"], divider)
+        l25 = join(["lat25noun.$(n.lsid)", lexentity, stem, gender, "us_i"], divider)
+        [l23, l24, l25]
+    end
 end

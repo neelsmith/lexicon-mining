@@ -34,7 +34,7 @@ export summarydirs, readdata
 export LSNoun, nouns
 export LSVerb, verbs
 export LSAdjective, adjectives
-export LSPreposition, prepositions
+export LSPreposition, prepositions # These are OK
 
 
 export tabulaecex

@@ -2,14 +2,17 @@
 """Create a Tabulae CEX table for a vector of nouns.
 $(SIGNATURES)
 """
-function cextable(nouns::Vector{LSNoun}; divider = "|")
-    cexlines = tabulaecex.(nouns; divider = divider)
+function cextable(nounslist::Vector{LSNoun}, ortho = "latcommon"; divider = "|")
     hdr = join(
         ["StemUrn", "LexicalEntity", "Stem", "Gender", "InflClass"], 
         divider)
+        
+    cexlines = tabulaecex.(nounslist; divider = divider) |> Iterators.flatten |> collect
+    
+    ortholines = filter(ln -> occursin(ortho, ln), cexlines)
     string(
         hdr,
         "\n",
-        join(cexlines, "\n")
+        join(ortholines, "\n")
     )
 end

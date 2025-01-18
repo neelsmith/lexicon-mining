@@ -33,41 +33,43 @@ function summarydirs(repo)
 end
 
 function tabulae(;divider = "|")
-    tabulae(pwd(), divider = divider)
+    tabulae(pwd(); divider = divider)
 end
 
-function tabulae(repo; divider = "|")
-    (data, errs) = summarydirs(repo) |> readdata
+function tabulae(repo::AbstractString; divider = "|")
+    data = lexicaldata(repo)
     datasetbase = joinpath(repo, "tabulae-datasets", "lewis-short")
 
     # Nouns:
-    nounscexlines = nouns(data) .|> tabulaecex
-    nounscommon = filter(ln -> occursin("latcommon", ln), nounscexlines)
-    nouns23 = filter(ln -> occursin("lat23", ln), nounscexlines)
-    nouns24 = filter(ln -> occursin("lat24", ln), nounscexlines)
-    nouns25 = filter(ln -> occursin("lat25", ln), nounscexlines)
+    nounlist = nouns(data)
 
-    nounheader = join(["StemUrn", "LexicalEntity","Stem","Gender","InflClass"], divider)
 
+    nounscommon = cextable(nounlist, "latcommon")
+    nouns23 = cextable(nounlist, "lat23")
+    nouns24 = cextable(nounlist, "lat24")
+    nouns25 = cextable(nounlist, "lat25")
+    
+    
     commonfile = joinpath(datasetbase, "common", "stems-tables", "nouns", "nouns.cex")
     open(commonfile,"w") do io
-        write(io, nounheader * "\n" * join(nounscommon,"\n"))
+        write(io, nounscommon)
     end
     lat23file = joinpath(datasetbase, "lat23", "stems-tables", "nouns", "nouns.cex")
     open(lat23file,"w") do io
-        write(io, nounheader * "\n" * join(nouns23,"\n"))
+        write(io, nouns23)
     end
     lat24file = joinpath(datasetbase, "lat24", "stems-tables", "nouns", "nouns.cex")
     open(lat24file,"w") do io
-        write(io, nounheader * "\n" * join(nouns24,"\n"))
+        write(io, nouns24)
     end
     lat25file = joinpath(datasetbase, "lat25", "stems-tables", "nouns", "nouns.cex")
     open(lat25file,"w") do io
-        write(io, nounheader * "\n" * join(nouns25,"\n"))
+        write(io, nouns25)
     end
 
 
-    # Uninflected:
+    # Uninflected: prepositions
+
 
 end
 

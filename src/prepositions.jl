@@ -58,7 +58,32 @@ Tabulae stem for a noun.
 $(SIGNATURES)    
 """
 function tabulaecex(prep::LSPreposition; divider = "|")        
-    #StemUrn|LexicalEntity|Stem|InflClass
-    join(["STEM","ls." * prep.lsid, suareznorm(prep.form), "preposition"], divider)
+   
+    if iscommon(prep.form)
+        [join(["latcommonprep.$(prep.lsid)","ls." * prep.lsid, suareznorm(prep.form), "preposition"], divider)]
+    else
+        l25 = join(["lat25prep.$(prep.lsid)","ls." * prep.lsid, suareznorm(prep.form), "preposition"], divider)
+        l24 = join(["lat24prep.$(prep.lsid)","ls." * prep.lsid, suareznorm(lat24(prep.form)), "preposition"], divider)
+        l23 = join(["lat23prep.$(prep.lsid)","ls." * prep.lsid, suareznorm(lat23(prep.form)), "preposition"], divider)
+        [l23, l24, l25]
+    end
 
+end
+
+
+"""Create a Tabulae CEX table for a vector of prepositions.
+$(SIGNATURES)
+"""
+function cextable(preps::Vector{LSPreposition}, ortho = "latcommon"; divider = "|")
+    hdr = join(
+        ["StemUrn", "LexicalEntity", "Stem", "InflClass"], 
+        divider)
+
+    cexlines = tabulaecex.(preps; divider = divider) |> Iterators.flatten |> collect
+    ortholines = filter(ln -> occursin(ortho, ln), cexlines)
+    string(
+        hdr,
+        "\n",
+        join(ortholines, "\n")
+    )
 end

@@ -277,23 +277,7 @@ end
     
 
 
-function latindataset(n::LSNoun)
-    if latindataset(n.nomsg) == "lat25" || 
-        latindataset(n.gensg) == "lat25"
-        "lat25"
 
-    elseif latindataset(n.nomsg) == "lat24" || 
-        latindataset(n.gensg) == "lat24"
-        "lat24"
-  
-    elseif latindataset(n.nomsg) == "lat23" || 
-        latindataset(n.gensg) == "lat23"        
-        "lat23"
-        
-    else
-        "latcommon"
-    end
-end
 
 
 
