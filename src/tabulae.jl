@@ -32,6 +32,62 @@ function summarydirs(repo)
     map(name -> joinpath(summariesdir, name), tranchenames)
 end
 
+
+function tabulaenouns(data, datasetdir; divider = "|")
+    nounlist = nouns(data)
+
+    nounscommon = cextable(nounlist, "latcommon")     
+    commonfile = joinpath(datasetdir, "common", "stems-tables", "nouns", "nouns.cex")
+    open(commonfile,"w") do io
+        write(io, nounscommon)
+    end
+
+    nouns23 = cextable(nounlist, "lat23")
+    lat23file = joinpath(datasetdir, "lat23", "stems-tables", "nouns", "nouns.cex")
+    open(lat23file,"w") do io
+        write(io, nouns23)
+    end
+
+    nouns24 = cextable(nounlist, "lat24")
+    lat24file = joinpath(datasetdir, "lat24", "stems-tables", "nouns", "nouns.cex")
+    open(lat24file,"w") do io
+        write(io, nouns24)
+    end
+
+    nouns25 = cextable(nounlist, "lat25")
+    lat25file = joinpath(datasetdir, "lat25", "stems-tables", "nouns", "nouns.cex")
+    open(lat25file,"w") do io
+        write(io, nouns25)
+    end
+end
+
+function tabulaeprepositions(data, datasetdir; divider = "|")
+    preplist = prepositions(data)
+    prepscommon = cextable(preplist, "latcommon")     
+    commonfile = joinpath(datasetdir, "common", "stems-tables", "uninflected", "prepositions.cex")
+    open(commonfile,"w") do io
+        write(io, prepscommon)
+    end
+
+    preps23 = cextable(preplist, "lat23")
+    lat23file = joinpath(datasetdir, "lat23", "stems-tables", "uninflected", "prepositions.cex")
+    open(lat23file,"w") do io
+        write(io, preps23)
+    end
+
+    preps24 = cextable(preplist, "lat24")
+    lat24file = joinpath(datasetdir, "lat24", "stems-tables", "uninflected", "prepositions.cex")
+    open(lat24file,"w") do io
+        write(io, preps24)
+    end
+
+    preps25 = cextable(preplist, "lat25")
+    lat25file = joinpath(datasetdir, "lat25", "stems-tables", "uninflected", "prepositions.cex")
+    open(lat25file,"w") do io
+        write(io, preps25)
+    end
+end
+
 function tabulae(;divider = "|")
     tabulae(pwd(); divider = divider)
 end
@@ -39,36 +95,12 @@ end
 function tabulae(repo::AbstractString; divider = "|")
     data = lexicaldata(repo)
     datasetbase = joinpath(repo, "tabulae-datasets", "lewis-short")
-
     # Nouns:
-    nounlist = nouns(data)
-
-
-    nounscommon = cextable(nounlist, "latcommon")
-    nouns23 = cextable(nounlist, "lat23")
-    nouns24 = cextable(nounlist, "lat24")
-    nouns25 = cextable(nounlist, "lat25")
-    
-    
-    commonfile = joinpath(datasetbase, "common", "stems-tables", "nouns", "nouns.cex")
-    open(commonfile,"w") do io
-        write(io, nounscommon)
-    end
-    lat23file = joinpath(datasetbase, "lat23", "stems-tables", "nouns", "nouns.cex")
-    open(lat23file,"w") do io
-        write(io, nouns23)
-    end
-    lat24file = joinpath(datasetbase, "lat24", "stems-tables", "nouns", "nouns.cex")
-    open(lat24file,"w") do io
-        write(io, nouns24)
-    end
-    lat25file = joinpath(datasetbase, "lat25", "stems-tables", "nouns", "nouns.cex")
-    open(lat25file,"w") do io
-        write(io, nouns25)
-    end
-
-
+    tabulaenouns(data, datasetbase; divider = divider)
     # Uninflected: prepositions
+    tabulaeprepositions(data, datasetbase; divider = divider)
+
+    
 
 
 end
