@@ -59,6 +59,6 @@ $(SIGNATURES)
 """
 function tabulaecex(prep::LSPreposition; divider = "|")        
     #StemUrn|LexicalEntity|Stem|InflClass
-    join(["STEM","ls." * prep.lsid, prep.form, "preposition"], divider)
+    join(["STEM","ls." * prep.lsid, suareznorm(prep.form), "preposition"], divider)
 
 end
