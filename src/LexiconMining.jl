@@ -20,6 +20,7 @@ include("suarez.jl")
 include("nouns.jl")
 include("adjectives.jl")
 include("verbs.jl")
+include("prepositions.jl")
 
 
 
@@ -33,6 +34,7 @@ export summarydirs, readdata
 export LSNoun, nouns
 export LSVerb, verbs
 export LSAdjective, adjectives
+export LSPreposition, prepositions
 
 
 export tabulaecex
