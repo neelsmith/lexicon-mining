@@ -88,6 +88,34 @@ function tabulaeprepositions(data, datasetdir; divider = "|")
     end
 end
 
+
+function tabulaeconjunctions(data, datasetdir; divider = "|")
+    conjlist = conjunctions(data)
+    common = cextable(conjlist, "latcommon")     
+    commonfile = joinpath(datasetdir, "common", "stems-tables", "uninflected", "conjunctions.cex")
+    open(commonfile,"w") do io
+        write(io, common)
+    end
+
+    conj23 = cextable(conjlist, "lat23")
+    lat23file = joinpath(datasetdir, "lat23", "stems-tables", "uninflected", "conjunctions.cex")
+    open(lat23file,"w") do io
+        write(io, conj23)
+    end
+
+    conj24 = cextable(conjlist, "lat24")
+    lat24file = joinpath(datasetdir, "lat24", "stems-tables", "uninflected", "conjunctions.cex")
+    open(lat24file,"w") do io
+        write(io, conj24)
+    end
+
+    conj25 = cextable(conjlist, "lat25")
+    lat25file = joinpath(datasetdir, "lat25", "stems-tables", "uninflected", "conjunctions.cex")
+    open(lat25file,"w") do io
+        write(io, conj25)
+    end
+end
+
 function tabulae(;divider = "|")
     tabulae(pwd(); divider = divider)
 end
@@ -99,8 +127,8 @@ function tabulae(repo::AbstractString; divider = "|")
     tabulaenouns(data, datasetbase; divider = divider)
     # Uninflected: prepositions
     tabulaeprepositions(data, datasetbase; divider = divider)
-
-    
+    # Uninflected: conjunctions
+    tabulaeconjunctions(data, datasetbase; divider = divider)
 
 
 end

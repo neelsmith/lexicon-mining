@@ -54,7 +54,7 @@ end
 
 
 """Compose a delimited-text line defining the
-Tabulae stem for a noun.
+Tabulae stem for a preposition.
 $(SIGNATURES)    
 """
 function tabulaecex(prep::LSPreposition; divider = "|")        
