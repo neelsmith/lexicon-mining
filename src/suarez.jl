@@ -48,7 +48,10 @@ function trimid(urnstring)
 end
 
 
-"""Find dataset for the orthography of a given string.
+"""Find dataset for the orthography of a given string in Lewis-Short.
+If a word belongs to lat25, then we can generate lat24 for it by changing j -> i,
+and lat23 by changing j -> i, and v -> u.
+If a word belongs to lat24, then we can generate lat 23 by changing v -> u.
 $(SIGNATURES)
 """
 function latindataset(s)
@@ -56,9 +59,23 @@ function latindataset(s)
         "lat25"
     elseif occursin("v", s) 
         "lat24"
-    elseif occursin("i", s) || occursin("u", s)  
-        "lat23"
     else
         "latcommon"
     end
-end 
+end
+
+
+"""Convert a string in Latin 25 orthography to Latin 24.
+$(SIGNATURES)
+"""
+function lat24(s)
+    replace(s, "j" => "i")
+end
+
+
+"""Convert a string in Latin 25 or Latin 24 orthography to Latin 23.
+$(SIGNATURES)
+"""
+function lat23(s)
+    replace(lat24(s), "v" => "u")    
+end
