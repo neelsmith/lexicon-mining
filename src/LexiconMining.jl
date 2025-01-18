@@ -28,7 +28,8 @@ include("generatecex/cextables.jl")
 
 include("tabulae.jl")
 
-export readdata
+export datatuples, lexicaldata
+export summarydirs, readdata
 export LSNoun, nouns
 export LSVerb, verbs
 export LSAdjective, adjectives

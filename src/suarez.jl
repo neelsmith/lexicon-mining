@@ -33,7 +33,6 @@ function readdata(dirs)
     (sort(data, by = x -> x.seq), badlist)
 end
 
-
 """Normalize the string value for a data cell.
 $(SIGNATURES)
 """

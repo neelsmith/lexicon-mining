@@ -1,11 +1,30 @@
-function summaryfiles()
-    summaryfiles(pwd())
+function lexicaldata(dir)
+    (data, errs) = datatuples(dir)
+    filter(data) do tpl
+        tpl.pos != "crossreference" &&
+        tpl.pos != "participle"
+    end
+end
+
+function lexicaldata()
+    lexicaldata(pwd())
+end
+function datatuples()
+    datatuples(pwd())
+end
+
+function datatuples(dir)
+    summarydirs(dir) |> readdata
+end
+
+function summarydirs()
+    summarydirs(pwd())
 end
 
 """Find file names in local file system for all files with ChatGPT summaries of Lewis-Short articles.
 $(SIGNATURES)
 """
-function summaryfiles(repo)
+function summarydirs(repo)
     summariesdir = joinpath(repo, "summaries")
     tranchenames = filter(readdir(summariesdir)) do dir
         startswith(dir, "tranche")
@@ -18,7 +37,7 @@ function tabulae(;divider = "|")
 end
 
 function tabulae(repo; divider = "|")
-    (data, errs) = summaryfiles(repo) |> readdata
+    (data, errs) = summarydirs(repo) |> readdata
     datasetbase = joinpath(repo, "tabulae-datasets", "lewis-short")
 
     # Nouns:
