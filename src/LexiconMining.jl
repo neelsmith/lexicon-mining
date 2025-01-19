@@ -22,6 +22,7 @@ include("adjectives.jl")
 include("verbs.jl")
 include("prepositions.jl")
 include("conjunctions.jl")
+include("adverbs.jl")
 
 
 include("generatecex/nounscex.jl")
@@ -35,7 +36,8 @@ export LSNoun, nouns
 export LSVerb, verbs
 export LSAdjective, adjectives
 export LSPreposition, prepositions # These are OK
-export LSConjunction, conjunctions
+export LSConjunction, conjunctions # These are OK
+export LSAdverb, adverbs
 
 
 export tabulaecex
