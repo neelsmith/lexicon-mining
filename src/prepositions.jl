@@ -57,14 +57,14 @@ end
 Tabulae stem for a preposition.
 $(SIGNATURES)    
 """
-function tabulaecex(prep::LSPreposition; divider = "|")        
+function cexline(prep::LSPreposition; divider = "|")        
    
     if iscommon(prep.form)
-        [join(["latcommonprep.$(prep.lsid)","ls." * prep.lsid, suareznorm(prep.form), "preposition"], divider)]
+        [join(["latcommonprep.$(prep.lsid)","lsx." * prep.lsid, suareznorm(prep.form), "preposition"], divider)]
     else
-        l25 = join(["lat25prep.$(prep.lsid)","ls." * prep.lsid, suareznorm(prep.form), "preposition"], divider)
-        l24 = join(["lat24prep.$(prep.lsid)","ls." * prep.lsid, suareznorm(lat24(prep.form)), "preposition"], divider)
-        l23 = join(["lat23prep.$(prep.lsid)","ls." * prep.lsid, suareznorm(lat23(prep.form)), "preposition"], divider)
+        l25 = join(["lat25prep.$(prep.lsid)","lsx." * prep.lsid, suareznorm(prep.form), "preposition"], divider)
+        l24 = join(["lat24prep.$(prep.lsid)","lsx." * prep.lsid, suareznorm(lat24(prep.form)), "preposition"], divider)
+        l23 = join(["lat23prep.$(prep.lsid)","lsx." * prep.lsid, suareznorm(lat23(prep.form)), "preposition"], divider)
         [l23, l24, l25]
     end
 
@@ -79,7 +79,7 @@ function cextable(preps::Vector{LSPreposition}, ortho = "latcommon"; divider = "
         ["StemUrn", "LexicalEntity", "Stem", "InflClass"], 
         divider)
 
-    cexlines = tabulaecex.(preps; divider = divider) |> Iterators.flatten |> collect
+    cexlines = cexline.(preps; divider = divider) |> Iterators.flatten |> collect
     ortholines = filter(ln -> occursin(ortho, ln), cexlines)
     string(
         hdr,

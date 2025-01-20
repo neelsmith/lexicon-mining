@@ -51,14 +51,14 @@ end
 Tabulae stem for a conjunction.
 $(SIGNATURES)    
 """
-function tabulaecex(conj::LSConjunction; divider = "|")        
+function cexline(conj::LSConjunction; divider = "|")        
    
     if iscommon(conj.form)
-        [join(["latcommonprep.$(conj.lsid)","ls." * conj.lsid, suareznorm(conj.form), "conjunction"], divider)]
+        [join(["latcommonprep.$(conj.lsid)","lsx." * conj.lsid, suareznorm(conj.form), "conjunction"], divider)]
     else
-        l25 = join(["lat25prep.$(conj.lsid)","ls." * conj.lsid, suareznorm(conj.form), "conjunction"], divider)
-        l24 = join(["lat24prep.$(conj.lsid)","ls." * conj.lsid, suareznorm(lat24(conj.form)), "conjunction"], divider)
-        l23 = join(["lat23prep.$(conj.lsid)","ls." * conj.lsid, suareznorm(lat23(conj.form)), "conjunction"], divider)
+        l25 = join(["lat25prep.$(conj.lsid)","lsx." * conj.lsid, suareznorm(conj.form), "conjunction"], divider)
+        l24 = join(["lat24prep.$(conj.lsid)","lsx." * conj.lsid, suareznorm(lat24(conj.form)), "conjunction"], divider)
+        l23 = join(["lat23prep.$(conj.lsid)","lsx." * conj.lsid, suareznorm(lat23(conj.form)), "conjunction"], divider)
         [l23, l24, l25]
     end
 
@@ -75,7 +75,7 @@ function cextable(conjs::Vector{LSConjunction}, ortho = "latcommon"; divider = "
         ["StemUrn", "LexicalEntity", "Stem", "InflClass"], 
         divider)
 
-    cexlines = tabulaecex.(conjs; divider = divider) |> Iterators.flatten |> collect
+    cexlines = cexline.(conjs; divider = divider) |> Iterators.flatten |> collect
     ortholines = filter(ln -> occursin(ortho, ln), cexlines)
     string(
         hdr,

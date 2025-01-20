@@ -89,7 +89,7 @@ function adjectives(datatuples; includebad=false)#::Vector{LSAdjective}
     adjdata = filter(tpl -> tpl.pos == "adjective", datatuples)
     
     #
-    good = []
+    good = LSAdjective[]
     bad = []
     #map(adjdata) do adj
     for adj in adjdata
@@ -284,3 +284,61 @@ x√  "er_ris_re"      => 1
   "er_ris"         => 1
   "s_tis"          => 1
 =#
+
+
+
+function us_a_um_cex(adj::LSAdjective; divider = "|")
+    #StemUrn|LexicalEntity|Stem|InflClass
+    lexentity = string("lsx.", adj.lsid)
+
+
+    stem = replace(adj.mnomsg, r"us$" => "") |> suareznorm
+    
+    if iscommon(stem)
+        [join(["latcommonnounadj.$(adj.lsid)", lexentity, stem, "a_ae"], divider)]
+    else
+        l23 = join(["lat23adj.$(adj.lsid)", lexentity, stem, "a_ae"], divider)
+        l24 = join(["lat24adj.$(adj.lsid)", lexentity, stem,  "a_ae"], divider)
+        l25 = join(["lat25adj.$(adj.lsid)", lexentity, stem,  "a_ae"], divider)
+        [l23, l24, l25]
+    end
+end
+
+function cexline(adj::LSAdjective; divider = "|")    
+    if tabulaeclass(adj) == "us_a_um"
+        us_a_um_cex(adj; divider = divider)
+    #elseif tabulaeclass(n) == "us_i"
+    #noun_us_i_cex(n; divider = divider)        
+    else
+        ""
+    end    
+
+#=
+lsid
+    mnomsg
+    mgensg
+    fnomsg
+    fgensg
+    nnomsg
+    ngensg
+    tabulaeclass
+    =#
+end
+
+
+
+
+function cextable(adjslist::Vector{LSAdjective}, ortho = "latcommon"; divider = "|")
+    hdr = join(
+        ["StemUrn", "LexicalEntity", "Stem", "InflClass"], 
+        divider)
+        
+    cexlines = cexline.(adjslist; divider = divider) |> Iterators.flatten |> collect
+    
+    ortholines = filter(ln -> occursin(ortho, ln), cexlines)
+    string(
+        hdr,
+        "\n",
+        join(ortholines, "\n")
+    )
+end

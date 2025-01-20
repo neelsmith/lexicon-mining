@@ -54,19 +54,19 @@ end
 Tabulae stem for an adverb.
 $(SIGNATURES)    
 """
-function tabulaecex(adv::LSAdverb; divider = "|")        
+function cexline(adv::LSAdverb; divider = "|")        
    #StemUrn|LexicalEntity|String|Degree
     @info("Write cex for $(adv)")
 
     if iscommon(adv.form)
         [join([
             "latcommonadv.$(adv.lsid)",
-            "ls." * adv.lsid, 
+            "lsx." * adv.lsid, 
             suareznorm(adv.form), "positive"], divider)]
     else
-        l25 = join(["lat25adv.$(adv.lsid)","ls." * adv.lsid, suareznorm(adv.form), "positive"], divider)
-        l24 = join(["lat24advp.$(adv.lsid)","ls." * adv.lsid, suareznorm(lat24(adv.form)), "positive"], divider)
-        l23 = join(["lat23adv.$(adv.lsid)","ls." * adv.lsid, suareznorm(lat23(adv.form)), "positive"], divider)
+        l25 = join(["lat25adv.$(adv.lsid)","lsx." * adv.lsid, suareznorm(adv.form), "positive"], divider)
+        l24 = join(["lat24advp.$(adv.lsid)","lsx." * adv.lsid, suareznorm(lat24(adv.form)), "positive"], divider)
+        l23 = join(["lat23adv.$(adv.lsid)","lsx." * adv.lsid, suareznorm(lat23(adv.form)), "positive"], divider)
         [l23, l24, l25]
     end
 
@@ -83,7 +83,7 @@ function cextable(conjs::Vector{LSConjunction}, ortho = "latcommon"; divider = "
         ["StemUrn", "LexicalEntity", "Stem", "InflClass"], 
         divider)
 
-    cexlines = tabulaecex.(conjs; divider = divider) |> Iterators.flatten |> collect
+    cexlines = cexline.(conjs; divider = divider) |> Iterators.flatten |> collect
     ortholines = filter(ln -> occursin(ortho, ln), cexlines)
     string(
         hdr,

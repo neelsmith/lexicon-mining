@@ -2,7 +2,7 @@
 Tabulae stem for a noun.
 $(SIGNATURES)    
 """
-function tabulaecex(n::LSNoun; divider = "|")        
+function cexline(n::LSNoun; divider = "|")        
     if tabulaeclass(n) == "a_ae"
         noun_a_ae_cex(n; divider = divider)
     elseif tabulaeclass(n) == "us_i"
@@ -14,7 +14,7 @@ end
 
 
 function noun_a_ae_cex(n::LSNoun; divider = "|")
-    lexentity = string("ls.", n.lsid)
+    lexentity = string("lsx.", n.lsid)
     gender = n.gender
 
     stem1 = replace(n.gensg, r"ae$" => "")
@@ -33,7 +33,7 @@ end
 
 
 function noun_us_i_cex(n::LSNoun; divider = "|")
-    lexentity = string("ls.", n.lsid)
+    lexentity = string("lsx.", n.lsid)
     gender = n.gender
 
     stem1 = replace(n.gensg, r"i$" => "")

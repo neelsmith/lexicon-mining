@@ -40,7 +40,7 @@ export LSConjunction, conjunctions # These are OK
 export LSAdverb, adverbs
 
 
-export tabulaecex
+export cexline
 export cextable
 export tabulae
 

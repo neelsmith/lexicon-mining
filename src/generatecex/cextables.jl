@@ -7,7 +7,7 @@ function cextable(nounslist::Vector{LSNoun}, ortho = "latcommon"; divider = "|")
         ["StemUrn", "LexicalEntity", "Stem", "Gender", "InflClass"], 
         divider)
         
-    cexlines = tabulaecex.(nounslist; divider = divider) |> Iterators.flatten |> collect
+    cexlines = cexline.(nounslist; divider = divider) |> Iterators.flatten |> collect
     
     ortholines = filter(ln -> occursin(ortho, ln), cexlines)
     string(
