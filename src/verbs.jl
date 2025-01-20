@@ -94,10 +94,14 @@ function guessinfinitive(lemma, conj::Int)
     end
 end
 
+
+"""Interpret verb entry with only 4 columns.
+$(SIGNATURES)
+"""
 function structure4(cols)
     conjugation = 0
     try 
-        conjugation = parse(Int, cols[1])
+        conjugation = parse(Int, strip(cols[1]))
     catch e
         @warn("Couldn't parse conjugation value $(cols[1])")
     end
@@ -153,12 +157,24 @@ function verbs(datatuples; includebad = false)
         cleaner = Unicode.normalize.(cols, stripmark = true)
 
         if length(cols) == 5    
-            (conjugation, pp1, pp2, pp3, pp4 ) = cleaner 
+            (conjugationraw, pp1, pp2, pp3, pp4 ) = cleaner 
+            conjugation = 0
+            try 
+                conjugation = parse(Int, strip(conjugationraw))
+            catch e
+                @warn("Couldn't parse conjugation value $(conjugationraw)")
+            end
             push!(goodverbs, LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 ))
 
         elseif length(cols) == 4
-            @info("4 columns for verb $(shortid): $(cleaner)")
+
+            #@info("4 columns for verb $(shortid): $(cleaner)")
             (conjugation, pp1, pp2, pp3, pp4 ) = structure4(cleaner)
+            if typeof(conjugation) <: Int
+                #ok
+            else
+                @warn("Got $(typeof(conjugation)) for $(conjugation)")
+            end
             push!(goodverbs, LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 ))
 
         else

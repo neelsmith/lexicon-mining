@@ -2,7 +2,8 @@ function lexicaldata(dir)
     (data, errs) = datatuples(dir)
     filter(data) do tpl
         tpl.pos != "crossreference" &&
-        tpl.pos != "participle"
+        tpl.pos != "participle" && 
+        ! occursin("false reading", tpl.definition)
     end
 end
 
