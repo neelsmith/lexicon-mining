@@ -36,7 +36,7 @@ function show(io::IO, v::LSVerb)
     print(io, join(msg))
 end
 
-"""Override Base.== for gerundive rule type.
+"""Override Base.== for LSVerb.
 $(SIGNATURES)
 """
 function ==(v1::LSVerb, v2::LSVerb)
@@ -188,3 +188,48 @@ function verbs(datatuples; includebad = false)
     end
 end
 
+
+"""Create CEX for a regular 1st-conjugation verb.
+$(SIGNATURES)
+"""
+function conj1_cex(verb; divider = "|")
+    #StemUrn|LexicalEntity|StemString|MorphologicalClass|Notes
+    lexentity = string("lsx.", verb.lsid)
+    stem = replace(verb.pp1, r"or?$" => "") |> suareznorm
+    conj = endswith(stem, "or") ? "conj1dep" : "conj1"
+    note = "Automatically generated"
+    if iscommon(stem)
+        
+        [join(["latcommonverb.$(verb.lsid)", lexentity, stem, conj, note], divider)]
+    else
+        l23 = join(["lat23verb.$(verb.lsid)", lexentity, stem, conj, note], divider)
+        l24 = join(["lat24verb.$(verb.lsid)", lexentity, stem,  conj, note], divider)
+        l25 = join(["lat25verb.$(verb.lsid)", lexentity, stem,  conj, note], divider)
+        [l23, l24, l25]
+    end
+end
+
+function cexline(verb::LSVerb; divider = "|")    
+    if verb.conjugation == 1
+        conj1_cex(verb; divider = divider)
+    else
+        ""
+    end
+end
+
+
+
+function cextable(verblist::Vector{LSVerb}, ortho = "latcommon"; divider = "|")
+    hdr = join(
+        ["StemUrn", "LexicalEntity", "Stem", "InflClass", "Notes"], 
+        divider)
+        
+    cexlines = cexline.(verblist; divider = divider) |> Iterators.flatten |> collect
+    
+    ortholines = filter(ln -> occursin(ortho, ln), cexlines)
+    string(
+        hdr,
+        "\n",
+        join(ortholines, "\n")
+    )
+end

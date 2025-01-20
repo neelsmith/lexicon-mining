@@ -148,6 +148,37 @@ function tabulaeadjectives(data, datasetdir; divider = "|")
 end
 
 
+
+
+
+function tabulaeverbs(data, datasetdir; divider = "|")
+    verblist = verbs(data)
+    common = cextable(verblist, "latcommon")     
+    commonfile = joinpath(datasetdir, "common", "stems-tables", "verbs-simplex", "verbs.cex")
+    open(commonfile,"w") do io
+        write(io, common)
+    end
+
+    conj23 = cextable(verblist, "lat23")
+    lat23file = joinpath(datasetdir, "lat23", "stems-tables", "verbs-simplex", "verbs.cex")
+    open(lat23file,"w") do io
+        write(io, conj23)
+    end
+
+    conj24 = cextable(verblist, "lat24")
+    lat24file = joinpath(datasetdir, "lat24", "stems-tables", "verbs-simplex", "verbs.cex")
+    open(lat24file,"w") do io
+        write(io, conj24)
+    end
+
+    conj25 = cextable(verblist, "lat25")
+    lat25file = joinpath(datasetdir, "lat25", "stems-tables", "verbs-simplex", "verbs.cex")
+    open(lat25file,"w") do io
+        write(io, conj25)
+    end
+end
+
+
 function tabulae(;divider = "|")
     tabulae(pwd(); divider = divider)
 end
@@ -163,6 +194,9 @@ function tabulae(repo::AbstractString; divider = "|")
     tabulaeconjunctions(data, datasetbase; divider = divider)
     # Adjectives
     tabulaeadjectives(data, datasetbase; divider = divider)
+    # Verbs
+    tabulaeverbs(data, datasetbase; divider = divider)
+
 end
 
 

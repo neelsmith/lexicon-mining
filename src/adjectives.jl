@@ -312,17 +312,6 @@ function cexline(adj::LSAdjective; divider = "|")
     else
         ""
     end    
-
-#=
-lsid
-    mnomsg
-    mgensg
-    fnomsg
-    fgensg
-    nnomsg
-    ngensg
-    tabulaeclass
-    =#
 end
 
 
