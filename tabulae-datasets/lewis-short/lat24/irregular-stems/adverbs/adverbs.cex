@@ -43,6 +43,7 @@ lat24advp.n13043|lsx.n13043|demonstrative|positive|irregularadverb
 lat24advp.n13227|lsx.n13227|depravate|positive|irregularadverb
 lat24advp.n13230|lsx.n13230|depravate|positive|irregularadverb
 lat24advp.n13635|lsx.n13635|devote|positive|irregularadverb
+lat24advp.n13952|lsx.n13952|diiunctim|positive|irregularadverb
 lat24advp.n14274|lsx.n14274|disiuncte|positive|irregularadverb
 lat24advp.n14275|lsx.n14275|disiunctim|positive|irregularadverb
 lat24advp.n14543|lsx.n14543|diverse|positive|irregularadverb
@@ -50,6 +51,7 @@ lat24advp.n14567|lsx.n14567|divine|positive|irregularadverb
 lat24advp.n14571|lsx.n14571|divinitus|positive|irregularadverb
 lat24advp.n14574|lsx.n14574|divise|positive|irregularadverb
 lat24advp.n14576|lsx.n14576|divisim|positive|irregularadverb
+lat24advp.n16537|lsx.n16537|exadversum|positive|irregularadverb
 lat24advp.n16561|lsx.n16561|exaltative|positive|irregularadverb
 lat24advp.n17839|lsx.n17839|favorabiliter|positive|irregularadverb
 lat24advp.n18011|lsx.n18011|ferventer|positive|irregularadverb
@@ -225,10 +227,12 @@ lat24advp.n50211|lsx.n50211|varicus|positive|irregularadverb
 lat24advp.n50212|lsx.n50212|varie|positive|irregularadverb
 lat24advp.n50244|lsx.n50244|vaste|positive|irregularadverb
 lat24advp.n50315|lsx.n50315|vehementer|positive|irregularadverb
+lat24advp.n50326|lsx.n50326|vel|positive|irregularadverb
 lat24advp.n50338|lsx.n50338|velato|positive|irregularadverb
 lat24advp.n50366|lsx.n50366|vellicatim|positive|irregularadverb
 lat24advp.n50374|lsx.n50374|velociter|positive|irregularadverb
-lat24advp.n50378|lsx.n50378|velut or veluti|positive|irregularadverb
+lat24advp.n50378|lsx.n50378|velut|positive|irregularadverb
+lat24advp.n50378|lsx.n50378|veluti|positive|irregularadverb
 lat24advp.n50424|lsx.n50424|venerabiliter|positive|irregularadverb
 lat24advp.n50427|lsx.n50427|veneranter|positive|irregularadverb
 lat24advp.n50458|lsx.n50458|ventose|positive|irregularadverb

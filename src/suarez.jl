@@ -9,24 +9,30 @@ function readdata(dirs)
             src = joinpath(d, f)
             lns = readlines(src)
             if isempty(lns)
-                @warn("Empty line from file $(f)")
-            elseif length(lns) > 1
-                @info("Multiple lines in $(src)")
-                push!(badlist, src)
-            else
-            
-                cols = split(lns[1], "|") 
+                @error("Empty line from file $(f)")
+            end
+            if length(lns) > 1
+                @warn("Multiple lines in $(src)")
+            end
+            for ln in lns
+                cols = split(ln, "|") 
                 if length(cols) == 6
                     good = good + 1
+
                     (seq, urn, lemma, definition, pos, morphology) = cols
                     seqnum = parse(Int, tidyvalue(seq))
+                    if seqnum == 50329
+                        @info("FOUND IT!")
+                    end
                     entry = (seq = seqnum, urn = tidyvalue(urn), lemma =  tidyvalue(lemma), definition = tidyvalue(definition), pos = tidyvalue(pos), morphology = tidyvalue(morphology))
                     push!(data,entry)
+                
                 else
                     @warn("$(length(cols)) columns in $(src)")
-                
                 end
+            
             end
+            
         end
     end
 
@@ -37,6 +43,7 @@ end
 $(SIGNATURES)
 """
 function tidyvalue(s)
+   # @info("TIDY $(s) $(typeof(s))")
     lowercase(strip(s))
 end
 
@@ -47,3 +54,46 @@ function trimid(urnstring)
     replace(urnstring, r"[^:]+:" => "")
 end
 
+#=
+function findmultiples(filelist)
+    good = 0
+    badlist = []
+    data = []
+
+    for f in filelist
+        lns = readlines(f)
+        @info("Reading $(f)")
+        @info("$(length(lns)) lines")
+        if isempty(lns)
+            @error("Empty line from file $(f)")
+        end
+        if length(lns) > 1
+            @warn("Multiple lines in $(f)")
+        end
+        for ln in lns
+                @info("Look at line $(ln)")
+                cols = split(ln, "|") 
+                if length(cols) == 6
+                    good = good + 1
+
+                    (seq, urn, lemma, definition, pos, morphology) = cols
+                    seqnum = parse(Int, tidyvalue(seq))
+                    @info("Got columns $(cols)")
+                    if seqnum == 50329
+                        @info("FOUND IT!")
+                    end
+                    entry = (seq = seqnum, urn = tidyvalue(urn), lemma =  tidyvalue(lemma), definition = tidyvalue(definition), pos = tidyvalue(pos), morphology = tidyvalue(morphology))
+                    push!(data,entry)
+                
+                else
+                    #@warn("$(length(cols)) columns in $(src)")
+                end
+            
+            end
+        end
+    
+    
+
+    (sort(data, by = x -> x.seq), badlist)
+end
+=#

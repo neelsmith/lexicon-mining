@@ -160,6 +160,7 @@ latcommonadv.n4618|lsx.n4618|austere|positive|irregularadverb
 latcommonadv.n4790|lsx.n4790|bacchatim|positive|irregularadverb
 latcommonadv.n4860|lsx.n4860|balbe|positive|irregularadverb
 latcommonadv.n4934|lsx.n4934|barbare|positive|irregularadverb
+latcommonadv.n4938|lsx.n4938|barbarice|positive|irregularadverb
 latcommonadv.n4979|lsx.n4979|barippe|positive|irregularadverb
 latcommonadv.n5009|lsx.n5009|basilice|positive|irregularadverb
 latcommonadv.n5081|lsx.n5081|beate|positive|irregularadverb
@@ -245,6 +246,7 @@ latcommonadv.n8417|lsx.n8417|citate|positive|irregularadverb
 latcommonadv.n8418|lsx.n8418|citatim|positive|irregularadverb
 latcommonadv.n8422|lsx.n8422|cite|positive|irregularadverb
 latcommonadv.n8426|lsx.n8426|citerius|positive|irregularadverb
+latcommonadv.n8437|lsx.n8437|citime|positive|irregularadverb
 latcommonadv.n8442|lsx.n8442|cito|positive|irregularadverb
 latcommonadv.n8445|lsx.n8445|citra|positive|irregularadverb
 latcommonadv.n8453|lsx.n8453|citro|positive|irregularadverb
@@ -393,6 +395,7 @@ latcommonadv.n12004|lsx.n12004|curiatim|positive|irregularadverb
 latcommonadv.n12016|lsx.n12016|curiose|positive|irregularadverb
 latcommonadv.n12035|lsx.n12035|cursim|positive|irregularadverb
 latcommonadv.n12065|lsx.n12065|cuspidatim|positive|irregularadverb
+latcommonadv.n12322|lsx.n12322|dapatice|positive|irregularadverb
 latcommonadv.n12333|lsx.n12333|dapsile|positive|irregularadverb
 latcommonadv.n12345|lsx.n12345|datatim|positive|irregularadverb
 latcommonadv.n12360|lsx.n12360|de|positive|irregularadverb
@@ -575,6 +578,7 @@ latcommonadv.n17208|lsx.n17208|exserte|positive|irregularadverb
 latcommonadv.n17293|lsx.n17293|exsultanter|positive|irregularadverb
 latcommonadv.n17318|lsx.n17318|extemplo|positive|irregularadverb
 latcommonadv.n17321|lsx.n17321|extemporaliter|positive|irregularadverb
+latcommonadv.n17322|lsx.n17322|extempulo|positive|irregularadverb
 latcommonadv.n17324|lsx.n17324|extense|positive|irregularadverb
 latcommonadv.n17330|lsx.n17330|extente|positive|irregularadverb
 latcommonadv.n17400|lsx.n17400|extrinsecus|positive|irregularadverb
@@ -599,6 +603,7 @@ latcommonadv.n17661|lsx.n17661|famose|positive|irregularadverb
 latcommonadv.n17667|lsx.n17667|famulanter|positive|irregularadverb
 latcommonadv.n17679|lsx.n17679|fanatice|positive|irregularadverb
 latcommonadv.n17727|lsx.n17727|fartim|positive|irregularadverb
+latcommonadv.n17734|lsx.n17734|fasceatim|positive|irregularadverb
 latcommonadv.n17737|lsx.n17737|fasciatim|positive|irregularadverb
 latcommonadv.n17757|lsx.n17757|fastidienter|positive|irregularadverb
 latcommonadv.n17758|lsx.n17758|fastidiliter|positive|irregularadverb
@@ -868,6 +873,7 @@ latcommonadv.n22491|lsx.n22491|incondite|positive|irregularadverb
 latcommonadv.n22500|lsx.n22500|incongrue|positive|irregularadverb
 latcommonadv.n22515|lsx.n22515|inconsiderate|positive|irregularadverb
 latcommonadv.n22529|lsx.n22529|inconsulte|positive|irregularadverb
+latcommonadv.n22540|lsx.n22540|incontanter|positive|irregularadverb
 latcommonadv.n22561|lsx.n22561|incoram|positive|irregularadverb
 latcommonadv.n22566|lsx.n22566|incorporaliter|positive|irregularadverb
 latcommonadv.n22574|lsx.n22574|incorrupte|positive|irregularadverb
@@ -883,6 +889,7 @@ latcommonadv.n22699|lsx.n22699|inde|positive|irregularadverb
 latcommonadv.n22708|lsx.n22708|indecorabiliter|positive|irregularadverb
 latcommonadv.n22709|lsx.n22709|indecore|positive|irregularadverb
 latcommonadv.n22717|lsx.n22717|indefense|positive|irregularadverb
+latcommonadv.n22719|lsx.n22719|indefesse|positive|irregularadverb
 latcommonadv.n22723|lsx.n22723|indefinite|positive|irregularadverb
 latcommonadv.n22733|lsx.n22733|indeliberanter|positive|irregularadverb
 latcommonadv.n22791|lsx.n22791|indidem|positive|irregularadverb
@@ -938,6 +945,7 @@ latcommonadv.n23560|lsx.n23560|innocue|positive|irregularadverb
 latcommonadv.n23571|lsx.n23571|innoxie|positive|irregularadverb
 latcommonadv.n23581|lsx.n23581|innumerabiliter|positive|irregularadverb
 latcommonadv.n23625|lsx.n23625|inoffense|positive|irregularadverb
+latcommonadv.n23642|lsx.n23642|inopinate|positive|irregularadverb
 latcommonadv.n23655|lsx.n23655|inordinaliter|positive|irregularadverb
 latcommonadv.n23656|lsx.n23656|inordinate and inordinatim|positive|irregularadverb
 latcommonadv.n23663|lsx.n23663|inornate|positive|irregularadverb
@@ -960,6 +968,7 @@ latcommonadv.n23847|lsx.n23847|insigniter|positive|irregularadverb
 latcommonadv.n23854|lsx.n23854|insimul|positive|irregularadverb
 latcommonadv.n23881|lsx.n23881|insolabiliter|positive|irregularadverb
 latcommonadv.n23889|lsx.n23889|insolite|positive|irregularadverb
+latcommonadv.n23925|lsx.n23925|insperate|positive|irregularadverb
 latcommonadv.n23935|lsx.n23935|inspirate|positive|irregularadverb
 latcommonadv.n23953|lsx.n23953|instanter|positive|irregularadverb
 latcommonadv.n23994|lsx.n23994|instrenue|positive|irregularadverb
@@ -1496,6 +1505,7 @@ latcommonadv.n37226|lsx.n37226|postidea|positive|irregularadverb
 latcommonadv.n37229|lsx.n37229|postilla|positive|irregularadverb
 latcommonadv.n37233|lsx.n37233|postmodo|positive|irregularadverb
 latcommonadv.n37234|lsx.n37234|postmodum|positive|irregularadverb
+latcommonadv.n37243|lsx.n37243|postremo|positive|irregularadverb
 latcommonadv.n37244|lsx.n37244|postridie|positive|irregularadverb
 latcommonadv.n37246|lsx.n37246|postriduo|positive|irregularadverb
 latcommonadv.n37284|lsx.n37284|potenter|positive|irregularadverb
@@ -1670,7 +1680,7 @@ latcommonadv.n40009|lsx.n40009|quantum|positive|irregularadverb
 latcommonadv.n40018|lsx.n40018|quapropter|positive|irregularadverb
 latcommonadv.n40019|lsx.n40019|quaqua|positive|irregularadverb
 latcommonadv.n40021|lsx.n40021|quaque|positive|irregularadverb
-latcommonadv.n40022|lsx.n40022|quare (or qua re)|positive|irregularadverb
+latcommonadv.n40022|lsx.n40022|quare|positive|irregularadverb
 latcommonadv.n40027|lsx.n40027|quartato|positive|irregularadverb
 latcommonadv.n40030|lsx.n40030|quarto|positive|irregularadverb
 latcommonadv.n40032|lsx.n40032|quartum|positive|irregularadverb
@@ -1681,6 +1691,7 @@ latcommonadv.n40063|lsx.n40063|quattuordeciens|positive|irregularadverb
 latcommonadv.n40073|lsx.n40073|quemadmodum|positive|irregularadverb
 latcommonadv.n40104|lsx.n40104|qui|positive|irregularadverb
 latcommonadv.n40114|lsx.n40114|quidem|positive|irregularadverb
+latcommonadv.n40116|lsx.n40116|quidni|positive|irregularadverb
 latcommonadv.n40126|lsx.n40126|quiete|positive|irregularadverb
 latcommonadv.n40143|lsx.n40143|quindecies|positive|irregularadverb
 latcommonadv.n40158|lsx.n40158|quingenties|positive|irregularadverb
@@ -1873,6 +1884,7 @@ latcommonadv.n44381|lsx.n44381|singillatim or singulatim|positive|irregularadver
 latcommonadv.n44382|lsx.n44382|singlariter|positive|irregularadverb
 latcommonadv.n44384|lsx.n44384|singularie|positive|irregularadverb
 latcommonadv.n44387|lsx.n44387|singulariter|positive|irregularadverb
+latcommonadv.n44389|lsx.n44389|singulatim|positive|irregularadverb
 latcommonadv.n44391|lsx.n44391|singultim|positive|irregularadverb
 latcommonadv.n44401|lsx.n44401|sinistre|positive|irregularadverb
 latcommonadv.n44402|lsx.n44402|sinistrorsus|positive|irregularadverb
@@ -1985,6 +1997,7 @@ latcommonadv.n47439|lsx.n47439|tamen|positive|irregularadverb
 latcommonadv.n47447|lsx.n47447|tammodo|positive|irregularadverb
 latcommonadv.n47450|lsx.n47450|tamquam|positive|irregularadverb
 latcommonadv.n47456|lsx.n47456|tandem|positive|irregularadverb
+latcommonadv.n47463|lsx.n47463|tanquam|positive|irregularadverb
 latcommonadv.n47467|lsx.n47467|tantisper|positive|irregularadverb
 latcommonadv.n47468|lsx.n47468|tantopere|positive|irregularadverb
 latcommonadv.n47470|lsx.n47470|tantum|positive|irregularadverb
@@ -2111,6 +2124,7 @@ latcommonadv.n49778|lsx.n49778|undequadragies or iens|positive|irregularadverb
 latcommonadv.n49795|lsx.n49795|undique|positive|irregularadverb
 latcommonadv.n49799|lsx.n49799|undose|positive|irregularadverb
 latcommonadv.n49826|lsx.n49826|unice|positive|irregularadverb
+latcommonadv.n49838|lsx.n49838|uniformiter|positive|irregularadverb
 latcommonadv.n49853|lsx.n49853|uniter|positive|irregularadverb
 latcommonadv.n49869|lsx.n49869|unose|positive|irregularadverb
 latcommonadv.n49870|lsx.n49870|unquam|positive|irregularadverb

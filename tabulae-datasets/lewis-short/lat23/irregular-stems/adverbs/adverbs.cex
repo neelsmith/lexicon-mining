@@ -43,6 +43,7 @@ lat23adv.n13043|lsx.n13043|demonstratiue|positive|irregularadverb
 lat23adv.n13227|lsx.n13227|deprauate|positive|irregularadverb
 lat23adv.n13230|lsx.n13230|deprauate|positive|irregularadverb
 lat23adv.n13635|lsx.n13635|deuote|positive|irregularadverb
+lat23adv.n13952|lsx.n13952|diiunctim|positive|irregularadverb
 lat23adv.n14274|lsx.n14274|disiuncte|positive|irregularadverb
 lat23adv.n14275|lsx.n14275|disiunctim|positive|irregularadverb
 lat23adv.n14543|lsx.n14543|diuerse|positive|irregularadverb
@@ -50,6 +51,7 @@ lat23adv.n14567|lsx.n14567|diuine|positive|irregularadverb
 lat23adv.n14571|lsx.n14571|diuinitus|positive|irregularadverb
 lat23adv.n14574|lsx.n14574|diuise|positive|irregularadverb
 lat23adv.n14576|lsx.n14576|diuisim|positive|irregularadverb
+lat23adv.n16537|lsx.n16537|exaduersum|positive|irregularadverb
 lat23adv.n16561|lsx.n16561|exaltatiue|positive|irregularadverb
 lat23adv.n17839|lsx.n17839|fauorabiliter|positive|irregularadverb
 lat23adv.n18011|lsx.n18011|feruenter|positive|irregularadverb
@@ -225,10 +227,12 @@ lat23adv.n50211|lsx.n50211|uaricus|positive|irregularadverb
 lat23adv.n50212|lsx.n50212|uarie|positive|irregularadverb
 lat23adv.n50244|lsx.n50244|uaste|positive|irregularadverb
 lat23adv.n50315|lsx.n50315|uehementer|positive|irregularadverb
+lat23adv.n50326|lsx.n50326|uel|positive|irregularadverb
 lat23adv.n50338|lsx.n50338|uelato|positive|irregularadverb
 lat23adv.n50366|lsx.n50366|uellicatim|positive|irregularadverb
 lat23adv.n50374|lsx.n50374|uelociter|positive|irregularadverb
-lat23adv.n50378|lsx.n50378|uelut or ueluti|positive|irregularadverb
+lat23adv.n50378|lsx.n50378|uelut|positive|irregularadverb
+lat23adv.n50378|lsx.n50378|ueluti|positive|irregularadverb
 lat23adv.n50424|lsx.n50424|uenerabiliter|positive|irregularadverb
 lat23adv.n50427|lsx.n50427|ueneranter|positive|irregularadverb
 lat23adv.n50458|lsx.n50458|uentose|positive|irregularadverb

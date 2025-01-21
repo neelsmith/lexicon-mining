@@ -9,6 +9,8 @@ lat23noun.n812|lsx.n812|adinvent|neuter|us_i
 lat23noun.n843|lsx.n843|adjument|neuter|us_i
 lat23noun.n848|lsx.n848|adjurament|neuter|us_i
 lat23noun.n858|lsx.n858|adjutori|neuter|us_i
+lat23noun.n1063|lsx.n1063|adven|masculine|a_ae
+lat23noun.n1063|lsx.n1063|adven|feminine|a_ae
 lat23noun.n1065|lsx.n1065|advenienti|feminine|a_ae
 lat23noun.n1076|lsx.n1076|adverbi|neuter|us_i
 lat23noun.n1100|lsx.n1100|advocament|neuter|us_i
@@ -140,6 +142,8 @@ lat23noun.n11008|lsx.n11008|conveteran|masculine|us_i
 lat23noun.n11015|lsx.n11015|convican|masculine|us_i
 lat23noun.n11017|lsx.n11017|convici|neuter|us_i
 lat23noun.n11019|lsx.n11019|convici|neuter|us_i
+lat23noun.n11033|lsx.n11033|conviv|masculine|a_ae
+lat23noun.n11033|lsx.n11033|conviv|feminine|a_ae
 lat23noun.n11038|lsx.n11038|convivi|neuter|us_i
 lat23noun.n11043|lsx.n11043|convoci|neuter|us_i
 lat23noun.n11050|lsx.n11050|convolvul|masculine|us_i
@@ -239,6 +243,7 @@ lat23noun.n23528|lsx.n23528|injustiti|feminine|a_ae
 lat23noun.n23612|lsx.n23612|inobservanti|feminine|a_ae
 lat23noun.n23843|lsx.n23843|insignificativ|masculine|us_i
 lat23noun.n24296|lsx.n24296|interjectur|feminine|a_ae
+lat23noun.n24506|lsx.n24506|intervall|neuter|us_i
 lat23noun.n24508|lsx.n24508|interveni|neuter|us_i
 lat23noun.n24515|lsx.n24515|interversur|feminine|a_ae
 lat23noun.n24691|lsx.n24691|invalenti|feminine|a_ae
@@ -303,6 +308,7 @@ lat23noun.n25346|lsx.n25346|junctur|feminine|a_ae
 lat23noun.n25349|lsx.n25349|junc|masculine|us_i
 lat23noun.n25352|lsx.n25352|junicul|masculine|us_i
 lat23noun.n25355|lsx.n25355|juniper|feminine|us_i
+lat23noun.n25356|lsx.n25356|juni|masculine|us_i
 lat23noun.n25360|lsx.n25360|jur|masculine|a_ae
 lat23noun.n25361|lsx.n25361|jurament|neuter|us_i
 lat23noun.n25362|lsx.n25362|jurand|neuter|us_i
@@ -331,6 +337,8 @@ lat23noun.n25446|lsx.n25446|juventi|masculine|us_i
 lat23noun.n25448|lsx.n25448|juvern|feminine|a_ae
 lat23noun.n25655|lsx.n25655|laev|feminine|a_ae
 lat23noun.n25661|lsx.n25661|laevin|masculine|us_i
+lat23noun.n25663|lsx.n25663|laevi|masculine|us_i
+lat23noun.n25818|lsx.n25818|lanuvi|neuter|us_i
 lat23noun.n25918|lsx.n25918|larv|feminine|a_ae
 lat23noun.n25927|lsx.n25927|lascivi|feminine|a_ae
 lat23noun.n25989|lsx.n25989|laticlav|masculine|us_i
@@ -341,6 +349,7 @@ lat23noun.n26102|lsx.n26102|lavatrin|feminine|a_ae
 lat23noun.n26104|lsx.n26104|lavern|feminine|a_ae
 lat23noun.n26106|lsx.n26106|laverni|neuter|us_i
 lat23noun.n26108|lsx.n26108|lavini|feminine|a_ae
+lat23noun.n26109|lsx.n26109|lavini|neuter|us_i
 lat23noun.n26399|lsx.n26399|levament|neuter|us_i
 lat23noun.n26400|lsx.n26400|levan|feminine|a_ae
 lat23noun.n26405|lsx.n26405|levenn|masculine|a_ae
@@ -349,6 +358,7 @@ lat23noun.n26426|lsx.n26426|levitonari|neuter|us_i
 lat23noun.n26865|lsx.n26865|livill|feminine|a_ae
 lat23noun.n26866|lsx.n26866|livi|masculine|us_i
 lat23noun.n27569|lsx.n27569|maesiae silv|feminine|a_ae
+lat23noun.n27580|lsx.n27580|maevi|masculine|us_i
 lat23noun.n27665|lsx.n27665|majest|feminine|a_ae
 lat23noun.n27668|lsx.n27668|majoriari|masculine|us_i
 lat23noun.n27670|lsx.n27670|majugen|masculine|a_ae
@@ -380,6 +390,7 @@ lat23noun.n30565|lsx.n30565|navigiol|neuter|us_i
 lat23noun.n30566|lsx.n30566|navigi|neuter|us_i
 lat23noun.n30569|lsx.n30569|navisalvi|feminine|a_ae
 lat23noun.n30574|lsx.n30574|navi|masculine|us_i
+lat23noun.n30811|lsx.n30811|nerv|masculine|a_ae
 lat23noun.n30820|lsx.n30820|nervolari|feminine|a_ae
 lat23noun.n30824|lsx.n30824|nervul|masculine|us_i
 lat23noun.n30825|lsx.n30825|nerv|masculine|us_i
@@ -402,6 +413,7 @@ lat23noun.n31641|lsx.n31641|objectament|neuter|us_i
 lat23noun.n31710|lsx.n31710|oblivi|neuter|us_i
 lat23noun.n31842|lsx.n31842|observanti|feminine|a_ae
 lat23noun.n32032|lsx.n32032|obvenienti|feminine|a_ae
+lat23noun.n32184|lsx.n32184|octavi|masculine|us_i
 lat23noun.n32491|lsx.n32491|oliv|feminine|a_ae
 lat23noun.n32495|lsx.n32495|olivet|neuter|us_i
 lat23noun.n32500|lsx.n32500|oliv|neuter|us_i
@@ -416,6 +428,7 @@ lat23noun.n33329|lsx.n33329|pacuvi|masculine|us_i
 lat23noun.n33666|lsx.n33666|pannuvelli|neuter|us_i
 lat23noun.n33712|lsx.n33712|papavercul|neuter|us_i
 lat23noun.n33819|lsx.n33819|paravered|masculine|us_i
+lat23noun.n34083|lsx.n34083|patavi|neuter|us_i
 lat23noun.n34226|lsx.n34226|pav|feminine|a_ae
 lat23noun.n34228|lsx.n34228|paventi|feminine|a_ae
 lat23noun.n34232|lsx.n34232|pavicul|feminine|a_ae
@@ -440,6 +453,7 @@ lat23noun.n36143|lsx.n36143|vin|neuter|us_i
 lat23noun.n36750|lsx.n36750|pluvi|feminine|a_ae
 lat23noun.n36751|lsx.n36751|pluviali|feminine|a_ae
 lat23noun.n36977|lsx.n36977|pompej|feminine|a_ae
+lat23noun.n36981|lsx.n36981|pompeji|masculine|us_i
 lat23noun.n37269|lsx.n37269|postvot|feminine|a_ae
 lat23noun.n37430|lsx.n37430|praeclavi|neuter|us_i
 lat23noun.n37669|lsx.n37669|praejudicat|neuter|us_i
@@ -515,6 +529,8 @@ lat23noun.n44041|lsx.n44041|sever|masculine|us_i
 lat23noun.n44048|lsx.n44048|sev|neuter|us_i
 lat23noun.n44280|lsx.n44280|silv|feminine|a_ae
 lat23noun.n44282|lsx.n44282|silvan|masculine|us_i
+lat23noun.n44287|lsx.n44287|silvicol|masculine|a_ae
+lat23noun.n44287|lsx.n44287|silvicol|feminine|a_ae
 lat23noun.n44292|lsx.n44292|silvi|masculine|us_i
 lat23noun.n44294|lsx.n44294|silvul|feminine|a_ae
 lat23noun.n44297|lsx.n44297|simbruvi|neuter|us_i
@@ -559,6 +575,8 @@ lat23noun.n49247|lsx.n49247|trivenefic|feminine|a_ae
 lat23noun.n49252|lsx.n49252|trivic|neuter|us_i
 lat23noun.n49253|lsx.n49253|trivi|neuter|us_i
 lat23noun.n49277|lsx.n49277|troj|feminine|a_ae
+lat23noun.n49279|lsx.n49279|trojugen|masculine|a_ae
+lat23noun.n49279|lsx.n49279|trojugen|feminine|a_ae
 lat23noun.n49685|lsx.n49685|ulv|feminine|a_ae
 lat23noun.n49862|lsx.n49862|univir|feminine|a_ae
 lat23noun.n49863|lsx.n49863|univirat|masculine|us_i
@@ -698,11 +716,15 @@ lat23noun.n50542|lsx.n50542|vergent|neuter|us_i
 lat23noun.n50545|lsx.n50545|vergili|masculine|us_i
 lat23noun.n50547|lsx.n50547|vergoan|neuter|us_i
 lat23noun.n50548|lsx.n50548|vergobret|masculine|us_i
+lat23noun.n50549|lsx.n50549|vericol|masculine|a_ae
+lat23noun.n50549|lsx.n50549|vericol|feminine|a_ae
 lat23noun.n50550|lsx.n50550|vericul|neuter|us_i
 lat23noun.n50552|lsx.n50552|veridicenti|feminine|a_ae
 lat23noun.n50554|lsx.n50554|veriloqui|neuter|us_i
 lat23noun.n50559|lsx.n50559|veriverbi|neuter|us_i
 lat23noun.n50566|lsx.n50566|vermicul|masculine|us_i
+lat23noun.n50573|lsx.n50573|vern|masculine|a_ae
+lat23noun.n50573|lsx.n50573|vern|feminine|a_ae
 lat23noun.n50582|lsx.n50582|verniser|feminine|a_ae
 lat23noun.n50584|lsx.n50584|vernul|feminine|a_ae
 lat23noun.n50585|lsx.n50585|vern|neuter|us_i
@@ -840,6 +862,7 @@ lat23noun.n51067|lsx.n51067|virgini|masculine|us_i
 lat23noun.n51071|lsx.n51071|virgul|feminine|a_ae
 lat23noun.n51073|lsx.n51073|virgult|neuter|us_i
 lat23noun.n51075|lsx.n51075|virguncul|feminine|a_ae
+lat23noun.n51077|lsx.n51077|viriath|masculine|us_i
 lat23noun.n51080|lsx.n51080|viricul|neuter|us_i
 lat23noun.n51085|lsx.n51085|viridari|neuter|us_i
 lat23noun.n51091|lsx.n51091|viridomar|masculine|us_i
@@ -903,6 +926,7 @@ lat23noun.n51316|lsx.n51316|volticul|masculine|us_i
 lat23noun.n51318|lsx.n51318|voltumn|feminine|a_ae
 lat23noun.n51320|lsx.n51320|volturn|masculine|us_i
 lat23noun.n51325|lsx.n51325|volucr|feminine|a_ae
+lat23noun.n51333|lsx.n51333|volumni|masculine|us_i
 lat23noun.n51334|lsx.n51334|volumn|masculine|us_i
 lat23noun.n51349|lsx.n51349|volusen|masculine|us_i
 lat23noun.n51350|lsx.n51350|volusi|masculine|us_i
@@ -926,5 +950,6 @@ lat23noun.n51442|lsx.n51442|vulticul|masculine|us_i
 lat23noun.n51447|lsx.n51447|vulturci|masculine|us_i
 lat23noun.n51449|lsx.n51449|vulturi|masculine|us_i
 lat23noun.n51451|lsx.n51451|vulturn|neuter|us_i
+lat23noun.n51452|lsx.n51452|vulturn|masculine|us_i
 lat23noun.n51453|lsx.n51453|vulturn|masculine|us_i
 lat23noun.n51457|lsx.n51457|vulvul|feminine|a_ae
