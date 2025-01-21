@@ -295,11 +295,11 @@ function us_a_um_cex(adj::LSAdjective; divider = "|")
     stem = replace(adj.mnomsg, r"us$" => "") |> suareznorm
     
     if iscommon(stem)
-        [join(["latcommonnounadj.$(adj.lsid)", lexentity, stem, "a_ae"], divider)]
+        [join(["latcommonadj.$(adj.lsid)", lexentity, stem, "us_a_um"], divider)]
     else
-        l23 = join(["lat23adj.$(adj.lsid)", lexentity, stem, "a_ae"], divider)
-        l24 = join(["lat24adj.$(adj.lsid)", lexentity, stem,  "a_ae"], divider)
-        l25 = join(["lat25adj.$(adj.lsid)", lexentity, stem,  "a_ae"], divider)
+        l23 = join(["lat23adj.$(adj.lsid)", lexentity, stem, "us_a_um"], divider)
+        l24 = join(["lat24adj.$(adj.lsid)", lexentity, stem,  "us_a_um"], divider)
+        l25 = join(["lat25adj.$(adj.lsid)", lexentity, stem,  "us_a_um"], divider)
         [l23, l24, l25]
     end
 end
