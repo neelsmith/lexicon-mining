@@ -35,7 +35,10 @@ end
 
 
 function tabulaenouns(data, datasetdir; divider = "|")
-    nounlist = nouns(data)
+    nounlist = filter(nouns(data)) do noun
+        ! isnothing(noun.gender) &&
+        ! isempty(noun.gender)
+    end
 
     nounscommon = cextable(nounlist, "latcommon")     
     commonfile = joinpath(datasetdir, "common", "stems-tables", "nouns", "nouns.cex")
