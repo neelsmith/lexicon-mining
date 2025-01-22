@@ -5,7 +5,6 @@ latcommon.adjn57|lsx.n57|abduct|us_a_um
 latcommon.adjn59|lsx.n59|abecedari|us_a_um
 latcommon.adjn79|lsx.n79|abiegn|us_a_um
 latcommon.adjn82|lsx.n82|abietari|us_a_um
-latcommon.adjn154|lsx.n154|abominand|us_a_um
 latcommon.adjn162|lsx.n162|abors|us_a_um
 latcommon.adjn175|lsx.n175|abrelict|us_a_um
 latcommon.adjn183|lsx.n183|abros|us_a_um
@@ -77,6 +76,7 @@ latcommon.adjn705|lsx.n705|adariari|us_a_um
 latcommon.adjn726|lsx.n726|addict|us_a_um
 latcommon.adjn729|lsx.n729|additici|us_a_um
 latcommon.adjn733|lsx.n733|addit|us_a_um
+latcommon.adjn746|lsx.n746|adduct|us_a_um
 latcommon.adjn765|lsx.n765|ades|us_a_um
 latcommon.adjn817|lsx.n817|adipat|us_a_um
 latcommon.adjn818|lsx.n818|adipe|us_a_um
@@ -539,10 +539,12 @@ latcommon.adjn5312|lsx.n5312|bifidat|us_a_um
 latcommon.adjn5313|lsx.n5313|bifid|us_a_um
 latcommon.adjn5315|lsx.n5315|bifiss|us_a_um
 latcommon.adjn5317|lsx.n5317|biformat|us_a_um
+latcommon.adjn5319|lsx.n5319|bifor|us_a_um
 latcommon.adjn5321|lsx.n5321|bifurc|us_a_um
 latcommon.adjn5323|lsx.n5323|bigam|us_a_um
 latcommon.adjn5325|lsx.n5325|bigat|us_a_um
 latcommon.adjn5326|lsx.n5326|bigemim|us_a_um
+latcommon.adjn5333|lsx.n5333|big|us_a_um
 latcommon.adjn5343|lsx.n5343|bilios|us_a_um
 latcommon.adjn5346|lsx.n5346|bilong|us_a_um
 latcommon.adjn5349|lsx.n5349|bimammi|us_a_um
@@ -599,6 +601,7 @@ latcommon.adjn5823|lsx.n5823|bulbos|us_a_um
 latcommon.adjn5833|lsx.n5833|bulimos|us_a_um
 latcommon.adjn5837|lsx.n5837|bullat|us_a_um
 latcommon.adjn5844|lsx.n5844|bumamm|us_a_um
+latcommon.adjn5847y|lsx.n5847y|bunit|us_a_um
 latcommon.adjn5870|lsx.n5870|burr|us_a_um
 latcommon.adjn5880|lsx.n5880|bustuari|us_a_um
 latcommon.adjn5900|lsx.n5900|buxe|us_a_um
@@ -888,6 +891,7 @@ latcommon.adjn8389|lsx.n8389|cismontan|us_a_um
 latcommon.adjn8409|lsx.n8409|cisternin|us_a_um
 latcommon.adjn8421|lsx.n8421|citat|us_a_um
 latcommon.adjn8434|lsx.n8434|citharoedic|us_a_um
+latcommon.adjn8437x|lsx.n8437x|citim|us_a_um
 latcommon.adjn8448|lsx.n8448|citrat|us_a_um
 latcommon.adjn8449|lsx.n8449|citrat|us_a_um
 latcommon.adjn8451|lsx.n8451|citre|us_a_um
@@ -903,6 +907,7 @@ latcommon.adjn8517|lsx.n8517|classic|us_a_um
 latcommon.adjn8537|lsx.n8537|claud|us_a_um
 latcommon.adjn8541|lsx.n8541|claustrari|us_a_um
 latcommon.adjn8548|lsx.n8548|claus|us_a_um
+latcommon.adjn8594|lsx.n8594|clibanici|us_a_um
 latcommon.adjn8604|lsx.n8604|climacteric|us_a_um
 latcommon.adjn8608|lsx.n8608|clinat|us_a_um
 latcommon.adjn8626|lsx.n8626|clitellari|us_a_um
@@ -1198,6 +1203,7 @@ latcommon.adjn11778|lsx.n11778|cubitori|us_a_um
 latcommon.adjn11790|lsx.n11790|cucullat|us_a_um
 latcommon.adjn11797|lsx.n11797|cucumerace|us_a_um
 latcommon.adjn11803|lsx.n11803|cucurbitin|us_a_um
+latcommon.adjn11814|lsx.n11814|cuimod|us_a_um
 latcommon.adjn11846|lsx.n11846|culme|us_a_um
 latcommon.adjn11848|lsx.n11848|culmos|us_a_um
 latcommon.adjn11865|lsx.n11865|cultrat|us_a_um
@@ -1246,15 +1252,18 @@ latcommon.adjn12296|lsx.n12296|damnat|us_a_um
 latcommon.adjn12299|lsx.n12299|damnific|us_a_um
 latcommon.adjn12300|lsx.n12300|damnigerul|us_a_um
 latcommon.adjn12303|lsx.n12303|damnos|us_a_um
+latcommon.adjn12322|lsx.n12322|dapatic|us_a_um
 latcommon.adjn12344|lsx.n12344|datari|us_a_um
 latcommon.adjn12363|lsx.n12363|deacinat|us_a_um
 latcommon.adjn12402|lsx.n12402|decachord|us_a_um
+latcommon.adjn12410|lsx.n12410|decalicat|us_a_um
 latcommon.adjn12436|lsx.n12436|decemmodi|us_a_um
 latcommon.adjn12441|lsx.n12441|decemplicat|us_a_um
 latcommon.adjn12444|lsx.n12444|decemscalm|us_a_um
 latcommon.adjn12460|lsx.n12460|deceptori|us_a_um
 latcommon.adjn12462|lsx.n12462|decept|us_a_um
 latcommon.adjn12485|lsx.n12485|decidu|us_a_um
+latcommon.adjn12488|lsx.n12488|decim|us_a_um
 latcommon.adjn12489|lsx.n12489|decimari|us_a_um
 latcommon.adjn12494|lsx.n12494|masculine: decim|us_a_um
 latcommon.adjn12496|lsx.n12496|decinerat|us_a_um
@@ -1274,6 +1283,7 @@ latcommon.adjn12589|lsx.n12589|decursori|us_a_um
 latcommon.adjn12602|lsx.n12602|decuss|us_a_um
 latcommon.adjn12613|lsx.n12613|dedecoros|us_a_um
 latcommon.adjn12614|lsx.n12614|dedecor|us_a_um
+latcommon.adjn12624|lsx.n12624|deditici|us_a_um
 latcommon.adjn12627|lsx.n12627|dedit|us_a_um
 latcommon.adjn12635|lsx.n12635|deduct|us_a_um
 latcommon.adjn12640|lsx.n12640|deductori|us_a_um
@@ -1303,13 +1313,13 @@ latcommon.adjn12870|lsx.n12870|delect|us_a_um
 latcommon.adjn12874|lsx.n12874|delegatori|us_a_um
 latcommon.adjn12876|lsx.n12876|delenific|us_a_um
 latcommon.adjn12880|lsx.n12880|delenitori|us_a_um
+latcommon.adjn12882|lsx.n12882|deletici|us_a_um
 latcommon.adjn12892|lsx.n12892|deliberabund|us_a_um
 latcommon.adjn12903|lsx.n12903|delicat|us_a_um
 latcommon.adjn12908|lsx.n12908|deliciat|us_a_um
 latcommon.adjn12911|lsx.n12911|delicios|us_a_um
 latcommon.adjn12916|lsx.n12916|delicul|us_a_um
 latcommon.adjn12917|lsx.n12917|delic|us_a_um
-latcommon.adjn12928|lsx.n12928|delinific|us_a_um
 latcommon.adjn12945|lsx.n12945|delir|us_a_um
 latcommon.adjn12988|lsx.n12988|dematricat|us_a_um
 latcommon.adjn12995|lsx.n12995|demens|us_a_um

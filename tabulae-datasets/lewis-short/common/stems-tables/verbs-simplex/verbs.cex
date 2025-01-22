@@ -133,6 +133,7 @@ latcommon.verbn1042|lsx.n1042|adumbr|conj1|Automatically generated
 latcommon.verbn1047|lsx.n1047|adun|conj1|Automatically generated
 latcommon.verbn1114|lsx.n1114|adzel|conj1|Automatically generated
 latcommon.verbn1140|lsx.n1140|aedific|conj1|Automatically generated
+latcommon.verbn1147|lsx.n1147|aeditu|conj1|Automatically generated
 latcommon.verbn1202|lsx.n1202|aegrot|conj1|Automatically generated
 latcommon.verbn1227|lsx.n1227|aemul|conj1|Automatically generated
 latcommon.verbn1310|lsx.n1310|aequipar|conj1|Automatically generated
@@ -508,6 +509,7 @@ latcommon.verbn8080|lsx.n8080|ci|conj4|Automatically generated
 latcommon.verbn8098|lsx.n8098|circin|conj1|Automatically generated
 latcommon.verbn8101|lsx.n8101|circit|conj1|Automatically generated
 latcommon.verbn8106|lsx.n8106|circ|conj1|Automatically generated
+latcommon.verbn8108|lsx.n8108|circue|conj4|Automatically generated
 latcommon.verbn8119|lsx.n8119|circul|conj1|Automatically generated
 latcommon.verbn8126|lsx.n8126|circumagger|conj1|Automatically generated
 latcommon.verbn8128|lsx.n8128|circumambul|conj1|Automatically generated
@@ -595,6 +597,7 @@ latcommon.verbn8758|lsx.n8758|coagment|conj1|Automatically generated
 latcommon.verbn8762|lsx.n8762|coagul|conj1|Automatically generated
 latcommon.verbn8769|lsx.n8769|coangust|conj1|Automatically generated
 latcommon.verbn8771|lsx.n8771|coapt|conj1|Automatically generated
+latcommon.verbn8772x|lsx.n8772x|coarct|conj1|Automatically generated
 latcommon.verbn8777|lsx.n8777|coarm|conj1|Automatically generated
 latcommon.verbn8779|lsx.n8779|coarticul|conj1|Automatically generated
 latcommon.verbn8780|lsx.n8780|coart|conj1|Automatically generated
@@ -663,6 +666,7 @@ latcommon.verbn9306|lsx.n9306|commascul|conj1|Automatically generated
 latcommon.verbn9307|lsx.n9307|commastic|conj1|Automatically generated
 latcommon.verbn9316|lsx.n9316|commelet|conj1|Automatically generated
 latcommon.verbn9325|lsx.n9325|commemor|conj1dep|Automatically generated
+latcommon.verbn9335|lsx.n9335|commend|conj1|Automatically generated
 latcommon.verbn9347|lsx.n9347|commenti|conj4|Automatically generated
 latcommon.verbn9348|lsx.n9348|comment|conj1|Automatically generated
 latcommon.verbn9349|lsx.n9349|comment|conj1|Automatically generated
@@ -686,6 +690,7 @@ latcommon.verbn9435|lsx.n9435|commolli|conj4|Automatically generated
 latcommon.verbn9438|lsx.n9438|commone|conj2|Automatically generated
 latcommon.verbn9443|lsx.n9443|commonstr|conj1|Automatically generated
 latcommon.verbn9445|lsx.n9445|commorde|conj2|Automatically generated
+latcommon.verbn9448|lsx.n9448|commor|conj1dep|Automatically generated
 latcommon.verbn9449|lsx.n9449|commor|conj1dep|Automatically generated
 latcommon.verbn9450|lsx.n9450|commorsit|conj1|Automatically generated
 latcommon.verbn9456|lsx.n9456|commot|conj1|Automatically generated
@@ -696,6 +701,7 @@ latcommon.verbn9473|lsx.n9473|communic|conj1|Automatically generated
 latcommon.verbn9475|lsx.n9475|communi|conj4|Automatically generated
 latcommon.verbn9484|lsx.n9484|commurmur|conj1|Automatically generated
 latcommon.verbn9489|lsx.n9489|commut|conj1|Automatically generated
+latcommon.verbn9491|lsx.n9491|com|conj1|Automatically generated
 latcommon.verbn9498|lsx.n9498|compac|conj1|Automatically generated
 latcommon.verbn9513|lsx.n9513|compagin|conj1|Automatically generated
 latcommon.verbn9516|lsx.n9516|compalp|conj1|Automatically generated
@@ -875,6 +881,7 @@ latcommon.verbn10612|lsx.n10612|constagn|conj1|Automatically generated
 latcommon.verbn10628|lsx.n10628|constern|conj1|Automatically generated
 latcommon.verbn10630|lsx.n10630|constip|conj1|Automatically generated
 latcommon.verbn10640|lsx.n10640|const|conj1|Automatically generated
+latcommon.verbn10648|lsx.n10648|constrict|conj1|Automatically generated
 latcommon.verbn10655|lsx.n10655|constupe|conj2|Automatically generated
 latcommon.verbn10657|lsx.n10657|constupr|conj1|Automatically generated
 latcommon.verbn10658|lsx.n10658|consuade|conj2|Automatically generated
@@ -1008,6 +1015,7 @@ latcommon.verbn12386|lsx.n12386|debell|conj1|Automatically generated
 latcommon.verbn12387|lsx.n12387|debe|conj2|Automatically generated
 latcommon.verbn12393|lsx.n12393|debilit|conj1|Automatically generated
 latcommon.verbn12398|lsx.n12398|deblater|conj1|Automatically generated
+latcommon.verbn12399|lsx.n12399|debucin|conj1|Automatically generated
 latcommon.verbn12400|lsx.n12400|decachinn|conj1|Automatically generated
 latcommon.verbn12404|lsx.n12404|decacumin|conj1|Automatically generated
 latcommon.verbn12405|lsx.n12405|decalantic|conj1|Automatically generated
@@ -1026,13 +1034,17 @@ latcommon.verbn12530|lsx.n12530|decoll|conj1|Automatically generated
 latcommon.verbn12531|lsx.n12531|decol|conj1|Automatically generated
 latcommon.verbn12535|lsx.n12535|decolor|conj1dep|Automatically generated
 latcommon.verbn12537|lsx.n12537|deconcili|conj1|Automatically generated
+latcommon.verbn12539|lsx.n12539|decont|conj1|Automatically generated
 latcommon.verbn12545|lsx.n12545|decori|conj1|Automatically generated
 latcommon.verbn12547|lsx.n12547|decor|conj1dep|Automatically generated
 latcommon.verbn12550|lsx.n12550|decortic|conj1|Automatically generated
 latcommon.verbn12563|lsx.n12563|decrust|conj1|Automatically generated
 latcommon.verbn12564|lsx.n12564|decub|conj1|Automatically generated
 latcommon.verbn12565|lsx.n12565|deculc|conj1|Automatically generated
+latcommon.verbn12567|lsx.n12567|decult|conj1|Automatically generated
+latcommon.verbn12573|lsx.n12573|decunct|conj1|Automatically generated
 latcommon.verbn12582|lsx.n12582|decuri|conj1|Automatically generated
+latcommon.verbn12593|lsx.n12593|decurt|conj1|Automatically generated
 latcommon.verbn12601|lsx.n12601|decuss|conj1|Automatically generated
 latcommon.verbn12604|lsx.n12604|decuti|conj4|Automatically generated
 latcommon.verbn12605|lsx.n12605|dedamn|conj1|Automatically generated
@@ -1048,9 +1060,11 @@ latcommon.verbn12633|lsx.n12633|dedom|conj1|Automatically generated
 latcommon.verbn12646|lsx.n12646|deerr|conj1|Automatically generated
 latcommon.verbn12649|lsx.n12649|defaec|conj1|Automatically generated
 latcommon.verbn12655|lsx.n12655|defatig|conj1|Automatically generated
+latcommon.verbn12657y|lsx.n12657y|defec|conj1|Automatically generated
 latcommon.verbn12665|lsx.n12665|defener|conj1|Automatically generated
 latcommon.verbn12672|lsx.n12672|defensit|conj1|Automatically generated
 latcommon.verbn12673|lsx.n12673|defens|conj1|Automatically generated
+latcommon.verbn12683|lsx.n12683|defetig|conj1|Automatically generated
 latcommon.verbn12692|lsx.n12692|defini|conj4|Automatically generated
 latcommon.verbn12702|lsx.n12702|deflagr|conj1|Automatically generated
 latcommon.verbn12703|lsx.n12703|deflamm|conj1|Automatically generated
@@ -1062,6 +1076,7 @@ latcommon.verbn12732|lsx.n12732|deform|conj1|Automatically generated
 latcommon.verbn12733|lsx.n12733|deform|conj1|Automatically generated
 latcommon.verbn12740|lsx.n12740|defraud|conj1|Automatically generated
 latcommon.verbn12746|lsx.n12746||conj1|Automatically generated
+latcommon.verbn12750|lsx.n12750|defrud|conj1|Automatically generated
 latcommon.verbn12751|lsx.n12751|defrug|conj1|Automatically generated
 latcommon.verbn12753|lsx.n12753|defrust|conj1|Automatically generated
 latcommon.verbn12755|lsx.n12755|defrut|conj1|Automatically generated
@@ -1111,6 +1126,7 @@ latcommon.verbn12999|lsx.n12999|dement|conj1|Automatically generated
 latcommon.verbn13000|lsx.n13000|deme|conj1|Automatically generated
 latcommon.verbn13001|lsx.n13001|demere|conj2|Automatically generated
 latcommon.verbn13007|lsx.n13007|meti|conj4|Automatically generated
+latcommon.verbn13009|lsx.n13009|demet|conj1|Automatically generated
 latcommon.verbn13014|lsx.n13014|demigr|conj1|Automatically generated
 latcommon.verbn13017|lsx.n13017|deminor|conj1dep|Automatically generated
 latcommon.verbn13022|lsx.n13022|demir|conj1|Automatically generated
