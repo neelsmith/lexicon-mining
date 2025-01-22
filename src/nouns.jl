@@ -134,6 +134,10 @@ function decl2class(noun::LSNoun)
         endswith(noun.nomsg, "er") 
             "er_ri"
 
+    elseif endswith(noun.gensg, "i") && 
+        endswith(noun.nomsg, "os") 
+                "os_i"            
+
     else
         @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
            ""
