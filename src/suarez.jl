@@ -11,9 +11,7 @@ function readdata(dirs)
             if isempty(lns)
                 @error("Empty line from file $(f)")
             end
-            if length(lns) > 1
-                @warn("Multiple lines in $(src)")
-            end
+       
             for ln in lns
                 cols = split(ln, "|") 
                 if length(cols) == 6
@@ -21,14 +19,13 @@ function readdata(dirs)
 
                     (seq, urn, lemma, definition, pos, morphology) = cols
                     seqnum = parse(Int, tidyvalue(seq))
-                    if seqnum == 50329
-                        @info("FOUND IT!")
-                    end
+                 
                     entry = (seq = seqnum, urn = tidyvalue(urn), lemma =  tidyvalue(lemma), definition = tidyvalue(definition), pos = tidyvalue(pos), morphology = tidyvalue(morphology))
                     push!(data,entry)
                 
                 else
                     @warn("$(length(cols)) columns in $(src)")
+                    push!(badlist, f)
                 end
             
             end
@@ -67,9 +64,7 @@ function findmultiples(filelist)
         if isempty(lns)
             @error("Empty line from file $(f)")
         end
-        if length(lns) > 1
-            @warn("Multiple lines in $(f)")
-        end
+   
         for ln in lns
                 @info("Look at line $(ln)")
                 cols = split(ln, "|") 
@@ -79,9 +74,7 @@ function findmultiples(filelist)
                     (seq, urn, lemma, definition, pos, morphology) = cols
                     seqnum = parse(Int, tidyvalue(seq))
                     @info("Got columns $(cols)")
-                    if seqnum == 50329
-                        @info("FOUND IT!")
-                    end
+               
                     entry = (seq = seqnum, urn = tidyvalue(urn), lemma =  tidyvalue(lemma), definition = tidyvalue(definition), pos = tidyvalue(pos), morphology = tidyvalue(morphology))
                     push!(data,entry)
                 

@@ -11,9 +11,8 @@ for d in dirlist
         lns = readlines(src)
         if isempty(lns)
             @warn("Empty line from file $(f)")
-        elseif length(lns) > 1
-            @info("Multiple lines in $(src)")
-            push!(badlist, src)
+            push!(badlist, f)
+      
         else
         
             cols = split(lns[1], "|") 
@@ -24,7 +23,7 @@ for d in dirlist
                 push!(data,entry)
             else
                 @warn("$(length(cols)) columns in $(src)")
-            
+                push!(badlist, f)
             end
         end
     end
