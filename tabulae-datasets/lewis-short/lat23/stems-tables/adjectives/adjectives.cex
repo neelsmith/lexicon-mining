@@ -11,7 +11,6 @@ lat23adj.n206|lsx.n206|absentiv|us_a_um
 lat23adj.n274|lsx.n274|abusiv|us_a_um
 lat23adj.n381|lsx.n381|accliv|us_a_um
 lat23adj.n422|lsx.n422|accusativ|us_a_um
-lat23adj.n503|lsx.n503|achiv|us_a_um
 lat23adj.n620|lsx.n620|activ|us_a_um
 lat23adj.n732|lsx.n732|additiv|us_a_um
 lat23adj.n785|lsx.n785|adhortativ|us_a_um
@@ -54,13 +53,11 @@ lat23adj.n4109|lsx.n4109|assumptiv|us_a_um
 lat23adj.n4672|lsx.n4672|avar|us_a_um
 lat23adj.n4678|lsx.n4678|avenace|us_a_um
 lat23adj.n4679|lsx.n4679|avenari|us_a_um
-lat23adj.n4687|lsx.n4687|avern|us_a_um
 lat23adj.n4698|lsx.n4698|avers|us_a_um
 lat23adj.n4704|lsx.n4704|aviari|us_a_um
 lat23adj.n4711|lsx.n4711|avid|us_a_um
 lat23adj.n4717|lsx.n4717|avit|us_a_um
 lat23adj.n4846|lsx.n4846|bajulatori|us_a_um
-lat23adj.n5039|lsx.n5039|batav|us_a_um
 lat23adj.n5189|lsx.n5189|benevol|us_a_um
 lat23adj.n5335|lsx.n5335|bijug|us_a_um
 lat23adj.n5435|lsx.n5435|bivi|us_a_um
@@ -204,7 +201,6 @@ lat23adj.n16177|lsx.n16177|errativ|us_a_um
 lat23adj.n16438|lsx.n16438|evangelic|us_a_um
 lat23adj.n16443|lsx.n16443|evanid|us_a_um
 lat23adj.n16447|lsx.n16447|evaporativ|us_a_um
-lat23adj.n16458|lsx.n16458|evenin|us_a_um
 lat23adj.n16471|lsx.n16471|evers|us_a_um
 lat23adj.n16474|lsx.n16474|evex|us_a_um
 lat23adj.n16503|lsx.n16503|evocativ|us_a_um
@@ -227,7 +223,6 @@ lat23adj.n18166|lsx.n18166|figurativ|us_a_um
 lat23adj.n18206|lsx.n18206|finitiv|us_a_um
 lat23adj.n18327|lsx.n18327|flammivol|us_a_um
 lat23adj.n18328|lsx.n18328|flammivom|us_a_um
-lat23adj.n18343|lsx.n18343|flavian|us_a_um
 lat23adj.n18345|lsx.n18345|flavicom|us_a_um
 lat23adj.n18346|lsx.n18346|flavid|us_a_um
 lat23adj.n18350|lsx.n18350|flav|us_a_um
@@ -241,7 +236,6 @@ lat23adj.n18946|lsx.n18946|fugitiv|us_a_um
 lat23adj.n19009|lsx.n19009|fulv|us_a_um
 lat23adj.n19129|lsx.n19129|furtiv|us_a_um
 lat23adj.n19133|lsx.n19133|furv|us_a_um
-lat23adj.n19349|lsx.n19349|gavian|us_a_um
 lat23adj.n19574|lsx.n19574|gilv|us_a_um
 lat23adj.n19703|lsx.n19703|glutinativ|us_a_um
 lat23adj.n19854|lsx.n19854|grandaev|us_a_um
@@ -252,7 +246,6 @@ lat23adj.n19943|lsx.n19943|graviuscul|us_a_um
 lat23adj.n20228|lsx.n20228|harenivag|us_a_um
 lat23adj.n20393|lsx.n20393|helvenac|us_a_um
 lat23adj.n20394|lsx.n20394|helveol|us_a_um
-lat23adj.n20396|lsx.n20396|helvidi|us_a_um
 lat23adj.n20399|lsx.n20399|helvin|us_a_um
 lat23adj.n20401|lsx.n20401|helvol|us_a_um
 lat23adj.n20402|lsx.n20402|helv|us_a_um
@@ -382,7 +375,6 @@ lat23adj.n25164|lsx.n25164|jactitabund|us_a_um
 lat23adj.n25169|lsx.n25169|jacturari|us_a_um
 lat23adj.n25170|lsx.n25170|jact|us_a_um
 lat23adj.n25177|lsx.n25177|jaculatori|us_a_um
-lat23adj.n25200|lsx.n25200|januari|us_a_um
 lat23adj.n25207|lsx.n25207|jecineros|us_a_um
 lat23adj.n25209|lsx.n25209|jecoritic|us_a_um
 lat23adj.n25210|lsx.n25210|jecoros|us_a_um
@@ -393,7 +385,6 @@ lat23adj.n25237|lsx.n25237|jocos|us_a_um
 lat23adj.n25240|lsx.n25240|joculari|us_a_um
 lat23adj.n25243|lsx.n25243|joculatori|us_a_um
 lat23adj.n25246|lsx.n25246|jocund|us_a_um
-lat23adj.n25258|lsx.n25258|jovi|us_a_um
 lat23adj.n25263|lsx.n25263|jubat|us_a_um
 lat23adj.n25274|lsx.n25274|jucund|us_a_um
 lat23adj.n25285|lsx.n25285|judicatori|us_a_um
@@ -401,12 +392,10 @@ lat23adj.n25291|lsx.n25291|judiciari|us_a_um
 lat23adj.n25308|lsx.n25308|jugiflu|us_a_um
 lat23adj.n25316|lsx.n25316|jugos|us_a_um
 lat23adj.n25326|lsx.n25326|jug|us_a_um
-lat23adj.n25329|lsx.n25329|julian|us_a_um
 lat23adj.n25337|lsx.n25337|jumentari|us_a_um
 lat23adj.n25340|lsx.n25340|junce|us_a_um
 lat23adj.n25341|lsx.n25341|juncin|us_a_um
 lat23adj.n25342|lsx.n25342|juncos|us_a_um
-lat23adj.n25351|lsx.n25351|junian|us_a_um
 lat23adj.n25354|lsx.n25354|junipere|us_a_um
 lat23adj.n25364|lsx.n25364|jurativ|us_a_um
 lat23adj.n25367|lsx.n25367|juratori|us_a_um
@@ -426,9 +415,7 @@ lat23adj.n25424|lsx.n25424|just|us_a_um
 lat23adj.n25427|lsx.n25427|jut|us_a_um
 lat23adj.n25434|lsx.n25434|juvenclul|us_a_um
 lat23adj.n25435|lsx.n25435|juvenc|us_a_um
-lat23adj.n25659|lsx.n25659|laevian|us_a_um
 lat23adj.n25665|lsx.n25665|laev|us_a_um
-lat23adj.n25805|lsx.n25805|lanivin|us_a_um
 lat23adj.n25928|lsx.n25928|lascivibund|us_a_um
 lat23adj.n25932|lsx.n25932|lascivul|us_a_um
 lat23adj.n25933|lsx.n25933|lasciv|us_a_um
@@ -440,7 +427,6 @@ lat23adj.n26398|lsx.n26398|levamentari|us_a_um
 lat23adj.n26406|lsx.n26406|levicul|us_a_um
 lat23adj.n26409|lsx.n26409|levifid|us_a_um
 lat23adj.n26419|lsx.n26419|levisomn|us_a_um
-lat23adj.n26859|lsx.n26859|livian|us_a_um
 lat23adj.n26863|lsx.n26863|lividul|us_a_um
 lat23adj.n26864|lsx.n26864|livid|us_a_um
 lat23adj.n26872|lsx.n26872|lixivi|us_a_um
@@ -454,14 +440,11 @@ lat23adj.n27673|lsx.n27673|majuscul|us_a_um
 lat23adj.n27724|lsx.n27724|malevol|us_a_um
 lat23adj.n27780|lsx.n27780|malvace|us_a_um
 lat23adj.n27832|lsx.n27832|mandativ|us_a_um
-lat23adj.n28261|lsx.n28261|mavorti|us_a_um
 lat23adj.n28355|lsx.n28355|meditativ|us_a_um
-lat23adj.n29128|lsx.n29128|minervi|us_a_um
 lat23adj.n29199|lsx.n29199|minutiv|us_a_um
 lat23adj.n29317|lsx.n29317|mitigativ|us_a_um
 lat23adj.n29636|lsx.n29636|montivag|us_a_um
 lat23adj.n29683|lsx.n29683|mordicativ|us_a_um
-lat23adj.n29754|lsx.n29754|morvinnic|us_a_um
 lat23adj.n29874|lsx.n29874|multicavat|us_a_um
 lat23adj.n29875|lsx.n29875|multicav|us_a_um
 lat23adj.n29900|lsx.n29900|multijug|us_a_um
@@ -469,8 +452,6 @@ lat23adj.n29935|lsx.n29935|multivag|us_a_um
 lat23adj.n29936|lsx.n29936|multivid|us_a_um
 lat23adj.n29938|lsx.n29938|multivi|us_a_um
 lat23adj.n29939|lsx.n29939|multivol|us_a_um
-lat23adj.n29948|lsx.n29948|mulvian|us_a_um
-lat23adj.n29949|lsx.n29949|mulvi|us_a_um
 lat23adj.n29972|lsx.n29972|mundivag|us_a_um
 lat23adj.n30122|lsx.n30122|musiv|us_a_um
 lat23adj.n30342|lsx.n30342|naevi|us_a_um
@@ -483,9 +464,7 @@ lat23adj.n30665|lsx.n30665|negativ|us_a_um
 lat23adj.n30719|lsx.n30719|nemorivag|us_a_um
 lat23adj.n30814|lsx.n30814|nervice|us_a_um
 lat23adj.n30815|lsx.n30815|nervic|us_a_um
-lat23adj.n30816|lsx.n30816|nervic|us_a_um
 lat23adj.n30818|lsx.n30818|nervin|us_a_um
-lat23adj.n30819|lsx.n30819|nervi|us_a_um
 lat23adj.n30823|lsx.n30823|nervos|us_a_um
 lat23adj.n31044|lsx.n31044|nivari|us_a_um
 lat23adj.n31045|lsx.n31045|nivat|us_a_um
@@ -498,7 +477,6 @@ lat23adj.n31097|lsx.n31097|noctuvigil|us_a_um
 lat23adj.n31140|lsx.n31140|nominativ|us_a_um
 lat23adj.n31274|lsx.n31274|novenari|us_a_um
 lat23adj.n31280|lsx.n31280|noven|us_a_um
-lat23adj.n31287|lsx.n31287|novian|us_a_um
 lat23adj.n31289|lsx.n31289|noviciol|us_a_um
 lat23adj.n31298|lsx.n31298|novissim|us_a_um
 lat23adj.n31308|lsx.n31308|nov|us_a_um
@@ -523,7 +501,6 @@ lat23adj.n32590|lsx.n32590|omnivor|us_a_um
 lat23adj.n32664|lsx.n32664|operativ|us_a_um
 lat23adj.n32840|lsx.n32840|optativ|us_a_um
 lat23adj.n32851|lsx.n32851|optiv|us_a_um
-lat23adj.n32927|lsx.n32927|orcivi|us_a_um
 lat23adj.n32940|lsx.n32940|ordinativ|us_a_um
 lat23adj.n33081|lsx.n33081|ortiv|us_a_um
 lat23adj.n33221|lsx.n33221|ovat|us_a_um
@@ -532,7 +509,6 @@ lat23adj.n33232|lsx.n33232|ovillin|us_a_um
 lat23adj.n33233|lsx.n33233|ovill|us_a_um
 lat23adj.n33235|lsx.n33235|ovin|us_a_um
 lat23adj.n33236|lsx.n33236|ovipar|us_a_um
-lat23adj.n33238|lsx.n33238|ovi|us_a_um
 lat23adj.n33546|lsx.n33546|paludivag|us_a_um
 lat23adj.n33711|lsx.n33711|papaverat|us_a_um
 lat23adj.n33713|lsx.n33713|papavere|us_a_um
@@ -574,7 +550,6 @@ lat23adj.n36740|lsx.n36740|plurivoc|us_a_um
 lat23adj.n36753|lsx.n36753|pluviatic|us_a_um
 lat23adj.n36755|lsx.n36755|pluvios|us_a_um
 lat23adj.n36756|lsx.n36756|pluvi|us_a_um
-lat23adj.n36978|lsx.n36978|pompejan|us_a_um
 lat23adj.n37025|lsx.n37025|pontivag|us_a_um
 lat23adj.n37176|lsx.n37176|positiv|us_a_um
 lat23adj.n37183|lsx.n37183|possessiv|us_a_um
@@ -662,7 +637,6 @@ lat23adj.n42232|lsx.n42232|saevidic|us_a_um
 lat23adj.n42240|lsx.n42240|saev|us_a_um
 lat23adj.n42349|lsx.n42349|salivari|us_a_um
 lat23adj.n42353|lsx.n42353|salivos|us_a_um
-lat23adj.n42437|lsx.n42437|salvian|us_a_um
 lat23adj.n42440|lsx.n42440|salvific|us_a_um
 lat23adj.n42442|lsx.n42442|salv|us_a_um
 lat23adj.n42715|lsx.n42715|sativ|us_a_um
@@ -677,13 +651,10 @@ lat23adj.n43586|lsx.n43586|semiviv|us_a_um
 lat23adj.n43589|lsx.n43589|semivuls|us_a_um
 lat23adj.n43602|lsx.n43602|semperviv|us_a_um
 lat23adj.n43696|lsx.n43696|separativ|us_a_um
-lat23adj.n43935|lsx.n43935|servian|us_a_um
-lat23adj.n43937|lsx.n43937|servilian|us_a_um
 lat23adj.n43943|lsx.n43943|servitriti|us_a_um
 lat23adj.n43951|lsx.n43951|serv|us_a_um
 lat23adj.n43991|lsx.n43991|sesquioctav|us_a_um
 lat23adj.n44040|lsx.n44040|sever|us_a_um
-lat23adj.n44042|lsx.n44042|sevian|us_a_um
 lat23adj.n44122|lsx.n44122|siccativ|us_a_um
 lat23adj.n44219|lsx.n44219|significativ|us_a_um
 lat23adj.n44283|lsx.n44283|silvatic|us_a_um
@@ -739,7 +710,6 @@ lat23adj.n48616|lsx.n48616|torvid|us_a_um
 lat23adj.n48619|lsx.n48619|torv|us_a_um
 lat23adj.n48626|lsx.n48626|totjug|us_a_um
 lat23adj.n48714|lsx.n48714|trajectiti|us_a_um
-lat23adj.n48749|lsx.n48749|transbeneventan|us_a_um
 lat23adj.n48807|lsx.n48807|transgressiv|us_a_um
 lat23adj.n48818|lsx.n48818|transitiv|us_a_um
 lat23adj.n48834|lsx.n48834|translativ|us_a_um
@@ -749,7 +719,6 @@ lat23adj.n48906|lsx.n48906|transversari|us_a_um
 lat23adj.n48925|lsx.n48925|travers|us_a_um
 lat23adj.n49108|lsx.n49108|trijug|us_a_um
 lat23adj.n49254|lsx.n49254|trivi|us_a_um
-lat23adj.n49278|lsx.n49278|trojan|us_a_um
 lat23adj.n49686|lsx.n49686|ulvos|us_a_um
 lat23adj.n49728|lsx.n49728|unaetvicesim|us_a_um
 lat23adj.n49790|lsx.n49790|undevicesim|us_a_um
@@ -770,7 +739,6 @@ lat23adj.n50092|lsx.n50092|vagabund|us_a_um
 lat23adj.n50106|lsx.n50106|vagul|us_a_um
 lat23adj.n50107|lsx.n50107|vag|us_a_um
 lat23adj.n50121|lsx.n50121|valentul|us_a_um
-lat23adj.n50124|lsx.n50124|valerian|us_a_um
 lat23adj.n50128|lsx.n50128|valetudinari|us_a_um
 lat23adj.n50132|lsx.n50132|valg|us_a_um
 lat23adj.n50135|lsx.n50135|valid|us_a_um
@@ -782,7 +750,6 @@ lat23adj.n50173|lsx.n50173|vapid|us_a_um
 lat23adj.n50181|lsx.n50181|vaporos|us_a_um
 lat23adj.n50182|lsx.n50182|vapor|us_a_um
 lat23adj.n50200|lsx.n50200|varian|us_a_um
-lat23adj.n50201|lsx.n50201|varian|us_a_um
 lat23adj.n50204|lsx.n50204|variat|us_a_um
 lat23adj.n50208|lsx.n50208|varicos|us_a_um
 lat23adj.n50210|lsx.n50210|varic|us_a_um
@@ -794,21 +761,15 @@ lat23adj.n50242|lsx.n50242|vastatori|us_a_um
 lat23adj.n50246|lsx.n50246|vastific|us_a_um
 lat23adj.n50251|lsx.n50251|vastul|us_a_um
 lat23adj.n50252|lsx.n50252|vast|us_a_um
-lat23adj.n50257|lsx.n50257|vatican|us_a_um
 lat23adj.n50262|lsx.n50262|vaticini|us_a_um
 lat23adj.n50264|lsx.n50264|vaticin|us_a_um
-lat23adj.n50266|lsx.n50266|vatinian|us_a_um
 lat23adj.n50268|lsx.n50268|vati|us_a_um
 lat23adj.n50280|lsx.n50280|vectari|us_a_um
 lat23adj.n50283|lsx.n50283|vecticulari|us_a_um
 lat23adj.n50296|lsx.n50296|vectori|us_a_um
-lat23adj.n50301|lsx.n50301|vedi|us_a_um
 lat23adj.n50311|lsx.n50311|veget|us_a_um
 lat23adj.n50320|lsx.n50320|vehiculari|us_a_um
 lat23adj.n50348|lsx.n50348|velific|us_a_um
-lat23adj.n50351|lsx.n50351|velin|us_a_um
-lat23adj.n50354|lsx.n50354|veliternin|us_a_um
-lat23adj.n50355|lsx.n50355|velitern|us_a_um
 lat23adj.n50361|lsx.n50361|velivol|us_a_um
 lat23adj.n50387|lsx.n50387|venaliti|us_a_um
 lat23adj.n50390|lsx.n50390|venatici|us_a_um
@@ -820,10 +781,7 @@ lat23adj.n50420|lsx.n50420|venenos|us_a_um
 lat23adj.n50425|lsx.n50425|venerabund|us_a_um
 lat23adj.n50426|lsx.n50426|venerand|us_a_um
 lat23adj.n50428|lsx.n50428|venerari|us_a_um
-lat23adj.n50431|lsx.n50431|vener|us_a_um
-lat23adj.n50432|lsx.n50432|venerivag|us_a_um
 lat23adj.n50446|lsx.n50446|venos|us_a_um
-lat23adj.n50448|lsx.n50448|ventidian|us_a_um
 lat23adj.n50451|lsx.n50451|ventilabund|us_a_um
 lat23adj.n50460|lsx.n50460|ventos|us_a_um
 lat23adj.n50464|lsx.n50464|ventriculos|us_a_um
@@ -850,8 +808,6 @@ lat23adj.n50577|lsx.n50577|vernicom|us_a_um
 lat23adj.n50586|lsx.n50586|vern|us_a_um
 lat23adj.n50587|lsx.n50587|vern|us_a_um
 lat23adj.n50598|lsx.n50598|verrin|us_a_um
-lat23adj.n50599|lsx.n50599|verrin|us_a_um
-lat23adj.n50600|lsx.n50600|verri|us_a_um
 lat23adj.n50606|lsx.n50606|verrucos|us_a_um
 lat23adj.n50612|lsx.n50612|versabund|us_a_um
 lat23adj.n50618|lsx.n50618|versicolor|us_a_um
@@ -929,7 +885,6 @@ lat23adj.n51031|lsx.n51031|viperin|us_a_um
 lat23adj.n51037|lsx.n51037|virat|us_a_um
 lat23adj.n51051|lsx.n51051|virgat|us_a_um
 lat23adj.n51053|lsx.n51053|virge|us_a_um
-lat23adj.n51056|lsx.n51056|virgilian|us_a_um
 lat23adj.n51061|lsx.n51061|virginari|us_a_um
 lat23adj.n51064|lsx.n51064|virgine|us_a_um
 lat23adj.n51070|lsx.n51070|virgos|us_a_um
@@ -948,7 +903,6 @@ lat23adj.n51121|lsx.n51121|viscid|us_a_um
 lat23adj.n51123|lsx.n51123|viscos|us_a_um
 lat23adj.n51130|lsx.n51130|visific|us_a_um
 lat23adj.n51149|lsx.n51149|vitabund|us_a_um
-lat23adj.n51157|lsx.n51157|vitellian|us_a_um
 lat23adj.n51162|lsx.n51162|vite|us_a_um
 lat23adj.n51172|lsx.n51172|viticom|us_a_um
 lat23adj.n51175|lsx.n51175|vitigen|us_a_um

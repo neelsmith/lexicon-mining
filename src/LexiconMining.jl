@@ -26,6 +26,7 @@ include("adverbs.jl")
 
 
 include("generatecex/nounscex.jl")
+include("generatecex/verbscex.jl")
 include("generatecex/cextables.jl")
 
 include("tabulae.jl")
