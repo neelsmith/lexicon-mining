@@ -58,13 +58,13 @@ function cexline(adv::LSAdverb; divider = "|")
 
     if iscommon(adv.form)
         [join([
-            "latcommonadv.$(adv.lsid)",
+            "latcommon.adverb$(adv.lsid)",
             "lsx." * adv.lsid, 
             suareznorm(adv.form), "positive","irregularadverb"], divider)]
     else
-        l25 = join(["lat25adv.$(adv.lsid)","lsx." * adv.lsid, suareznorm(adv.form), "positive","irregularadverb"], divider)
-        l24 = join(["lat24advp.$(adv.lsid)","lsx." * adv.lsid, suareznorm(lat24(adv.form)), "positive","irregularadverb"], divider)
-        l23 = join(["lat23adv.$(adv.lsid)","lsx." * adv.lsid, suareznorm(lat23(adv.form)), "positive", "irregularadverb"], divider)
+        l25 = join(["lat25.adverb$(adv.lsid)","lsx." * adv.lsid, suareznorm(adv.form), "positive","irregularadverb"], divider)
+        l24 = join(["lat24.adverb$(adv.lsid)","lsx." * adv.lsid, suareznorm(lat24(adv.form)), "positive","irregularadverb"], divider)
+        l23 = join(["lat23.adverb$(adv.lsid)","lsx." * adv.lsid, suareznorm(lat23(adv.form)), "positive", "irregularadverb"], divider)
         [l23, l24, l25]
     end
 

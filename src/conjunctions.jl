@@ -54,11 +54,11 @@ $(SIGNATURES)
 function cexline(conj::LSConjunction; divider = "|")        
    
     if iscommon(conj.form)
-        [join(["latcommonprep.$(conj.lsid)","lsx." * conj.lsid, suareznorm(conj.form), "conjunction"], divider)]
+        [join(["latcommon.conj$(conj.lsid)","lsx." * conj.lsid, suareznorm(conj.form), "conjunction"], divider)]
     else
-        l25 = join(["lat25prep.$(conj.lsid)","lsx." * conj.lsid, suareznorm(conj.form), "conjunction"], divider)
-        l24 = join(["lat24prep.$(conj.lsid)","lsx." * conj.lsid, suareznorm(lat24(conj.form)), "conjunction"], divider)
-        l23 = join(["lat23prep.$(conj.lsid)","lsx." * conj.lsid, suareznorm(lat23(conj.form)), "conjunction"], divider)
+        l25 = join(["lat25.conj$(conj.lsid)","lsx." * conj.lsid, suareznorm(conj.form), "conjunction"], divider)
+        l24 = join(["lat24.conj$(conj.lsid)","lsx." * conj.lsid, suareznorm(lat24(conj.form)), "conjunction"], divider)
+        l23 = join(["lat23.conj$(conj.lsid)","lsx." * conj.lsid, suareznorm(lat23(conj.form)), "conjunction"], divider)
         [l23, l24, l25]
     end
 

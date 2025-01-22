@@ -60,11 +60,11 @@ $(SIGNATURES)
 function cexline(prep::LSPreposition; divider = "|")        
    
     if iscommon(prep.form)
-        [join(["latcommonprep.$(prep.lsid)","lsx." * prep.lsid, suareznorm(prep.form), "preposition"], divider)]
+        [join(["latcommon.prep$(prep.lsid)","lsx." * prep.lsid, suareznorm(prep.form), "preposition"], divider)]
     else
-        l25 = join(["lat25prep.$(prep.lsid)","lsx." * prep.lsid, suareznorm(prep.form), "preposition"], divider)
-        l24 = join(["lat24prep.$(prep.lsid)","lsx." * prep.lsid, suareznorm(lat24(prep.form)), "preposition"], divider)
-        l23 = join(["lat23prep.$(prep.lsid)","lsx." * prep.lsid, suareznorm(lat23(prep.form)), "preposition"], divider)
+        l25 = join(["lat25.prep$(prep.lsid)","lsx." * prep.lsid, suareznorm(prep.form), "preposition"], divider)
+        l24 = join(["lat24.prep$(prep.lsid)","lsx." * prep.lsid, suareznorm(lat24(prep.form)), "preposition"], divider)
+        l23 = join(["lat23.prep$(prep.lsid)","lsx." * prep.lsid, suareznorm(lat23(prep.form)), "preposition"], divider)
         [l23, l24, l25]
     end
 

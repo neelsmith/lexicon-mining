@@ -1,6 +1,6 @@
 StemUrn|LexicalEntity|Stem|InflClass
-lat24prep.n39985|lsx.n39985|quamvis|conjunction
-lat24prep.n44517|lsx.n44517|sive|conjunction
-lat24prep.n50271|lsx.n50271|ve|conjunction
-lat24prep.n50326|lsx.n50326|vel|conjunction
-lat24prep.n50666|lsx.n50666|verumtamen|conjunction
+lat24.conjn39985|lsx.n39985|quamvis|conjunction
+lat24.conjn44517|lsx.n44517|sive|conjunction
+lat24.conjn50271|lsx.n50271|ve|conjunction
+lat24.conjn50326|lsx.n50326|vel|conjunction
+lat24.conjn50666|lsx.n50666|verumtamen|conjunction

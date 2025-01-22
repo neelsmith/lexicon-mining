@@ -126,15 +126,15 @@ function structure4(cols)
     end
 
     if isempty(pp1)
-        @warn("NO first pp")
+        @warn("NO first pp in $(cols)")
     elseif isempty(pp2)
         #@warn("NO second pp")
        # @warn("Guess at infin for $(pp1) of conjugation $(conjugation)")   
         pp2 = guessinfinitive(pp1, conjugation)
     elseif isempty(pp3)
-        @warn("No third pp")
+        @warn("No third pp in in $(cols)")
     elseif isempty(pp4)
-        @warn("No fourth pp")
+        @warn("No fourth pp in $(cols)")
         
     end
 
