@@ -82,14 +82,28 @@ function nouns(datatuples; includebad = false)#::Union{Vector{LSNoun}, Tuple{Vec
     
             decl = if endswith(gs, "ae")
                 1
+            elseif endswith(gs, "arum")
+                1
+            elseif endswith(gs, "orum")
+                2
             elseif endswith(gs, "is")
+                3
+            elseif endswith(gs, "ium")        
+                3
+            elseif endswith(gs, "um")  &&
+                (endswith(ns, "es") || endswith(ns, "um"))
                 3
             elseif endswith(gs, "us")
                 4
             elseif endswith(gs,"ei") && endswith(ns,"es")
                 5
+            #elseif endswith(gs,"es") && endswith(ns,"es")
+
             elseif endswith(gs, "i")
                 2
+
+            elseif endswith(gs, "es") && endswith(ns, "e")
+                1 # Greek
             else
                 0
             end
@@ -116,6 +130,8 @@ function decl1class(noun::LSNoun)
             "a_ae"
     elseif endswith(noun.gensg, "ae") && endswith(noun.nomsg, "as")
             "as_ae"
+    elseif endswith(noun.gensg, "es") && endswith(noun.nomsg, "e")
+            "e_es"            
     else
             @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
             ""
@@ -135,7 +151,7 @@ function decl2class(noun::LSNoun)
             "er_ri"
 
     elseif endswith(noun.gensg, "i") && 
-        endswith(noun.nomsg, "os") 
+        (endswith(noun.nomsg, "os")  || endswith(noun.nomsg, "on"))
                 "os_i"            
 
     else
