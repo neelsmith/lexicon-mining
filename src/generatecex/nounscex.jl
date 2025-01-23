@@ -6,7 +6,11 @@ function cexline(n::LSNoun; divider = "|")
     if tabulaeclass(n) == "a_ae"
         noun_a_ae_cex(n; divider = divider)
     elseif tabulaeclass(n) == "us_i"
-    noun_us_i_cex(n; divider = divider)        
+        noun_us_i_cex(n; divider = divider)        
+    elseif tabulaeclass(n) == "s_tis"
+        noun_s_tis_cex(n; divider = divider)
+    elseif tabulaeclass(n) == "x_cis"
+        noun_x_cis_cex(n; divider = divider)
     else
         ""
     end
@@ -45,6 +49,43 @@ function noun_us_i_cex(n::LSNoun; divider = "|")
         l23 = join(["lat23.noun$(n.lsid)", lexentity, stem, gender, "us_i"], divider)
         l24 = join(["lat24.noun$(n.lsid)", lexentity, stem, gender, "us_i"], divider)
         l25 = join(["lat25.noun$(n.lsid)", lexentity, stem, gender, "us_i"], divider)
+        [l23, l24, l25]
+    end
+end
+
+
+function noun_s_tis_cex(n::LSNoun; divider = "|")
+    lexentity = string("lsx.", n.lsid)
+    gender = n.gender
+
+    stem1 = replace(n.nomsg, r"s$" => "")
+    stem = suareznorm(stem1)
+
+    if iscommon(stem)
+        [join(["latcommon.noun$(n.lsid)", lexentity, stem, gender, "s_tis"], divider)]
+    else
+        l23 = join(["lat23.noun$(n.lsid)", lexentity, stem, gender, "s_tis"], divider)
+        l24 = join(["lat24.noun$(n.lsid)", lexentity, stem, gender, "s_tis"], divider)
+        l25 = join(["lat25.noun$(n.lsid)", lexentity, stem, gender, "s_tis"], divider)
+        [l23, l24, l25]
+    end
+end
+
+
+
+function noun_x_cis_cex(n::LSNoun; divider = "|")
+    lexentity = string("lsx.", n.lsid)
+    gender = n.gender
+
+    stem1 = replace(n.nomsg, r"x$" => "")
+    stem = suareznorm(stem1)
+
+    if iscommon(stem)
+        [join(["latcommon.noun$(n.lsid)", lexentity, stem, gender, "x_cis"], divider)]
+    else
+        l23 = join(["lat23.noun$(n.lsid)", lexentity, stem, gender, "x_cis"], divider)
+        l24 = join(["lat24.noun$(n.lsid)", lexentity, stem, gender, "x_cis"], divider)
+        l25 = join(["lat25.noun$(n.lsid)", lexentity, stem, gender, "x_cis"], divider)
         [l23, l24, l25]
     end
 end
