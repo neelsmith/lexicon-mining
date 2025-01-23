@@ -2,90 +2,64 @@
 Tabulae stem for a noun.
 $(SIGNATURES)    
 """
-function cexline(n::LSNoun; divider = "|")        
-    if tabulaeclass(n) == "a_ae"
-        noun_a_ae_cex(n; divider = divider)
-    elseif tabulaeclass(n) == "us_i"
-        noun_us_i_cex(n; divider = divider)        
-    elseif tabulaeclass(n) == "s_tis"
-        noun_s_tis_cex(n; divider = divider)
-    elseif tabulaeclass(n) == "x_cis"
-        noun_x_cis_cex(n; divider = divider)
-    else
-        ""
-    end
-end
-
-
-function noun_a_ae_cex(n::LSNoun; divider = "|")
+function cexline(n::LSNoun; divider = "|")  
     lexentity = string("lsx.", n.lsid)
     gender = n.gender
+    iclass = tabulaeclass(n)
 
-    stem1 = replace(n.gensg, r"ae$" => "")
-    stem = suareznorm(stem1)
     
+    stem = ""
+    
+    if n.declension == 1
+        if endswith(n.gensg, "ae")
+            stem = replace(n.gensg, r"ae$" => "") |> suareznorm
+        elseif endswith(n.gensg, "es")
+            stem = replace(n.gensg, r"es$" => "") |> suareznorm
+        end
 
-    if iscommon(stem)
-        [join(["latcommon.noun$(n.lsid)", lexentity, stem, gender, "a_ae"], divider)]
+    elseif n.declension == 2
+        if endswith(n.gensg, "i")
+            #@info("DECL: $(n.declension) ends with -i in gensg $(n.gensg)")
+            stem = replace(n.gensg, r"i$" => "") |> suareznorm
+            #@info("SET STEM TO $(stem)")
+        end
+
+    elseif n.declension == 3
+        if endswith(n.gensg, "is")
+            stem = replace(n.gensg, r"is$" => "") |> suareznorm
+
+        elseif endswith(n.gensg, "ium")
+            stem = replace(n.gensg, r"ium$" => "") |> suareznorm
+        end
+
+    elseif n.declension == 4
+        if endswith(n.gensg, "us")
+            stem = replace(n.gensg, r"us$" => "") |> suareznorm
+        end
+
+    elseif n.declension == 5
+        if endswith(n.gensg, "i")
+            stem = replace(n.gensg, r"i$" => "") |> suareznorm
+        end
+    end                        
+   
+    if isempty(stem)
+        @warn("No stem for noun $(n) of declension $(n.declension)")
+        []
     else
-        l23 = join(["lat23.noun$(n.lsid)", lexentity, stem, gender, "a_ae"], divider)
-        l24 = join(["lat24.noun$(n.lsid)", lexentity, stem, gender, "a_ae"], divider)
-        l25 = join(["lat25.noun$(n.lsid)", lexentity, stem, gender, "a_ae"], divider)
+        noun_cexlines(n.lsid, lexentity, stem, gender, iclass; divider = divider)
+    end
+end
+
+function noun_cexlines(id, lexentity, stem, gender, inflclass; divider = "|")
+    if iscommon(stem)
+        [join(["latcommon.noun$(id)", lexentity, stem, gender, inflclass], divider)]
+    else
+        l23 = join(["lat23.noun$(id)", lexentity, stem, gender, inflclass], divider)
+        l24 = join(["lat24.noun$(id)", lexentity, stem, gender, inflclass], divider)
+        l25 = join(["lat25.noun$(id)", lexentity, stem, gender, inflclass], divider)
         [l23, l24, l25]
     end
 end
 
 
-function noun_us_i_cex(n::LSNoun; divider = "|")
-    lexentity = string("lsx.", n.lsid)
-    gender = n.gender
-
-    stem1 = replace(n.gensg, r"i$" => "")
-    stem = suareznorm(stem1)
-
-    if iscommon(stem)
-        [join(["latcommon.noun$(n.lsid)", lexentity, stem, gender, "us_i"], divider)]
-    else
-        l23 = join(["lat23.noun$(n.lsid)", lexentity, stem, gender, "us_i"], divider)
-        l24 = join(["lat24.noun$(n.lsid)", lexentity, stem, gender, "us_i"], divider)
-        l25 = join(["lat25.noun$(n.lsid)", lexentity, stem, gender, "us_i"], divider)
-        [l23, l24, l25]
-    end
-end
-
-
-function noun_s_tis_cex(n::LSNoun; divider = "|")
-    lexentity = string("lsx.", n.lsid)
-    gender = n.gender
-
-    stem1 = replace(n.nomsg, r"s$" => "")
-    stem = suareznorm(stem1)
-
-    if iscommon(stem)
-        [join(["latcommon.noun$(n.lsid)", lexentity, stem, gender, "s_tis"], divider)]
-    else
-        l23 = join(["lat23.noun$(n.lsid)", lexentity, stem, gender, "s_tis"], divider)
-        l24 = join(["lat24.noun$(n.lsid)", lexentity, stem, gender, "s_tis"], divider)
-        l25 = join(["lat25.noun$(n.lsid)", lexentity, stem, gender, "s_tis"], divider)
-        [l23, l24, l25]
-    end
-end
-
-
-
-function noun_x_cis_cex(n::LSNoun; divider = "|")
-    lexentity = string("lsx.", n.lsid)
-    gender = n.gender
-
-    stem1 = replace(n.nomsg, r"x$" => "")
-    stem = suareznorm(stem1)
-
-    if iscommon(stem)
-        [join(["latcommon.noun$(n.lsid)", lexentity, stem, gender, "x_cis"], divider)]
-    else
-        l23 = join(["lat23.noun$(n.lsid)", lexentity, stem, gender, "x_cis"], divider)
-        l24 = join(["lat24.noun$(n.lsid)", lexentity, stem, gender, "x_cis"], divider)
-        l25 = join(["lat25.noun$(n.lsid)", lexentity, stem, gender, "x_cis"], divider)
-        [l23, l24, l25]
-    end
-end

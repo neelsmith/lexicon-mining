@@ -51,11 +51,31 @@ function normalizegender(s)
 
     elseif genderval in ["neuter", "n", "n." ]
         "neuter"
+
     elseif genderval ==   "common"
-          "common"
+        "common"
 
     else
-        @warn("Invalid value for gender: $(s)")
+        #@warn("Invalid value for gender: $(s)")
+        ""
+    end
+end
+
+
+function expand(nom, gen)
+    if gen == "ae"
+        replace(nom, r"a$" => "") * "ae"
+    elseif gen == "arum"
+        replace(nom, r"ae$" => "") * "arum"
+
+    elseif gen == "i"
+        #if endswith()
+        replace(nom, r"[ou][smn]$" => "") * "i"
+
+    elseif gen == "orum"
+        replace(nom, r"[ia]$" => "") * "orum"
+
+    else
         ""
     end
 end
@@ -78,7 +98,17 @@ function nouns(datatuples; includebad = false)#::Union{Vector{LSNoun}, Tuple{Vec
             ns = Unicode.normalize(nsraw, stripmark = true)
             gs = Unicode.normalize(gsraw, stripmark = true)
             gender = normalizegender(genderraw)
+            if isempty(gender)
+                @warn("Invalid value for gender $(genderraw) in ($(tpl.lemma), $(tpl.urn))")
+            end
             shortid = trimid(tpl.urn)
+
+            bareendings = ["i", "ae", "arum", "orum"]
+            if gs in bareendings
+                #@warn("RAW ENDING GEN SG: $(gs) in $(shortid) ($(ns))")
+                gs = expand(ns, gs)
+                #@info("Expanded to $(gs)")
+            end
     
             decl = if endswith(gs, "ae")
                 1
@@ -103,6 +133,7 @@ function nouns(datatuples; includebad = false)#::Union{Vector{LSNoun}, Tuple{Vec
                 2
 
             elseif endswith(gs, "es") && endswith(ns, "e")
+               # @info("GREEK 1st: $(ns)")
                 1 # Greek
             else
                 0
@@ -121,41 +152,60 @@ function nouns(datatuples; includebad = false)#::Union{Vector{LSNoun}, Tuple{Vec
     end
 end
 
+function decl1class(nom, gen)
+    
+    if endswith(gen, "ae") && endswith(nom, "a")
+        "a_ae"
+    elseif endswith(gen, "ae") && endswith(nom, "as")
+        "as_ae"
+
+    elseif endswith(gen, "ae") && endswith(nom, "es")   
+        "es_ae"         
+
+    elseif endswith(gen, "es") && endswith(nom, "e")
+            "e_es"            
+
+    elseif endswith(gen, "arum")
+        "a_ae_pl"
+
+    else
+        @warn("Declension 1 conflicts with endings  ($(gen)) for $(nom)")
+            ""
+    end
+end
 
 """Find Tabulae class for a first declension noun.
 $(SIGNATURES)
 """
 function decl1class(noun::LSNoun)
-    if endswith(noun.gensg, "ae") && endswith(noun.nomsg, "a")
-            "a_ae"
-    elseif endswith(noun.gensg, "ae") && endswith(noun.nomsg, "as")
-            "as_ae"
-    elseif endswith(noun.gensg, "es") && endswith(noun.nomsg, "e")
-            "e_es"            
-    else
-            @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
-            ""
-    end
+    decl1class(noun.nomsg, noun.gensg)
 end
 
 """Find Tabulae class for a second declension noun.
 $(SIGNATURES)
 """
 function decl2class(noun::LSNoun)
-    if endswith(noun.gensg, "i") && 
-        (endswith(noun.nomsg, "us") || endswith(noun.nomsg, "um"))
+    decl2class(noun.nomsg, noun.gensg)
+end
+
+function decl2class(nom, gen)
+    if endswith(gen, "i") && 
+        (endswith(nom, "us") || endswith(nom, "um"))
             "us_i"
 
-    elseif endswith(noun.gensg, "ri") && 
-        endswith(noun.nomsg, "er") 
+    elseif endswith(gen, "ri") && 
+        endswith(nom, "er") 
             "er_ri"
 
-    elseif endswith(noun.gensg, "i") && 
-        (endswith(noun.nomsg, "os")  || endswith(noun.nomsg, "on"))
+    elseif endswith(gen, "i") && 
+        (endswith(nom, "os")  || endswith(nom, "on"))
                 "os_i"            
 
+    elseif endswith(gen, "orum")
+        "os_i_pl"
+
     else
-        @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
+        @warn("Declension 2 conflicts with endings in $(gen) for $(nom)")
            ""
     end
 end
@@ -164,42 +214,50 @@ end
 $(SIGNATURES)
 """
 function decl3class(noun::LSNoun)
-    
-    if endswith(noun.gensg, "onis") && endswith(noun.nomsg, "o")
+    decl3class(noun.nomsg, noun.gensg)
+end
+
+function decl3class(nom, gen)
+    if endswith(gen, "onis") && endswith(nom, "o")
         "o_onis"
-    elseif endswith(noun.gensg, "inis") && endswith(noun.nomsg, "o")
+    elseif endswith(gen, "inis") && endswith(nom, "o")
         "o_inis"
-    elseif endswith(noun.gensg, "inis") && endswith(noun.nomsg, "en")
+    elseif endswith(gen, "inis") && endswith(nom, "en")
         "en_inis"
     
         
-    elseif endswith(noun.gensg, "dis") && endswith(noun.nomsg, "s")
+    elseif endswith(gen, "dis") && endswith(nom, "s")
         "s_dis"
-    elseif endswith(noun.gensg, "itis") && endswith(noun.nomsg, "es")
+    elseif endswith(gen, "itis") && endswith(nom, "es")
         "es_itis"
-    elseif endswith(noun.gensg, "tis") && endswith(noun.nomsg, "s")
+    elseif endswith(gen, "tis") && endswith(nom, "s")
         "s_tis"
     
 
-    elseif endswith(noun.gensg, "icis") && endswith(noun.nomsg, "ex")
+    elseif endswith(gen, "icis") && endswith(nom, "ex")
         "ex_icis"
-    elseif endswith(noun.gensg, "cis") && endswith(noun.nomsg, "x")
+    elseif endswith(gen, "cis") && endswith(nom, "x")
         "x_cis"
-     elseif endswith(noun.gensg, "gis") && endswith(noun.nomsg, "x")
+     elseif endswith(gen, "gis") && endswith(nom, "x")
         "x_gis"
     
-    elseif endswith(noun.gensg, "eris") && endswith(noun.nomsg, "us")
+    elseif endswith(gen, "eris") && endswith(nom, "us")
         "us_eris"
-    elseif endswith(noun.gensg, "oris") && endswith(noun.nomsg, "us")
+    elseif endswith(gen, "oris") && endswith(nom, "us")
         "us_oris"
     
-    elseif endswith(noun.gensg, "is") && endswith(noun.nomsg, "is")
+    elseif endswith(gen, "is") && endswith(nom, "is")
         "is_is"
     
-    elseif endswith(noun.gensg, "is")
+    elseif endswith(gen, "is")
         "0_is"
+
+    elseif endswith(gen, "ium") &&
+        endswith(nom, "a")
+        "i_is_is"
+
     else 
-        @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
+        @warn("Declension 3 conflicts with endings ($(gen)) for  $(nom)")
         ""
     end
 end
@@ -208,11 +266,15 @@ end
 $(SIGNATURES)
 """
 function decl4class(noun::LSNoun)
-    if endswith(noun.gensg, "us") && endswith(noun.nomsg, "us")
+    decl4class(noun.nomsg, noun.gensg)
+end
+
+function decl4class(nom, gen)
+    if endswith(gen, "us") && endswith(nom, "us")
         "us_us"
        
     else
-        @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
+        @warn("Declension 4 conflicts with endings in $(gen)")
         ""
     end
 end
@@ -221,11 +283,15 @@ end
 $(SIGNATURES)
 """
 function decl5class(noun::LSNoun)
-    if endswith(noun.gensg, "ei") && endswith(noun.nomsg, "es")
+    decl5class(noun.nomsg, noun.gensg)
+end
+
+function decl5class(nom, gen)
+    if endswith(gen, "ei") && endswith(nom, "es")
         "es_ei"
        
     else
-        @warn("Declension $(noun.declension) conflicts with endings in $(noun)")
+        @warn("Declension 5 conflicts with endings in $(gen) for $(nom)")
         ""
     end
 end
@@ -253,51 +319,3 @@ function tabulaeclass(noun::LSNoun)
         ""
     end
 end
-
-#=
-    √√ "us_i"     => 175
-    √√  "a_ae"     => 127
-    √  "o_onis"   => 49
-
-    √  "s_tis"    => 42
-    √  "us_us"    => 40
-    √  "is_is"    => 19
-    √  "o_inis"   => 13
-    √  "en_inis"  => 13
-      "us_oris"  => 9
-    √  "x_cis"    => 9
-    √  "er_ri"    => 8
-    √   "es_itis"  => 8
-    √  "es_ei"    => 7
-      "us_eris"  => 7
-    √  "s_dis"    => 5
-      "er_ris"   => 5
-      "i_is_is"  => 5
-      "s_is"     => 5
-      "i_s_tis"  => 4
-     √ "x_gis"    => 4
-      "es_is"    => 4
-      "s_ris"    => 4
-      "i_es_is"  => 2
-      "0_i"      => 2
-      "eps_ipis" => 1
-      "0_tis"    => 1
-      "0_dis"    => 1
-      "e_es"     => 1
-      "i_0_is"   => 1
-      "i_er_ris" => 1
-      "x_ctis"   => 1
-      "ut_itis"  => 1
-      "s_nis"    => 1
-      √ "ex_icis"  => 1
-      ""         => 1
-      "os_i"     => 1
-      "0_is"     => 43   
-=#
-    
-
-
-
-
-
-
