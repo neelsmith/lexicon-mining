@@ -91,7 +91,7 @@ function nouns(datatuples; includebad = false)#::Union{Vector{LSNoun}, Tuple{Vec
             elseif endswith(gs, "ium")        
                 3
             elseif endswith(gs, "um")  &&
-                (endswith(ns, "es") || endswith(ns, "um"))
+                (endswith(ns, "es") || endswith(ns, "a"))
                 3
             elseif endswith(gs, "us")
                 4
