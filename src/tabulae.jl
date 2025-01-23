@@ -10,12 +10,12 @@ end
 function lexicaldata()
     lexicaldata(pwd())
 end
-function datatuples()
-    datatuples(pwd())
+function datatuples(; includebad = false)
+    datatuples(pwd(); includebad = includebad)
 end
 
-function datatuples(dir)
-    summarydirs(dir) |> readdata
+function datatuples(dir; includebad = false)
+    readdata(summarydirs(dir); includebad = includebad)
 end
 
 function summarydirs()

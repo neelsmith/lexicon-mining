@@ -1,6 +1,6 @@
 """Create named tuples structuring CGPT output written to files in a list of directories. Return two vectors, one with structured tuples, one with list of data that couldn't be parsed.
 """
-function readdata(dirs)
+function readdata(dirs; includebad = true)
     good = 0
     badlist = []
     data = []
@@ -32,8 +32,12 @@ function readdata(dirs)
             
         end
     end
-
-    (sort(data, by = x -> x.seq), badlist)
+    sorteddata = sort(data, by = x -> x.seq)
+    if includebad
+        (sorteddata, badlist)
+    else
+        sorteddata
+    end
 end
 
 """Normalize the string value for a data cell.
