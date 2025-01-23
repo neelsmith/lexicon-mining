@@ -2497,7 +2497,9 @@ latcommon.nounn14407|lsx.n14407|dissimulanti|feminine|a_ae
 latcommon.nounn14414|lsx.n14414|dissipatri|feminine|x_cis
 latcommon.nounn14427|lsx.n14427|dissolutri|feminine|x_cis
 latcommon.nounn14431|lsx.n14431|dissonanti|feminine|a_ae
+latcommon.nounn14441|lsx.n14441|dissulc|masculine|us_i
 latcommon.nounn14448|lsx.n14448|distanti|feminine|a_ae
+latcommon.nounn14465x|lsx.n14465x|distich|neuter|us_i
 latcommon.nounn14490|lsx.n14490|distributri|feminine|x_cis
 latcommon.nounn14507|lsx.n14507|dithuramb|masculine|us_i
 latcommon.nounn14513|lsx.n14513|ditrochae|masculine|us_i
@@ -2520,6 +2522,7 @@ latcommon.nounn14642|lsx.n14642|dolabr|feminine|a_ae
 latcommon.nounn14643|lsx.n14643|dolabrari|masculine|us_i
 latcommon.nounn14647|lsx.n14647|dolatori|neuter|us_i
 latcommon.nounn14651|lsx.n14651|dolenti|feminine|a_ae
+latcommon.nounn14655x|lsx.n14655x|doliari|neuter|us_i
 latcommon.nounn14663|lsx.n14663|doli|neuter|us_i
 latcommon.nounn14665|lsx.n14665|doli|neuter|us_i
 latcommon.nounn14672|lsx.n14672|dolosita|feminine|s_tis
@@ -2566,6 +2569,7 @@ latcommon.nounn14800|lsx.n14800|dropacism|masculine|us_i
 latcommon.nounn14802|lsx.n14802|dropa|masculine|x_cis
 latcommon.nounn14803|lsx.n14803|drosolith|masculine|us_i
 latcommon.nounn14806|lsx.n14806|drung|masculine|us_i
+latcommon.nounn14807|lsx.n14807|drup|feminine|a_ae
 latcommon.nounn14821|lsx.n14821|dualita|feminine|s_tis
 latcommon.nounn14824|lsx.n14824|dubieta|feminine|s_tis
 latcommon.nounn14837|lsx.n14837|ducatri|feminine|x_cis
