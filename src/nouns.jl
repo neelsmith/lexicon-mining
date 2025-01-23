@@ -100,6 +100,7 @@ function nouns(datatuples; includebad = false)#::Union{Vector{LSNoun}, Tuple{Vec
             gender = normalizegender(genderraw)
             if isempty(gender)
                 @warn("Invalid value for gender $(genderraw) in ($(tpl.lemma), $(tpl.urn))")
+                push!(bad, tpl)
             end
             shortid = trimid(tpl.urn)
 
