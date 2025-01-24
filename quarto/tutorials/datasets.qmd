@@ -4,7 +4,7 @@ engine: julia
 
 # Build Tabulae datasets
 
-```{julia}
+```
 #| echo: false
 #| output: false
 repo = pwd() |> dirname |> dirname
@@ -26,7 +26,7 @@ length(tranchepaths)
 ## Start from named tuple data
 
 You can build Tabulae datasets from the named tuple reading of ChatGPT summaries of Lewis-Short articles. See [this tutorial](./readsummaries.qmd)
-```{julia}
+```
 #| warning: false
 #| output: false
 using LexiconMining
@@ -38,18 +38,18 @@ using LexiconMining
 - specific to each PoS 
 
 
-```{julia}
+```
 #| warning: false
 lsnouns = nouns(data)
 ```
 
 ## Translate morphological objects to Tabulae tables
 
-```{julia}
+```
 nounscex = cextable(lsnouns)
 ```
 
-```{julia}
+```
 #| warning: false
 nounscexlines = tabulaecex.(lsnouns)
 ```

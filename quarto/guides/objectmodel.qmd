@@ -13,7 +13,7 @@ repo = pwd() |> dirname |> dirname
 
 The `readtranche` function lets you read an entire directory of ChatGPT's output. Here's how you can use it if you have a variable named `repo` pointing to a clone of the `LexiconMining` github repository.
 
-```{julia}
+```
 #| warning: false
 #| output: false
 using LexiconMining
@@ -24,23 +24,23 @@ dir = joinpath(trancheroot, "tranche11")
 
 The result comes in two parts: a data set composed of named tuples, and a list of files that did not parse properly. Let's look at a the first few entries in each list:
 
-```{julia}
+```
 data11[1:5]
 ```
 
-```{julia}
+```
 failed11[1:5]
 ```
 
 What percentage of entries were parseable?
 
-```{julia}
+```
 length(data11) / (length(data11) + length(failed11))
 ```
 
 ## Read a list of directories
 
-```{julia}
+```
 #| warning: false
 dirlist = [joinpath(trancheroot, "tranche$(i)") for i in 11:33]
 

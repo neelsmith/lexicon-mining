@@ -12,7 +12,7 @@ trancheroot = joinpath(repo, "suarez", "lewisshort-extracts", "extracts-cycle2")
 ```
 
 
-```{julia}
+```
 #| warning: false
 using LexiconMining
 tranchedirs = filter(d -> startswith(d,"tranche"),readdir(trancheroot))
@@ -22,7 +22,7 @@ tranchepaths = map(dir -> joinpath(trancheroot, dir), tranchedirs)
 
 What percentage were parseable?
 
-```{julia}
+```
 length(data) / (length(data) + length(errs))
 ```
 ## Cleaning up syntax
@@ -31,13 +31,13 @@ length(data) / (length(data) + length(errs))
 
 ## Normalizing values
 
-```{julia}
+```
 posvalues = map(tpl -> tpl.pos, data)
 using StatsBase, OrderedCollections
 poscounts = sort(OrderedDict(countmap(posvalues)), byvalue=true, rev=true)
 ```
 
-```{julia}
+```
 println(join(collect(keys(poscounts)),"\n"))
 ```
 
@@ -49,7 +49,7 @@ E.g.,
 
 What percentage had immediately usable values for pos?
 
-```{julia}
+```
 sum(collect(values(poscounts))[1:10]) / (length(data) + length(errs))
 ```
 
@@ -58,7 +58,7 @@ sum(collect(values(poscounts))[1:10]) / (length(data) + length(errs))
 
 
 
-```{julia}
+```
 
 lexical = filter(data) do tpl
 tpl.pos != "crossreference" &&
@@ -67,13 +67,13 @@ end
 lexposvalues = map(lex -> lex.pos, lexical)
 ```
 
-```{julia}
+```
 lexposcounts = sort(OrderedDict(countmap(lexposvalues)), byvalue=true, rev=true)
 ```
 
 How many of these have good values?
 
-```{julia}
+```
 
 lexcounts = collect(values(lexposcounts))
 
