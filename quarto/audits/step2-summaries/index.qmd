@@ -1,0 +1,35 @@
+---
+engine: julia
+---
+
+
+# Step 2: postprocessed ChatGPT summaries
+
+> *Summarize differences between origianl ChatGPT summaries and postprocessed data files.*
+
+
+
+```{julia}
+#| echo: false
+#| output: false
+repo = pwd() |> dirname |> dirname |> dirname
+```
+
+
+```{julia}
+summariesdir = joinpath(repo, "summaries")
+dirnames = filter(readdir(summariesdir)) do d
+    startswith(d, "tranche")
+end
+pathlist = map(d -> joinpath(summariesdir, d), dirnames)
+
+fileids = []
+for path in pathlist
+    cexfiles = filter(f -> endswith(f, ".cex"), readdir(path))
+    cexfileids = [replace(f, ".cex" => "") for f in cexfiles]
+    for f in cexfileids
+        push!(fileids, f)
+    end
+end
+length(fileids)
+```
