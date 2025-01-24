@@ -55,11 +55,11 @@ function activeinfinitive(lemma, conj)
     if conj == 1
         replace(lemma, r"o$" => "are")
     
-    elseif conj == 2 || conj == 3
-        replace(lemma, r"o$" => "ere")
+    elseif conj == 2 || conj == 4
+        replace(lemma, r"o$" => "re")
 
-    elseif conj == 4
-        replace(lemma, r"o$" => "ire")
+    elseif conj == 3
+        replace(lemma, r"o$" => "ere")
     end
 
 end
@@ -69,21 +69,18 @@ function passiveinfinitive(lemma, conj)
     if conj == 1
         replace(lemma, r"or$" => "ari")
     
-    elseif conj == 2 
-        replace(lemma, r"or$" => "eri")
+    elseif conj == 2 || conj == 4
+        replace(lemma, r"or$" => "ri")
 
     elseif conj == 3
         replace(lemma, r"or$" => "i")
-
-
-    elseif conj == 4
-        replace(lemma, r"or$" => "iri")
     end
 
 end
 
 
 function guessinfinitive(lemma, conj::Int)
+    @info("Guess infinitive for $(lemma)")
     if endswith(lemma, "o")
         activeinfinitive(lemma, conj)
     elseif endswith(lemma,"or")
@@ -156,6 +153,8 @@ function verbs(datatuples; includebad = false)
         cols = strip.(split(tpl.morphology,","))
         cleaner = Unicode.normalize.(cols, stripmark = true)
 
+        @info("Examine data from raw morphology $(tpl.morphology)")
+        @info("Columns: $(length(cols))")
         if length(cols) == 5    
             (conjugationraw, pp1, pp2, pp3, pp4 ) = cleaner 
             conjugation = 0
@@ -220,7 +219,9 @@ function cextable(verblist::Vector{LSVerb}, ortho = "latcommon"; divider = "|")
     )
 end
 
-
+"""True if any value for principal part is missing.
+$(SIGNATURES)
+"""
 function incomplete(v::LSVerb)
     isempty(v.pp1) ||
     isempty(v.pp2) ||
