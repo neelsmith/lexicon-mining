@@ -219,3 +219,11 @@ function cextable(verblist::Vector{LSVerb}, ortho = "latcommon"; divider = "|")
         join(ortholines, "\n")
     )
 end
+
+
+function incomplete(v::LSVerb)
+    isempty(v.pp1) ||
+    isempty(v.pp2) ||
+    isempty(v.pp3) ||
+    isempty(v.pp4)
+end

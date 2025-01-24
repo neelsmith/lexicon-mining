@@ -1,3 +1,14 @@
+function verb_cexlines(id, lexentity, stem, conj, note; divider = "|")        
+    if iscommon(stem)
+        [join(["latcommon.verb$(id)", lexentity, stem, conj, note], divider)]
+    else
+        l23 = join(["lat23.verb$(id)", lexentity, stem, conj, note], divider)
+        l24 = join(["lat24.verb$(id)", lexentity, stem,  conj, note], divider)
+        l25 = join(["lat25.verb$(id)", lexentity, stem,  conj, note], divider)
+        [l23, l24, l25]
+    end
+end
+
 function principalparts_cex(verb; divider = "|")
     ""
 end
@@ -33,15 +44,9 @@ function conj4_cex(verb; divider = "|")
         stem = replace(verb.pp1, r"or?$" => "") |> suareznorm
         conj = endswith(stem, "or") ? "conj4dep" : "conj4"
         note = "Automatically generated"
-        if iscommon(stem)
-            
-            [join(["latcommon.verb$(verb.lsid)", lexentity, stem, conj, note], divider)]
-        else
-            l23 = join(["lat23.verb$(verb.lsid)", lexentity, stem, conj, note], divider)
-            l24 = join(["lat24.verb$(verb.lsid)", lexentity, stem,  conj, note], divider)
-            l25 = join(["lat25.verb$(verb.lsid)", lexentity, stem,  conj, note], divider)
-            [l23, l24, l25]
-        end
+        verb_cexlines(verb.lsid, lexentity, stem, conj, note; 
+        divider = divider)
+
     else
         principalparts_cex(verb)
     end
