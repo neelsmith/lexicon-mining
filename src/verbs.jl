@@ -49,8 +49,6 @@ function ==(v1::LSVerb, v2::LSVerb)
 end
 
 
-
-
 function activeinfinitive(lemma, conj)
     if conj == 1
         replace(lemma, r"o$" => "are")
@@ -80,7 +78,7 @@ end
 
 
 function guessinfinitive(lemma, conj::Int)
-    @info("Guess infinitive for $(lemma)")
+    #@info("Guess infinitive for $(lemma)")
     if endswith(lemma, "o")
         activeinfinitive(lemma, conj)
     elseif endswith(lemma,"or")
@@ -153,8 +151,8 @@ function verbs(datatuples; includebad = false)
         cols = strip.(split(tpl.morphology,","))
         cleaner = Unicode.normalize.(cols, stripmark = true)
 
-        @info("Examine data from raw morphology $(tpl.morphology)")
-        @info("Columns: $(length(cols))")
+        #@info("Examine data from raw morphology $(tpl.morphology)")
+        #@info("Columns: $(length(cols))")
         if length(cols) == 5    
             (conjugationraw, pp1, pp2, pp3, pp4 ) = cleaner 
             conjugation = 0
@@ -187,9 +185,21 @@ function verbs(datatuples; includebad = false)
     end
 end
 
+function presentconj(verb::LSVerb)
+    if endswith(verb.pp1, "or")
+        "c$(verb.conjugation)presdep"
+    elseif endswith(verb.pp1, "o")
+        "c$(verb.conjugation)pres"
+    else
+        ""
+    end
+end
 
 function cexline(verb::LSVerb; divider = "|")    
-    if verb.conjugation == 1
+    if missingpart(verb)
+
+        principalparts_cex(verb)
+    elseif verb.conjugation == 1
         conj1_cex(verb; divider = divider)
     elseif verb.conjugation == 2
         conj2_cex(verb; divider = divider)
