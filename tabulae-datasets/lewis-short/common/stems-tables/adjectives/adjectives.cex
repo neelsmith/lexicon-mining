@@ -1037,6 +1037,7 @@ latcommon.adjn9926|lsx.n9926|concrustat|us_a_um
 latcommon.adjn9937|lsx.n9937|concubi|us_a_um
 latcommon.adjn9959|lsx.n9959|concursatori|us_a_um
 latcommon.adjn9991|lsx.n9991|condens|us_a_um
+latcommon.adjn10000|lsx.n10000|condictici|us_a_um
 latcommon.adjn10003|lsx.n10003|condign|us_a_um
 latcommon.adjn10004|lsx.n10004|condimentari|us_a_um
 latcommon.adjn10011|lsx.n10011|conditane|us_a_um
@@ -1499,6 +1500,7 @@ latcommon.adjn15010|lsx.n15010|duonum|us_a_um
 latcommon.adjn15013|lsx.n15013|dyscol|us_a_um
 latcommon.adjn15015|lsx.n15015|dusenteric|us_a_um
 latcommon.adjn15018|lsx.n15018|dysphoric|us_a_um
+latcommon.adjn15029|lsx.n15029|earin|us_a_um
 latcommon.adjn15032|lsx.n15032|eben|us_a_um
 latcommon.adjn15042|lsx.n15042|ebore|us_a_um
 latcommon.adjn15043|lsx.n15043|ebriac|us_a_um
@@ -1651,12 +1653,14 @@ latcommon.adjn16971|lsx.n16971|exoteric|us_a_um
 latcommon.adjn16974|lsx.n16974|expalliat|us_a_um
 latcommon.adjn16975|lsx.n16975|expallid|us_a_um
 latcommon.adjn16983|lsx.n16983|expapillat|us_a_um
+latcommon.adjn16984|lsx.n16984|expart|us_a_um
 latcommon.adjn16985|lsx.n16985|expass|us_a_um
 latcommon.adjn16997|lsx.n16997|expeculiat|us_a_um
 latcommon.adjn17016|lsx.n17016|expergific|us_a_um
 latcommon.adjn17040|lsx.n17040|expiatori|us_a_um
 latcommon.adjn17056|lsx.n17056|explanatori|us_a_um
 latcommon.adjn17083|lsx.n17083|exploratori|us_a_um
+latcommon.adjn17099|lsx.n17099|expositici|us_a_um
 latcommon.adjn17114|lsx.n17114|expret|us_a_um
 latcommon.adjn17125|lsx.n17125|expudorat|us_a_um
 latcommon.adjn17130|lsx.n17130|expugnatori|us_a_um
@@ -1745,6 +1749,7 @@ latcommon.adjn17704|lsx.n17704|farinari|us_a_um
 latcommon.adjn17705|lsx.n17705|farinos|us_a_um
 latcommon.adjn17707|lsx.n17707|farinulent|us_a_um
 latcommon.adjn17711|lsx.n17711|farne|us_a_um
+latcommon.adjn17713|lsx.n17713|farrace|us_a_um
 latcommon.adjn17715|lsx.n17715|farrari|us_a_um
 latcommon.adjn17716|lsx.n17716|farrat|us_a_um
 latcommon.adjn17717|lsx.n17717|farreari|us_a_um

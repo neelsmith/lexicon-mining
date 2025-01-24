@@ -5290,6 +5290,7 @@ latcommon.nounn15055|lsx.n15055|ebullition|feminine|o_onis
 latcommon.nounn15056|lsx.n15056|ebul|neuter|us_i
 latcommon.nounn15057|lsx.n15057|ebor|neuter|0_is
 latcommon.nounn15069|lsx.n15069|ecbas|feminine|is_is
+latcommon.nounn15071|lsx.n15071|ecbolad|feminine|s_dis
 latcommon.nounn15076|lsx.n15076|ecchemat|neuter|0_is
 latcommon.nounn15078|lsx.n15078|ecclesi|feminine|a_ae
 latcommon.nounn15081|lsx.n15081|ecclesiecdic|masculine|us_i
@@ -5508,6 +5509,8 @@ latcommon.nounn15735|lsx.n15735|enater|masculine|0_is
 latcommon.nounn15742|lsx.n15742|encanthisid|feminine|s_dis
 latcommon.nounn15743|lsx.n15743|encardi|feminine|a_ae
 latcommon.nounn15745|lsx.n15745|encathismat|neuter|0_is
+latcommon.nounn15746|lsx.n15746|encaustic|feminine|a_ae
+latcommon.nounn15747|lsx.n15747|encaust|neuter|us_i
 latcommon.nounn15748|lsx.n15748|encautari|neuter|us_i
 latcommon.nounn15753|lsx.n15753|enchrys|feminine|a_ae
 latcommon.nounn15754|lsx.n15754|enclimat|neuter|0_is
@@ -5648,6 +5651,7 @@ latcommon.nounn16042|lsx.n16042|epulator|masculine|0_is
 latcommon.nounn16043|lsx.n16043|epulatori|neuter|us_i
 latcommon.nounn16044|lsx.n16044|epulon|masculine|o_onis
 latcommon.nounn16047|lsx.n16047|epul|neuter|us_i
+latcommon.nounn16050|lsx.n16050|i|masculine|us_i
 latcommon.nounn16051|lsx.n16051|equit|masculine|es_itis
 latcommon.nounn16054|lsx.n16054|equifer|masculine|us_i
 latcommon.nounn16055|lsx.n16055|equil|neuter|0_is
@@ -5675,6 +5679,7 @@ latcommon.nounn16103|lsx.n16103|eremodici|neuter|us_i
 latcommon.nounn16107|lsx.n16107|ereption|feminine|o_onis
 latcommon.nounn16108|lsx.n16108|ereptor|masculine|0_is
 latcommon.nounn16114|lsx.n16114|ergasteri|neuter|us_i
+latcommon.nounn16117|lsx.n16117|ergastulari|masculine|us_i
 latcommon.nounn16118|lsx.n16118|ergastul|neuter|us_i
 latcommon.nounn16119|lsx.n16119|ergat|masculine|a_ae
 latcommon.nounn16122|lsx.n16122|ergolab|masculine|us_i
@@ -5728,6 +5733,7 @@ latcommon.nounn16224|lsx.n16224|erusithal|neuter|0_is
 latcommon.nounn16225|lsx.n16225|erythallid|feminine|s_dis
 latcommon.nounn16227|lsx.n16227|eruthin|masculine|us_i
 latcommon.nounn16230|lsx.n16230|erythraicon|neuter|0_is
+latcommon.nounn16231|lsx.n16231|erythran|neuter|os_i
 latcommon.nounn16234|lsx.n16234|erythrodan|masculine|us_i
 latcommon.nounn16243|lsx.n16243|escension|feminine|o_onis
 latcommon.nounn16244|lsx.n16244|escens|masculine|us_us
@@ -5765,6 +5771,7 @@ latcommon.nounn16354|lsx.n16354|eunuchism|masculine|us_i
 latcommon.nounn16357|lsx.n16357|eunuch|masculine|us_i
 latcommon.nounn16359|lsx.n16359|euonum|feminine|os_i
 latcommon.nounn16362|lsx.n16362|eupatori|feminine|a_ae
+latcommon.nounn16363|lsx.n16363|eupeli|feminine|os_i
 latcommon.nounn16364|lsx.n16364|eupetal|feminine|os_i
 latcommon.nounn16365|lsx.n16365|euphoni|feminine|a_ae
 latcommon.nounn16366|lsx.n16366|euphorbe|feminine|a_ae
@@ -6081,6 +6088,7 @@ latcommon.nounn17432|lsx.n17432|exundation|feminine|o_onis
 latcommon.nounn17443|lsx.n17443|exustion|feminine|o_onis
 latcommon.nounn17445|lsx.n17445|exution|feminine|o_onis
 latcommon.nounn17452|lsx.n17452|fab|feminine|a_ae
+latcommon.nounn17458|lsx.n17458|fabari|feminine|a_ae
 latcommon.nounn17459|lsx.n17459|fabatari|neuter|us_i
 latcommon.nounn17461|lsx.n17461|fabell|feminine|a_ae
 latcommon.nounn17462|lsx.n17462|fabr|masculine|er_ri
@@ -6199,6 +6207,7 @@ latcommon.nounn17728|lsx.n17728|fartor|masculine|0_is
 latcommon.nounn17729|lsx.n17729|fart|neuter|us_i
 latcommon.nounn17730|lsx.n17730|fartur|feminine|a_ae
 latcommon.nounn17732|lsx.n17732|fart|masculine|us_us
+latcommon.nounn17734|lsx.n17734|fasceol|feminine|a_ae
 latcommon.nounn17736|lsx.n17736|fasci|feminine|a_ae
 latcommon.nounn17739|lsx.n17739|fascicul|masculine|us_i
 latcommon.nounn17741|lsx.n17741|fascin|feminine|a_ae
@@ -6267,6 +6276,7 @@ latcommon.nounn17967|lsx.n17967|ferocitat|feminine|s_tis
 latcommon.nounn17972|lsx.n17972|ferramentari|masculine|us_i
 latcommon.nounn17973|lsx.n17973|ferrament|neuter|us_i
 latcommon.nounn17974|lsx.n17974|ferrari|feminine|a_ae
+latcommon.nounn17975|lsx.n17975|ferrariari|masculine|us_i
 latcommon.nounn17980|lsx.n17980|ferre|feminine|a_ae
 latcommon.nounn17983|lsx.n17983|ferrifodin|feminine|a_ae
 latcommon.nounn17984|lsx.n17984|ferriter|neuter|us_i
@@ -6276,6 +6286,7 @@ latcommon.nounn17992|lsx.n17992|ferrumin|neuter|en_inis
 latcommon.nounn17993|lsx.n17993|ferrumination|feminine|o_onis
 latcommon.nounn17996|lsx.n17996|fertilitat|feminine|s_tis
 latcommon.nounn17998|lsx.n17998|fertor|masculine|0_is
+latcommon.nounn179|lsx.n179|fertori|neuter|us_i
 latcommon.nounn18000|lsx.n18000|fert|neuter|us_i
 latcommon.nounn18002|lsx.n18002|ferul|feminine|a_ae
 latcommon.nounn18004|lsx.n18004|ferulagin|feminine|o_inis
