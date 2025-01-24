@@ -7,9 +7,18 @@
   3 => 821
   1 => 69
 
+## 4 principal parts
+
+43704|urn:cite2:hmt:ls.markdown:n43701|sē-păro | to disjoin, sever, part, divide, separate | verb (compound) | 1, sē-păro, sē-parāre, sē-parāvī, sē-parātum
+
+42011|urn:cite2:hmt:ls.markdown:n42008|rūmĭto|to spread reports, to rumor|verb (compound)|1,rūmĭto,rūmĭtāre,-,-
+
+
 ## 3 principal parts
 
 15|urn:cite2:hmt:ls.markdown:n14|ăb-aestŭo |to hang down richly |verb (compound) |1, ab-aestuo, -āvi, -ātum
+
+34699|urn:cite2:hmt:ls.markdown:n34696|per-cĭĕo | to move, rouse, or stir greatly | verb (compound) | 2, per-cĭĕo, -cīvi, -cītum
 
 ## 2 principal parts
 
