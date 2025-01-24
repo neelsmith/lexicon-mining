@@ -1,0 +1,20 @@
+---
+engine: julia
+---
+
+# Step 3: parsing morphological information
+
+
+```{julia}
+#| echo: false
+#| output: false
+repo = pwd() |> dirname |> dirname |> dirname
+```
+
+```{julia}
+using LexiconMining
+alldata = datatuples(repo)
+lex = lexicaldata(repo)
+
+length(lex) / length(alldata)
+```

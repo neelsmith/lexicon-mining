@@ -66,3 +66,4 @@ website:
         - audits/index.qmd
         - audits/step1-originalqueries/index.qmd
         - audits/step2-summaries/index.qmd
+        - audits/step3-pos/index.qmd

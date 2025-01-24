@@ -7,14 +7,33 @@ engine: julia
 
 > *Summarize differences between origianl ChatGPT summaries and postprocessed data files.*
 
-
-
 ```{julia}
 #| echo: false
 #| output: false
 repo = pwd() |> dirname |> dirname |> dirname
 ```
 
+```{julia}
+summariesdir = joinpath(repo, "suarez", "lewisshort-extracts", "extracts-cycle2")
+dirnames = filter(readdir(summariesdir)) do d
+    startswith(d, "tranche")
+end
+pathlist = map(d -> joinpath(summariesdir, d), dirnames)
+
+fileids = []
+for path in pathlist
+    cexfiles = filter(f -> endswith(f, ".cex"), readdir(path))
+    cexfileids = [replace(f, ".cex" => "") for f in cexfiles]
+    for f in cexfileids
+        push!(fileids, f)
+    end
+end
+rawcount = length(fileids)
+```
+
+
+
+## The main lexicon
 
 ```{julia}
 summariesdir = joinpath(repo, "summaries")
@@ -32,4 +51,48 @@ for path in pathlist
     end
 end
 length(fileids)
+```
+
+So obviously many articles have been eliminated.
+
+```{julia}
+using LexiconMining
+(data, errs) = datatuples(repo; includebad = true)
+```
+
+## Irregular forms
+
+## Named entities
+
+## Things removed
+
+- cross references
+- place hlders for non-existent forms
+- duplicate entries (*a*/*ab*)
+
+## Reading the structured data
+
+```{julia}
+example = data[1]
+```
+
+Let's format the pieces in Markdown to make this example easy to read:
+
+```{julia}
+using Markdown
+
+gloss = """
+**$(example.lemma)** ($(example.pos)): *$(example.definition)*. Construction: $(example.morphology).
+"""
+
+Markdown.parse(gloss)
+```
+
+
+```{julia}
+length(errs)
+```
+
+```{julia}
+length(errs) / rawcount
 ```

@@ -6,3 +6,4 @@ engine: julia
 
 1. [From Lewis-Short dictionary to ChatGPT summaries](./step1-originalqueries/): verify that we can match a ChatGPT summary to each article and find an article for each ChatGPT summary.
 2. Summarize [differences between original summaries and post-processed summaries](./step2-summaries/).
+3. Interpret type-specific [morphological data](./step3-pos/)
