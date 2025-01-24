@@ -7,7 +7,7 @@ function cexline(n::LSNoun; divider = "|")
     gender = n.gender
     iclass = tabulaeclass(n)
 
-    
+    #@info("CEX FOR $(n) iclass $(iclass)")
     stem = ""
     
     if n.declension == 1
@@ -25,7 +25,10 @@ function cexline(n::LSNoun; divider = "|")
         end
 
     elseif n.declension == 3
-        if endswith(n.gensg, "is")
+        if iclass == "s_tis"
+            stem = replace(n.nomsg, r"s$" => "") |> suareznorm
+
+        elseif endswith(n.gensg, "is")
             stem = replace(n.gensg, r"is$" => "") |> suareznorm
 
         elseif endswith(n.gensg, "ium")
