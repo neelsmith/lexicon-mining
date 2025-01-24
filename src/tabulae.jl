@@ -1,5 +1,10 @@
 function lexicaldata(dir)
-    (data, errs) = datatuples(dir)
+    #@info("lexicaldata: use datatuples to get info for $(dir)")
+    data = datatuples(dir)
+    #@info("Got data with $(length(data)) tuples.")
+    #@info(data)
+
+
     filter(data) do tpl
         tpl.pos != "crossreference" &&
         tpl.pos != "participle" && 
@@ -15,7 +20,10 @@ function datatuples(; includebad = false)
 end
 
 function datatuples(dir; includebad = false)
-    readdata(summarydirs(dir); includebad = includebad)
+    #@info("datatuples function: using readdata to collect data for $(dir)")
+    data = readdata(summarydirs(dir); includebad = includebad)
+    #@info("datatuples function: returning $(length(data)) records")
+    data
 end
 
 function summarydirs()

@@ -1,12 +1,14 @@
 """Create named tuples structuring CGPT output written to files in a list of directories. Return two vectors, one with structured tuples, one with list of data that couldn't be parsed.
 """
-function readdata(dirs; includebad = true)
+function readdata(dirs; includebad = false)
     good = 0
     badlist = []
     data = []
     for d in dirs
+        #@info("Reading dir $(d)")
         for f in readdir(d)
             src = joinpath(d, f)
+            #@info("Reading file $(src)")
             lns = readlines(src)
             if isempty(lns)
                 @error("Empty line from file $(f)")
@@ -24,7 +26,8 @@ function readdata(dirs; includebad = true)
                     push!(data,entry)
                 
                 else
-                    @warn("$(length(cols)) columns in $(src)")
+                    # RESTORE THIS?
+                    #@warn("$(length(cols)) columns in $(src)")
                     push!(badlist, f)
                 end
             
@@ -33,6 +36,7 @@ function readdata(dirs; includebad = true)
         end
     end
     sorteddata = sort(data, by = x -> x.seq)
+    #@info("readdata: GOT $(length(sorteddata)) RECORDS")
     if includebad
         (sorteddata, badlist)
     else
