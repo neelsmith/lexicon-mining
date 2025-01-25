@@ -288,11 +288,17 @@ x√  "er_ris_re"      => 1
 
 
 
-function cexline(adj::LSAdjective; divider = "|")    
-    if tabulaeclass(adj) == "us_a_um"
+function cexline(adj::LSAdjective; divider = "|") 
+    iclass = tabulaeclass(adj)
+    @info("LOOK AT ADJ $(adj) class $(iclass)")
+    
+    if  iclass == "us_a_um"
         us_a_um_cex(adj; divider = divider)
-    #elseif tabulaeclass(n) == "us_i"
-    #noun_us_i_cex(n; divider = divider)        
+
+    elseif iclass == "is_e"
+        is_e_cex(adj; divider = divider)
+
+        
     else
         ""
     end    
