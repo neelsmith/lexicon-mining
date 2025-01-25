@@ -80,6 +80,14 @@ function tidyneuter(adjstring)
 end
 
 
+function adjective(tpl)
+    shortid = trimid(tpl.urn)
+    cols = strip.(split(tpl.morphology, ","))        
+    if length(cols) == 3
+        adjform = formadjective(shortid, cols)
+    end
+end
+
 
 """Extract adjective entries from a list of data tuples, and format 
 adjective morphology in type-specific structure.
@@ -92,16 +100,12 @@ function adjectives(datatuples; includebad=false)#::Vector{LSAdjective}
     good = LSAdjective[]
     bad = []
     #map(adjdata) do adj
-    for adj in adjdata
-        shortid = trimid(adj.urn)
-        cols = strip.(split(adj.morphology, ","))        
-        if length(cols) == 3
-            adjform = formadjective(shortid, cols)
-            if isnothing(adjform)
-                push!(bad, adj)
-            else
-                push!(good, adjform)
-            end        
+    for tpl in adjdata
+        adjform = adjective(tpl)
+        if isnothing(adjform)
+            push!(bad, tpl)
+        else
+            push!(good, adjform)
         end
     end
     if includebad
@@ -301,6 +305,11 @@ function cexline(adj::LSAdjective; divider = "|")
     elseif iclass == "is_e"
         is_e_cex(adj; divider = divider)
 
+    elseif iclass == "er_ra_rum"
+        er_ra_rum_cex(adj; divider = divider)
+
+    elseif iclass == "er_era_erum"
+        er_era_erum_cex(adj; divider = divider)        
         
     else
         ""

@@ -27,3 +27,23 @@ function is_e_cex(adj::LSAdjective; divider = "|")
     stem = replace(adj.mnomsg, r"is$" => "") |> suareznorm
     adj_cexlines(adj.lsid, lexentity, stem,  "is_e")
 end
+
+
+
+
+
+
+function er_ra_rum_cex(adj::LSAdjective; divider = "|")
+    #StemUrn|LexicalEntity|Stem|InflClass
+    lexentity = string("lsx.", adj.lsid)
+    stem = replace(adj.fnomsg, r"a$" => "") |> suareznorm
+    adj_cexlines(adj.lsid, lexentity, stem,  "er_ra_rum")
+end
+
+
+function er_era_erum_cex(adj::LSAdjective; divider = "|")
+    #StemUrn|LexicalEntity|Stem|InflClass
+    lexentity = string("lsx.", adj.lsid)
+    stem = replace(adj.fnomsg, r"a$" => "") |> suareznorm
+    adj_cexlines(adj.lsid, lexentity, stem,  "er_era_erum")
+end

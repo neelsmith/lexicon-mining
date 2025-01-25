@@ -108,6 +108,7 @@ lat23.adjn8459|lsx.n8459|civic|us_a_um
 lat23.adjn8460|lsx.n8460|civil|is_e
 lat23.adjn8509|lsx.n8509|clarivid|us_a_um
 lat23.adjn8553|lsx.n8553|clavat|us_a_um
+lat23.adjn8556|lsx.n8556|claviger|er_era_erum
 lat23.adjn8633|lsx.n8633|clivi|us_a_um
 lat23.adjn8634|lsx.n8634|clivos|us_a_um
 lat23.adjn8753|lsx.n8753|coaev|us_a_um
@@ -274,6 +275,7 @@ lat23.adjn18458|lsx.n18458|fluvid|us_a_um
 lat23.adjn18760|lsx.n18760|frequentativ|us_a_um
 lat23.adjn18829|lsx.n18829|frivol|us_a_um
 lat23.adjn18946|lsx.n18946|fugitiv|us_a_um
+lat23.adjn19007|lsx.n19007|fulvastr|er_ra_rum
 lat23.adjn19009|lsx.n19009|fulv|us_a_um
 lat23.adjn19129|lsx.n19129|furtiv|us_a_um
 lat23.adjn19133|lsx.n19133|furv|us_a_um
@@ -551,6 +553,7 @@ lat23.adjn30557|lsx.n30557|navicular|is_e
 lat23.adjn30558|lsx.n30558|naviculari|us_a_um
 lat23.adjn30560|lsx.n30560|navifrag|us_a_um
 lat23.adjn30561|lsx.n30561|navigabil|is_e
+lat23.adjn30564|lsx.n30564|naviger|er_era_erum
 lat23.adjn30576|lsx.n30576|nav|us_a_um
 lat23.adjn30665|lsx.n30665|negativ|us_a_um
 lat23.adjn30719|lsx.n30719|nemorivag|us_a_um
@@ -563,6 +566,7 @@ lat23.adjn31043|lsx.n31043|nival|is_e
 lat23.adjn31044|lsx.n31044|nivari|us_a_um
 lat23.adjn31045|lsx.n31045|nivat|us_a_um
 lat23.adjn31049|lsx.n31049|nive|us_a_um
+lat23.adjn31050|lsx.n31050|nivifer|er_era_erum
 lat23.adjn31053|lsx.n31053|nivos|us_a_um
 lat23.adjn31074|lsx.n31074|nociv|us_a_um
 lat23.adjn31084|lsx.n31084|noctivag|us_a_um
@@ -570,6 +574,7 @@ lat23.adjn31085|lsx.n31085|noctivid|us_a_um
 lat23.adjn31097|lsx.n31097|noctuvigil|us_a_um
 lat23.adjn31140|lsx.n31140|nominativ|us_a_um
 lat23.adjn31224|lsx.n31224|nominative singular masculine: notabil|is_e
+lat23.adjn31264|lsx.n31264|novellastr|er_ra_rum
 lat23.adjn31274|lsx.n31274|novenari|us_a_um
 lat23.adjn31276|lsx.n31276|novendial|is_e
 lat23.adjn31277|lsx.n31277|novendial|is_e
@@ -597,6 +602,7 @@ lat23.adjn32186|lsx.n32186|octavusdecim|us_a_um
 lat23.adjn32213|lsx.n32213|octojug|is_e
 lat23.adjn32280|lsx.n32280|odorativ|us_a_um
 lat23.adjn32493|lsx.n32493|olivari|us_a_um
+lat23.adjn32496|lsx.n32496|olivifer|er_era_erum
 lat23.adjn32578|lsx.n32578|omnipav|us_a_um
 lat23.adjn32588|lsx.n32588|omnivag|us_a_um
 lat23.adjn32589|lsx.n32589|omnivol|us_a_um
@@ -741,6 +747,7 @@ lat23.adjn40484|lsx.n40484|ravid|us_a_um
 lat23.adjn40488|lsx.n40488|ravul|us_a_um
 lat23.adjn40489|lsx.n40489|rav|us_a_um
 lat23.adjn40490|lsx.n40490|rav|us_a_um
+lat23.adjn40520|lsx.n40520|recalvastr|er_ra_rum
 lat23.adjn40522|lsx.n40522|recalv|us_a_um
 lat23.adjn40529|lsx.n40529|recav|us_a_um
 lat23.adjn40564|lsx.n40564|recidiv|us_a_um
@@ -801,6 +808,7 @@ lat23.adjn44219|lsx.n44219|significativ|us_a_um
 lat23.adjn44283|lsx.n44283|silvatic|us_a_um
 lat23.adjn44285|lsx.n44285|silvestr|is_e
 lat23.adjn44289|lsx.n44289|silvifrag|us_a_um
+lat23.adjn44290|lsx.n44290|silviger|er_era_erum
 lat23.adjn44293|lsx.n44293|silvos|us_a_um
 lat23.adjn44403|lsx.n44403|sinistrovers|us_a_um
 lat23.adjn44647|lsx.n44647|solivag|us_a_um
@@ -882,12 +890,14 @@ lat23.adjn49865|lsx.n49865|univoc|us_a_um
 lat23.adjn49967|lsx.n49967|usurpativ|us_a_um
 lat23.adjn50033|lsx.n50033|uvidul|us_a_um
 lat23.adjn50034|lsx.n50034|uvid|us_a_um
+lat23.adjn50035|lsx.n50035|uvifer|er_era_erum
 lat23.adjn50053|lsx.n50053|vaccin|us_a_um
 lat23.adjn50058|lsx.n50058|vacerros|us_a_um
 lat23.adjn50064|lsx.n50064|vaciv|us_a_um
 lat23.adjn50071|lsx.n50071|vacu|us_a_um
 lat23.adjn50080|lsx.n50080|vados|us_a_um
 lat23.adjn50086|lsx.n50086|vafell|us_a_um
+lat23.adjn50087|lsx.n50087|vafr|er_ra_rum
 lat23.adjn50092|lsx.n50092|vagabund|us_a_um
 lat23.adjn50106|lsx.n50106|vagul|us_a_um
 lat23.adjn50107|lsx.n50107|vag|us_a_um
@@ -902,6 +912,7 @@ lat23.adjn50163|lsx.n50163|vaniloqu|us_a_um
 lat23.adjn50171|lsx.n50171|van|us_a_um
 lat23.adjn50173|lsx.n50173|vapid|us_a_um
 lat23.adjn50175|lsx.n50175|vaporal|is_e
+lat23.adjn50179|lsx.n50179|vaporifer|er_era_erum
 lat23.adjn50181|lsx.n50181|vaporos|us_a_um
 lat23.adjn50182|lsx.n50182|vapor|us_a_um
 lat23.adjn50185|lsx.n50185|vapular|is_e
@@ -923,6 +934,7 @@ lat23.adjn50268|lsx.n50268|vati|us_a_um
 lat23.adjn50277|lsx.n50277|vectabil|is_e
 lat23.adjn50280|lsx.n50280|vectari|us_a_um
 lat23.adjn50283|lsx.n50283|vecticulari|us_a_um
+lat23.adjn50284|lsx.n50284|vectifer|er_era_erum
 lat23.adjn50287|lsx.n50287|vectigal|is_e
 lat23.adjn50296|lsx.n50296|vectori|us_a_um
 lat23.adjn50305|lsx.n50305|vegetabil|is_e
@@ -930,7 +942,9 @@ lat23.adjn50311|lsx.n50311|veget|us_a_um
 lat23.adjn50319|lsx.n50319|vehicular|is_e
 lat23.adjn50320|lsx.n50320|vehiculari|us_a_um
 lat23.adjn50333|lsx.n50333|velar|is_e
+lat23.adjn50343|lsx.n50343|velifer|er_era_erum
 lat23.adjn50348|lsx.n50348|velific|us_a_um
+lat23.adjn50349|lsx.n50349|veliger|er_era_erum
 lat23.adjn50352|lsx.n50352|velitar|is_e
 lat23.adjn50361|lsx.n50361|velivol|us_a_um
 lat23.adjn50385|lsx.n50385|venal|is_e
@@ -942,6 +956,7 @@ lat23.adjn50394|lsx.n50394|venatiti|us_a_um
 lat23.adjn50396|lsx.n50396|venatori|us_a_um
 lat23.adjn50401|lsx.n50401|vendibil|is_e
 lat23.adjn50415|lsx.n50415|venefic|us_a_um
+lat23.adjn50418|lsx.n50418|venenifer|er_era_erum
 lat23.adjn50420|lsx.n50420|venenos|us_a_um
 lat23.adjn50425|lsx.n50425|venerabund|us_a_um
 lat23.adjn50426|lsx.n50426|venerand|us_a_um
@@ -977,6 +992,7 @@ lat23.adjn50571|lsx.n50571|verminos|us_a_um
 lat23.adjn50574|lsx.n50574|vernacul|us_a_um
 lat23.adjn50575|lsx.n50575|vernal|is_e
 lat23.adjn50577|lsx.n50577|vernicom|us_a_um
+lat23.adjn50578|lsx.n50578|vernifer|er_era_erum
 lat23.adjn50579|lsx.n50579|vernil|is_e
 lat23.adjn50586|lsx.n50586|vern|us_a_um
 lat23.adjn50587|lsx.n50587|vern|us_a_um
@@ -1006,8 +1022,10 @@ lat23.adjn50702|lsx.n50702|vesperal|is_e
 lat23.adjn50708|lsx.n50708|vespertinal|is_e
 lat23.adjn50709|lsx.n50709|vespertin|us_a_um
 lat23.adjn50711|lsx.n50711|vesper|us_a_um
+lat23.adjn50715|lsx.n50715|vestr|er_ra_rum
 lat23.adjn50716|lsx.n50716|vestiari|us_a_um
 lat23.adjn50725|lsx.n50725|vestiflu|us_a_um
+lat23.adjn50741|lsx.n50741|vestr|er_ra_rum
 lat23.adjn50747|lsx.n50747|veteramentari|us_a_um
 lat23.adjn50748|lsx.n50748|veteran|us_a_um
 lat23.adjn50749|lsx.n50749|veterari|us_a_um
@@ -1021,6 +1039,7 @@ lat23.adjn50774|lsx.n50774|vetuscul|us_a_um
 lat23.adjn50778|lsx.n50778|vetust|us_a_um
 lat23.adjn50784|lsx.n50784|vexativ|us_a_um
 lat23.adjn50787|lsx.n50787|vexat|us_a_um
+lat23.adjn50790|lsx.n50790|vexillifer|er_era_erum
 lat23.adjn50794|lsx.n50794|vial|is_e
 lat23.adjn50795|lsx.n50795|viari|us_a_um
 lat23.adjn50796|lsx.n50796|viaticat|us_a_um
@@ -1066,6 +1085,7 @@ lat23.adjn50993|lsx.n50993|vineal|is_e
 lat23.adjn50994|lsx.n50994|vineari|us_a_um
 lat23.adjn50995|lsx.n50995|vineatic|us_a_um
 lat23.adjn50997|lsx.n50997|vine|us_a_um
+lat23.adjn50999|lsx.n50999|vinifer|er_era_erum
 lat23.adjn51001|lsx.n51001|vinitori|us_a_um
 lat23.adjn51002|lsx.n51002|vinnul|us_a_um
 lat23.adjn51004|lsx.n51004|vinolent|us_a_um
@@ -1108,7 +1128,9 @@ lat23.adjn51149|lsx.n51149|vitabund|us_a_um
 lat23.adjn51150|lsx.n51150|vital|is_e
 lat23.adjn51162|lsx.n51162|vite|us_a_um
 lat23.adjn51164|lsx.n51164|vitiabil|is_e
+lat23.adjn51168|lsx.n51168|viticarpifer|er_era_erum
 lat23.adjn51172|lsx.n51172|viticom|us_a_um
+lat23.adjn51174|lsx.n51174|vitifer|er_era_erum
 lat23.adjn51175|lsx.n51175|vitigen|us_a_um
 lat23.adjn51176|lsx.n51176|vitigine|us_a_um
 lat23.adjn51179|lsx.n51179|vitil|is_e
@@ -1148,11 +1170,14 @@ lat23.adjn51371|lsx.n51371|vomific|us_a_um
 lat23.adjn51372|lsx.n51372|vomiflu|us_a_um
 lat23.adjn51377|lsx.n51377|vomitori|us_a_um
 lat23.adjn51386|lsx.n51386|voraginos|us_a_um
+lat23.adjn51398|lsx.n51398|vostr|er_ra_rum
+lat23.adjn51399|lsx.n51399|votifer|er_era_erum
 lat23.adjn51401|lsx.n51401|votiv|us_a_um
 lat23.adjn51408|lsx.n51408|vulgar|is_e
 lat23.adjn51411|lsx.n51411|vulgari|us_a_um
 lat23.adjn51416|lsx.n51416|vulgivag|us_a_um
 lat23.adjn51421|lsx.n51421|vulnerari|us_a_um
+lat23.adjn51425|lsx.n51425|vulner|er_era_erum
 lat23.adjn51427|lsx.n51427|vulnific|us_a_um
 lat23.adjn51433|lsx.n51433|vulpin|us_a_um
 lat23.adjn51444|lsx.n51444|vultuos|us_a_um
