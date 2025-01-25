@@ -125,12 +125,15 @@ end
 $(SIGNATURES)
 """
 function formadjective(id, cols)::LSAdjective
+    #@info("Form adjective for $(id) and $(cols)")
     col1 = Unicode.normalize(cols[1]; stripmark = true)
     col2 = Unicode.normalize(cols[2]; stripmark = true)
     col3 = Unicode.normalize(cols[3]; stripmark = true)
-    if endswith(cols[1],"us") && 
-        endswith(cols[2], "a") &&
-        endswith(cols[3], "um")
+
+    #@info("Looking at $(col1), $(col2), $(col3)")
+    if endswith(col1,"us") && 
+        endswith(col2, "a") &&
+        endswith(col3, "um")
             tabclass = "us_a_um"
             mnomsg = tidymasculine(cols[1])
             mgensg = replace(mnomsg, r"us$" => "i")
@@ -167,9 +170,9 @@ function formadjective(id, cols)::LSAdjective
             nnomsg, ngensg,
             tabclass)
 
-    elseif  endswith(cols[1],"er") && 
-            endswith(cols[2], "era") &&
-            endswith(cols[3], "erum")
+    elseif  endswith(col1,"er") && 
+            endswith(col2, "era") &&
+            endswith(col3, "erum")
             tabclass = "er_era_erum"            
 
             mnomsg = tidymasculine(cols[1])
@@ -188,9 +191,9 @@ function formadjective(id, cols)::LSAdjective
             tabclass)
 
 
-    elseif  endswith(cols[1],"er") && 
-            endswith(cols[2], "ra") &&
-            endswith(cols[3], "rum")
+    elseif  endswith(col1, "er") && 
+            endswith(col2, "ra") &&
+            endswith(col3, "rum")
             tabclass = "er_ra_rum"            
 
             mnomsg = tidymasculine(cols[1])

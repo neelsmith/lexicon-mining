@@ -322,6 +322,7 @@ latcommon.adjn2685|lsx.n2685|annotin|us_a_um
 latcommon.adjn2687|lsx.n2687|annual|is_e
 latcommon.adjn2689|lsx.n2689|annular|is_e
 latcommon.adjn2701|lsx.n2701|annu|us_a_um
+latcommon.adjn2704|lsx.n2704|anomal|us_a_um
 latcommon.adjn2713|lsx.n2713|ansat|us_a_um
 latcommon.adjn2717|lsx.n2717|anserin|us_a_um
 latcommon.adjn2725|lsx.n2725|antamoebae|us_a_um
@@ -570,6 +571,7 @@ latcommon.adjn4630|lsx.n4630|aus|us_a_um
 latcommon.adjn4635|lsx.n4635|authentic|us_a_um
 latcommon.adjn4639|lsx.n4639|autograph|us_a_um
 latcommon.adjn4642|lsx.n4642|automatari|us_a_um
+latcommon.adjn4643|lsx.n4643|automat|us_a_um
 latcommon.adjn4648|lsx.n4648|autumnal|is_e
 latcommon.adjn4651|lsx.n4651|auxiliabund|us_a_um
 latcommon.adjn4653|lsx.n4653|auxiliari|us_a_um
@@ -2931,6 +2933,7 @@ latcommon.adjn22039|lsx.n22039|improcer|us_a_um
 latcommon.adjn22040|lsx.n22040|improcreabil|is_e
 latcommon.adjn22041|lsx.n22041|improdict|us_a_um
 latcommon.adjn22042|lsx.n22042|improfess|us_a_um
+latcommon.adjn22045|lsx.n22045|impromisc|us_a_um
 latcommon.adjn22046|lsx.n22046|imprompt|us_a_um
 latcommon.adjn22049|lsx.n22049|improperat|us_a_um
 latcommon.adjn22053|lsx.n22053|improper|us_a_um
@@ -3459,6 +3462,7 @@ latcommon.adjn23634|lsx.n23634|inopac|us_a_um
 latcommon.adjn23635|lsx.n23635|inoperat|us_a_um
 latcommon.adjn23638|lsx.n23638|inopert|us_a_um
 latcommon.adjn23640|lsx.n23640|inopinabil|is_e
+latcommon.adjn23643|lsx.n23643|inopinat|us_a_um
 latcommon.adjn23645|lsx.n23645|inopin|us_a_um
 latcommon.adjn23646|lsx.n23646|inopios|us_a_um
 latcommon.adjn23647|lsx.n23647|inoppidat|us_a_um
@@ -3610,6 +3614,7 @@ latcommon.adjn24220|lsx.n24220|interdictori|us_a_um
 latcommon.adjn24236|lsx.n24236|interemptibil|is_e
 latcommon.adjn24248|lsx.n24248|interfectibil|is_e
 latcommon.adjn24252|lsx.n24252|interfectori|us_a_um
+latcommon.adjn24260|lsx.n24260|interflu|us_a_um
 latcommon.adjn24276|lsx.n24276|intergerin|us_a_um
 latcommon.adjn24283|lsx.n24283|interibil|is_e
 latcommon.adjn24320|lsx.n24320|interlun|is_e
@@ -4125,6 +4130,7 @@ latcommon.adjn28004|lsx.n28004|marcid|us_a_um
 latcommon.adjn28012|lsx.n28012|marculent|us_a_um
 latcommon.adjn28026|lsx.n28026|margaritari|us_a_um
 latcommon.adjn28027|lsx.n28027|margaritat|us_a_um
+latcommon.adjn28039|lsx.n28039|mariambul|us_a_um
 latcommon.adjn28046|lsx.n28046|marin|us_a_um
 latcommon.adjn28050|lsx.n28050|marital|is_e
 latcommon.adjn28051|lsx.n28051|maritat|us_a_um
@@ -5483,6 +5489,7 @@ latcommon.adjn36960|lsx.n36960|pomeridian|us_a_um
 latcommon.adjn36967|lsx.n36967|pomos|us_a_um
 latcommon.adjn36969|lsx.n36969|pompabil|is_e
 latcommon.adjn36971|lsx.n36971|pompal|is_e
+latcommon.adjn36974|lsx.n36974|pompatic|us_a_um
 latcommon.adjn36975|lsx.n36975|pompatil|is_e
 latcommon.adjn36976|lsx.n36976|pompat|us_a_um
 latcommon.adjn36988|lsx.n36988|pompos|us_a_um
@@ -6633,6 +6640,7 @@ latcommon.adjn44875|lsx.n44875|sparte|us_a_um
 latcommon.adjn44888|lsx.n44888|spastic|us_a_um
 latcommon.adjn44902|lsx.n44902|spatios|us_a_um
 latcommon.adjn44906|lsx.n44906|special|is_e
+latcommon.adjn44912|lsx.n44912|speciat|us_a_um
 latcommon.adjn44914|lsx.n44914|specillat|us_a_um
 latcommon.adjn44920|lsx.n44920|specios|us_a_um
 latcommon.adjn44921|lsx.n44921|spectabil|is_e
