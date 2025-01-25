@@ -77,6 +77,9 @@ function passiveinfinitive(lemma, conj)
 end
 
 
+"""Try to infer a present infinitive from a lemma.
+$(SIGNATURES)
+"""
 function guessinfinitive(lemma, conj::Int)
     #@info("Guess infinitive for $(lemma)")
     if endswith(lemma, "o")
@@ -196,8 +199,8 @@ function presentconj(verb::LSVerb)
 end
 
 function cexline(verb::LSVerb; divider = "|")    
-    if missingpart(verb)
 
+    if missingpart(verb)
         principalparts_cex(verb)
     elseif verb.conjugation == 1
         conj1_cex(verb; divider = divider)
