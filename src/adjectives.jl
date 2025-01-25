@@ -290,8 +290,8 @@ x√  "er_ris_re"      => 1
 
 function cexline(adj::LSAdjective; divider = "|") 
     iclass = tabulaeclass(adj)
-    @info("LOOK AT ADJ $(adj) class $(iclass)")
-    
+    #@info("LOOK AT ADJ $(adj) class $(iclass)")
+
     if  iclass == "us_a_um"
         us_a_um_cex(adj; divider = divider)
 
