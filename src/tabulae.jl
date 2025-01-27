@@ -1,19 +1,29 @@
-function lexicaldata(dir)
+function lexicaldata(dir; includebad = false)
     #@info("lexicaldata: use datatuples to get info for $(dir)")
     data = datatuples(dir)
     #@info("Got data with $(length(data)) tuples.")
     #@info(data)
 
 
-    filter(data) do tpl
+    sheep = filter(data) do tpl
         tpl.pos != "crossreference" &&
         tpl.pos != "participle" && 
         ! occursin("false reading", tpl.definition)
     end
+    if includebad
+        goats = filter(data) do tpl
+            tpl.pos == "crossreference" ||
+            tpl.pos == "participle" ||
+            occursin("false reading", tpl.definition)
+        end
+        (sheep, goats)
+    else
+        sheep
+    end
 end
 
-function lexicaldata()
-    lexicaldata(pwd())
+function lexicaldata(; includebad = false)
+    lexicaldata(pwd(); includebad = includebad)
 end
 function datatuples(; includebad = false)
     datatuples(pwd(); includebad = includebad)
