@@ -64,6 +64,9 @@ lat24.adverbn19927|lsx.n19927|gravatim|positive|irregularadverb
 lat24.adverbn19941|lsx.n19941|graviter|positive|irregularadverb
 lat24.adverbn21378|lsx.n21378|ignave|positive|irregularadverb
 lat24.adverbn21382|lsx.n21382|ignaviter|positive|irregularadverb
+lat24.adverbn21825|lsx.n21825|impavide|positive|irregularadverb
+lat24.adverbn22062|lsx.n22062|improvide|positive|irregularadverb
+lat24.adverbn22065|lsx.n22065|improvise|positive|irregularadverb
 lat24.adverbn22378|lsx.n22378|inciviliter|positive|irregularadverb
 lat24.adverbn22603|lsx.n22603|increpative|positive|irregularadverb
 lat24.adverbn22764|lsx.n22764|indevote|positive|irregularadverb
@@ -79,6 +82,7 @@ lat24.adverbn23527|lsx.n23527|iniuste|positive|irregularadverb
 lat24.adverbn24128|lsx.n24128|intempestive|positive|irregularadverb
 lat24.adverbn24130|lsx.n24130|intempestiviter|positive|irregularadverb
 lat24.adverbn24294|lsx.n24294|interiective|positive|irregularadverb
+lat24.adverbn24441|lsx.n24441|interrogative|positive|irregularadverb
 lat24.adverbn24522|lsx.n24522|intervocaliter|positive|irregularadverb
 lat24.adverbn24639|lsx.n24639|introversus|positive|irregularadverb
 lat24.adverbn24696|lsx.n24696|invalide|positive|irregularadverb
@@ -100,12 +104,14 @@ lat24.adverbn24984|lsx.n24984|irrisive|positive|irregularadverb
 lat24.adverbn25157|lsx.n25157|iactanter|positive|irregularadverb
 lat24.adverbn25184|lsx.n25184|iam|positive|irregularadverb
 lat24.adverbn25185|lsx.n25185|iamdudum|positive|irregularadverb
+lat24.adverbn25187|lsx.n25187|iamiamque|positive|irregularadverb
 lat24.adverbn25188|lsx.n25188|iampridem|positive|irregularadverb
 lat24.adverbn25216|lsx.n25216|ieiune|positive|irregularadverb
 lat24.adverbn25231|lsx.n25231|iocaliter|positive|irregularadverb
 lat24.adverbn25236|lsx.n25236|iocose|positive|irregularadverb
 lat24.adverbn25238|lsx.n25238|ioculanter|positive|irregularadverb
 lat24.adverbn25271|lsx.n25271|iucunde|positive|irregularadverb
+lat24.adverbn25283|lsx.n25283|iudicato|positive|irregularadverb
 lat24.adverbn25303|lsx.n25303|iuge|positive|irregularadverb
 lat24.adverbn25305|lsx.n25305|iugeratim|positive|irregularadverb
 lat24.adverbn25312|lsx.n25312|iugiter|positive|irregularadverb
@@ -121,6 +127,7 @@ lat24.adverbn25931|lsx.n25931|lasciviter|positive|irregularadverb
 lat24.adverbn26424|lsx.n26424|leviter|positive|irregularadverb
 lat24.adverbn26855|lsx.n26855|liventer|positive|irregularadverb
 lat24.adverbn26860|lsx.n26860|livide|positive|irregularadverb
+lat24.adverbn27724z|lsx.n27724z|malevole|positive|irregularadverb
 lat24.adverbn30400|lsx.n30400|narrative|positive|irregularadverb
 lat24.adverbn30468|lsx.n30468|nativitus|positive|irregularadverb
 lat24.adverbn30549|lsx.n30549|navanter|positive|irregularadverb
@@ -146,11 +153,13 @@ lat24.adverbn34041|lsx.n34041|passive|positive|irregularadverb
 lat24.adverbn34043|lsx.n34043|passivitus|positive|irregularadverb
 lat24.adverbn34234|lsx.n34234|pavide|positive|irregularadverb
 lat24.adverbn34386|lsx.n34386|peius|positive|irregularadverb
+lat24.adverbn34725|lsx.n34725|percontative|positive|irregularadverb
 lat24.adverbn35129|lsx.n35129|periucunde|positive|irregularadverb
 lat24.adverbn35502|lsx.n35502|perseveranter|positive|irregularadverb
 lat24.adverbn35505|lsx.n35505|persevere|positive|irregularadverb
 lat24.adverbn35542|lsx.n35542|personative|positive|irregularadverb
 lat24.adverbn35691|lsx.n35691|pervarie|positive|irregularadverb
+lat24.adverbn35707|lsx.n35707|perverse|positive|irregularadverb
 lat24.adverbn35712|lsx.n35712|pervesperi|positive|irregularadverb
 lat24.adverbn35718|lsx.n35718|perviam|positive|irregularadverb
 lat24.adverbn35721|lsx.n35721|pervicaciter|positive|irregularadverb

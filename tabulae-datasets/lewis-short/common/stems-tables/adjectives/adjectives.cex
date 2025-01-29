@@ -296,6 +296,7 @@ latcommon.adjn2451|lsx.n2451|anaplerotic|us_a_um
 latcommon.adjn2459|lsx.n2459|anatari|us_a_um
 latcommon.adjn2466|lsx.n2466|anatin|us_a_um
 latcommon.adjn2469|lsx.n2469|anaton|us_a_um
+latcommon.adjn2484x|lsx.n2484x|anchoral|is_e
 latcommon.adjn2502|lsx.n2502|ancoral|is_e
 latcommon.adjn2503|lsx.n2503|ancorari|us_a_um
 latcommon.adjn2536|lsx.n2536|aneclogist|us_a_um
@@ -450,6 +451,7 @@ latcommon.adjn3581|lsx.n3581|argumental|is_e
 latcommon.adjn3586|lsx.n3586|argumentos|us_a_um
 latcommon.adjn3598|lsx.n3598|argutul|us_a_um
 latcommon.adjn3599|lsx.n3599|argut|us_a_um
+latcommon.adjn3605x|lsx.n3605x|argurocorinthi|us_a_um
 latcommon.adjn3608|lsx.n3608|arhythm|us_a_um
 latcommon.adjn3618|lsx.n3618|aridul|us_a_um
 latcommon.adjn3619|lsx.n3619|arid|us_a_um
@@ -463,6 +465,7 @@ latcommon.adjn3655|lsx.n3655|aristos|us_a_um
 latcommon.adjn3659|lsx.n3659|arithmetic|us_a_um
 latcommon.adjn3672|lsx.n3672|armat|us_a_um
 latcommon.adjn3676|lsx.n3676|armental|is_e
+latcommon.adjn3677|lsx.n3677|armentari|us_a_um
 latcommon.adjn3678|lsx.n3678|armentici|us_a_um
 latcommon.adjn3680|lsx.n3680|armentos|us_a_um
 latcommon.adjn3682|lsx.n3682|armifer|er_era_erum
@@ -2533,6 +2536,7 @@ latcommon.adjn19156|lsx.n19156|fustitudin|us_a_um
 latcommon.adjn19158|lsx.n19158|fustuari|us_a_um
 latcommon.adjn19168|lsx.n19168|futtil|is_e
 latcommon.adjn19170|lsx.n19170|futtil|is_e
+latcommon.adjn19208|lsx.n19208|galbanat|us_a_um
 latcommon.adjn19209|lsx.n19209|galbane|us_a_um
 latcommon.adjn19214|lsx.n19214|galbine|us_a_um
 latcommon.adjn19215|lsx.n19215|galbin|us_a_um
@@ -2603,6 +2607,7 @@ latcommon.adjn19620|lsx.n19620|glandifer|er_era_erum
 latcommon.adjn19625|lsx.n19625|glandulos|us_a_um
 latcommon.adjn19630|lsx.n19630|glareos|us_a_um
 latcommon.adjn19634|lsx.n19634|glauce|us_a_um
+latcommon.adjn19642x|lsx.n19642x|glauc|us_a_um
 latcommon.adjn19650|lsx.n19650|gleucin|us_a_um
 latcommon.adjn19660|lsx.n19660|globos|us_a_um
 latcommon.adjn19666|lsx.n19666|glomerabil|is_e
@@ -2659,6 +2664,7 @@ latcommon.adjn19945|lsx.n19945|gregal|is_e
 latcommon.adjn19946|lsx.n19946|gregari|us_a_um
 latcommon.adjn19961|lsx.n19961|gromatic|us_a_um
 latcommon.adjn19970|lsx.n19970|gross|us_a_um
+latcommon.adjn19974x|lsx.n19974x|grumatic|us_a_um
 latcommon.adjn19993|lsx.n19993|gubernabil|is_e
 latcommon.adjn20008|lsx.n20008|gulos|us_a_um
 latcommon.adjn20012|lsx.n20012|gummat|us_a_um
@@ -2699,8 +2705,10 @@ latcommon.adjn20286|lsx.n20286|haurit|us_a_um
 latcommon.adjn20295|lsx.n20295|hebdomadal|is_e
 latcommon.adjn20297|lsx.n20297|hebdomatic|us_a_um
 latcommon.adjn20299|lsx.n20299|hebenin|us_a_um
+latcommon.adjn20325|lsx.n20325|hederace|us_a_um
 latcommon.adjn20326|lsx.n20326|hederat|us_a_um
 latcommon.adjn20327|lsx.n20327|hederiger|er_era_erum
+latcommon.adjn20328|lsx.n20328|hederos|us_a_um
 latcommon.adjn20428|lsx.n20428|hemitritaic|us_a_um
 latcommon.adjn20439|lsx.n20439|hepatari|us_a_um
 latcommon.adjn20441|lsx.n20441|hepatic|us_a_um
@@ -2769,6 +2777,7 @@ latcommon.adjn20915|lsx.n20915|horal|is_e
 latcommon.adjn20922|lsx.n20922|hordeace|us_a_um
 latcommon.adjn20923|lsx.n20923|hordeari|us_a_um
 latcommon.adjn20924|lsx.n20924|hordei|us_a_um
+latcommon.adjn20927|lsx.n20927|hordiari|us_a_um
 latcommon.adjn20942|lsx.n20942|hornotin|us_a_um
 latcommon.adjn20943|lsx.n20943|horn|us_a_um
 latcommon.adjn20944|lsx.n20944|horologiar|is_e
@@ -3034,6 +3043,7 @@ latcommon.adjn22056|lsx.n22056|impropri|us_a_um
 latcommon.adjn22057|lsx.n22057|impropugnat|us_a_um
 latcommon.adjn22058|lsx.n22058|improspect|us_a_um
 latcommon.adjn22059|lsx.n22059|improsper|er_era_erum
+latcommon.adjn22060|lsx.n22060|improspicu|us_a_um
 latcommon.adjn22061|lsx.n22061|improtect|us_a_um
 latcommon.adjn22074|lsx.n22074|impudicat|us_a_um
 latcommon.adjn22077|lsx.n22077|impudic|us_a_um
@@ -3192,6 +3202,7 @@ latcommon.adjn22503|lsx.n22503|incongru|us_a_um
 latcommon.adjn22508|lsx.n22508|inconsci|us_a_um
 latcommon.adjn22509|lsx.n22509|inconscript|us_a_um
 latcommon.adjn22510|lsx.n22510|inconsentane|us_a_um
+latcommon.adjn22516x|lsx.n22516x|inconsiderat|us_a_um
 latcommon.adjn22518|lsx.n22518|inconsit|us_a_um
 latcommon.adjn22521|lsx.n22521|inconspect|us_a_um
 latcommon.adjn22522|lsx.n22522|inconspicu|us_a_um
@@ -3205,6 +3216,7 @@ latcommon.adjn22536|lsx.n22536|inconsutil|is_e
 latcommon.adjn22537|lsx.n22537|inconsut|us_a_um
 latcommon.adjn22538|lsx.n22538|incontaminabil|is_e
 latcommon.adjn22539|lsx.n22539|incontaminat|us_a_um
+latcommon.adjn22540x|lsx.n22540x|incontat|us_a_um
 latcommon.adjn22541|lsx.n22541|incontemplabil|is_e
 latcommon.adjn22542|lsx.n22542|incontemptibil|is_e
 latcommon.adjn22543|lsx.n22543|incontent|us_a_um
@@ -3483,6 +3495,7 @@ latcommon.adjn23332|lsx.n23332|infusc|us_a_um
 latcommon.adjn23347|lsx.n23347|ingeniat|us_a_um
 latcommon.adjn23348|lsx.n23348|ingeniculat|us_a_um
 latcommon.adjn23350|lsx.n23350|ingenicul|us_a_um
+latcommon.adjn23353|lsx.n23353|ingenios|us_a_um
 latcommon.adjn23354|lsx.n23354|ingent|us_a_um
 latcommon.adjn23361|lsx.n23361|ingenuil|is_e
 latcommon.adjn23362|lsx.n23362|ingenuin|us_a_um
@@ -3907,6 +3920,7 @@ latcommon.adjn25802|lsx.n25802|lanistici|us_a_um
 latcommon.adjn25810|lsx.n25810|lanos|us_a_um
 latcommon.adjn25813|lsx.n25813|lanugine|us_a_um
 latcommon.adjn25815|lsx.n25815|lanuginos|us_a_um
+latcommon.adjn25832|lsx.n25832|lapidar|is_e
 latcommon.adjn25833|lsx.n25833|lapidari|us_a_um
 latcommon.adjn25838|lsx.n25838|lapide|us_a_um
 latcommon.adjn25844|lsx.n25844|lapidos|us_a_um
@@ -3971,6 +3985,7 @@ latcommon.adjn26249|lsx.n26249|lentiscin|us_a_um
 latcommon.adjn26257|lsx.n26257|lentul|us_a_um
 latcommon.adjn26259|lsx.n26259|lent|us_a_um
 latcommon.adjn26273|lsx.n26273|leonin|us_a_um
+latcommon.adjn26277x|lsx.n26277x|leontic|us_a_um
 latcommon.adjn26285|lsx.n26285|leopardin|us_a_um
 latcommon.adjn26296|lsx.n26296|lepidul|us_a_um
 latcommon.adjn26297|lsx.n26297|lepid|us_a_um
@@ -3991,6 +4006,7 @@ latcommon.adjn26393|lsx.n26393|le|us_a_um
 latcommon.adjn26454|lsx.n26454|libellar|is_e
 latcommon.adjn26465|lsx.n26465|liber|er_era_erum
 latcommon.adjn26471|lsx.n26471|liberal|is_e
+latcommon.adjn26495|lsx.n26495|libidinos|us_a_um
 latcommon.adjn26501|lsx.n26501|libit|us_a_um
 latcommon.adjn26506|lsx.n26506|libral|is_e
 latcommon.adjn26513|lsx.n26513|librari|us_a_um
@@ -4035,6 +4051,7 @@ latcommon.adjn26723|lsx.n26723|linteari|us_a_um
 latcommon.adjn26724|lsx.n26724|linteat|us_a_um
 latcommon.adjn26727|lsx.n26727|linteol|us_a_um
 latcommon.adjn26731|lsx.n26731|linte|us_a_um
+latcommon.adjn26740|lsx.n26740|liothasi|us_a_um
 latcommon.adjn26750|lsx.n26750|lippid|us_a_um
 latcommon.adjn26753|lsx.n26753|lippos|us_a_um
 latcommon.adjn26754|lsx.n26754|lippul|us_a_um
@@ -4073,6 +4090,7 @@ latcommon.adjn26895|lsx.n26895|loculat|us_a_um
 latcommon.adjn26896|lsx.n26896|loculos|us_a_um
 latcommon.adjn26910|lsx.n26910|locutulei|us_a_um
 latcommon.adjn26911|lsx.n26911|locutule|us_a_um
+latcommon.adjn26919|lsx.n26919|logaoedic|us_a_um
 latcommon.adjn26923|lsx.n26923|logic|us_a_um
 latcommon.adjn26929|lsx.n26929|loliace|us_a_um
 latcommon.adjn26930|lsx.n26930|loliari|us_a_um
@@ -4133,6 +4151,7 @@ latcommon.adjn27240|lsx.n27240|luridat|us_a_um
 latcommon.adjn27241|lsx.n27241|lurid|us_a_um
 latcommon.adjn27246|lsx.n27246|luscini|us_a_um
 latcommon.adjn27247|lsx.n27247|luscin|us_a_um
+latcommon.adjn27252|lsx.n27252|luscitios|us_a_um
 latcommon.adjn27253|lsx.n27253|lusciti|us_a_um
 latcommon.adjn27254|lsx.n27254|lusc|us_a_um
 latcommon.adjn27261|lsx.n27261|lusori|us_a_um
@@ -4401,6 +4420,7 @@ latcommon.adjn29083|lsx.n29083|miluin|us_a_um
 latcommon.adjn29089|lsx.n29089|mimari|us_a_um
 latcommon.adjn29093|lsx.n29093|mimic|us_a_um
 latcommon.adjn29114|lsx.n29114|minatori|us_a_um
+latcommon.adjn29122|lsx.n29122|minerrim|us_a_um
 latcommon.adjn29129|lsx.n29129|mine|us_a_um
 latcommon.adjn29131|lsx.n29131|miniace|us_a_um
 latcommon.adjn29132|lsx.n29132|minian|us_a_um
@@ -4456,6 +4476,7 @@ latcommon.adjn29379|lsx.n29379|modificat|us_a_um
 latcommon.adjn29382|lsx.n29382|modific|us_a_um
 latcommon.adjn29389|lsx.n29389|modulabil|is_e
 latcommon.adjn29396|lsx.n29396|modulat|us_a_um
+latcommon.adjn29437|lsx.n29437|molari|us_a_um
 latcommon.adjn29440|lsx.n29440|molendari|us_a_um
 latcommon.adjn29447|lsx.n29447|molest|us_a_um
 latcommon.adjn29455|lsx.n29455|molin|us_a_um
@@ -4609,6 +4630,7 @@ latcommon.adjn30067|lsx.n30067|murre|us_a_um
 latcommon.adjn30069|lsx.n30069|murrin|us_a_um
 latcommon.adjn30070|lsx.n30070|murrin|us_a_um
 latcommon.adjn30076|lsx.n30076|murtat|us_a_um
+latcommon.adjn30076x|lsx.n30076x|murte|us_a_um
 latcommon.adjn30092|lsx.n30092|muscari|us_a_um
 latcommon.adjn30095|lsx.n30095|muscid|us_a_um
 latcommon.adjn30101|lsx.n30101|muscos|us_a_um
@@ -4629,6 +4651,7 @@ latcommon.adjn30161|lsx.n30161|mutic|us_a_um
 latcommon.adjn30168|lsx.n30168|mutil|us_a_um
 latcommon.adjn30182|lsx.n30182|mutoniat|us_a_um
 latcommon.adjn30186|lsx.n30186|mutuari|us_a_um
+latcommon.adjn30187|lsx.n30187|mutuatici|us_a_um
 latcommon.adjn30198|lsx.n30198|mut|us_a_um
 latcommon.adjn30200|lsx.n30200|mutu|us_a_um
 latcommon.adjn30243|lsx.n30243|myrionum|us_a_um
@@ -4693,6 +4716,7 @@ latcommon.adjn30715|lsx.n30715|nemoral|is_e
 latcommon.adjn30720|lsx.n30720|nemoros|us_a_um
 latcommon.adjn30733|lsx.n30733|neogrammate|us_a_um
 latcommon.adjn30737|lsx.n30737|neophyt|us_a_um
+latcommon.adjn30741|lsx.n30741|neoteric|us_a_um
 latcommon.adjn30754|lsx.n30754|nepotal|is_e
 latcommon.adjn30759|lsx.n30759|nepotin|us_a_um
 latcommon.adjn30786|lsx.n30786|nequissim|us_a_um
@@ -4744,6 +4768,7 @@ latcommon.adjn31164|lsx.n31164|nonari|us_a_um
 latcommon.adjn31167|lsx.n31167|nongenari|us_a_um
 latcommon.adjn31169|lsx.n31169|nongentesim|us_a_um
 latcommon.adjn31173|lsx.n31173|nongesim|us_a_um
+latcommon.adjn31175|lsx.n31175|nonigesim|us_a_um
 latcommon.adjn31176|lsx.n31176|noningentesim|us_a_um
 latcommon.adjn31185|lsx.n31185|nonnull|us_a_um
 latcommon.adjn31191|lsx.n31191|non|us_a_um
@@ -4791,8 +4816,10 @@ latcommon.adjn31432|lsx.n31432|nummos|us_a_um
 latcommon.adjn31454|lsx.n31454|nundial|is_e
 latcommon.adjn31458|lsx.n31458|nundinal|is_e
 latcommon.adjn31459|lsx.n31459|nundinari|us_a_um
+latcommon.adjn31460|lsx.n31460|nundinatici|us_a_um
 latcommon.adjn31466|lsx.n31466|nundin|us_a_um
 latcommon.adjn31475|lsx.n31475|nuper|us_a_um
+latcommon.adjn31478|lsx.n31478|nuptalici|us_a_um
 latcommon.adjn31479|lsx.n31479|nuptial|is_e
 latcommon.adjn31481|lsx.n31481|nuptial|is_e
 latcommon.adjn31496|lsx.n31496|nutabil|is_e
@@ -4879,6 +4906,7 @@ latcommon.adjn32187|lsx.n32187|octenn|is_e
 latcommon.adjn32190|lsx.n32190|octigesim|us_a_um
 latcommon.adjn32191|lsx.n32191|octingenari|us_a_um
 latcommon.adjn32193|lsx.n32193|octingentesim|us_a_um
+latcommon.adjn32206|lsx.n32206|octogenari|us_a_um
 latcommon.adjn32209|lsx.n32209|octogesim|us_a_um
 latcommon.adjn32215|lsx.n32215|octominutal|is_e
 latcommon.adjn32216|lsx.n32216|octonal|is_e
@@ -4905,6 +4933,7 @@ latcommon.adjn32284|lsx.n32284|odorificat|us_a_um
 latcommon.adjn32285|lsx.n32285|odorisecu|us_a_um
 latcommon.adjn32288|lsx.n32288|odor|us_a_um
 latcommon.adjn32302|lsx.n32302|oeconomic|us_a_um
+latcommon.adjn32303x|lsx.n32303x|oecumenic|us_a_um
 latcommon.adjn32308|lsx.n32308|oenanthin|us_a_um
 latcommon.adjn32316|lsx.n32316|oenococt|us_a_um
 latcommon.adjn32317|lsx.n32317|oenogarat|us_a_um
@@ -4961,6 +4990,7 @@ latcommon.adjn32738|lsx.n32738|opinabil|is_e
 latcommon.adjn32741|lsx.n32741|opinat|us_a_um
 latcommon.adjn32744|lsx.n32744|opinios|us_a_um
 latcommon.adjn32748|lsx.n32748|opin|us_a_um
+latcommon.adjn32750|lsx.n32750|opipar|is_e
 latcommon.adjn32751|lsx.n32751|opipar|us_a_um
 latcommon.adjn32755|lsx.n32755|opisthograph|us_a_um
 latcommon.adjn32757|lsx.n32757|opisthotonic|us_a_um
@@ -5200,7 +5230,6 @@ latcommon.adjn34193|lsx.n34193|paul|us_a_um
 latcommon.adjn34197|lsx.n34197|paupercul|us_a_um
 latcommon.adjn34203|lsx.n34203|paupertin|us_a_um
 latcommon.adjn34205|lsx.n34205|pausabil|is_e
-latcommon.adjn34213|lsx.n34213|pausillul|us_a_um
 latcommon.adjn34223|lsx.n34223|pauxillul|us_a_um
 latcommon.adjn34225|lsx.n34225|pauxill|us_a_um
 latcommon.adjn34261|lsx.n34261|peccatori|us_a_um
@@ -5250,6 +5279,7 @@ latcommon.adjn34475|lsx.n34475|penari|us_a_um
 latcommon.adjn34478|lsx.n34478|penatiger|er_era_erum
 latcommon.adjn34486|lsx.n34486|pendul|us_a_um
 latcommon.adjn34495|lsx.n34495|penetrabil|is_e
+latcommon.adjn34496|lsx.n34496|penetral|is_e
 latcommon.adjn34497|lsx.n34497|penetral|is_e
 latcommon.adjn34511|lsx.n34511|penit|us_a_um
 latcommon.adjn34515|lsx.n34515|pennatul|us_a_um
@@ -5260,6 +5290,7 @@ latcommon.adjn34525|lsx.n34525|penn|us_a_um
 latcommon.adjn34528|lsx.n34528|pensabil|is_e
 latcommon.adjn34545|lsx.n34545|pens|us_a_um
 latcommon.adjn34546|lsx.n34546|pentachord|us_a_um
+latcommon.adjn34549x|lsx.n34549x|pentaeteric|us_a_um
 latcommon.adjn34550|lsx.n34550|pentagoni|us_a_um
 latcommon.adjn34560|lsx.n34560|pentasem|us_a_um
 latcommon.adjn34562|lsx.n34562|pentasphaer|us_a_um
@@ -5532,6 +5563,7 @@ latcommon.adjn36061|lsx.n36061|philotechn|us_a_um
 latcommon.adjn36065|lsx.n36065|phil|us_a_um
 latcommon.adjn36069|lsx.n36069|philurin|us_a_um
 latcommon.adjn36080|lsx.n36080|phlegmatic|us_a_um
+latcommon.adjn36143|lsx.n36143|phorine|us_a_um
 latcommon.adjn36147|lsx.n36147|phosphore|us_a_um
 latcommon.adjn36157|lsx.n36157|phrenetic|us_a_um
 latcommon.adjn36159|lsx.n36159|phrenitic|us_a_um
@@ -5550,6 +5582,7 @@ latcommon.adjn36262|lsx.n36262|picturat|us_a_um
 latcommon.adjn36276|lsx.n36276|pigr|er_ra_rum
 latcommon.adjn36278|lsx.n36278|pigmentari|us_a_um
 latcommon.adjn36279|lsx.n36279|pigmentat|us_a_um
+latcommon.adjn36281|lsx.n36281|pigneratici|us_a_um
 latcommon.adjn36300|lsx.n36300|pigu|us_a_um
 latcommon.adjn36313|lsx.n36313|pilat|us_a_um
 latcommon.adjn36318|lsx.n36318|pilleat|us_a_um
@@ -5724,12 +5757,14 @@ latcommon.adjn37354|lsx.n37354|praecandid|us_a_um
 latcommon.adjn37362|lsx.n37362|praecan|us_a_um
 latcommon.adjn37375|lsx.n37375|praecels|us_a_um
 latcommon.adjn37379|lsx.n37379|praecentori|us_a_um
+latcommon.adjn37386|lsx.n37386|praeceptori|us_a_um
 latcommon.adjn37397|lsx.n37397|praecidane|us_a_um
 latcommon.adjn37398|lsx.n37398|praecidari|us_a_um
 latcommon.adjn37417|lsx.n37417|praecipu|us_a_um
 latcommon.adjn37429|lsx.n37429|praeclar|us_a_um
 latcommon.adjn37452|lsx.n37452|praecondit|us_a_um
 latcommon.adjn37453|lsx.n37453|praeconial|is_e
+latcommon.adjn37457|lsx.n37457|praeconi|us_a_um
 latcommon.adjn37459|lsx.n37459|praeconspicabil|is_e
 latcommon.adjn37464|lsx.n37464|praecoqu|us_a_um
 latcommon.adjn37468|lsx.n37468|praecrass|us_a_um
@@ -5807,6 +5842,7 @@ latcommon.adjn37878|lsx.n37878|praerapid|us_a_um
 latcommon.adjn37883|lsx.n37883|praerigid|us_a_um
 latcommon.adjn37892|lsx.n37892|praerogat|us_a_um
 latcommon.adjn37894|lsx.n37894|praeros|us_a_um
+latcommon.adjn37896x|lsx.n37896x|praerupt|us_a_um
 latcommon.adjn37898|lsx.n37898|praerutil|us_a_um
 latcommon.adjn37909|lsx.n37909|praesag|us_a_um
 latcommon.adjn37923|lsx.n37923|praesci|us_a_um
@@ -5869,6 +5905,7 @@ latcommon.adjn38312|lsx.n38312|primipilar|is_e
 latcommon.adjn38325|lsx.n38325|primocreat|us_a_um
 latcommon.adjn38326|lsx.n38326|primogenital|is_e
 latcommon.adjn38327|lsx.n38327|primogenit|us_a_um
+latcommon.adjn38328x|lsx.n38328x|primopilar|is_e
 latcommon.adjn38331|lsx.n38331|primordial|is_e
 latcommon.adjn38333|lsx.n38333|primordi|us_a_um
 latcommon.adjn38336|lsx.n38336|primotin|us_a_um
@@ -5900,6 +5937,7 @@ latcommon.adjn38554|lsx.n38554|prodigios|us_a_um
 latcommon.adjn38559|lsx.n38559|prodig|us_a_um
 latcommon.adjn38572|lsx.n38572|producibil|is_e
 latcommon.adjn38599|lsx.n38599|profan|us_a_um
+latcommon.adjn38602|lsx.n38602|profectici|us_a_um
 latcommon.adjn38614|lsx.n38614|professori|us_a_um
 latcommon.adjn38616|lsx.n38616|profest|us_a_um
 latcommon.adjn38621|lsx.n38621|proficu|us_a_um
@@ -5920,6 +5958,7 @@ latcommon.adjn38801|lsx.n38801|prompt|us_a_um
 latcommon.adjn38813|lsx.n38813|prom|us_a_um
 latcommon.adjn38816|lsx.n38816|promutu|us_a_um
 latcommon.adjn38820|lsx.n38820|pronat|us_a_um
+latcommon.adjn38826|lsx.n38826|pron|is_e
 latcommon.adjn38831|lsx.n38831|pronominal|is_e
 latcommon.adjn38835|lsx.n38835|pronub|us_a_um
 latcommon.adjn38837|lsx.n38837|pronuntiabil|is_e

@@ -432,6 +432,7 @@ lat25.nounn20392|lsx.n20392|helvell|feminine|a_ae
 lat25.nounn20588|lsx.n20588|erv|neuter|us_i
 lat25.nounn21380|lsx.n21380|ignavi|feminine|a_ae
 lat25.nounn21594|lsx.n21594|illuvie|feminine|es_ei
+lat25.nounn21890|lsx.n21890|impersonativ|masculine|us_i
 lat25.nounn21972|lsx.n21972|impluvi|neuter|us_i
 lat25.nounn22063|lsx.n22063|improvidenti|feminine|a_ae
 lat25.nounn22281|lsx.n22281|incavillation|feminine|o_onis
@@ -623,6 +624,8 @@ lat25.nounn25423|lsx.n25423|justiti|neuter|us_i
 lat25.nounn25428|lsx.n25428|juvamin|neuter|en_inis
 lat25.nounn25429|lsx.n25429|juvament|neuter|us_i
 lat25.nounn25432|lsx.n25432|juvenc|feminine|a_ae
+lat25.nounn25435x|lsx.n25435x|juvenc|masculine|us_i
+lat25.nounn25435y|lsx.n25435y|juvenc|feminine|a_ae
 lat25.nounn25439|lsx.n25439|juvenilita|feminine|s_tis
 lat25.nounn25441|lsx.n25441|juven|masculine|is_is
 lat25.nounn25441|lsx.n25441|juven|feminine|is_is
@@ -634,6 +637,9 @@ lat25.nounn25660|lsx.n25660|laevigation|feminine|o_onis
 lat25.nounn25918|lsx.n25918|larv|feminine|a_ae
 lat25.nounn25927|lsx.n25927|lascivi|feminine|a_ae
 lat25.nounn25930|lsx.n25930|lascivita|feminine|s_tis
+lat25.nounn25987|lsx.n25987|laticlavi|neuter|us_i
+lat25.nounn25988x|lsx.n25988x|laticlavi|masculine|us_i
+lat25.nounn25988y|lsx.n25988y|laticlavi|neuter|us_i
 lat25.nounn25989|lsx.n25989|laticlav|masculine|us_i
 lat25.nounn26096|lsx.n26096|lavabr|neuter|us_i
 lat25.nounn26097|lsx.n26097|lavacr|neuter|us_i
@@ -662,6 +668,8 @@ lat25.nounn27666|lsx.n27666|majesta|feminine|s_tis
 lat25.nounn27668|lsx.n27668|majoriari|masculine|us_i
 lat25.nounn27671|lsx.n27671|majum|feminine|a_ae
 lat25.nounn27723|lsx.n27723|malevolenti|feminine|a_ae
+lat25.nounn27724x|lsx.n27724x|malevol|masculine|us_i
+lat25.nounn27724y|lsx.n27724y|malevol|feminine|a_ae
 lat25.nounn27760|lsx.n27760|malluvi|neuter|us_i
 lat25.nounn27779|lsx.n27779|malv|feminine|a_ae
 lat25.nounn28979|lsx.n28979|mettica viti|feminine|s_tis
@@ -689,6 +697,7 @@ lat25.nounn30824|lsx.n30824|nervul|masculine|us_i
 lat25.nounn30825|lsx.n30825|nerv|masculine|us_i
 lat25.nounn30855|lsx.n30855|nevrad|feminine|s_dis
 lat25.nounn31054|lsx.n31054|niv|feminine|0_is
+lat25.nounn31086|lsx.n31086|noctivigil|masculine|us_i
 lat25.nounn31251|lsx.n31251|novacul|feminine|a_ae
 lat25.nounn31253|lsx.n31253|novamin|neuter|en_inis
 lat25.nounn31258|lsx.n31258|novation|feminine|o_onis
@@ -780,7 +789,6 @@ lat25.nounn35730|lsx.n35730|pervigili|feminine|a_ae
 lat25.nounn35731|lsx.n35731|pervigili|neuter|us_i
 lat25.nounn35745|lsx.n35745|pervolitanti|feminine|a_ae
 lat25.nounn35915|lsx.n35915|phallovitrobol|masculine|us_i
-lat25.nounn36143|lsx.n36143|vin|neuter|us_i
 lat25.nounn36750|lsx.n36750|pluvi|feminine|a_ae
 lat25.nounn37430|lsx.n37430|praeclavi|neuter|us_i
 lat25.nounn37532|lsx.n37532|praedivination|feminine|o_onis

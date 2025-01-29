@@ -131,6 +131,7 @@ latcommon.adverbn3394|lsx.n3394|arcano|positive|irregularadverb
 latcommon.adverbn3459|lsx.n3459|arcte|positive|irregularadverb
 latcommon.adverbn3472|lsx.n3472|arcuatim|positive|irregularadverb
 latcommon.adverbn3491|lsx.n3491|ardenter|positive|irregularadverb
+latcommon.adverbn3593|lsx.n3593|argute|positive|irregularadverb
 latcommon.adverbn3754|lsx.n3754|arroganter|positive|irregularadverb
 latcommon.adverbn3790|lsx.n3790|arte|positive|irregularadverb
 latcommon.adverbn3805|lsx.n3805|articulate|positive|irregularadverb
@@ -682,6 +683,7 @@ latcommon.adverbn18630|lsx.n18630|fortassis|positive|irregularadverb
 latcommon.adverbn18632|lsx.n18632|forte|positive|irregularadverb
 latcommon.adverbn18638|lsx.n18638|fortiter|positive|irregularadverb
 latcommon.adverbn18641|lsx.n18641|fortui^to|positive|irregularadverb
+latcommon.adverbn18645|lsx.n18645|fortunate|positive|irregularadverb
 latcommon.adverbn18646|lsx.n18646|fortunatim|positive|irregularadverb
 latcommon.adverbn18694|lsx.n18694|fragose|positive|irregularadverb
 latcommon.adverbn18697|lsx.n18697|fragranter|positive|irregularadverb
@@ -707,6 +709,7 @@ latcommon.adverbn19127|lsx.n19127|furtim|positive|irregularadverb
 latcommon.adverbn19143|lsx.n19143|fuse|positive|irregularadverb
 latcommon.adverbn19164|lsx.n19164|futatim|positive|irregularadverb
 latcommon.adverbn19169|lsx.n19169|futtile|positive|irregularadverb
+latcommon.adverbn19172|lsx.n19172|futtiliter|positive|irregularadverb
 latcommon.adverbn19368|lsx.n19368|gelide|positive|irregularadverb
 latcommon.adverbn19383|lsx.n19383|geminatim|positive|irregularadverb
 latcommon.adverbn19417|lsx.n19417|generaliter|positive|irregularadverb
@@ -732,6 +735,7 @@ latcommon.adverbn19850|lsx.n19850|granatim|positive|irregularadverb
 latcommon.adverbn19855|lsx.n19855|grande|positive|irregularadverb
 latcommon.adverbn19869|lsx.n19869|granditer|positive|irregularadverb
 latcommon.adverbn19881|lsx.n19881|graphice|positive|irregularadverb
+latcommon.adverbn19892|lsx.n19892|gratanter|positive|irregularadverb
 latcommon.adverbn19894|lsx.n19894|grate|positive|irregularadverb
 latcommon.adverbn19905|lsx.n19905|gratiis (gratis)|positive|irregularadverb
 latcommon.adverbn19907|lsx.n19907|gratiose|positive|irregularadverb
@@ -799,6 +803,7 @@ latcommon.adverbn21485|lsx.n21485|illatenus|positive|irregularadverb
 latcommon.adverbn21497|lsx.n21497|illecebrose|positive|irregularadverb
 latcommon.adverbn21507|lsx.n21507|illepide|positive|irregularadverb
 latcommon.adverbn21512|lsx.n21512|illi|positive|irregularadverb
+latcommon.adverbn21517|lsx.n21517|illiberaliter|positive|irregularadverb
 latcommon.adverbn21521|lsx.n21521|illic|positive|irregularadverb
 latcommon.adverbn21526|lsx.n21526|illicite|positive|irregularadverb
 latcommon.adverbn21534|lsx.n21534|illim|positive|irregularadverb
@@ -824,6 +829,7 @@ latcommon.adverbn21741|lsx.n21741|immodeste|positive|irregularadverb
 latcommon.adverbn21744|lsx.n21744|immodice|positive|irregularadverb
 latcommon.adverbn21753|lsx.n21753|immoranter|positive|irregularadverb
 latcommon.adverbn21760|lsx.n21760|immortaliter|positive|irregularadverb
+latcommon.adverbn21761|lsx.n21761|immortalitus|positive|irregularadverb
 latcommon.adverbn21767|lsx.n21767|immunde|positive|irregularadverb
 latcommon.adverbn21782|lsx.n21782|immutabiliter|positive|irregularadverb
 latcommon.adverbn21796|lsx.n21796|impaene|positive|irregularadverb
@@ -834,8 +840,10 @@ latcommon.adverbn21822|lsx.n21822|impatienter|positive|irregularadverb
 latcommon.adverbn21842|lsx.n21842|impendio|positive|irregularadverb
 latcommon.adverbn21851|lsx.n21851|impense|positive|irregularadverb
 latcommon.adverbn21854|lsx.n21854|imperabiliter|positive|irregularadverb
+latcommon.adverbn21858|lsx.n21858|imperatorie|positive|irregularadverb
 latcommon.adverbn21867|lsx.n21867|imperfecte|positive|irregularadverb
 latcommon.adverbn21872|lsx.n21872|imperiabiliter|positive|irregularadverb
+latcommon.adverbn21874|lsx.n21874|imperiose|positive|irregularadverb
 latcommon.adverbn21876|lsx.n21876|imperite|positive|irregularadverb
 latcommon.adverbn21923|lsx.n21923|impie|positive|irregularadverb
 latcommon.adverbn21927|lsx.n21927|impigre|positive|irregularadverb
@@ -848,6 +856,7 @@ latcommon.adverbn22013|lsx.n22013|impraesentiarum|positive|irregularadverb
 latcommon.adverbn22020|lsx.n22020|impresse|positive|irregularadverb
 latcommon.adverbn22026|lsx.n22026|imprimis|positive|irregularadverb
 latcommon.adverbn22028|lsx.n22028|imprincipaliter|positive|irregularadverb
+latcommon.adverbn22032|lsx.n22032|improbe|positive|irregularadverb
 latcommon.adverbn22034|lsx.n22034|improbiter|positive|irregularadverb
 latcommon.adverbn22047|lsx.n22047|imprope|positive|irregularadverb
 latcommon.adverbn22048|lsx.n22048|improperanter|positive|irregularadverb
@@ -874,10 +883,12 @@ latcommon.adverbn22355|lsx.n22355|incise|positive|irregularadverb
 latcommon.adverbn22356|lsx.n22356|incisim|positive|irregularadverb
 latcommon.adverbn22365|lsx.n22365|incitate|positive|irregularadverb
 latcommon.adverbn22386|lsx.n22386|inclementer|positive|irregularadverb
+latcommon.adverbn22427|lsx.n22427|incoinquinabiliter|positive|irregularadverb
 latcommon.adverbn22434|lsx.n22434|incolorate|positive|irregularadverb
 latcommon.adverbn22449|lsx.n22449|incommode|positive|irregularadverb
 latcommon.adverbn22455|lsx.n22455|incommote|positive|irregularadverb
 latcommon.adverbn22461|lsx.n22461|incommutabiliter|positive|irregularadverb
+latcommon.adverbn22473|lsx.n22473|incomposite|positive|irregularadverb
 latcommon.adverbn22477|lsx.n22477|incompte|positive|irregularadverb
 latcommon.adverbn22482|lsx.n22482|inconcinne|positive|irregularadverb
 latcommon.adverbn22484|lsx.n22484|inconcinniter|positive|irregularadverb
@@ -899,10 +910,12 @@ latcommon.adverbn22642|lsx.n22642|inculte|positive|irregularadverb
 latcommon.adverbn22656|lsx.n22656|incuriose|positive|irregularadverb
 latcommon.adverbn22662|lsx.n22662|incursim|positive|irregularadverb
 latcommon.adverbn22699|lsx.n22699|inde|positive|irregularadverb
+latcommon.adverbn22700|lsx.n22700|indebite|positive|irregularadverb
 latcommon.adverbn22708|lsx.n22708|indecorabiliter|positive|irregularadverb
 latcommon.adverbn22709|lsx.n22709|indecore|positive|irregularadverb
 latcommon.adverbn22717|lsx.n22717|indefense|positive|irregularadverb
 latcommon.adverbn22719|lsx.n22719|indefesse|positive|irregularadverb
+latcommon.adverbn22719x|lsx.n22719x|indefessim|positive|irregularadverb
 latcommon.adverbn22723|lsx.n22723|indefinite|positive|irregularadverb
 latcommon.adverbn22733|lsx.n22733|indeliberanter|positive|irregularadverb
 latcommon.adverbn22791|lsx.n22791|indidem|positive|irregularadverb
@@ -921,10 +934,12 @@ latcommon.adverbn22865|lsx.n22865|indistincte|positive|irregularadverb
 latcommon.adverbn22880|lsx.n22880|indocte|positive|irregularadverb
 latcommon.adverbn22901|lsx.n22901|indubie|positive|irregularadverb
 latcommon.adverbn22904|lsx.n22904|indubitanter|positive|irregularadverb
+latcommon.adverbn22905|lsx.n22905|indubitate|positive|irregularadverb
 latcommon.adverbn22930|lsx.n22930|indulgenter|positive|irregularadverb
 latcommon.adverbn22954|lsx.n22954|industrie|positive|irregularadverb
 latcommon.adverbn22955|lsx.n22955|industriose|positive|irregularadverb
 latcommon.adverbn22976|lsx.n22976|ineffabiliter|positive|irregularadverb
+latcommon.adverbn22979|lsx.n22979|inefficaciter|positive|irregularadverb
 latcommon.adverbn23010|lsx.n23010|inepte|positive|irregularadverb
 latcommon.adverbn23027|lsx.n23027|inerudite|positive|irregularadverb
 latcommon.adverbn23075|lsx.n23075|inexplorate|positive|irregularadverb
@@ -952,13 +967,16 @@ latcommon.adverbn23380|lsx.n23380|ingrate|positive|irregularadverb
 latcommon.adverbn23425|lsx.n23425|inhianter|positive|irregularadverb
 latcommon.adverbn23436|lsx.n23436|inhoneste|positive|irregularadverb
 latcommon.adverbn23455|lsx.n23455|inhumane|positive|irregularadverb
+latcommon.adverbn23457|lsx.n23457|inhumaniter|positive|irregularadverb
 latcommon.adverbn23464|lsx.n23464|inibi|positive|irregularadverb
 latcommon.adverbn23482|lsx.n23482|inique|positive|irregularadverb
 latcommon.adverbn23560|lsx.n23560|innocue|positive|irregularadverb
 latcommon.adverbn23571|lsx.n23571|innoxie|positive|irregularadverb
 latcommon.adverbn23581|lsx.n23581|innumerabiliter|positive|irregularadverb
+latcommon.adverbn23600x|lsx.n23600x|inoboedienter|positive|irregularadverb
 latcommon.adverbn23625|lsx.n23625|inoffense|positive|irregularadverb
 latcommon.adverbn23642|lsx.n23642|inopinate|positive|irregularadverb
+latcommon.adverbn23642x|lsx.n23642x|inopinato|positive|irregularadverb
 latcommon.adverbn23655|lsx.n23655|inordinaliter|positive|irregularadverb
 latcommon.adverbn23656|lsx.n23656|inordinate and inordinatim|positive|irregularadverb
 latcommon.adverbn23663|lsx.n23663|inornate|positive|irregularadverb
@@ -967,6 +985,7 @@ latcommon.adverbn23681|lsx.n23681|inquiete|positive|irregularadverb
 latcommon.adverbn23692|lsx.n23692|inquinate|positive|irregularadverb
 latcommon.adverbn23715|lsx.n23715|insane|positive|irregularadverb
 latcommon.adverbn23720|lsx.n23720|insaniter|positive|irregularadverb
+latcommon.adverbn23726|lsx.n23726|insatiabiliter|positive|irregularadverb
 latcommon.adverbn23740|lsx.n23740|inscie|positive|irregularadverb
 latcommon.adverbn23743|lsx.n23743|inscite|positive|irregularadverb
 latcommon.adverbn23764|lsx.n23764|insectanter|positive|irregularadverb
@@ -982,6 +1001,7 @@ latcommon.adverbn23854|lsx.n23854|insimul|positive|irregularadverb
 latcommon.adverbn23881|lsx.n23881|insolabiliter|positive|irregularadverb
 latcommon.adverbn23889|lsx.n23889|insolite|positive|irregularadverb
 latcommon.adverbn23925|lsx.n23925|insperate|positive|irregularadverb
+latcommon.adverbn23925x|lsx.n23925x|insperato|positive|irregularadverb
 latcommon.adverbn23935|lsx.n23935|inspirate|positive|irregularadverb
 latcommon.adverbn23953|lsx.n23953|instanter|positive|irregularadverb
 latcommon.adverbn23994|lsx.n23994|instrenue|positive|irregularadverb
@@ -992,6 +1012,8 @@ latcommon.adverbn24050|lsx.n24050|insulse|positive|irregularadverb
 latcommon.adverbn24055|lsx.n24055|insultatorie|positive|irregularadverb
 latcommon.adverbn24097|lsx.n24097|integre|positive|irregularadverb
 latcommon.adverbn24111|lsx.n24111|intellegenter|positive|irregularadverb
+latcommon.adverbn24119|lsx.n24119|intemerate|positive|irregularadverb
+latcommon.adverbn24124|lsx.n24124|intemperate|positive|irregularadverb
 latcommon.adverbn24145|lsx.n24145|intente|positive|irregularadverb
 latcommon.adverbn24147|lsx.n24147|intentiose|positive|irregularadverb
 latcommon.adverbn24196|lsx.n24196|intercise|positive|irregularadverb
@@ -1001,21 +1023,27 @@ latcommon.adverbn24233|lsx.n24233|interdum|positive|irregularadverb
 latcommon.adverbn24235|lsx.n24235|interea|positive|irregularadverb
 latcommon.adverbn24282|lsx.n24282|interibi|positive|irregularadverb
 latcommon.adverbn24284|lsx.n24284|interim|positive|irregularadverb
+latcommon.adverbn24290x|lsx.n24290x|interius|positive|irregularadverb
 latcommon.adverbn24357|lsx.n24357|interne|positive|irregularadverb
 latcommon.adverbn24433|lsx.n24433|interrite|positive|irregularadverb
+latcommon.adverbn24438|lsx.n24438|interroganter|positive|irregularadverb
 latcommon.adverbn24530|lsx.n24530|intestato|positive|irregularadverb
 latcommon.adverbn24547|lsx.n24547|intime|positive|irregularadverb
 latcommon.adverbn24548|lsx.n24548|intimide|positive|irregularadverb
 latcommon.adverbn24550|lsx.n24550|intimorate|positive|irregularadverb
 latcommon.adverbn24560|lsx.n24560|intolerabiliter|positive|irregularadverb
+latcommon.adverbn24595|lsx.n24595|intrepide|positive|irregularadverb
+latcommon.adverbn24604|lsx.n24604|intrinsecus|positive|irregularadverb
 latcommon.adverbn24609|lsx.n24609|intro|positive|irregularadverb
 latcommon.adverbn24632|lsx.n24632|introrsum and introrsus|positive|irregularadverb
 latcommon.adverbn24654|lsx.n24654|intus|positive|irregularadverb
 latcommon.adverbn24674|lsx.n24674|inurbane|positive|irregularadverb
+latcommon.adverbn24679|lsx.n24679|inusitate|positive|irregularadverb
 latcommon.adverbn24681|lsx.n24681|inusque|positive|irregularadverb
 latcommon.adverbn24687|lsx.n24687|inutiliter|positive|irregularadverb
 latcommon.adverbn24878|lsx.n24878|iracunde|positive|irregularadverb
 latcommon.adverbn24880|lsx.n24880|iracunditer|positive|irregularadverb
+latcommon.adverbn24886|lsx.n24886|irate|positive|irregularadverb
 latcommon.adverbn24903|lsx.n24903|ironice|positive|irregularadverb
 latcommon.adverbn24914|lsx.n24914|irrationabiliter|positive|irregularadverb
 latcommon.adverbn24918|lsx.n24918|irrecitabiliter|positive|irregularadverb
@@ -1067,11 +1095,13 @@ latcommon.adverbn26225|lsx.n26225|leniter|positive|irregularadverb
 latcommon.adverbn26235|lsx.n26235|lenonice|positive|irregularadverb
 latcommon.adverbn26239|lsx.n26239|lente|positive|irregularadverb
 latcommon.adverbn26292|lsx.n26292|lepide|positive|irregularadverb
+latcommon.adverbn26461|lsx.n26461|libenter|positive|irregularadverb
 latcommon.adverbn26477|lsx.n26477|libere|positive|irregularadverb
 latcommon.adverbn26494|lsx.n26494|libidinose|positive|irregularadverb
 latcommon.adverbn26514|lsx.n26514|librate|positive|irregularadverb
 latcommon.adverbn26537|lsx.n26537|licenter|positive|irregularadverb
 latcommon.adverbn26540|lsx.n26540|licentiose|positive|irregularadverb
+latcommon.adverbn26561|lsx.n26561|licite|positive|irregularadverb
 latcommon.adverbn26616|lsx.n26616|limate|positive|irregularadverb
 latcommon.adverbn26649|lsx.n26649|limo|positive|irregularadverb
 latcommon.adverbn26661|lsx.n26661|limpide|positive|irregularadverb
@@ -1115,6 +1145,7 @@ latcommon.adverbn27648|lsx.n27648|magnopere|positive|irregularadverb
 latcommon.adverbn27692|lsx.n27692|male|positive|irregularadverb
 latcommon.adverbn27696|lsx.n27696|maledice|positive|irregularadverb
 latcommon.adverbn27711|lsx.n27711|malefice|positive|irregularadverb
+latcommon.adverbn27732|lsx.n27732|maligne|positive|irregularadverb
 latcommon.adverbn27743|lsx.n27743|malitiose|positive|irregularadverb
 latcommon.adverbn27866|lsx.n27866|mani|positive|irregularadverb
 latcommon.adverbn27883|lsx.n27883|manifeste|positive|irregularadverb
@@ -1132,6 +1163,7 @@ latcommon.adverbn28281|lsx.n28281|meatim|positive|irregularadverb
 latcommon.adverbn28308|lsx.n28308|mediatenus|positive|irregularadverb
 latcommon.adverbn28333|lsx.n28333|medie|positive|irregularadverb
 latcommon.adverbn28341|lsx.n28341|mediocriter|positive|irregularadverb
+latcommon.adverbn28346|lsx.n28346|medioxime|positive|irregularadverb
 latcommon.adverbn28352|lsx.n28352|meditate|positive|irregularadverb
 latcommon.adverbn28381|lsx.n28381|medullitus|positive|irregularadverb
 latcommon.adverbn28521|lsx.n28521|meliuscule|positive|irregularadverb
@@ -1144,10 +1176,13 @@ latcommon.adverbn28643|lsx.n28643|mendaciter|positive|irregularadverb
 latcommon.adverbn28651|lsx.n28651|mendice|positive|irregularadverb
 latcommon.adverbn28658|lsx.n28658|mendose|positive|irregularadverb
 latcommon.adverbn28698|lsx.n28698|mensatim|positive|irregularadverb
+latcommon.adverbn28749|lsx.n28749|merace|positive|irregularadverb
 latcommon.adverbn28780|lsx.n28780|mere|positive|irregularadverb
 latcommon.adverbn28789|lsx.n28789|meretricie|positive|irregularadverb
+latcommon.adverbn28812|lsx.n28812|meritissime|positive|irregularadverb
 latcommon.adverbn28813|lsx.n28813|merito|positive|irregularadverb
 latcommon.adverbn28911|lsx.n28911|metaphorice|positive|irregularadverb
+latcommon.adverbn28915|lsx.n28915|metaplasticos|positive|irregularadverb
 latcommon.adverbn28962|lsx.n28962|metonumicos|positive|irregularadverb
 latcommon.adverbn29053|lsx.n29053|militarie|positive|irregularadverb
 latcommon.adverbn29070|lsx.n29070|millies|positive|irregularadverb
@@ -1161,6 +1196,7 @@ latcommon.adverbn29156|lsx.n29156|minitabiliter|positive|irregularadverb
 latcommon.adverbn29180|lsx.n29180|minume|positive|irregularadverb
 latcommon.adverbn29191|lsx.n29191|minutatim|positive|irregularadverb
 latcommon.adverbn29192|lsx.n29192|minute|positive|irregularadverb
+latcommon.adverbn29195|lsx.n29195|minutim|positive|irregularadverb
 latcommon.adverbn29215|lsx.n29215|mirabiliter|positive|irregularadverb
 latcommon.adverbn29224|lsx.n29224|mire|positive|irregularadverb
 latcommon.adverbn29225|lsx.n29225|mirifice|positive|irregularadverb
@@ -1186,12 +1222,14 @@ latcommon.adverbn29444|lsx.n29444|moleste|positive|irregularadverb
 latcommon.adverbn29516|lsx.n29516|momentaliter|positive|irregularadverb
 latcommon.adverbn29537|lsx.n29537|monauliter|positive|irregularadverb
 latcommon.adverbn29612|lsx.n29612|monstrifice|positive|irregularadverb
+latcommon.adverbn29617|lsx.n29617|monstrose|positive|irregularadverb
 latcommon.adverbn29620|lsx.n29620|monstruose and monstrose|positive|irregularadverb
 latcommon.adverbn29657|lsx.n29657|moraliter|positive|irregularadverb
 latcommon.adverbn29660|lsx.n29660|morate|positive|irregularadverb
 latcommon.adverbn29661|lsx.n29661|moratim|positive|irregularadverb
 latcommon.adverbn29668|lsx.n29668|morbide|positive|irregularadverb
 latcommon.adverbn29678|lsx.n29678|mordaciter|positive|irregularadverb
+latcommon.adverbn29685|lsx.n29685|mordicitus|positive|irregularadverb
 latcommon.adverbn29687|lsx.n29687|mordicus|positive|irregularadverb
 latcommon.adverbn29690|lsx.n29690|more|positive|irregularadverb
 latcommon.adverbn29717|lsx.n29717|morose|positive|irregularadverb
@@ -1239,6 +1277,7 @@ latcommon.adverbn30672|lsx.n30672|neglectim|positive|irregularadverb
 latcommon.adverbn30678|lsx.n30678|neglegenter|positive|irregularadverb
 latcommon.adverbn30740|lsx.n30740|neoterice|positive|irregularadverb
 latcommon.adverbn30775|lsx.n30775|nequaquam|positive|irregularadverb
+latcommon.adverbn30777|lsx.n30777|nequedum|positive|irregularadverb
 latcommon.adverbn30784|lsx.n30784|nequiquam|positive|irregularadverb
 latcommon.adverbn30787|lsx.n30787|nequiter|positive|irregularadverb
 latcommon.adverbn30789|lsx.n30789|nequo|positive|irregularadverb
@@ -1252,6 +1291,7 @@ latcommon.adverbn30883|lsx.n30883|ni|positive|irregularadverb
 latcommon.adverbn30959|lsx.n30959|nihilominus|positive|irregularadverb
 latcommon.adverbn30976|lsx.n30976|nimie|positive|irregularadverb
 latcommon.adverbn30978|lsx.n30978|nimio|positive|irregularadverb
+latcommon.adverbn30979|lsx.n30979|nimiopere|positive|irregularadverb
 latcommon.adverbn30980|lsx.n30980|nimirum|positive|irregularadverb
 latcommon.adverbn30981|lsx.n30981|nimis|positive|irregularadverb
 latcommon.adverbn30982|lsx.n30982|nimium|positive|irregularadverb
@@ -1317,6 +1357,7 @@ latcommon.adverbn32237|lsx.n32237|oculitus|positive|irregularadverb
 latcommon.adverbn32264|lsx.n32264|odiose|positive|irregularadverb
 latcommon.adverbn32350|lsx.n32350|offatim|positive|irregularadverb
 latcommon.adverbn32387|lsx.n32387|officiose|positive|irregularadverb
+latcommon.adverbn32394|lsx.n32394|offirmate|positive|irregularadverb
 latcommon.adverbn32486|lsx.n32486|olim|positive|irregularadverb
 latcommon.adverbn32551|lsx.n32551|ominose|positive|irregularadverb
 latcommon.adverbn32562|lsx.n32562|omnifariam|positive|irregularadverb
@@ -1350,6 +1391,7 @@ latcommon.adverbn33288|lsx.n33288|pacate|positive|irregularadverb
 latcommon.adverbn33305|lsx.n33305|pacifice|positive|irregularadverb
 latcommon.adverbn33358|lsx.n33358|paene|positive|irregularadverb
 latcommon.adverbn33392|lsx.n33392|pagatim|positive|irregularadverb
+latcommon.adverbn33419|lsx.n33419|palaestrice|positive|irregularadverb
 latcommon.adverbn33487|lsx.n33487|palliolatim|positive|irregularadverb
 latcommon.adverbn33604|lsx.n33604|pancratice|positive|irregularadverb
 latcommon.adverbn33745|lsx.n33745|parabolice|positive|irregularadverb
@@ -1374,6 +1416,7 @@ latcommon.adverbn34178|lsx.n34178|paucies|positive|irregularadverb
 latcommon.adverbn34183|lsx.n34183|paulatim|positive|irregularadverb
 latcommon.adverbn34186|lsx.n34186|paulisper|positive|irregularadverb
 latcommon.adverbn34187|lsx.n34187|paulo|positive|irregularadverb
+latcommon.adverbn34188|lsx.n34188|paululatim|positive|irregularadverb
 latcommon.adverbn34190|lsx.n34190|paululum|positive|irregularadverb
 latcommon.adverbn34192|lsx.n34192|paulum|positive|irregularadverb
 latcommon.adverbn34199|lsx.n34199|pauperius|positive|irregularadverb
@@ -1409,7 +1452,9 @@ latcommon.adverbn34792|lsx.n34792|perdite|positive|irregularadverb
 latcommon.adverbn34793|lsx.n34793|perditim|positive|irregularadverb
 latcommon.adverbn34798|lsx.n34798|perdiu|positive|irregularadverb
 latcommon.adverbn34820|lsx.n34820|perdudum|positive|irregularadverb
+latcommon.adverbn34834|lsx.n34834|peregre|positive|irregularadverb
 latcommon.adverbn34836|lsx.n34836|peregri|positive|irregularadverb
+latcommon.adverbn34855|lsx.n34855|peremptorie|positive|irregularadverb
 latcommon.adverbn34859|lsx.n34859|perendie|positive|irregularadverb
 latcommon.adverbn34863|lsx.n34863|perenne|positive|irregularadverb
 latcommon.adverbn34878|lsx.n34878|perexigue|positive|irregularadverb
@@ -1459,6 +1504,7 @@ latcommon.adverbn35375|lsx.n35375|perplexe|positive|irregularadverb
 latcommon.adverbn35376|lsx.n35376|perplexim|positive|irregularadverb
 latcommon.adverbn35411|lsx.n35411|perquam|positive|irregularadverb
 latcommon.adverbn35417|lsx.n35417|perraro|positive|irregularadverb
+latcommon.adverbn35424|lsx.n35424|perridicule|positive|irregularadverb
 latcommon.adverbn35437|lsx.n35437|persaepe|positive|irregularadverb
 latcommon.adverbn35442|lsx.n35442|persalse|positive|irregularadverb
 latcommon.adverbn35446|lsx.n35446|persancte|positive|irregularadverb
@@ -1485,6 +1531,7 @@ latcommon.adverbn36290|lsx.n36290|pigre|positive|irregularadverb
 latcommon.adverbn36310|lsx.n36310|pilatim|positive|irregularadverb
 latcommon.adverbn36491|lsx.n36491|placabiliter|positive|irregularadverb
 latcommon.adverbn36494|lsx.n36494|placate|positive|irregularadverb
+latcommon.adverbn36506|lsx.n36506|placide|positive|irregularadverb
 latcommon.adverbn36550|lsx.n36550|plane|positive|irregularadverb
 latcommon.adverbn36599|lsx.n36599|platice|positive|irregularadverb
 latcommon.adverbn36647|lsx.n36647|plene|positive|irregularadverb
@@ -1518,7 +1565,6 @@ latcommon.adverbn37226|lsx.n37226|postidea|positive|irregularadverb
 latcommon.adverbn37229|lsx.n37229|postilla|positive|irregularadverb
 latcommon.adverbn37233|lsx.n37233|postmodo|positive|irregularadverb
 latcommon.adverbn37234|lsx.n37234|postmodum|positive|irregularadverb
-latcommon.adverbn37243|lsx.n37243|postremo|positive|irregularadverb
 latcommon.adverbn37244|lsx.n37244|postridie|positive|irregularadverb
 latcommon.adverbn37246|lsx.n37246|postriduo|positive|irregularadverb
 latcommon.adverbn37284|lsx.n37284|potenter|positive|irregularadverb
@@ -1547,6 +1593,7 @@ latcommon.adverbn37863|lsx.n37863|praeproperanter|positive|irregularadverb
 latcommon.adverbn37864|lsx.n37864|praepropere|positive|irregularadverb
 latcommon.adverbn37873|lsx.n37873|praequam|positive|irregularadverb
 latcommon.adverbn37900|lsx.n37900|praes|positive|irregularadverb
+latcommon.adverbn37915|lsx.n37915|praescienter|positive|irregularadverb
 latcommon.adverbn37941|lsx.n37941|praesentanee|positive|irregularadverb
 latcommon.adverbn37955|lsx.n37955|praesertim|positive|irregularadverb
 latcommon.adverbn37991|lsx.n37991|praestanter|positive|irregularadverb
@@ -1555,6 +1602,7 @@ latcommon.adverbn38019|lsx.n38019|praestructim|positive|irregularadverb
 latcommon.adverbn38037|lsx.n38037|praesumenter|positive|irregularadverb
 latcommon.adverbn38040|lsx.n38040|praesumptiose|positive|irregularadverb
 latcommon.adverbn38074|lsx.n38074|praeterea|positive|irregularadverb
+latcommon.adverbn38077|lsx.n38077|praeterunter|positive|irregularadverb
 latcommon.adverbn38082|lsx.n38082|praeterhac|positive|irregularadverb
 latcommon.adverbn38100|lsx.n38100|praeterquam|positive|irregularadverb
 latcommon.adverbn38229|lsx.n38229|precario|positive|irregularadverb
@@ -1578,6 +1626,7 @@ latcommon.adverbn38398|lsx.n38398|probabiliter|positive|irregularadverb
 latcommon.adverbn38408|lsx.n38408|probe|positive|irregularadverb
 latcommon.adverbn38411|lsx.n38411|probiter|positive|irregularadverb
 latcommon.adverbn38419|lsx.n38419|probrose|positive|irregularadverb
+latcommon.adverbn38429|lsx.n38429|procaciter|positive|irregularadverb
 latcommon.adverbn38439|lsx.n38439|procellose|positive|irregularadverb
 latcommon.adverbn38442|lsx.n38442|procere|positive|irregularadverb
 latcommon.adverbn38505|lsx.n38505|procul|positive|irregularadverb
