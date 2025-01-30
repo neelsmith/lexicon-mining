@@ -954,6 +954,7 @@ lat25.nounn45449|lsx.n45449|stiv|feminine|a_ae
 lat25.nounn45450|lsx.n45450|stivari|masculine|us_i
 lat25.nounn45548|lsx.n45548|strav|feminine|a_ae
 lat25.nounn45571|lsx.n45571|strictivill|feminine|a_ae
+lat25.nounn45594|lsx.n45594|stritav|masculine|us_i
 lat25.nounn45726|lsx.n45726|suaveolenti|feminine|a_ae
 lat25.nounn45727|lsx.n45727|suaviation|feminine|o_onis
 lat25.nounn45730|lsx.n45730|suavifragranti|feminine|a_ae
@@ -973,6 +974,7 @@ lat25.nounn45912|lsx.n45912|subjection|feminine|o_onis
 lat25.nounn45916|lsx.n45916|subjector|masculine|0_is
 lat25.nounn45919|lsx.n45919|subject|masculine|us_us
 lat25.nounn45922|lsx.n45922|subjugator|masculine|0_is
+lat25.nounn45925x|lsx.n45925x|subjug|neuter|us_i
 lat25.nounn45927|lsx.n45927|subjunctori|neuter|us_i
 lat25.nounn45947|lsx.n45947|sublevation|feminine|o_onis
 lat25.nounn45979|lsx.n45979|subluvie|feminine|es_ei
@@ -1163,6 +1165,8 @@ lat25.nounn50408|lsx.n50408|venditor|masculine|0_is
 lat25.nounn50409|lsx.n50409|venditric|feminine|x_cis
 lat25.nounn50413|lsx.n50413|venefic|feminine|a_ae
 lat25.nounn50414|lsx.n50414|venefici|neuter|us_i
+lat25.nounn50415x|lsx.n50415x|venefic|masculine|us_i
+lat25.nounn50415y|lsx.n50415y|venefic|feminine|a_ae
 lat25.nounn50421|lsx.n50421|venen|neuter|us_i
 lat25.nounn50429|lsx.n50429|veneration|feminine|o_onis
 lat25.nounn50430|lsx.n50430|venerator|masculine|0_is
@@ -1273,6 +1277,8 @@ lat25.nounn50706|lsx.n50706|vespern|feminine|a_ae
 lat25.nounn50707|lsx.n50707|vespertilion|masculine|o_onis
 lat25.nounn50710|lsx.n50710|vesperugin|feminine|o_inis
 lat25.nounn50713|lsx.n50713|vespillon|masculine|o_onis
+lat25.nounn50716x|lsx.n50716x|vestiari|masculine|us_i
+lat25.nounn50716y|lsx.n50716y|vestiari|neuter|us_i
 lat25.nounn50717|lsx.n50717|vestibul|neuter|us_i
 lat25.nounn50720|lsx.n50720|vesticontuberni|neuter|us_i
 lat25.nounn50721|lsx.n50721|vesticul|feminine|a_ae
@@ -1292,9 +1298,13 @@ lat25.nounn50739|lsx.n50739|vestit|masculine|us_us
 lat25.nounn50751|lsx.n50751|veterator|masculine|0_is
 lat25.nounn50754|lsx.n50754|veteratric|feminine|x_cis
 lat25.nounn50756|lsx.n50756|veteret|neuter|us_i
+lat25.nounn50757x|lsx.n50757x|veterinari|masculine|us_i
+lat25.nounn50757y|lsx.n50757y|veterinari|neuter|us_i
 lat25.nounn50759|lsx.n50759|veternosita|feminine|s_tis
 lat25.nounn50764|lsx.n50764|vetit|neuter|us_i
 lat25.nounn50769|lsx.n50769|vettonic|feminine|a_ae
+lat25.nounn50771x|lsx.n50771x|vetul|masculine|us_i
+lat25.nounn50771y|lsx.n50771y|vetul|feminine|a_ae
 lat25.nounn50775|lsx.n50775|vetusta|feminine|s_tis
 lat25.nounn50781|lsx.n50781|vexamin|neuter|en_inis
 lat25.nounn50783|lsx.n50783|vexation|feminine|o_onis
@@ -1306,6 +1316,7 @@ lat25.nounn50791|lsx.n50791|vexill|neuter|us_i
 lat25.nounn50793|lsx.n50793|vi|feminine|a_ae
 lat25.nounn50797|lsx.n50797|viaticul|neuter|us_i
 lat25.nounn50798|lsx.n50798|viatic|neuter|us_i
+lat25.nounn50799x|lsx.n50799x|viatic|neuter|us_i
 lat25.nounn50800|lsx.n50800|viator|masculine|0_is
 lat25.nounn50802|lsx.n50802|viatric|feminine|x_cis
 lat25.nounn50803|lsx.n50803|vibic|feminine|ex_icis
@@ -1315,6 +1326,8 @@ lat25.nounn50812|lsx.n50812|vibramin|neuter|en_inis
 lat25.nounn50813|lsx.n50813|vibration|feminine|o_onis
 lat25.nounn50815|lsx.n50815|vibrat|masculine|us_us
 lat25.nounn50820|lsx.n50820|viburn|neuter|us_i
+lat25.nounn50825x|lsx.n50825x|vicari|masculine|us_i
+lat25.nounn50825y|lsx.n50825y|vicari|feminine|a_ae
 lat25.nounn50832|lsx.n50832|vicenni|neuter|us_i
 lat25.nounn50833|lsx.n50833|vicequaestor|masculine|0_is
 lat25.nounn50834|lsx.n50834|vicequaestur|feminine|a_ae
@@ -1327,10 +1340,12 @@ lat25.nounn50855|lsx.n50855|vic|feminine|is_is
 lat25.nounn50858|lsx.n50858|vicissita|feminine|s_tis
 lat25.nounn50859|lsx.n50859|vicissitudin|feminine|o_inis
 lat25.nounn50861|lsx.n50861|victim|feminine|a_ae
+lat25.nounn50862x|lsx.n50862x|victimari|masculine|us_i
 lat25.nounn50865|lsx.n50865|victor|masculine|0_is
 lat25.nounn50867|lsx.n50867|victori|feminine|a_ae
 lat25.nounn50869|lsx.n50869|victoriat|masculine|us_i
 lat25.nounn50873|lsx.n50873|victric|feminine|x_cis
+lat25.nounn50874x|lsx.n50874x|victual|neuter|i_is_is
 lat25.nounn50877|lsx.n50877|vict|masculine|us_us
 lat25.nounn50878|lsx.n50878|vicul|masculine|us_i
 lat25.nounn50879|lsx.n50879|vic|masculine|us_i
@@ -1363,6 +1378,8 @@ lat25.nounn50948|lsx.n50948|viment|neuter|us_i
 lat25.nounn50950|lsx.n50950|viminari|masculine|us_i
 lat25.nounn50951|lsx.n50951|viminet|neuter|us_i
 lat25.nounn50961|lsx.n50961|vinariari|masculine|us_i
+lat25.nounn50962x|lsx.n50962x|vinari|masculine|us_i
+lat25.nounn50962y|lsx.n50962y|vinari|neuter|us_i
 lat25.nounn50963|lsx.n50963|vinc|feminine|a_ae
 lat25.nounn50969|lsx.n50969|vinction|feminine|o_onis
 lat25.nounn50970|lsx.n50970|vinctor|masculine|0_is
@@ -1381,6 +1398,7 @@ lat25.nounn50987|lsx.n50987|vindici|feminine|a_ae
 lat25.nounn50991|lsx.n50991|vindict|feminine|a_ae
 lat25.nounn50992|lsx.n50992|vine|feminine|a_ae
 lat25.nounn50996|lsx.n50996|vinet|neuter|us_i
+lat25.nounn50997x|lsx.n50997x|vine|feminine|a_ae
 lat25.nounn50998|lsx.n50998|vinibu|feminine|a_ae
 lat25.nounn51000|lsx.n51000|vinitor|masculine|0_is
 lat25.nounn51003|lsx.n51003|vinolenti|feminine|a_ae

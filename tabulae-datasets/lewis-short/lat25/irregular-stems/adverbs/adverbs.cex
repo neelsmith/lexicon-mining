@@ -223,6 +223,8 @@ lat25.adverbn49859|lsx.n49859|universim|positive|irregularadverb
 lat25.adverbn49966|lsx.n49966|usurpative|positive|irregularadverb
 lat25.adverbn50023|lsx.n50023|utroqueversum|positive|irregularadverb
 lat25.adverbn50046|lsx.n50046|vacanter|positive|irregularadverb
+lat25.adverbn50062|lsx.n50062|vacive|positive|irregularadverb
+lat25.adverbn50066|lsx.n50066|vacue|positive|irregularadverb
 lat25.adverbn50089|lsx.n50089|vafre|positive|irregularadverb
 lat25.adverbn50095|lsx.n50095|vage|positive|irregularadverb
 lat25.adverbn50112|lsx.n50112|valde|positive|irregularadverb
@@ -231,6 +233,7 @@ lat25.adverbn50130|lsx.n50130|valgiter|positive|irregularadverb
 lat25.adverbn50133|lsx.n50133|valide|positive|irregularadverb
 lat25.adverbn50153|lsx.n50153|vane|positive|irregularadverb
 lat25.adverbn50172|lsx.n50172|vapide|positive|irregularadverb
+lat25.adverbn50177|lsx.n50177|vaporate|positive|irregularadverb
 lat25.adverbn50202|lsx.n50202|variatim|positive|irregularadverb
 lat25.adverbn50207|lsx.n50207|varicose|positive|irregularadverb
 lat25.adverbn50211|lsx.n50211|varicus|positive|irregularadverb
@@ -251,6 +254,7 @@ lat25.adverbn50492|lsx.n50492|veraciter|positive|irregularadverb
 lat25.adverbn50520|lsx.n50520|verbose|positive|irregularadverb
 lat25.adverbn50527|lsx.n50527|vere|positive|irregularadverb
 lat25.adverbn50528|lsx.n50528|verecunde|positive|irregularadverb
+lat25.adverbn50530|lsx.n50530|verecunditer|positive|irregularadverb
 lat25.adverbn50536|lsx.n50536|verenter|positive|irregularadverb
 lat25.adverbn50551|lsx.n50551|veridice|positive|irregularadverb
 lat25.adverbn50561|lsx.n50561|vermiculate|positive|irregularadverb
@@ -268,6 +272,7 @@ lat25.adverbn50852|lsx.n50852|vicinitus|positive|irregularadverb
 lat25.adverbn50856|lsx.n50856|vicissatim|positive|irregularadverb
 lat25.adverbn50857|lsx.n50857|vicissim|positive|irregularadverb
 lat25.adverbn50880|lsx.n50880|videlicet|positive|irregularadverb
+lat25.adverbn50907|lsx.n50907|vigilanter|positive|irregularadverb
 lat25.adverbn50909|lsx.n50909|vigilate|positive|irregularadverb
 lat25.adverbn50934|lsx.n50934|viliter|positive|irregularadverb
 lat25.adverbn51023|lsx.n51023|violenter|positive|irregularadverb
@@ -276,6 +281,8 @@ lat25.adverbn51094|lsx.n51094|viriliter|positive|irregularadverb
 lat25.adverbn51096|lsx.n51096|viriose|positive|irregularadverb
 lat25.adverbn51102|lsx.n51102|viritim|positive|irregularadverb
 lat25.adverbn51118|lsx.n51118|visceratim|positive|irregularadverb
+lat25.adverbn51129|lsx.n51129|visibiliter|positive|irregularadverb
+lat25.adverbn51140y|lsx.n51140y|visualiter|positive|irregularadverb
 lat25.adverbn51152|lsx.n51152|vitaliter|positive|irregularadverb
 lat25.adverbn51184|lsx.n51184|vitiose|positive|irregularadverb
 lat25.adverbn51213|lsx.n51213|vituperabiliter|positive|irregularadverb
@@ -291,4 +298,7 @@ lat25.adverbn51338|lsx.n51338|volup|positive|irregularadverb
 lat25.adverbn51341|lsx.n51341|voluptarie|positive|irregularadverb
 lat25.adverbn51347|lsx.n51347|voluptuose|positive|irregularadverb
 lat25.adverbn51357|lsx.n51357|volutim|positive|irregularadverb
+lat25.adverbn51385|lsx.n51385|voraciter|positive|irregularadverb
+lat25.adverbn51410|lsx.n51410|vulgariter|positive|irregularadverb
+lat25.adverbn51412|lsx.n51412|vulgate|positive|irregularadverb
 lat25.adverbn51417|lsx.n51417|vulgo|positive|irregularadverb
