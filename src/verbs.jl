@@ -144,6 +144,54 @@ function structure4(cols)
 end
 
 
+"""Interpret verb entry with only 3 columns.
+$(SIGNATURES)
+"""
+function structure3(cols)
+    #@info("Look at 3-column structure for $(cols)")
+    conjugation = 0
+    try 
+        conjugation = parse(Int, strip(cols[1]))
+    catch e
+        @warn("Couldn't parse conjugation value $(cols[1])")
+    end
+    pp1 = ""
+    pp2 = ""
+    pp3 = "" 
+    pp4 = ""
+
+    if endswith(cols[2], "o") || endswith(cols[2], "or")
+        pp1 = cols[2]
+    end
+
+
+    if endswith(cols[3], "re") || endswith(cols[3], "ri")
+        pp2 = cols[2]
+    end
+
+    if endswith(cols[3], "us") || endswith(cols[3], "um")
+        pp4 = cols[3]
+    end
+
+    if isempty(pp1)
+        @warn("NO first pp in $(cols)")
+    elseif isempty(pp2)
+        #@warn("NO second pp")
+       # @warn("Guess at infin for $(pp1) of conjugation $(conjugation)")   
+        pp2 = guessinfinitive(pp1, conjugation)
+    elseif isempty(pp3)
+        @warn("No third pp in in $(cols)")
+    elseif isempty(pp4)
+        @warn("No fourth pp in $(cols)")
+        
+    end
+
+    #@info("Sending back $([conjugation, pp1, pp2, pp3, pp4])")
+
+    [conjugation, pp1, pp2, pp3, pp4]
+end
+
+
 function verb(tpl)
     shortid = trimid(tpl.urn)
     cols = strip.(split(tpl.morphology,","))
@@ -164,7 +212,7 @@ function verb(tpl)
 
     elseif length(cols) == 4
 
-        @info("4 columns for verb $(shortid): $(cleaner)")
+       # @info("4 columns for verb $(shortid): $(cleaner)")
         (conjugation, pp1, pp2, pp3, pp4 ) = structure4(cleaner)
         if typeof(conjugation) <: Int
             #ok
@@ -174,6 +222,14 @@ function verb(tpl)
         #push!(goodverbs, )
         LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 )
 
+    elseif length(cols) == 3
+        (conjugation, pp1, pp2, pp3, pp4 ) = structure3(cleaner)
+        if typeof(conjugation) <: Int
+            #ok
+        else
+            @warn("Got $(typeof(conjugation)) for $(conjugation)")
+        end
+        LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 )
     else
         @info("Very short verb entry : $(cols)")
 
@@ -198,7 +254,7 @@ function verbs(datatuples; includebad = false)
         if vrb isa LSVerb
             push!(goodverbs, vrb)
         else
-            push!(badverbs, vrb)
+            push!(badverbs, tpl)
         end
     end
     if includebad
