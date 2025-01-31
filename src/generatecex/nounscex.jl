@@ -28,6 +28,9 @@ function cexline(n::LSNoun; divider = "|")
         if iclass == "s_tis"
             stem = replace(n.nomsg, r"s$" => "") |> suareznorm
 
+        elseif iclass == "x_cis"
+            stem = replace(n.nomsg, r"x$" => "") |> suareznorm
+
         elseif endswith(n.gensg, "is")
             stem = replace(n.gensg, r"is$" => "") |> suareznorm
 
@@ -42,7 +45,7 @@ function cexline(n::LSNoun; divider = "|")
 
     elseif n.declension == 5
         if endswith(n.gensg, "i")
-            stem = replace(n.gensg, r"i$" => "") |> suareznorm
+            stem = replace(n.gensg, r"ei$" => "") |> suareznorm
         end
     end                        
    

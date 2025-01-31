@@ -8,7 +8,6 @@ struct LSVerb
     pp4
 end
 
-
 """Override Base.show for LSNoun type.
 $(SIGNATURES)
 """
@@ -49,6 +48,9 @@ function ==(v1::LSVerb, v2::LSVerb)
 end
 
 
+"""Form present active infinitive for regular verbs.
+$(SIGNATURES)
+"""
 function activeinfinitive(lemma, conj)
     if conj == 1
         replace(lemma, r"o$" => "are")
@@ -62,7 +64,9 @@ function activeinfinitive(lemma, conj)
 
 end
 
-
+"""Form present passive infinitive for regular verbs.
+$(SIGNATURES)
+"""
 function passiveinfinitive(lemma, conj)
     if conj == 1
         replace(lemma, r"or$" => "ari")
@@ -188,6 +192,9 @@ function verbs(datatuples; includebad = false)
     end
 end
 
+"""Find tabulae class for present system.
+$(SIGNATURES)
+"""
 function presentconj(verb::LSVerb)
     if endswith(verb.pp1, "or")
         "c$(verb.conjugation)presdep"
@@ -198,8 +205,8 @@ function presentconj(verb::LSVerb)
     end
 end
 
-function cexline(verb::LSVerb; divider = "|")    
 
+function cexline(verb::LSVerb; divider = "|")    
     if missingpart(verb)
         principalparts_cex(verb)
     elseif verb.conjugation == 1
@@ -241,3 +248,24 @@ function incomplete(v::LSVerb)
     isempty(v.pp3) ||
     isempty(v.pp4)
 end
+
+
+"""Find Tabulae class for a noun. 
+Returns empty string if no class found.
+$(SIGNATURES)
+"""
+function tabulaeclass(verb::LSVerb)
+    if incomplete(verb)
+        nothing
+    elseif verb.conjugation == 1
+        conj = endswith(stem, "or") ? "conj1dep" : "conj1"
+    elseif verb.conjugation == 2
+        conj = endswith(stem, "or") ? "conj2dep" : "conj2"
+    elseif verb.conjugation == 3
+        
+    elseif verb.conjugation == 4
+        conj = endswith(stem, "or") ? "conj4dep" : "conj4"
+
+    end
+end
+

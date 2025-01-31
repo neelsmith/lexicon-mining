@@ -46,4 +46,6 @@ export cexline
 export cextable
 export tabulae
 
+export tabulaeclass
+
 end # module

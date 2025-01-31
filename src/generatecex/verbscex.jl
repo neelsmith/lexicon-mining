@@ -130,7 +130,7 @@ end
 
 function conj4_cex(verb; divider = "|")
     lexentity = string("lsx.", verb.lsid)
-    stem = replace(verb.pp1, r"or?$" => "") |> suareznorm
+    stem = replace(verb.pp1, r"ior?$" => "") |> suareznorm
     if isempty(stem)
         @warn("EMPTY PRESENT STEM $(verb.lsid)")
         []

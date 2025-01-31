@@ -1,5 +1,6 @@
 using Markdown
 using Downloads
+mp = Markdown.parse
 
 scriptversion = "1.3.1"
 
@@ -16,15 +17,11 @@ function versioninfo()
 end
 
 function howto()
-    @info("\nUse one of these functions to view formatted articles in your REPL.")
-    @info("\nFind article by ID:")
-    @info("    id(IDVALUE) |> Markdown.parse\n")
-    @info("\nFind matching lemma:")
-    @info("    lemma(STRING) |> Markdown.parse\n")
-    @info("\nFull-text search:")
-    @info("    text(STRING) |> Markdown.parse\n")
-    @info("\n\nTo see these instructions again:\n")
-    @info("    howto()")
+    @info("\nUse one of the following functions to view formatted articles in your REPL.\n(`mp` is defined in the script as a shortcut for `Markdown.parse`.)\n\n")
+    @info("\nFind article by ID:\n\n    id(IDVALUE) |> mp\n\n")
+    @info("\nFind matching lemma:\n\n    lemma(STRING) |> mp\n\n")
+    @info("\nFull-text search:\n\n    text(STRING) |> mp\n\n")
+    @info("\n\nTo see these instructions again:\n\n    howto()")
 end
 
 
