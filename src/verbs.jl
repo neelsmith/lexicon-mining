@@ -101,6 +101,7 @@ end
 $(SIGNATURES)
 """
 function structure4(cols)
+    @info("Figure out 4 cols $(cols)")
     conjugation = 0
     try 
         conjugation = parse(Int, strip(cols[1]))
@@ -140,8 +141,40 @@ function structure4(cols)
         
     end
 
-    [conjugation, pp1, pp2, pp3, pp4]
+    @info("So far: $([conjugation, pp1, pp2, pp3, pp4])")
+    
+
+    expand_elisions(conjugation, pp1, pp2, pp3, pp4)
 end
+
+function joinpair(prefix, glossform)
+    if startswith(glossform, "-")
+        string(prefix, glossform[2:end])
+    else
+        glossform
+    end
+end
+function expand_conj1(pp1, pp2, pp3, pp4)
+    
+    stem = presentstem(1, pp1)
+    @info("Expand stems as needed based on $(stem)- ")
+    newp2 = joinpair(stem, pp2)
+    newp3 = joinpair(stem, pp3)
+    newp4 = joinpair(stem, pp4)
+
+    [1, pp1, newp2, newp3, newp4]
+end
+
+function expand_elisions(conj::Int, pp1, pp2, pp3, pp4)
+    if conj == 1
+        expand_conj1(pp1, pp2, pp3, pp4)
+    #end
+    else
+        [conj, pp1, pp2, pp3, pp4]
+    end
+end
+
+
 
 
 """Interpret verb entry with only 3 columns.
@@ -277,11 +310,14 @@ function presentconj(verb::LSVerb)
     end
 end
 
-
+"""Compose CEX content for a verb. Despite the function name,
+this produces a vector of lines, not a single line.
+$(SIGNATURES)
+"""
 function cexline(verb::LSVerb; divider = "|")    
-    @info("Start from tabulaeclass for $(verb):")
-    iclass = tabulaeclass(verb)
-    @info("$(iclass)")
+    #@info("Start from tabulaeclass for $(verb):")
+    #iclass = tabulaeclass(verb)
+    #@info("$(iclass)")
 
     # Change this check to look at iclass:
     if missingpart(verb)
@@ -295,7 +331,7 @@ function cexline(verb::LSVerb; divider = "|")
     elseif verb.conjugation == 4
         conj4_cex(verb; divider = divider)        
     else
-        ""
+        []
     end
 end
 
@@ -326,23 +362,117 @@ function incomplete(v::LSVerb)
     isempty(v.pp4)
 end
 
+function conj4deponentclass(verb::LSVerb)
+    stem = replace(verb.pp1, r"ior$" => "")
+    if verb.pp2 == string(stem, "iri") &&
+        (verb.pp4 == string(stem,"itus") ||  verb.pp4 == string(stem,"itum"))
+        "conj4dep"
+    else
+        "c4presdep"
+    end
+end
+
+function conj4class(verb::LSVerb)
+    if ismissing(verb)
+        "c4pres"
+    else
+        stem = replace(verb.pp1, r"io$" => "")
+        if verb.pp2 == string(stem,"ire") &&
+            verb.pp3 == string(stem,"ivi") &&
+            (verb.pp4 == string(stem,"itus") ||  verb.pp4 == string(stem,"itum"))
+            "conj4"
+        else
+            "c4pres"
+        end
+    end
+end
+
+
+function conj1deponentclass(verb::LSVerb)
+    stem = replace(verb.pp1, r"or$" => "")
+    if verb.pp2 == string(stem, "ari") &&
+        (verb.pp4 == string(stem,"atus") ||  verb.pp4 == string(stem,"atum"))
+        "conj1dep"
+    else
+        "c1presdep"
+    end
+end
+
+function conj1class(verb::LSVerb)
+    if ismissing(verb)
+        "c1pres"
+    else
+        stem = replace(verb.pp1, r"o$" => "")
+        if verb.pp2 == string(stem,"are") &&
+            verb.pp3 == string(stem,"avi") &&
+            (verb.pp4 == string(stem,"atus") ||  verb.pp4 == string(stem,"atum"))
+            "conj1"
+        else
+            "c1pres"
+        end
+    end
+end
+
+function conj2deponentclass(verb::LSVerb)
+    stem = replace(verb.pp1, r"eor$" => "")
+    if verb.pp2 == string(stem, "eri") &&
+        (verb.pp4 == string(stem,"itus") ||  verb.pp4 == string(stem,"itum"))
+        "conj2dep"
+    else
+        "c2presdep"
+    end
+end
+
+function conj2class(verb::LSVerb)
+    if ismissing(verb)
+        "c2pres"
+    else
+        stem = replace(verb.pp1, r"eo$" => "")
+        if verb.pp2 == string(stem,"ere") &&
+            verb.pp3 == string(stem,"ui") &&
+            (verb.pp4 == string(stem,"itus") ||  verb.pp4 == string(stem,"itum"))
+            "conj2"
+        else
+            "c2pres"
+        end
+    end
+end
+
+
 
 """Find Tabulae class for a noun. 
 Returns empty string if no class found.
 $(SIGNATURES)
 """
 function tabulaeclass(verb::LSVerb)
-    if incomplete(verb)
+    if isempty(verb.pp1)
         nothing
+   
     elseif verb.conjugation == 1
-        conj = endswith(stem, "or") ? "conj1dep" : "conj1"
-    elseif verb.conjugation == 2
-        conj = endswith(stem, "or") ? "conj2dep" : "conj2"
-    elseif verb.conjugation == 3
+        if endswith(verb.pp1, "or")
+            conj1deponentclass(verb)
+        else
+            conj1class(verb)
+        end
         
+    elseif verb.conjugation == 2
+        if endswith(verb.pp1, "or")
+            conj1deponentclass(verb)
+        else
+            conj1class(verb)
+        end
+        
+    elseif verb.conjugation == 3
+        ""
+
     elseif verb.conjugation == 4
-        @info("Analyze conj 4 verb class")
-        conj = endswith(stem, "or") ? "conj4dep" : "conj4"
+       #@info("Analyze conj 4 verb class")
+        if endswith(verb.pp1, "or")
+            conj4deponentclass(verb)
+        else
+            conj4class(verb)
+        end
+        
 
     end
 end

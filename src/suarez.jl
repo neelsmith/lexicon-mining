@@ -1,7 +1,28 @@
+
+function readdataline(s)
+    
+    cols = split(s, "|") 
+    #@info("Read line with $(length(cols)) cols: $(s)")
+    if length(cols) == 6
+                    #good = good + 1
+        (seq, urn, lemma, definition, pos, morphology) = cols
+        seqnum = parse(Int, tidyvalue(seq))
+                 
+        entry = (seq = seqnum, urn = tidyvalue(urn), lemma =  tidyvalue(lemma), definition = tidyvalue(definition), pos = tidyvalue(pos), morphology = tidyvalue(morphology))
+                    #push!(data,entry)
+                
+    else
+        nothing
+                    # RESTORE THIS?
+                    #@warn("$(length(cols)) columns in $(src)")
+    #               push!(badlist, f)
+    end
+end
+
 """Create named tuples structuring CGPT output written to files in a list of directories. Return two vectors, one with structured tuples, one with list of data that couldn't be parsed.
 """
 function readdata(dirs; includebad = false)
-    good = 0
+    #good = 0
     badlist = []
     data = []
     for d in dirs
@@ -15,6 +36,13 @@ function readdata(dirs; includebad = false)
             end
        
             for ln in lns
+                tpl = readdataline(ln)
+                if isnothing(tpl)
+                    push!(badlist, f)
+                else
+                    push!(data,tpl)
+                end
+                #=
                 cols = split(ln, "|") 
                 if length(cols) == 6
                     good = good + 1
@@ -30,7 +58,7 @@ function readdata(dirs; includebad = false)
                     #@warn("$(length(cols)) columns in $(src)")
                     push!(badlist, f)
                 end
-            
+            =#
             end
             
         end
