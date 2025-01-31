@@ -143,6 +143,46 @@ function structure4(cols)
     [conjugation, pp1, pp2, pp3, pp4]
 end
 
+
+function verb(tpl)
+    shortid = trimid(tpl.urn)
+    cols = strip.(split(tpl.morphology,","))
+    cleaner = Unicode.normalize.(cols, stripmark = true)
+
+    #@info("Examine data from raw morphology $(tpl.morphology)")
+    #@info("Columns: $(length(cols))")
+    if length(cols) == 5    
+        (conjugationraw, pp1, pp2, pp3, pp4 ) = cleaner 
+        conjugation = 0
+        try 
+            conjugation = parse(Int, strip(conjugationraw))
+        catch e
+            @warn("Couldn't parse conjugation value $(conjugationraw)")
+        end
+        #push!(goodverbs, )
+        LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 )
+
+    elseif length(cols) == 4
+
+        @info("4 columns for verb $(shortid): $(cleaner)")
+        (conjugation, pp1, pp2, pp3, pp4 ) = structure4(cleaner)
+        if typeof(conjugation) <: Int
+            #ok
+        else
+            @warn("Got $(typeof(conjugation)) for $(conjugation)")
+        end
+        #push!(goodverbs, )
+        LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 )
+
+    else
+        @info("Very short verb entry : $(cols)")
+
+        #push!(badverbs, tpl) 
+        tpl
+    end
+  
+end
+
 """Parse LSVerbs out of datatuples.
 $(SIGNATURES)
 """
@@ -154,35 +194,11 @@ function verbs(datatuples; includebad = false)
     badverbs = []
     
     for tpl in verbdata
-        shortid = trimid(tpl.urn)
-        cols = strip.(split(tpl.morphology,","))
-        cleaner = Unicode.normalize.(cols, stripmark = true)
-
-        #@info("Examine data from raw morphology $(tpl.morphology)")
-        #@info("Columns: $(length(cols))")
-        if length(cols) == 5    
-            (conjugationraw, pp1, pp2, pp3, pp4 ) = cleaner 
-            conjugation = 0
-            try 
-                conjugation = parse(Int, strip(conjugationraw))
-            catch e
-                @warn("Couldn't parse conjugation value $(conjugationraw)")
-            end
-            push!(goodverbs, LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 ))
-
-        elseif length(cols) == 4
-
-            #@info("4 columns for verb $(shortid): $(cleaner)")
-            (conjugation, pp1, pp2, pp3, pp4 ) = structure4(cleaner)
-            if typeof(conjugation) <: Int
-                #ok
-            else
-                @warn("Got $(typeof(conjugation)) for $(conjugation)")
-            end
-            push!(goodverbs, LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 ))
-
+        vrb = verb(tpl)
+        if vrb isa LSVerb
+            push!(goodverbs, vrb)
         else
-            push!(badverbs, tpl)
+            push!(badverbs, vrb)
         end
     end
     if includebad
@@ -264,6 +280,7 @@ function tabulaeclass(verb::LSVerb)
     elseif verb.conjugation == 3
         
     elseif verb.conjugation == 4
+        @info("Analyze conj 4 verb class")
         conj = endswith(stem, "or") ? "conj4dep" : "conj4"
 
     end

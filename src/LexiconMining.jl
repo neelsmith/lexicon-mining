@@ -35,7 +35,7 @@ include("tabulae.jl")
 export datatuples, lexicaldata
 export summarydirs, readdata
 export LSNoun, nouns
-export LSVerb, verbs
+export LSVerb, verb, verbs
 export LSAdjective, adjectives
 export LSPreposition, prepositions # These are OK
 export LSConjunction, conjunctions # These are OK
