@@ -25,12 +25,14 @@ function cexline(n::LSNoun; divider = "|")
         end
 
     elseif n.declension == 3
+        #@info("Declension 3, iclass $(iclass)")
         if iclass == "s_tis"
             stem = replace(n.nomsg, r"s$" => "") |> suareznorm
 
         elseif iclass == "x_cis"
+            
             stem = replace(n.nomsg, r"x$" => "") |> suareznorm
-
+            #@info("x_cis yields stem $(stem)")
         elseif endswith(n.gensg, "is")
             stem = replace(n.gensg, r"is$" => "") |> suareznorm
 
@@ -53,6 +55,7 @@ function cexline(n::LSNoun; divider = "|")
         @warn("No stem for noun $(n) of declension $(n.declension)")
         []
     else
+       #@info("Now use $(stem) in  noun_cexlines")
         noun_cexlines(n.lsid, lexentity, stem, gender, iclass; divider = divider)
     end
 end
@@ -61,8 +64,8 @@ function noun_cexlines(id, lexentity, stem, gender, inflclass; divider = "|")
     if iscommon(stem)
         [join(["latcommon.noun$(id)", lexentity, stem, gender, inflclass], divider)]
     else
-        l23 = join(["lat23.noun$(id)", lexentity, stem, gender, inflclass], divider)
-        l24 = join(["lat24.noun$(id)", lexentity, stem, gender, inflclass], divider)
+        l23 = join(["lat23.noun$(id)", lexentity, lat23(stem), gender, inflclass], divider)
+        l24 = join(["lat24.noun$(id)", lexentity, lat24(stem), gender, inflclass], divider)
         l25 = join(["lat25.noun$(id)", lexentity, stem, gender, inflclass], divider)
         [l23, l24, l25]
     end
