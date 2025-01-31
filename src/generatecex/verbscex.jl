@@ -15,11 +15,12 @@ end
 $(SIGNATURES)
 """
 function verb_cexlines(id, lexentity, stem, conj, note; divider = "|")        
+    #@info("VERB LINES FOR $(conj) $(stem)")
     if iscommon(stem)
         [join(["latcommon.verb$(id)", lexentity, stem, conj, note], divider)]
     else
-        l23 = join(["lat23.verb$(id)", lexentity, stem, conj, note], divider)
-        l24 = join(["lat24.verb$(id)", lexentity, stem,  conj, note], divider)
+        l23 = join(["lat23.verb$(id)", lexentity, lat23(stem), conj, note], divider)
+        l24 = join(["lat24.verb$(id)", lexentity, lat24(stem),  conj, note], divider)
         l25 = join(["lat25.verb$(id)", lexentity, stem,  conj, note], divider)
         [l23, l24, l25]
     end
@@ -77,7 +78,7 @@ function presentstem(conj::Int, present)
 end
 
 function presentstem(verb::LSVerb)
-    presentstem(verb.conjugation, verb.pp1)
+    presentstem(verb.conjugation, verb.pp1)conj1_cex
 end
 
 
@@ -206,6 +207,7 @@ end
 $(SIGNATURES)
 """
 function conj1_cex(verb; divider = "|")
+    #@info("Get CEX for conj1 verb $(verb)")
     lexentity = string("lsx.", verb.lsid)
     stem = replace(verb.pp1, r"or?$" => "") |> suareznorm
     if isempty(stem)
@@ -215,13 +217,15 @@ function conj1_cex(verb; divider = "|")
         note = "Automatically generated"
 
         iclass = tabulaeclass(verb)
-        @info("$(iclass)?")
+        #@info("$(iclass)?")
         if iclass in regular_conjungations 
+            #@info("IT'S REGULAR")
             conj = endswith(stem, "or") ? "conj1dep" : "conj1"
             note = "Automatically generated"
             verb_cexlines(verb.lsid, lexentity, stem, conj, note; 
             divider = divider)
         else
+            #@info("$(iclass) not in list of regular conjugations")
             principalparts_cex(verb; divider = divider)
         end
         

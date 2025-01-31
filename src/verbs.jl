@@ -154,13 +154,19 @@ function joinpair(prefix, glossform)
         glossform
     end
 end
+
 function expand_conj1(pp1, pp2, pp3, pp4)
     
     stem = presentstem(1, pp1)
+    newp2 = newp3 = newp4 = ""
+    #if pp2 == 
+
+
+
     @info("Expand stems as needed based on $(stem)- ")
-    newp2 = joinpair(stem, pp2)
-    newp3 = joinpair(stem, pp3)
-    newp4 = joinpair(stem, pp4)
+    newp2 = joinpair( stem, pp2)
+    newp3 = joinpair( stem, pp3)
+    newp4 = joinpair( stem, pp4)
 
     [1, pp1, newp2, newp3, newp4]
 end
@@ -241,6 +247,7 @@ function verb(tpl)
             @warn("Couldn't parse conjugation value $(conjugationraw)")
         end
         #push!(goodverbs, )
+        (conjugation, pp1, pp2, pp3, pp4) = expand_elisions(conjugation, pp1, pp2, pp3, pp4)
         LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 )
 
     elseif length(cols) == 4
