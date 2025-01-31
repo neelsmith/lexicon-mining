@@ -279,6 +279,11 @@ end
 
 
 function cexline(verb::LSVerb; divider = "|")    
+    @info("Start from tabulaeclass for $(verb):")
+    iclass = tabulaeclass(verb)
+    @info("$(iclass)")
+
+    # Change this check to look at iclass:
     if missingpart(verb)
         principalparts_cex(verb)
     elseif verb.conjugation == 1
