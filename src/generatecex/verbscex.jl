@@ -154,7 +154,7 @@ function conj2_cex(verb; divider = "|")
     if conj2ok(verb)
         #StemUrn|LexicalEntity|StemString|MorphologicalClass|Notes
         lexentity = string("lsx.", verb.lsid)
-        stem = replace(verb.pp1, r"or?$" => "") |> suareznorm
+        stem = replace(verb.pp1, r"eor?$" => "") |> suareznorm
         if isempty(stem)
             @warn("EMPTY PRESENT STEM $(verb.lsid)")
             []

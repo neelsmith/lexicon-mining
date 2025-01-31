@@ -23,7 +23,7 @@ lat25.nounn849|lsx.n849|adjuration|feminine|o_onis
 lat25.nounn850|lsx.n850|adjurator|masculine|0_is
 lat25.nounn857|lsx.n857|adjutor|masculine|0_is
 lat25.nounn858|lsx.n858|adjutori|neuter|us_i
-lat25.nounn859|lsx.n859|adjutri|feminine|x_cis
+lat25.nounn859|lsx.n859|adjutric|feminine|x_cis
 lat25.nounn861|lsx.n861|adjut|masculine|us_us
 lat25.nounn1055|lsx.n1055|advection|feminine|o_onis
 lat25.nounn1057|lsx.n1057|advector|masculine|0_is
@@ -37,7 +37,7 @@ lat25.nounn1072|lsx.n1072|advent|masculine|us_us
 lat25.nounn1076|lsx.n1076|adverbi|neuter|us_i
 lat25.nounn1081|lsx.n1081|adversation|feminine|o_onis
 lat25.nounn1083|lsx.n1083|adversator|masculine|0_is
-lat25.nounn1084|lsx.n1084|adversatri|feminine|x_cis
+lat25.nounn1084|lsx.n1084|adversatric|feminine|x_cis
 lat25.nounn1087|lsx.n1087|adversion|feminine|o_onis
 lat25.nounn1089|lsx.n1089|adversita|feminine|s_tis
 lat25.nounn1090|lsx.n1090|adversitor|masculine|0_is
@@ -52,7 +52,7 @@ lat25.nounn1434|lsx.n1434|aev|neuter|us_i
 lat25.nounn1928|lsx.n1928|allevament|neuter|us_i
 lat25.nounn1929|lsx.n1929|allevation|feminine|o_onis
 lat25.nounn1930|lsx.n1930|allevator|masculine|0_is
-lat25.nounn1970|lsx.n1970|alluvi|feminine|es_ei
+lat25.nounn1970|lsx.n1970|alluvie|feminine|es_ei
 lat25.nounn1971|lsx.n1971|alluvion|feminine|o_onis
 lat25.nounn2079|lsx.n2079|alveari|neuter|us_i
 lat25.nounn2082|lsx.n2082|alveol|masculine|us_i
@@ -75,10 +75,10 @@ lat25.nounn4228|lsx.n4228|atavi|feminine|a_ae
 lat25.nounn4229|lsx.n4229|atav|masculine|us_i
 lat25.nounn4666|lsx.n4666|v|feminine|a_ae
 lat25.nounn4670|lsx.n4670|avariti|feminine|a_ae
-lat25.nounn4671|lsx.n4671|avariti|feminine|es_ei
+lat25.nounn4671|lsx.n4671|avaritie|feminine|es_ei
 lat25.nounn4677|lsx.n4677|aven|feminine|a_ae
 lat25.nounn4692|lsx.n4692|aversation|feminine|o_onis
-lat25.nounn4693|lsx.n4693|aversatri|feminine|x_cis
+lat25.nounn4693|lsx.n4693|aversatric|feminine|x_cis
 lat25.nounn4695|lsx.n4695|aversion|feminine|o_onis
 lat25.nounn4697|lsx.n4697|aversor|masculine|0_is
 lat25.nounn4699|lsx.n4699|avert|feminine|a_ae
@@ -93,7 +93,7 @@ lat25.nounn4716|lsx.n4716|aviti|neuter|us_i
 lat25.nounn4720|lsx.n4720|avocament|neuter|us_i
 lat25.nounn4721|lsx.n4721|avocation|feminine|o_onis
 lat25.nounn4722|lsx.n4722|avocator|masculine|0_is
-lat25.nounn4723|lsx.n4723|avocatri|feminine|x_cis
+lat25.nounn4723|lsx.n4723|avocatric|feminine|x_cis
 lat25.nounn4726|lsx.n4726|avulsion|feminine|o_onis
 lat25.nounn4727|lsx.n4727|avulsor|masculine|0_is
 lat25.nounn4729|lsx.n4729|avuncul|masculine|us_i
@@ -121,7 +121,7 @@ lat25.nounn6334|lsx.n6334|calv|feminine|a_ae
 lat25.nounn6335|lsx.n6335|calvari|feminine|a_ae
 lat25.nounn6336|lsx.n6336|calvariol|feminine|a_ae
 lat25.nounn6337|lsx.n6337|calvari|neuter|us_i
-lat25.nounn6346|lsx.n6346|calviti|feminine|es_ei
+lat25.nounn6346|lsx.n6346|calvitie|feminine|es_ei
 lat25.nounn6347|lsx.n6347|calviti|neuter|us_i
 lat25.nounn6629|lsx.n6629|capitilavi|neuter|us_i
 lat25.nounn6703|lsx.n6703|captiv|feminine|a_ae
@@ -141,7 +141,7 @@ lat25.nounn7249|lsx.n7249|cavernul|feminine|a_ae
 lat25.nounn7253|lsx.n7253|cavill|feminine|a_ae
 lat25.nounn7255|lsx.n7255|cavillation|feminine|o_onis
 lat25.nounn7256|lsx.n7256|cavillator|masculine|0_is
-lat25.nounn7257|lsx.n7257|cavillatri|feminine|x_cis
+lat25.nounn7257|lsx.n7257|cavillatric|feminine|x_cis
 lat25.nounn7258|lsx.n7258|cavillat|masculine|us_us
 lat25.nounn7261|lsx.n7261|cavill|neuter|us_i
 lat25.nounn7263|lsx.n7263|cavosita|feminine|s_tis
@@ -152,7 +152,7 @@ lat25.nounn7601|lsx.n7601|cervical|neuter|0_is
 lat25.nounn7603|lsx.n7603|cervicosita|feminine|s_tis
 lat25.nounn7605|lsx.n7605|cervicul|feminine|a_ae
 lat25.nounn7607|lsx.n7607|cervisi|feminine|a_ae
-lat25.nounn7608|lsx.n7608|cervi|feminine|x_cis
+lat25.nounn7608|lsx.n7608|cervic|feminine|x_cis
 lat25.nounn7609|lsx.n7609|cervul|feminine|a_ae
 lat25.nounn7610|lsx.n7610|cervul|masculine|us_i
 lat25.nounn7611|lsx.n7611|cerv|masculine|us_i
@@ -184,7 +184,7 @@ lat25.nounn8636|lsx.n8636|cliv|masculine|us_i
 lat25.nounn8725|lsx.n8725|coacervation|feminine|o_onis
 lat25.nounn8739|lsx.n8739|coadjutor|masculine|0_is
 lat25.nounn9123|lsx.n9123|colluviar|masculine|is_is
-lat25.nounn9124|lsx.n9124|colluvi|feminine|es_ei
+lat25.nounn9124|lsx.n9124|colluvie|feminine|es_ei
 lat25.nounn9125|lsx.n9125|colluvion|feminine|o_onis
 lat25.nounn9126|lsx.n9126|genitive singular: colluvi|neuter|us_i
 lat25.nounn9645|lsx.n9645|compluvi|neuter|us_i
@@ -200,14 +200,14 @@ lat25.nounn10329|lsx.n10329|conjectation|feminine|o_onis
 lat25.nounn10330|lsx.n10330|conjectator|masculine|0_is
 lat25.nounn10332|lsx.n10332|conjection|feminine|o_onis
 lat25.nounn10334|lsx.n10334|conjector|masculine|0_is
-lat25.nounn10335|lsx.n10335|conjectri|feminine|x_cis
+lat25.nounn10335|lsx.n10335|conjectric|feminine|x_cis
 lat25.nounn10336|lsx.n10336|conjectur|feminine|a_ae
 lat25.nounn10339|lsx.n10339|conject|masculine|us_us
 lat25.nounn10343|lsx.n10343|conjug|feminine|a_ae
 lat25.nounn10347|lsx.n10347|conjugator|masculine|0_is
 lat25.nounn10349|lsx.n10349|conjugi|neuter|us_i
 lat25.nounn10354|lsx.n10354|conjunction|feminine|o_onis
-lat25.nounn10357|lsx.n10357|conjunctri|feminine|x_cis
+lat25.nounn10357|lsx.n10357|conjunctric|feminine|x_cis
 lat25.nounn10359|lsx.n10359|conjunct|masculine|us_us
 lat25.nounn10361|lsx.n10361|conjug|masculine|x_gis
 lat25.nounn10361|lsx.n10361|conjug|feminine|x_gis
@@ -215,7 +215,7 @@ lat25.nounn10362|lsx.n10362|conjuration|feminine|o_onis
 lat25.nounn10486|lsx.n10486|conserv|feminine|a_ae
 lat25.nounn10488|lsx.n10488|conservation|feminine|o_onis
 lat25.nounn10489|lsx.n10489|conservator|masculine|0_is
-lat25.nounn10490|lsx.n10490|conservatri|feminine|x_cis
+lat25.nounn10490|lsx.n10490|conservatric|feminine|x_cis
 lat25.nounn10491|lsx.n10491|conserviti|neuter|us_i
 lat25.nounn10493|lsx.n10493|conservul|feminine|a_ae
 lat25.nounn10494|lsx.n10494|serv|masculine|us_i
@@ -304,16 +304,16 @@ lat25.nounn13616|lsx.n13616|devirginator|masculine|0_is
 lat25.nounn13618|lsx.n13618|devitation|feminine|o_onis
 lat25.nounn13626|lsx.n13626|devoration|feminine|o_onis
 lat25.nounn13627|lsx.n13627|devorator|masculine|0_is
-lat25.nounn13629|lsx.n13629|devoratri|feminine|x_cis
+lat25.nounn13629|lsx.n13629|devoratric|feminine|x_cis
 lat25.nounn13632|lsx.n13632|devorti|neuter|us_i
 lat25.nounn13633|lsx.n13633|devotament|neuter|us_i
 lat25.nounn13634|lsx.n13634|devotation|feminine|o_onis
 lat25.nounn13636|lsx.n13636|devotion|feminine|o_onis
 lat25.nounn13638|lsx.n13638|devotor|masculine|0_is
 lat25.nounn13947|lsx.n13947|dijudication|feminine|o_onis
-lat25.nounn13948|lsx.n13948|dijudicatri|feminine|x_cis
+lat25.nounn13948|lsx.n13948|dijudicatric|feminine|x_cis
 lat25.nounn13950|lsx.n13950|dijugation|feminine|o_onis
-lat25.nounn14000|lsx.n14000|diluvi|feminine|es_ei
+lat25.nounn14000|lsx.n14000|diluvie|feminine|es_ei
 lat25.nounn14002|lsx.n14002|diluvion|feminine|o_onis
 lat25.nounn14003|lsx.n14003|diluvi|neuter|us_i
 lat25.nounn14035|lsx.n14035|genitive singular: dingu|feminine|a_ae
@@ -333,7 +333,7 @@ lat25.nounn14560|lsx.n14560|dividuita|feminine|s_tis
 lat25.nounn14563|lsx.n14563|divigen|masculine|a_ae
 lat25.nounn14564|lsx.n14564|divination|feminine|o_onis
 lat25.nounn14565|lsx.n14565|divinator|masculine|0_is
-lat25.nounn14566|lsx.n14566|divinatri|feminine|x_cis
+lat25.nounn14566|lsx.n14566|divinatric|feminine|x_cis
 lat25.nounn14570|lsx.n14570|divinita|feminine|s_tis
 lat25.nounn14577|lsx.n14577|division|feminine|o_onis
 lat25.nounn14578|lsx.n14578|divisor|masculine|0_is
@@ -363,7 +363,7 @@ lat25.nounn15360|lsx.n15360|ejulat|masculine|us_us
 lat25.nounn15366|lsx.n15366|ejuration|feminine|o_onis
 lat25.nounn15469|lsx.n15469|elevation|feminine|o_onis
 lat25.nounn15470|lsx.n15470|elevator|masculine|0_is
-lat25.nounn15560|lsx.n15560|eluvi|feminine|es_ei
+lat25.nounn15560|lsx.n15560|eluvie|feminine|es_ei
 lat25.nounn15561|lsx.n15561|eluvion|feminine|o_onis
 lat25.nounn15777|lsx.n15777|enervation|feminine|o_onis
 lat25.nounn15967|lsx.n15967|vers|masculine|us_i
@@ -431,7 +431,7 @@ lat25.nounn20390|lsx.n20390|helvace|feminine|a_ae
 lat25.nounn20392|lsx.n20392|helvell|feminine|a_ae
 lat25.nounn20588|lsx.n20588|erv|neuter|us_i
 lat25.nounn21380|lsx.n21380|ignavi|feminine|a_ae
-lat25.nounn21594|lsx.n21594|illuvi|feminine|es_ei
+lat25.nounn21594|lsx.n21594|illuvie|feminine|es_ei
 lat25.nounn21890|lsx.n21890|impersonativ|masculine|us_i
 lat25.nounn21972|lsx.n21972|impluvi|neuter|us_i
 lat25.nounn22063|lsx.n22063|improvidenti|feminine|a_ae
@@ -443,7 +443,7 @@ lat25.nounn22669|lsx.n22669|incurvation|feminine|o_onis
 lat25.nounn22765|lsx.n22765|indevotion|feminine|o_onis
 lat25.nounn22869|lsx.n22869|individuita|feminine|s_tis
 lat25.nounn22965|lsx.n22965|induvi|feminine|
-lat25.nounn23377|lsx.n23377|ingluvi|feminine|es_ei
+lat25.nounn23377|lsx.n23377|ingluvie|feminine|es_ei
 lat25.nounn23389|lsx.n23389|ingravation|feminine|o_onis
 lat25.nounn23497|lsx.n23497|injection|feminine|o_onis
 lat25.nounn23498|lsx.n23498|injectional|neuter|0_is
@@ -462,7 +462,7 @@ lat25.nounn24129|lsx.n24129|intempestivita|feminine|s_tis
 lat25.nounn24293|lsx.n24293|interjection|feminine|o_onis
 lat25.nounn24296|lsx.n24296|interjectur|feminine|a_ae
 lat25.nounn24298|lsx.n24298|interject|masculine|us_us
-lat25.nounn24323|lsx.n24323|interluvi|feminine|es_ei
+lat25.nounn24323|lsx.n24323|interluvie|feminine|es_ei
 lat25.nounn24435|lsx.n24435|interrivation|feminine|o_onis
 lat25.nounn24504|lsx.n24504|intervallation|feminine|o_onis
 lat25.nounn24506|lsx.n24506|intervall|neuter|us_i
@@ -481,13 +481,13 @@ lat25.nounn24700|lsx.n24700|invasor|masculine|0_is
 lat25.nounn24702|lsx.n24702|invas|masculine|us_us
 lat25.nounn24704|lsx.n24704|invection|feminine|o_onis
 lat25.nounn24707|lsx.n24707|invector|masculine|0_is
-lat25.nounn24708|lsx.n24708|invectri|feminine|x_cis
+lat25.nounn24708|lsx.n24708|invectric|feminine|x_cis
 lat25.nounn24710|lsx.n24710|invect|masculine|us_us
 lat25.nounn24718|lsx.n24718|inventari|neuter|us_i
 lat25.nounn24719|lsx.n24719|invention|feminine|o_onis
 lat25.nounn24720|lsx.n24720|inventiuncul|feminine|a_ae
 lat25.nounn24721|lsx.n24721|inventor|masculine|0_is
-lat25.nounn24722|lsx.n24722|inventri|feminine|x_cis
+lat25.nounn24722|lsx.n24722|inventric|feminine|x_cis
 lat25.nounn24723|lsx.n24723|invent|neuter|us_i
 lat25.nounn24725|lsx.n24725|invent|masculine|us_us
 lat25.nounn24729|lsx.n24729|inverecundi|feminine|a_ae
@@ -496,7 +496,7 @@ lat25.nounn24736|lsx.n24736|inversur|feminine|a_ae
 lat25.nounn24738|lsx.n24738|invertibilita|feminine|s_tis
 lat25.nounn24743|lsx.n24743|investigation|feminine|o_onis
 lat25.nounn24744|lsx.n24744|investigator|masculine|0_is
-lat25.nounn24745|lsx.n24745|investigatri|feminine|x_cis
+lat25.nounn24745|lsx.n24745|investigatric|feminine|x_cis
 lat25.nounn24750|lsx.n24750|inveteration|feminine|o_onis
 lat25.nounn24759|lsx.n24759|invidenti|feminine|a_ae
 lat25.nounn24762|lsx.n24762|invidi|feminine|a_ae
@@ -507,7 +507,7 @@ lat25.nounn24791|lsx.n24791|invitament|neuter|us_i
 lat25.nounn24792|lsx.n24792|invitation|feminine|o_onis
 lat25.nounn24793|lsx.n24793|invitatiuncul|feminine|a_ae
 lat25.nounn24794|lsx.n24794|invitator|masculine|0_is
-lat25.nounn24796|lsx.n24796|invitatri|feminine|x_cis
+lat25.nounn24796|lsx.n24796|invitatric|feminine|x_cis
 lat25.nounn24797|lsx.n24797|invitat|masculine|us_us
 lat25.nounn24804|lsx.n24804|invocation|feminine|o_onis
 lat25.nounn24807|lsx.n24807|invocat|masculine|us_us
@@ -526,19 +526,19 @@ lat25.nounn25150|lsx.n25150|jace|feminine|a_ae
 lat25.nounn25158|lsx.n25158|jactanti|feminine|a_ae
 lat25.nounn25160|lsx.n25160|jactation|feminine|o_onis
 lat25.nounn25161|lsx.n25161|jactator|masculine|0_is
-lat25.nounn25162|lsx.n25162|jactatri|feminine|x_cis
+lat25.nounn25162|lsx.n25162|jactatric|feminine|x_cis
 lat25.nounn25163|lsx.n25163|jactat|masculine|us_us
 lat25.nounn25167|lsx.n25167|jactur|feminine|a_ae
 lat25.nounn25171|lsx.n25171|jact|masculine|us_us
 lat25.nounn25174|lsx.n25174|jaculament|neuter|us_i
 lat25.nounn25175|lsx.n25175|jaculation|feminine|o_onis
 lat25.nounn25176|lsx.n25176|jaculator|masculine|0_is
-lat25.nounn25178|lsx.n25178|jaculatri|feminine|x_cis
+lat25.nounn25178|lsx.n25178|jaculatric|feminine|x_cis
 lat25.nounn25179|lsx.n25179|jaculat|masculine|us_us
 lat25.nounn25182|lsx.n25182|jacul|neuter|us_i
 lat25.nounn25191|lsx.n25191|jane|masculine|us_i
 lat25.nounn25194|lsx.n25194|janitor|masculine|0_is
-lat25.nounn25196|lsx.n25196|janitri|feminine|x_cis
+lat25.nounn25196|lsx.n25196|janitric|feminine|x_cis
 lat25.nounn25197|lsx.n25197|janu|feminine|a_ae
 lat25.nounn25211|lsx.n25211|jectur|feminine|a_ae
 lat25.nounn25212|lsx.n25212|jecor|neuter|0_is
@@ -566,7 +566,7 @@ lat25.nounn25280|lsx.n25280|judic|masculine|ex_icis
 lat25.nounn25280|lsx.n25280|judic|feminine|ex_icis
 lat25.nounn25282|lsx.n25282|judication|feminine|o_onis
 lat25.nounn25284|lsx.n25284|judicatori|neuter|us_i
-lat25.nounn25286|lsx.n25286|judicatri|feminine|x_cis
+lat25.nounn25286|lsx.n25286|judicatric|feminine|x_cis
 lat25.nounn25287|lsx.n25287|judicat|neuter|us_i
 lat25.nounn25289|lsx.n25289|judicat|masculine|us_us
 lat25.nounn25293|lsx.n25293|judici|neuter|us_i
@@ -590,13 +590,13 @@ lat25.nounn25348|lsx.n25348|junct|masculine|us_us
 lat25.nounn25349|lsx.n25349|junc|masculine|us_i
 lat25.nounn25352|lsx.n25352|junicul|masculine|us_i
 lat25.nounn25355|lsx.n25355|juniper|feminine|us_i
-lat25.nounn25357|lsx.n25357|juni|feminine|x_cis
+lat25.nounn25357|lsx.n25357|junic|feminine|x_cis
 lat25.nounn25361|lsx.n25361|jurament|neuter|us_i
 lat25.nounn25362|lsx.n25362|jurand|neuter|us_i
 lat25.nounn25363|lsx.n25363|juration|feminine|o_onis
 lat25.nounn25366|lsx.n25366|jurator|masculine|0_is
 lat25.nounn25373|lsx.n25373|jurgation|feminine|o_onis
-lat25.nounn25375|lsx.n25375|jurgatri|feminine|x_cis
+lat25.nounn25375|lsx.n25375|jurgatric|feminine|x_cis
 lat25.nounn25377|lsx.n25377|jurgi|neuter|us_i
 lat25.nounn25380|lsx.n25380|juridicat|masculine|us_us
 lat25.nounn25382|lsx.n25382|juridicin|feminine|a_ae
@@ -618,7 +618,7 @@ lat25.nounn25407|lsx.n25407|juss|neuter|us_i
 lat25.nounn25409|lsx.n25409|juss|masculine|us_us
 lat25.nounn25412|lsx.n25412|justification|feminine|o_onis
 lat25.nounn25413|lsx.n25413|justificator|masculine|0_is
-lat25.nounn25414|lsx.n25414|justificatri|feminine|x_cis
+lat25.nounn25414|lsx.n25414|justificatric|feminine|x_cis
 lat25.nounn25422|lsx.n25422|justiti|feminine|a_ae
 lat25.nounn25423|lsx.n25423|justiti|neuter|us_i
 lat25.nounn25428|lsx.n25428|juvamin|neuter|en_inis
@@ -690,7 +690,7 @@ lat25.nounn30565|lsx.n30565|navigiol|neuter|us_i
 lat25.nounn30566|lsx.n30566|navigi|neuter|us_i
 lat25.nounn30568|lsx.n30568|nav|feminine|is_is
 lat25.nounn30571|lsx.n30571|navita|feminine|s_tis
-lat25.nounn30573|lsx.n30573|naviti|feminine|es_ei
+lat25.nounn30573|lsx.n30573|navitie|feminine|es_ei
 lat25.nounn30772|lsx.n30772|genitive singular: nepud|feminine|s_dis
 lat25.nounn30822|lsx.n30822|nervosita|feminine|s_tis
 lat25.nounn30824|lsx.n30824|nervul|masculine|us_i
@@ -702,7 +702,7 @@ lat25.nounn31251|lsx.n31251|novacul|feminine|a_ae
 lat25.nounn31253|lsx.n31253|novamin|neuter|en_inis
 lat25.nounn31258|lsx.n31258|novation|feminine|o_onis
 lat25.nounn31259|lsx.n31259|novator|masculine|0_is
-lat25.nounn31260|lsx.n31260|novatri|feminine|x_cis
+lat25.nounn31260|lsx.n31260|novatric|feminine|x_cis
 lat25.nounn31261|lsx.n31261|novat|masculine|us_us
 lat25.nounn31263|lsx.n31263|novell|feminine|a_ae
 lat25.nounn31266|lsx.n31266|novellet|neuter|us_i
@@ -725,7 +725,7 @@ lat25.nounn31710|lsx.n31710|oblivi|neuter|us_i
 lat25.nounn31842|lsx.n31842|observanti|feminine|a_ae
 lat25.nounn31844|lsx.n31844|observation|feminine|o_onis
 lat25.nounn31845|lsx.n31845|observator|masculine|0_is
-lat25.nounn31846|lsx.n31846|observatri|feminine|x_cis
+lat25.nounn31846|lsx.n31846|observatric|feminine|x_cis
 lat25.nounn31847|lsx.n31847|observat|masculine|us_us
 lat25.nounn32029|lsx.n32029|obvaricator|masculine|0_is
 lat25.nounn32032|lsx.n32032|obvenienti|feminine|a_ae
@@ -803,7 +803,7 @@ lat25.nounn38103|lsx.n38103|praetervection|feminine|o_onis
 lat25.nounn38149|lsx.n38149|praevalenti|feminine|a_ae
 lat25.nounn38156|lsx.n38156|praevarication|feminine|o_onis
 lat25.nounn38157|lsx.n38157|praevaricator|masculine|0_is
-lat25.nounn38158|lsx.n38158|praevaricatri|feminine|x_cis
+lat25.nounn38158|lsx.n38158|praevaricatric|feminine|x_cis
 lat25.nounn38167|lsx.n38167|praevention|feminine|o_onis
 lat25.nounn38168|lsx.n38168|praeventor|masculine|0_is
 lat25.nounn38170|lsx.n38170|praevent|masculine|us_us
@@ -827,7 +827,7 @@ lat25.nounn38637|lsx.n38637|profluvi|neuter|us_i
 lat25.nounn38695|lsx.n38695|projection|feminine|o_onis
 lat25.nounn38698|lsx.n38698|projectur|feminine|a_ae
 lat25.nounn38700|lsx.n38700|project|masculine|us_us
-lat25.nounn38750|lsx.n38750|proluvi|feminine|es_ei
+lat25.nounn38750|lsx.n38750|proluvie|feminine|es_ei
 lat25.nounn38751|lsx.n38751|proluvion|feminine|o_onis
 lat25.nounn38753|lsx.n38753|proluvi|neuter|us_i
 lat25.nounn39138|lsx.n39138|protervi|feminine|a_ae
@@ -846,7 +846,7 @@ lat25.nounn39218|lsx.n39218|provis|masculine|us_us
 lat25.nounn39221|lsx.n39221|provocabul|neuter|us_i
 lat25.nounn39223|lsx.n39223|provocation|feminine|o_onis
 lat25.nounn39225|lsx.n39225|provocator|masculine|0_is
-lat25.nounn39227|lsx.n39227|provocatri|feminine|x_cis
+lat25.nounn39227|lsx.n39227|provocatric|feminine|x_cis
 lat25.nounn39548|lsx.n39548|pulver|masculine|0_is
 lat25.nounn39550|lsx.n39550|pulveratic|neuter|us_i
 lat25.nounn39551|lsx.n39551|pulveration|feminine|o_onis
@@ -927,7 +927,7 @@ lat25.nounn43926|lsx.n43926|serv|feminine|a_ae
 lat25.nounn43930|lsx.n43930|servation|feminine|o_onis
 lat25.nounn43931|lsx.n43931|servator|masculine|0_is
 lat25.nounn43932|lsx.n43932|servatori|neuter|us_i
-lat25.nounn43933|lsx.n43933|servatri|feminine|x_cis
+lat25.nounn43933|lsx.n43933|servatric|feminine|x_cis
 lat25.nounn43934|lsx.n43934|servi|feminine|a_ae
 lat25.nounn43936|lsx.n43936|servicul|masculine|us_i
 lat25.nounn43941|lsx.n43941|serviti|neuter|us_i
@@ -977,7 +977,7 @@ lat25.nounn45922|lsx.n45922|subjugator|masculine|0_is
 lat25.nounn45925x|lsx.n45925x|subjug|neuter|us_i
 lat25.nounn45927|lsx.n45927|subjunctori|neuter|us_i
 lat25.nounn45947|lsx.n45947|sublevation|feminine|o_onis
-lat25.nounn45979|lsx.n45979|subluvi|feminine|es_ei
+lat25.nounn45979|lsx.n45979|subluvie|feminine|es_ei
 lat25.nounn46143|lsx.n46143|subterluvion|feminine|o_onis
 lat25.nounn46203|lsx.n46203|subvad|masculine|s_dis
 lat25.nounn46204|lsx.n46204|subvection|feminine|o_onis
@@ -1070,7 +1070,7 @@ lat25.nounn50155|lsx.n50155|vang|feminine|a_ae
 lat25.nounn50160|lsx.n50160|vaniloquenti|feminine|a_ae
 lat25.nounn50162|lsx.n50162|vaniloqui|neuter|us_i
 lat25.nounn50164|lsx.n50164|vanita|feminine|s_tis
-lat25.nounn50165|lsx.n50165|vaniti|feminine|es_ei
+lat25.nounn50165|lsx.n50165|vanitie|feminine|es_ei
 lat25.nounn50166|lsx.n50166|vanitudin|feminine|o_inis
 lat25.nounn50169|lsx.n50169|vann|feminine|us_i
 lat25.nounn50174|lsx.n50174|vapor|masculine|0_is
@@ -1087,8 +1087,8 @@ lat25.nounn50203|lsx.n50203|variation|feminine|o_onis
 lat25.nounn50205|lsx.n50205|varicator|masculine|0_is
 lat25.nounn50209|lsx.n50209|varicul|feminine|a_ae
 lat25.nounn50214|lsx.n50214|varieta|feminine|s_tis
-lat25.nounn50220|lsx.n50220|vari|masculine|x_cis
-lat25.nounn50220|lsx.n50220|vari|feminine|x_cis
+lat25.nounn50220|lsx.n50220|varic|masculine|x_cis
+lat25.nounn50220|lsx.n50220|varic|feminine|x_cis
 lat25.nounn50221|lsx.n50221|varon|masculine|o_onis
 lat25.nounn50225|lsx.n50225|var|masculine|us_i
 lat25.nounn50229|lsx.n50229|vad|masculine|s_dis
@@ -1100,9 +1100,9 @@ lat25.nounn50236|lsx.n50236|vasculari|masculine|us_i
 lat25.nounn50237|lsx.n50237|vascul|neuter|us_i
 lat25.nounn50240|lsx.n50240|vastation|feminine|o_onis
 lat25.nounn50241|lsx.n50241|vastator|masculine|0_is
-lat25.nounn50243|lsx.n50243|vastatri|feminine|x_cis
+lat25.nounn50243|lsx.n50243|vastatric|feminine|x_cis
 lat25.nounn50247|lsx.n50247|vastita|feminine|s_tis
-lat25.nounn50248|lsx.n50248|vastiti|feminine|es_ei
+lat25.nounn50248|lsx.n50248|vastitie|feminine|es_ei
 lat25.nounn50249|lsx.n50249|vastitudin|feminine|o_inis
 lat25.nounn50253|lsx.n50253|vas|neuter|us_i
 lat25.nounn50254|lsx.n50254|vate|masculine|s_tis
@@ -1110,7 +1110,7 @@ lat25.nounn50254|lsx.n50254|vate|feminine|s_tis
 lat25.nounn50256|lsx.n50256|vaticae herb|feminine|a_ae
 lat25.nounn50258|lsx.n50258|vaticination|feminine|o_onis
 lat25.nounn50259|lsx.n50259|vaticinator|masculine|0_is
-lat25.nounn50260|lsx.n50260|vaticinatri|feminine|x_cis
+lat25.nounn50260|lsx.n50260|vaticinatric|feminine|x_cis
 lat25.nounn50261|lsx.n50261|vaticini|neuter|us_i
 lat25.nounn50274|lsx.n50274|vecordi|feminine|a_ae
 lat25.nounn50278|lsx.n50278|vectabul|neuter|us_i
@@ -1122,7 +1122,7 @@ lat25.nounn50286|lsx.n50286|vectigaliari|masculine|us_i
 lat25.nounn50288|lsx.n50288|vection|feminine|o_onis
 lat25.nounn50289|lsx.n50289|vecti|masculine|s_tis
 lat25.nounn50295|lsx.n50295|vector|masculine|0_is
-lat25.nounn50297|lsx.n50297|vectri|feminine|x_cis
+lat25.nounn50297|lsx.n50297|vectric|feminine|x_cis
 lat25.nounn50298|lsx.n50298|vectur|feminine|a_ae
 lat25.nounn50299|lsx.n50299|vecturari|masculine|us_i
 lat25.nounn50306|lsx.n50306|vegetamin|neuter|en_inis
@@ -1155,14 +1155,14 @@ lat25.nounn50381|lsx.n50381|venabul|neuter|us_i
 lat25.nounn50386|lsx.n50386|venalita|feminine|s_tis
 lat25.nounn50393|lsx.n50393|venation|feminine|o_onis
 lat25.nounn50395|lsx.n50395|venator|masculine|0_is
-lat25.nounn50397|lsx.n50397|venatri|feminine|x_cis
+lat25.nounn50397|lsx.n50397|venatric|feminine|x_cis
 lat25.nounn50398|lsx.n50398|venatur|feminine|a_ae
 lat25.nounn50399|lsx.n50399|venat|masculine|us_us
 lat25.nounn50404|lsx.n50404|venditation|feminine|o_onis
 lat25.nounn50405|lsx.n50405|venditator|masculine|0_is
 lat25.nounn50406|lsx.n50406|vendition|feminine|o_onis
 lat25.nounn50408|lsx.n50408|venditor|masculine|0_is
-lat25.nounn50409|lsx.n50409|venditri|feminine|x_cis
+lat25.nounn50409|lsx.n50409|venditric|feminine|x_cis
 lat25.nounn50413|lsx.n50413|venefic|feminine|a_ae
 lat25.nounn50414|lsx.n50414|venefici|neuter|us_i
 lat25.nounn50415x|lsx.n50415x|venefic|masculine|us_i
@@ -1193,7 +1193,7 @@ lat25.nounn50488|lsx.n50488|veprecul|feminine|a_ae
 lat25.nounn50489|lsx.n50489|vepr|masculine|0_is
 lat25.nounn50490|lsx.n50490|vepret|neuter|us_i
 lat25.nounn50491|lsx.n50491|ver|neuter|0_is
-lat25.nounn50494|lsx.n50494|veratri|feminine|x_cis
+lat25.nounn50494|lsx.n50494|veratric|feminine|x_cis
 lat25.nounn50495|lsx.n50495|veratr|neuter|us_i
 lat25.nounn50499|lsx.n50499|verbasc|neuter|us_i
 lat25.nounn50501|lsx.n50501|verben|feminine|a_ae
@@ -1265,7 +1265,7 @@ lat25.nounn50663|lsx.n50663|ver|neuter|us_i
 lat25.nounn50664|lsx.n50664|ver|neuter|us_i
 lat25.nounn50668|lsx.n50668|verut|neuter|us_i
 lat25.nounn50670|lsx.n50670|vervact|neuter|us_i
-lat25.nounn50674|lsx.n50674|verve|masculine|x_cis
+lat25.nounn50674|lsx.n50674|vervec|masculine|x_cis
 lat25.nounn50676|lsx.n50676|vesani|feminine|a_ae
 lat25.nounn50690|lsx.n50690|vesic|feminine|a_ae
 lat25.nounn50691|lsx.n50691|vesicari|feminine|a_ae
@@ -1296,7 +1296,7 @@ lat25.nounn50736|lsx.n50736|vestispic|feminine|a_ae
 lat25.nounn50737|lsx.n50737|vestitor|masculine|0_is
 lat25.nounn50739|lsx.n50739|vestit|masculine|us_us
 lat25.nounn50751|lsx.n50751|veterator|masculine|0_is
-lat25.nounn50754|lsx.n50754|veteratri|feminine|x_cis
+lat25.nounn50754|lsx.n50754|veteratric|feminine|x_cis
 lat25.nounn50756|lsx.n50756|veteret|neuter|us_i
 lat25.nounn50757x|lsx.n50757x|veterinari|masculine|us_i
 lat25.nounn50757y|lsx.n50757y|veterinari|neuter|us_i
@@ -1309,7 +1309,7 @@ lat25.nounn50775|lsx.n50775|vetusta|feminine|s_tis
 lat25.nounn50781|lsx.n50781|vexamin|neuter|en_inis
 lat25.nounn50783|lsx.n50783|vexation|feminine|o_onis
 lat25.nounn50785|lsx.n50785|vexator|masculine|0_is
-lat25.nounn50786|lsx.n50786|vexatri|feminine|x_cis
+lat25.nounn50786|lsx.n50786|vexatric|feminine|x_cis
 lat25.nounn50788|lsx.n50788|vexillari|masculine|us_i
 lat25.nounn50789|lsx.n50789|vexillation|feminine|o_onis
 lat25.nounn50791|lsx.n50791|vexill|neuter|us_i
@@ -1318,7 +1318,7 @@ lat25.nounn50797|lsx.n50797|viaticul|neuter|us_i
 lat25.nounn50798|lsx.n50798|viatic|neuter|us_i
 lat25.nounn50799x|lsx.n50799x|viatic|neuter|us_i
 lat25.nounn50800|lsx.n50800|viator|masculine|0_is
-lat25.nounn50802|lsx.n50802|viatri|feminine|x_cis
+lat25.nounn50802|lsx.n50802|viatric|feminine|x_cis
 lat25.nounn50803|lsx.n50803|vibic|feminine|ex_icis
 lat25.nounn50804|lsx.n50804|vibi|feminine|a_ae
 lat25.nounn50808|lsx.n50808|vibon|masculine|o_onis
@@ -1344,7 +1344,7 @@ lat25.nounn50862x|lsx.n50862x|victimari|masculine|us_i
 lat25.nounn50865|lsx.n50865|victor|masculine|0_is
 lat25.nounn50867|lsx.n50867|victori|feminine|a_ae
 lat25.nounn50869|lsx.n50869|victoriat|masculine|us_i
-lat25.nounn50873|lsx.n50873|victri|feminine|x_cis
+lat25.nounn50873|lsx.n50873|victric|feminine|x_cis
 lat25.nounn50874x|lsx.n50874x|victual|neuter|i_is_is
 lat25.nounn50877|lsx.n50877|vict|masculine|us_us
 lat25.nounn50878|lsx.n50878|vicul|masculine|us_i
@@ -1410,7 +1410,7 @@ lat25.nounn51015|lsx.n51015|violari|neuter|us_i
 lat25.nounn51016|lsx.n51016|violari|masculine|us_i
 lat25.nounn51017|lsx.n51017|violation|feminine|o_onis
 lat25.nounn51018|lsx.n51018|violator|masculine|0_is
-lat25.nounn51019|lsx.n51019|violatri|feminine|x_cis
+lat25.nounn51019|lsx.n51019|violatric|feminine|x_cis
 lat25.nounn51024|lsx.n51024|violenti|feminine|a_ae
 lat25.nounn51028|lsx.n51028|viper|feminine|a_ae
 lat25.nounn51032|lsx.n51032|vipion|masculine|o_onis
@@ -1498,7 +1498,7 @@ lat25.nounn51224|lsx.n51224|viverr|feminine|a_ae
 lat25.nounn51226|lsx.n51226|vivicomburi|neuter|us_i
 lat25.nounn51230|lsx.n51230|vivification|feminine|o_onis
 lat25.nounn51231|lsx.n51231|vivificator|masculine|0_is
-lat25.nounn51236|lsx.n51236|viviradi|feminine|x_cis
+lat25.nounn51236|lsx.n51236|viviradic|feminine|x_cis
 lat25.nounn51245|lsx.n51245|vocabul|neuter|us_i
 lat25.nounn51247|lsx.n51247|vocalita|feminine|s_tis
 lat25.nounn51249|lsx.n51249|vocamin|neuter|en_inis
@@ -1551,7 +1551,7 @@ lat25.nounn51390|lsx.n51390|vorat|masculine|us_us
 lat25.nounn51395|lsx.n51395|vortic|masculine|ex_icis
 lat25.nounn51400|lsx.n51400|votivita|feminine|s_tis
 lat25.nounn51403|lsx.n51403|vot|neuter|us_i
-lat25.nounn51406|lsx.n51406|vo|feminine|x_cis
+lat25.nounn51406|lsx.n51406|voc|feminine|x_cis
 lat25.nounn51409|lsx.n51409|vulgarita|masculine|s_tis
 lat25.nounn51413|lsx.n51413|vulgator|masculine|0_is
 lat25.nounn51415|lsx.n51415|vulgat|masculine|us_us
