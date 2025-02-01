@@ -101,7 +101,7 @@ end
 $(SIGNATURES)
 """
 function structure4(cols)
-    @info("Figure out 4 cols $(cols)")
+   # @info("Figure out 4 cols $(cols)")
     conjugation = 0
     try 
         conjugation = parse(Int, strip(cols[1]))
@@ -274,9 +274,10 @@ function verb(tpl)
     shortid = trimid(tpl.urn)
     cols = strip.(split(tpl.morphology,","))
     cleaner = Unicode.normalize.(cols, stripmark = true)
+    conjugationraw = cols[1]
     conjugation = 0
     try 
-        conjugation = parse(Int, strip(cols[1]))
+        conjugation = parse(Int, strip(conjugationraw))
     catch e
         @warn("Couldn't parse conjugation value $(conjugationraw)")
     end
@@ -445,12 +446,12 @@ function conj1deponentclass(verb::LSVerb)
 end
 
 function conj1class(verb::LSVerb)
-    @info("Get class for $(verb)")
+    #@info("Get class for $(verb)")
     if ismissing(verb)
         "c1pres"
     else
         stem = replace(verb.pp1, r"o$" => "") |> suareznorm
-        @info("Stem is $(stem)")
+        #@info("Stem is $(stem)")
         if suareznorm(verb.pp2) == string(stem,"are") &&
             suareznorm(verb.pp3) == string(stem,"avi") &&
             (suareznorm(verb.pp4) == string(stem,"atus") ||  suareznorm(verb.pp4) == string(stem,"atum"))

@@ -46,3 +46,16 @@ end
     ]
     @test cex == expected
 end
+
+@testset "Test pipeline: deponent verb with in present system only" begin
+    summary = "4148|urn:cite2:hmt:ls.markdown:n4147|a-stipulor|to agree with one|verb |1,a-stipulor,a-stipulari"
+
+    astipulor = summary |> LexiconMining.readdataline |> verb
+    @test astipulor isa LSVerb
+    @test astipulor.conjugation == 1
+    @test astipulor.pp1 == "a-stipulor"
+    @test_broken astipulor.pp2 == "a-stipulari"
+    @test isempty(astipulor.pp3)
+    @test isempty(astipulor.pp4)
+    @test tabulaeclass(astipulor) == "c1presdep"
+end

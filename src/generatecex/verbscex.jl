@@ -188,15 +188,15 @@ function conj2_cex(verb; divider = "|")
         note = "Automatically generated"
 
         iclass = tabulaeclass(verb)
-        @info("$(iclass)?")
+        #@info("$(iclass)?")
         if iclass in regular_conjungations 
-            @info("regular")
+            #@info("regular")
             conj = endswith(stem, "or") ? "conj2dep" : "conj2"
             verb_cexlines(verb.lsid, lexentity, stem, conj, note; 
             divider = divider)
 
         else
-            @info("Not regular")
+           # @info("Not regular")
             principalparts_cex(verb)
         end
     end
