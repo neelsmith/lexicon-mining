@@ -141,7 +141,7 @@ function structure4(cols)
         
     end
 
-    @info("So far: $([conjugation, pp1, pp2, pp3, pp4])")
+    #@info("So far: $([conjugation, pp1, pp2, pp3, pp4])")
     
 
     expand_elisions(conjugation, pp1, pp2, pp3, pp4)
@@ -163,7 +163,7 @@ function expand_conj1(pp1, pp2, pp3, pp4)
 
 
 
-    @info("Expand stems as needed based on $(stem)- ")
+    #@info("Expand stems as needed based on $(stem)- ")
     newp2 = joinpair( stem, pp2)
     newp3 = joinpair( stem, pp3)
     newp4 = joinpair( stem, pp4)
