@@ -8,6 +8,7 @@ end
 
 
 @testset "Expand various forms of elision in glossary entries" begin
+<<<<<<< HEAD
 
 
     abaestuo = ("ab-aestuo", "abaestuare", "abaestuāvi", "abaestuātum")
@@ -36,4 +37,16 @@ end
 # 1,vōcĭfĕro,vōcĭfĕrāre,-,-
 #4, con-scīre, -scīvī, -scītum
 
+=======
+    #elision = LexiconMining.joinpair("ab-aestuo", )
+    #=
+    function joinpair(prefix, glossform)
+        if startswith(glossform, "-")
+            string(prefix, glossform[2:end])
+        else
+            glossform
+        end
+    end
+   =# 
+>>>>>>> e205c9991d029197464c40fa86f5a8c5e911c9da
 end

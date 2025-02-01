@@ -1,3 +1,9 @@
+#=Five elements to morphology:
+
+ n18 abalieno (1) abalienare, abalienavi, abalienatum
+ √ n39 ab-brevio (1) ab-breviare, ab-breviavi, ab-breviatum
+ n100 ab-jungo (3) -jungere, -junxi, -junctum
+=#
 @testset "Test pipeline for verb: regular first conjugation with 5 elements given in morphology property" begin
     summary = "40|urn:cite2:hmt:ls.markdown:n39|ab-brevio |to shorten, abridge |verb  |1, ab-brevio, ab-breviare, ab-breviavi, ab-breviatum"
     tpl = LexiconMining.readdataline(summary)
@@ -25,12 +31,7 @@ end
     abaestuo = verb(tpl) 
 end
 
-@testset "Test verb pipeline: compound with omitted prefixes" begin
-    
-    summary = "725|urn:cite2:hmt:ls.markdown:n724|ad-dīco | verb | 3, ad-dīco, -dīxi, -dictum"
-    tpl = LexiconMining.readdataline(summary)
 
-end
 
 @testset "Test verb pipeline: distinct principal parts all given" begin
     summary = "43095|urn:cite2:hmt:ls.markdown:n43092|scrībo | to write, draw, compose, describe | verb  | 3, scrībo, scrīpsi, scrīptum"
@@ -49,7 +50,12 @@ summary = "10429|urn:cite2:hmt:ls.markdown:n10428|conscio|to be conscious of, to
 
 15|urn:cite2:hmt:ls.markdown:n14|ăb-aestŭo |to hang down richly |verb  |1, ab-aestuo, -āvi, -ātum
 
+<<<<<<< HEAD:test/test_pipeline.jl
  "1,vōcĭfĕro,vōcĭfĕrāre,-,-
+=======
+51435|urn:cite2:hmt:ls.markdown:n51432|vulpīnor|to play the fox, be sly|verb |1, vulpīnōr, vulpīnārī, vulpīnātus
+
+>>>>>>> e205c9991d029197464c40fa86f5a8c5e911c9da:test/test_pipeline_5elements.jl
 =#
 
 

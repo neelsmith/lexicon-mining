@@ -141,7 +141,7 @@ function structure4(cols)
         
     end
 
-    @info("So far: $([conjugation, pp1, pp2, pp3, pp4])")
+    #@info("So far: $([conjugation, pp1, pp2, pp3, pp4])")
     
 
     expand_elisions(conjugation, pp1, pp2, pp3, pp4)
@@ -166,6 +166,7 @@ function expand_elisions(conj::Int, pp1, pp2, pp3, pp4)
     @info("1. Stem: $(stem) Prefix? $(prefix)")
 
 
+<<<<<<< HEAD
     @info("Check out $(pp2)")
     pp2bare = Unicode.normalize(pp2; stripmark = true)
     pp2elided = r"\-?[aei]r[ei]"
@@ -173,6 +174,12 @@ function expand_elisions(conj::Int, pp1, pp2, pp3, pp4)
         pp2bare == "-i"
         newpp2 = joinpair(stem, pp2)
         @info("2. Expand $(pp2) to $(newpp2)")
+=======
+    #@info("Expand stems as needed based on $(stem)- ")
+    newp2 = joinpair( stem, pp2)
+    newp3 = joinpair( stem, pp3)
+    newp4 = joinpair( stem, pp4)
+>>>>>>> e205c9991d029197464c40fa86f5a8c5e911c9da
 
     elseif startswith( pp2,"-")
         
