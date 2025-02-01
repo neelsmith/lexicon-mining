@@ -97,7 +97,7 @@ function guessinfinitive(lemma, conj::Int)
 end
 
 
-"""Interpret verb entry with only 4 columns.
+"""Interpret verb entry with only 4 columns where first column is the conjugation number, and the other three are three of four principal parts. We want to return an inferred list of four principal parts.
 $(SIGNATURES)
 """
 function structure4(cols)
@@ -141,10 +141,7 @@ function structure4(cols)
         
     end
 
-    #@info("So far: $([conjugation, pp1, pp2, pp3, pp4])")
-    
-
-    expand_elisions(conjugation, pp1, pp2, pp3, pp4)
+    (pp1, pp2, pp3, pp4)
 end
 
 function joinpair(prefix, glossform)
@@ -163,56 +160,52 @@ function expand_elisions(conj::Int, pp1, pp2, pp3, pp4)
         (prefix,body) = split(pp1, "-")
     end
     stem = presentstem(conj, pp1)
-    @info("1. Stem: $(stem) Prefix? $(prefix)")
+    #@info("1. Stem: $(stem) Prefix? $(prefix)")
 
 
-<<<<<<< HEAD
-    @info("Check out $(pp2)")
+    #@info("Check out $(pp2)")
     pp2bare = Unicode.normalize(pp2; stripmark = true)
-    pp2elided = r"\-?[aei]r[ei]"
+    pp2elided = r"^\-?[aei]r[ei]$"
     if ! isnothing(match(pp2elided, pp2bare)) || 
         pp2bare == "-i"
+
+        #@info("MATCHED RE")
         newpp2 = joinpair(stem, pp2)
-        @info("2. Expand $(pp2) to $(newpp2)")
-=======
-    #@info("Expand stems as needed based on $(stem)- ")
-    newp2 = joinpair( stem, pp2)
-    newp3 = joinpair( stem, pp3)
-    newp4 = joinpair( stem, pp4)
->>>>>>> e205c9991d029197464c40fa86f5a8c5e911c9da
+        #@info("2. Expand $(pp2) to $(newpp2)")
 
     elseif startswith( pp2,"-")
         
         newpp2 = joinpair(prefix, pp2)
-        @info("2. Expand $(pp2) to $(newpp2)")
+        #@info("2. Expand $(pp2) to $(newpp2)")
     else
+        #@info("Current pp2 is good: $(pp2)")
         newpp2 = pp2
     end
 
 
     pp3bare = Unicode.normalize(pp3; stripmark = true)
-    pp3elided = r"\-?[aei][uv]i"
+    pp3elided = r"^\-?[aei][uv]i$"
     if ! isnothing(match(pp3elided, pp3bare)) || 
         pp3bare == "-i"
         
         newpp3 = joinpair(stem, pp3)
-        @info("3. Expand $(pp3) to $(newpp3)")
+        #@info("3. Expand $(pp3) to $(newpp3)")
     elseif startswith( pp3,"-")
         
         newpp3 = joinpair(prefix, pp3)
-        #@info("2. Expand $(pp2) to $(newpp2)")
+        #@info("3. Expand $(pp3) to $(newpp3)")
     else
         newpp3 = pp3
     end
 
 
     pp4bare = Unicode.normalize(pp4; stripmark = true)
-    pp4elided = r"\-?[aei]tum"
+    pp4elided = r"^\-?[aei]tum$"
     if ! isnothing(match(pp4elided, pp4bare)) || 
         pp4bare == "-um"
         
-        newpp4 = joinpair(stem, pp4)
-        @info("4. Expand $(pp4) to $(newpp4)")
+        newpp4 = joinpair(stem, pp4bare)
+        #@info("4. Expand $(pp4) to $(newpp4)")
     elseif startswith( pp4,"-")
         
         newpp4 = joinpair(prefix, pp4)
@@ -221,6 +214,7 @@ function expand_elisions(conj::Int, pp1, pp2, pp3, pp4)
         newpp4 = pp4
     end
 
+    #@info("Returining expanded values")
     (pp1, newpp2, newpp3, newpp4)
     
 end
@@ -280,31 +274,33 @@ function verb(tpl)
     shortid = trimid(tpl.urn)
     cols = strip.(split(tpl.morphology,","))
     cleaner = Unicode.normalize.(cols, stripmark = true)
+    conjugation = 0
+    try 
+        conjugation = parse(Int, strip(cols[1]))
+    catch e
+        @warn("Couldn't parse conjugation value $(conjugationraw)")
+    end
 
     #@info("Examine data from raw morphology $(tpl.morphology)")
     #@info("Columns: $(length(cols))")
     if length(cols) == 5    
         (conjugationraw, pp1, pp2, pp3, pp4 ) = cleaner 
-        conjugation = 0
-        try 
-            conjugation = parse(Int, strip(conjugationraw))
-        catch e
-            @warn("Couldn't parse conjugation value $(conjugationraw)")
-        end
-    
+        
+        
         (pp1, pp2, pp3, pp4) = expand_elisions(conjugation, pp1, pp2, pp3, pp4)
         LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 )
 
     elseif length(cols) == 4
 
-       # @info("4 columns for verb $(shortid): $(cleaner)")
-        (conjugation, pp1, pp2, pp3, pp4 ) = structure4(cleaner)
+        #@info("4 columns for verb $(shortid): $(cleaner)")
+        (pp1, pp2, pp3, pp4) = structure4(cleaner)
+        #@info("Taking as $(pp1) / $(pp2) / $(pp3) / $(pp4) from conjugation $(conjugation)")
         if typeof(conjugation) <: Int
             #ok
         else
             @warn("Got $(typeof(conjugation)) for $(conjugation)")
         end
-        (conjugation, pp1, pp2, pp3, pp4) = expand_elisions(conjugation, pp1, pp2, pp3, pp4)
+        (pp1, pp2, pp3, pp4) = expand_elisions(conjugation, pp1, pp2, pp3, pp4)
         LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 )
 
     elseif length(cols) == 3
@@ -314,6 +310,7 @@ function verb(tpl)
         else
             @warn("Got $(typeof(conjugation)) for $(conjugation)")
         end
+        (pp1, pp2, pp3, pp4) = expand_elisions(conjugation, pp1, pp2, pp3, pp4)
         LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 )
     else
         @info("Very short verb entry : $(cols)")

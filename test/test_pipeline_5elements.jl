@@ -25,7 +25,7 @@ end
 
 
 
-@testset "Test pipeline: regular first conjugation with 5 elements given in morphology property, guyt some elements abbreviated" begin
+@testset "Test pipeline: regular first conjugation with 5 elements given in morphology property, but some elements abbreviated" begin
     summary = "15|urn:cite2:hmt:ls.markdown:n14|ăb-aestŭo |to hang down richly |verb  |1, ab-aestuo, -āvi, -ātum"
     tpl = LexiconMining.readdataline(summary)
     abaestuo = verb(tpl) 
