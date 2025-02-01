@@ -69,7 +69,7 @@ function presentstem(conj::Int, present)
     if conj == 1
         replace(present, r"or?$" => "") |> suareznorm
     elseif conj == 2
-        replace(present, r"eor?$" => "") |> suareznorm
+        replace(present, r"[ĕe]or?$" => "") |> suareznorm
     elseif conj == 4
         replace(present, r"ior?$" => "") |> suareznorm
     elseif conj == 3

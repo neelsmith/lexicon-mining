@@ -151,33 +151,71 @@ function joinpair(prefix, glossform)
     if startswith(glossform, "-")
         string(prefix, glossform[2:end])
     else
-        glossform
+        string(prefix, glossform)
     end
 end
 
-function expand_conj1(pp1, pp2, pp3, pp4)
-    
-    stem = presentstem(1, pp1)
-    newp2 = newp3 = newp4 = ""
-    #if pp2 == 
-
-
-
-    @info("Expand stems as needed based on $(stem)- ")
-    newp2 = joinpair( stem, pp2)
-    newp3 = joinpair( stem, pp3)
-    newp4 = joinpair( stem, pp4)
-
-    [1, pp1, newp2, newp3, newp4]
-end
 
 function expand_elisions(conj::Int, pp1, pp2, pp3, pp4)
-    if conj == 1
-        expand_conj1(pp1, pp2, pp3, pp4)
-    #end
-    else
-        [conj, pp1, pp2, pp3, pp4]
+    newpp2 = newpp3 = newpp4 = ""
+    prefix = ""
+    if occursin("-", pp1)
+        (prefix,body) = split(pp1, "-")
     end
+    stem = presentstem(conj, pp1)
+    @info("1. Stem: $(stem) Prefix? $(prefix)")
+
+
+    @info("Check out $(pp2)")
+    pp2bare = Unicode.normalize(pp2; stripmark = true)
+    pp2elided = r"\-?[aei]r[ei]"
+    if ! isnothing(match(pp2elided, pp2bare)) || 
+        pp2bare == "-i"
+        newpp2 = joinpair(stem, pp2)
+        @info("2. Expand $(pp2) to $(newpp2)")
+
+    elseif startswith( pp2,"-")
+        
+        newpp2 = joinpair(prefix, pp2)
+        @info("2. Expand $(pp2) to $(newpp2)")
+    else
+        newpp2 = pp2
+    end
+
+
+    pp3bare = Unicode.normalize(pp3; stripmark = true)
+    pp3elided = r"\-?[aei][uv]i"
+    if ! isnothing(match(pp3elided, pp3bare)) || 
+        pp3bare == "-i"
+        
+        newpp3 = joinpair(stem, pp3)
+        @info("3. Expand $(pp3) to $(newpp3)")
+    elseif startswith( pp3,"-")
+        
+        newpp3 = joinpair(prefix, pp3)
+        #@info("2. Expand $(pp2) to $(newpp2)")
+    else
+        newpp3 = pp3
+    end
+
+
+    pp4bare = Unicode.normalize(pp4; stripmark = true)
+    pp4elided = r"\-?[aei]tum"
+    if ! isnothing(match(pp4elided, pp4bare)) || 
+        pp4bare == "-um"
+        
+        newpp4 = joinpair(stem, pp4)
+        @info("4. Expand $(pp4) to $(newpp4)")
+    elseif startswith( pp4,"-")
+        
+        newpp4 = joinpair(prefix, pp4)
+        #@info("2. Expand $(pp2) to $(newpp2)")
+    else
+        newpp4 = pp4
+    end
+
+    (pp1, newpp2, newpp3, newpp4)
+    
 end
 
 
@@ -246,8 +284,8 @@ function verb(tpl)
         catch e
             @warn("Couldn't parse conjugation value $(conjugationraw)")
         end
-        #push!(goodverbs, )
-        (conjugation, pp1, pp2, pp3, pp4) = expand_elisions(conjugation, pp1, pp2, pp3, pp4)
+    
+        (pp1, pp2, pp3, pp4) = expand_elisions(conjugation, pp1, pp2, pp3, pp4)
         LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 )
 
     elseif length(cols) == 4
@@ -259,7 +297,7 @@ function verb(tpl)
         else
             @warn("Got $(typeof(conjugation)) for $(conjugation)")
         end
-        #push!(goodverbs, )
+        (conjugation, pp1, pp2, pp3, pp4) = expand_elisions(conjugation, pp1, pp2, pp3, pp4)
         LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 )
 
     elseif length(cols) == 3
@@ -272,11 +310,8 @@ function verb(tpl)
         LSVerb(shortid, conjugation, pp1, pp2,  pp3,  pp4 )
     else
         @info("Very short verb entry : $(cols)")
-
-        #push!(badverbs, tpl) 
         tpl
     end
-  
 end
 
 """Parse LSVerbs out of datatuples.

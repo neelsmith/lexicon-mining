@@ -49,7 +49,7 @@ summary = "10429|urn:cite2:hmt:ls.markdown:n10428|conscio|to be conscious of, to
 
 15|urn:cite2:hmt:ls.markdown:n14|ăb-aestŭo |to hang down richly |verb  |1, ab-aestuo, -āvi, -ātum
 
-
+ "1,vōcĭfĕro,vōcĭfĕrāre,-,-
 =#
 
 
