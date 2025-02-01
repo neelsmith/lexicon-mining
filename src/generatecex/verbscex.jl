@@ -78,7 +78,7 @@ function presentstem(conj::Int, present)
 end
 
 function presentstem(verb::LSVerb)
-    presentstem(verb.conjugation, verb.pp1)conj1_cex
+    presentstem(verb.conjugation, verb.pp1)
 end
 
 
