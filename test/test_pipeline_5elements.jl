@@ -1,9 +1,4 @@
-#=Five elements to morphology:
 
- n18 abalieno (1) abalienare, abalienavi, abalienatum
- √ n39 ab-brevio (1) ab-breviare, ab-breviavi, ab-breviatum
- n100 ab-jungo (3) -jungere, -junxi, -junctum
-=#
 @testset "Test pipeline for verb: regular first conjugation with 5 elements given in morphology property" begin
     summary = "40|urn:cite2:hmt:ls.markdown:n39|ab-brevio |to shorten, abridge |verb  |1, ab-brevio, ab-breviare, ab-breviavi, ab-breviatum"
     tpl = LexiconMining.readdataline(summary)
@@ -22,13 +17,18 @@
     @test length(cex) == 3
 end
 
-
-
-
 @testset "Test pipeline: regular first conjugation with 5 elements given in morphology property, but some elements abbreviated" begin
     summary = "15|urn:cite2:hmt:ls.markdown:n14|ăb-aestŭo |to hang down richly |verb  |1, ab-aestuo, -āvi, -ātum"
     tpl = LexiconMining.readdataline(summary)
     abaestuo = verb(tpl) 
+    @test abaestuo isa LSVerb
+    @test abaestuo.conjugation == 1
+    @test abaestuo.pp1 == "ab-aestuo"
+    @test abaestuo.pp2 == "ab-aestuare"
+    @test abaestuo.pp3 == "abaestuavi"
+    @test abaestuo.pp4 == "abaestuatum"
+    @test tabulaeclass(abaestuo) == "conj1"
+    
 end
 
 
@@ -40,23 +40,20 @@ end
 
     @test scribo isa LSVerb
 end
- #88|urn:cite2:hmt:ls.markdown:n87|abigo |to drive away |verb  |3, abigo, abigere, abegi, abactum
-#=
-10897|urn:cite2:hmt:ls.markdown:n10896|con-tremo | to tremble greatly, to quake | verb  | 3, con-tremo, -tremui
 
-10880|urn:cite2:hmt:ls.markdown:n10879|contrā-pōno|to place opposite, oppose to|verb |3, contrā-pōno, -ere, -posui, -positum
-
-summary = "10429|urn:cite2:hmt:ls.markdown:n10428|conscio|to be conscious of, to know well|verb |4, con-scīre, -scīvī, -scītum"
-
-15|urn:cite2:hmt:ls.markdown:n14|ăb-aestŭo |to hang down richly |verb  |1, ab-aestuo, -āvi, -ātum
-
-<<<<<<< HEAD:test/test_pipeline.jl
- "1,vōcĭfĕro,vōcĭfĕrāre,-,-
-=======
-51435|urn:cite2:hmt:ls.markdown:n51432|vulpīnor|to play the fox, be sly|verb |1, vulpīnōr, vulpīnārī, vulpīnātus
-
->>>>>>> e205c9991d029197464c40fa86f5a8c5e911c9da:test/test_pipeline_5elements.jl
+#=Five elements to morphology:
+ n18 abalieno (1) abalienare, abalienavi, abalienatum
+ n100 ab-jungo (3) -jungere, -junxi, -junctum
 =#
+
+
+ #88|urn:cite2:hmt:ls.markdown:n87|abigo |to drive away |verb  |3, abigo, abigere, abegi, abactum
+#10897|urn:cite2:hmt:ls.markdown:n10896|con-tremo | to tremble greatly, to quake | verb  | 3, con-tremo, -tremui
+#10880|urn:cite2:hmt:ls.markdown:n10879|contrā-pōno|to place opposite, oppose to|verb |3, contrā-pōno, -ere, -posui, -positum
+#summary = "10429|urn:cite2:hmt:ls.markdown:n10428|conscio|to be conscious of, to know well|verb |4, con-scīre, -scīvī, -scītum"
+#15|urn:cite2:hmt:ls.markdown:n14|ăb-aestŭo |to hang down richly |verb  |1, ab-aestuo, -āvi, -ātum
+# "1,vōcĭfĕro,vōcĭfĕrāre,-,-
+#51435|urn:cite2:hmt:ls.markdown:n51432|vulpīnor|to play the fox, be sly|verb |1, vulpīnōr, vulpīnārī, vulpīnātus
 
 
 

@@ -409,9 +409,9 @@ function incomplete(v::LSVerb)
 end
 
 function conj4deponentclass(verb::LSVerb)
-    stem = replace(verb.pp1, r"ior$" => "")
-    if verb.pp2 == string(stem, "iri") &&
-        (verb.pp4 == string(stem,"itus") ||  verb.pp4 == string(stem,"itum"))
+    stem = replace(verb.pp1, r"ior$" => "") |> suareznorm
+    if suareznorm(verb.pp2) == string(stem, "iri") &&
+        (suareznorm(verb.pp4) == string(stem,"itus") ||  suareznorm(verb.pp4) == string(stem,"itum"))
         "conj4dep"
     else
         "c4presdep"
@@ -422,10 +422,10 @@ function conj4class(verb::LSVerb)
     if ismissing(verb)
         "c4pres"
     else
-        stem = replace(verb.pp1, r"io$" => "")
-        if verb.pp2 == string(stem,"ire") &&
-            verb.pp3 == string(stem,"ivi") &&
-            (verb.pp4 == string(stem,"itus") ||  verb.pp4 == string(stem,"itum"))
+        stem = replace(verb.pp1, r"io$" => "") |> suareznorm
+        if suareznorm(verb.pp2) == string(stem,"ire") &&
+            suareznorm(verb.pp3) == string(stem,"ivi") &&
+            (suareznorm(verb.pp4) == string(stem,"itus") ||  suareznorm(verb.pp4) == string(stem,"itum"))
             "conj4"
         else
             "c4pres"
@@ -435,9 +435,9 @@ end
 
 
 function conj1deponentclass(verb::LSVerb)
-    stem = replace(verb.pp1, r"or$" => "")
-    if verb.pp2 == string(stem, "ari") &&
-        (verb.pp4 == string(stem,"atus") ||  verb.pp4 == string(stem,"atum"))
+    stem = replace(verb.pp1, r"or$" => "") |> suareznorm
+    if suareznorm(verb.pp2) == string(stem, "ari") &&
+        (suareznorm(verb.pp4) == string(stem,"atus") ||  suareznorm(verb.pp4) == string(stem,"atum"))
         "conj1dep"
     else
         "c1presdep"
@@ -445,13 +445,15 @@ function conj1deponentclass(verb::LSVerb)
 end
 
 function conj1class(verb::LSVerb)
+    @info("Get class for $(verb)")
     if ismissing(verb)
         "c1pres"
     else
-        stem = replace(verb.pp1, r"o$" => "")
-        if verb.pp2 == string(stem,"are") &&
-            verb.pp3 == string(stem,"avi") &&
-            (verb.pp4 == string(stem,"atus") ||  verb.pp4 == string(stem,"atum"))
+        stem = replace(verb.pp1, r"o$" => "") |> suareznorm
+        @info("Stem is $(stem)")
+        if suareznorm(verb.pp2) == string(stem,"are") &&
+            suareznorm(verb.pp3) == string(stem,"avi") &&
+            (suareznorm(verb.pp4) == string(stem,"atus") ||  suareznorm(verb.pp4) == string(stem,"atum"))
             "conj1"
         else
             "c1pres"
@@ -460,9 +462,9 @@ function conj1class(verb::LSVerb)
 end
 
 function conj2deponentclass(verb::LSVerb)
-    stem = replace(verb.pp1, r"eor$" => "")
-    if verb.pp2 == string(stem, "eri") &&
-        (verb.pp4 == string(stem,"itus") ||  verb.pp4 == string(stem,"itum"))
+    stem = replace(verb.pp1, r"eor$" => "") |> suareznorm
+    if suareznorm(verb.pp2) == string(stem, "eri") &&
+        (suareznorm(verb.pp4) == string(stem,"itus") ||  suareznorm(verb.pp4) == string(stem,"itum"))
         "conj2dep"
     else
         "c2presdep"
@@ -473,10 +475,10 @@ function conj2class(verb::LSVerb)
     if ismissing(verb)
         "c2pres"
     else
-        stem = replace(verb.pp1, r"eo$" => "")
-        if verb.pp2 == string(stem,"ere") &&
-            verb.pp3 == string(stem,"ui") &&
-            (verb.pp4 == string(stem,"itus") ||  verb.pp4 == string(stem,"itum"))
+        stem = replace(verb.pp1, r"eo$" => "") |> suareznorm
+        if suareznorm(verb.pp2) == string(stem,"ere") &&
+            suareznorm(verb.pp3) == string(stem,"ui") &&
+            (suareznorm(verb.pp4) == string(stem,"itus") ||  suareznorm(verb.pp4) == string(stem,"itum"))
             "conj2"
         else
             "c2pres"
@@ -491,6 +493,8 @@ Returns empty string if no class found.
 $(SIGNATURES)
 """
 function tabulaeclass(verb::LSVerb)
+    #@info("Get calss for $(verb) of conj $(verb.conjugation)")
+
     if isempty(verb.pp1)
         nothing
    
@@ -503,9 +507,9 @@ function tabulaeclass(verb::LSVerb)
         
     elseif verb.conjugation == 2
         if endswith(verb.pp1, "or")
-            conj1deponentclass(verb)
+            conj2deponentclass(verb)
         else
-            conj1class(verb)
+            conj2class(verb)
         end
         
     elseif verb.conjugation == 3
