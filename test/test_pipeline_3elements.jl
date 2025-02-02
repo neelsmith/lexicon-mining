@@ -9,7 +9,7 @@
     @test contremo.pp2 == "con-tremere"
     @test contremo.pp3 == "contremui"
     @test isempty(contremo.pp4)
-    @test_broken tabulaeclass(contremo) == "c3pres"
+    @test tabulaeclass(contremo) == "c3pres"
     
 
 

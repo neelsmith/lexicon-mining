@@ -16,7 +16,7 @@ end
     @test scribo.pp2 == "scribere"
     @test scribo.pp3 == "scripsi"
     @test scribo.pp4 == "scriptum"
-    @test_broken tabulaeclass(scribo) == "c3pres"
+    @test tabulaeclass(scribo) == "c3pres"
 
     # NEED TO IMPLEMENT CEXLINE FOR 3RD CONJ
     cex = cexline(scribo)
@@ -33,7 +33,7 @@ end
     @test colo.pp2 == "colere"
     @test colo.pp3 == "colui"
     @test colo.pp4 == "cultum"
-    @test_broken tabulaeclass(scribo) == "conj3"
+    @test tabulaeclass(colo) == "c3pres"
 
     # NEED TO IMPLEMENT CEXLINE FOR 3RD CONJ
     cex = cexline(colo)

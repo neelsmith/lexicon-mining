@@ -46,12 +46,12 @@ end
     @test abigo.pp2 == "abigere"
     @test abigo.pp3 == "abegi"
     @test abigo.pp4 == "abactum"
-    @test_broken tabulaeclass(abigo) == "c3pres"
+    @test tabulaeclass(abigo) == "c3pres"
     
     cex = cexline(abigo)
     @test_broken length(cex) == 3
 end
- #
+
 
 
  @testset "Test pipeline for verb: regular third conjugation with 5 elements given in morphology property" begin
@@ -64,7 +64,7 @@ end
     @test peto.pp2 == "petere"
     @test peto.pp3 == "petivi"
     @test peto.pp4 == "petitum"
-    @test_broken tabulaeclass(peto) == "conj3"
+    @test tabulaeclass(peto) == "conj3"
  end
 
 #10880|urn:cite2:hmt:ls.markdown:n10879|contrā-pōno|to place opposite, oppose to|verb |3, contrā-pōno, -ere, -posui, -positum

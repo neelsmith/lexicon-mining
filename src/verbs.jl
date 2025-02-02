@@ -411,6 +411,40 @@ function incomplete(v::LSVerb)
     isempty(v.pp4)
 end
 
+function conj3deponentclass(verb::LSVerb)
+    stem = replace(verb.pp1, r"ior$" => "") |> suareznorm
+    if suareznorm(verb.pp2) == string(stem, "iri") &&
+        (suareznorm(verb.pp4) == string(stem,"itus") ||  suareznorm(verb.pp4) == string(stem,"itum"))
+        "conj4dep"
+    else
+        "c4presdep"
+    end
+end
+
+function conj3class(verb::LSVerb)
+    if ismissing(verb)
+        endswith(verb.pp1, "io") ? "c3iopres" : "c3pres"
+    else
+        stem = ""
+        if endswith("io", verb.pp1)
+            stem = replace(verb.pp1, r"io$" => "") |> suareznorm
+        else
+            stem = replace(verb.pp1, r"o$" => "") |> suareznorm
+        end
+        if suareznorm(verb.pp2) == string(stem,"ere") &&
+            suareznorm(verb.pp3) == string(stem,"ivi") &&
+            (suareznorm(verb.pp4) == string(stem,"itus") ||  suareznorm(verb.pp4) == string(stem,"itum"))
+            
+              endswith(verb.pp1, "io") ? "conj3io" : "conj3"
+
+
+        else
+            endswith(verb.pp1, "io") ? "c3iopres" : "c3pres"
+        end
+    end
+end
+
+
 function conj4deponentclass(verb::LSVerb)
     stem = replace(verb.pp1, r"ior$" => "") |> suareznorm
     if suareznorm(verb.pp2) == string(stem, "iri") &&
@@ -517,7 +551,11 @@ function tabulaeclass(verb::LSVerb)
         
     elseif verb.conjugation == 3
         @info("Figure out tabulae class for verb $(verb)")
-        ""
+        if endswith(verb.pp1, "or")
+            conj3deponentclass(verb)
+        else
+            conj3class(verb)
+        end
 
     elseif verb.conjugation == 4
        #@info("Analyze conj 4 verb class")
