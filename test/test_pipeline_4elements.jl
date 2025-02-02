@@ -20,7 +20,7 @@ end
 
     # NEED TO IMPLEMENT CEXLINE FOR 3RD CONJ
     cex = cexline(scribo)
-    @test_broken length(cex) == 3
+    @test length(cex) == 3
 end
 
 @testset "Test verb pipeline: infinitive omitted, regular third conjugation" begin

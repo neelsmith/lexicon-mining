@@ -49,7 +49,7 @@ end
     @test tabulaeclass(abigo) == "c3pres"
     
     cex = cexline(abigo)
-    @test_broken length(cex) == 3
+    @test length(cex) == 3
 end
 
 
@@ -65,6 +65,10 @@ end
     @test peto.pp3 == "petivi"
     @test peto.pp4 == "petitum"
     @test tabulaeclass(peto) == "conj3"
+
+
+    expected = "latcommon.verbn35822|lsx.n35822|peto|conj3|Automatically generated"
+    @test cexline(peto) == [expected]
  end
 
 #10880|urn:cite2:hmt:ls.markdown:n10879|contrā-pōno|to place opposite, oppose to|verb |3, contrā-pōno, -ere, -posui, -positum

@@ -149,8 +149,34 @@ function isdeponent(verb::LSVerb)
 end
 
 function conj3_cex(verb; divider = "|")
-    # TBA
-    []
+    lexentity = string("lsx.", verb.lsid)
+    stem = replace(verb.pp1, r"ior?$" => "") |> suareznorm
+    if isempty(stem)
+        @warn("EMPTY PRESENT STEM $(verb.lsid)")
+        []
+    else
+        note = "Automatically generated"
+
+        iclass = tabulaeclass(verb)
+        #@info("$(iclass)?")
+        if iclass in regular_conjungations 
+            conj = if endswith(stem, "ior")
+                "conj3iodep"
+            elseif endswith(stem, "io")
+                "conj3io"
+            elseif endswith(stem, "or")
+                "conj3dep"
+            else
+                "conj3"
+            end
+            verb_cexlines(verb.lsid, lexentity, stem, conj, note; 
+            divider = divider)
+
+        else
+            #@info("Not regular")
+            principalparts_cex(verb)
+        end
+    end
 end
 
 function conj4_cex(verb; divider = "|")

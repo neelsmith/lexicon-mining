@@ -14,7 +14,7 @@
 
 
     cex = cexline(contremo)
-    @test_broken length(cex) == 3
+    @test length(cex) == 2
 end
 
 @testset "Test pipeline: deponent verb with first and fourth parts given" begin
