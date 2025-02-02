@@ -7,8 +7,8 @@
     @test contremo.conjugation == 3
     @test contremo.pp1 == "con-tremo"
     @test contremo.pp2 == "con-tremere"
-    @test_broken contremo.pp3 == "contremui"
-    @test contremo.pp4 == ""
+    @test contremo.pp3 == "contremui"
+    @test isempty(contremo.pp4)
     @test_broken tabulaeclass(contremo) == "c3pres"
     
 
@@ -54,7 +54,7 @@ end
     @test astipulor isa LSVerb
     @test astipulor.conjugation == 1
     @test astipulor.pp1 == "a-stipulor"
-    @test_broken astipulor.pp2 == "a-stipulari"
+    @test astipulor.pp2 == "a-stipulari"
     @test isempty(astipulor.pp3)
     @test isempty(astipulor.pp4)
     @test tabulaeclass(astipulor) == "c1presdep"

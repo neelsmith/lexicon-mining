@@ -101,7 +101,7 @@ end
 $(SIGNATURES)
 """
 function structure4(cols)
-   # @info("Figure out 4 cols $(cols)")
+    #@info("Figure out 4 cols $(cols)")
     conjugation = 0
     try 
         conjugation = parse(Int, strip(cols[1]))
@@ -244,7 +244,9 @@ function structure3(cols)
 
 
     if endswith(cols[3], "re") || endswith(cols[3], "ri")
-        pp2 = cols[2]
+        pp2 = cols[3]
+    elseif endswith(cols[3], "i")
+        pp3 = cols[3]
     end
 
     if endswith(cols[3], "us") || endswith(cols[3], "um")
@@ -514,6 +516,7 @@ function tabulaeclass(verb::LSVerb)
         end
         
     elseif verb.conjugation == 3
+        @info("Figure out tabulae class for verb $(verb)")
         ""
 
     elseif verb.conjugation == 4

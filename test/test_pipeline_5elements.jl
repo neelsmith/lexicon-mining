@@ -54,7 +54,18 @@ end
  #
 
 
+ @testset "Test pipeline for verb: regular third conjugation with 5 elements given in morphology property" begin
+    summary = "35825|urn:cite2:hmt:ls.markdown:n35822|peto|to attack, seek, or request|verb |3,peto, petere, petivi, petitum"
 
+    peto = LexiconMining.readdataline(summary) |> verb
+    @test peto isa LSVerb
+    @test peto.conjugation == 3
+    @test peto.pp1 == "peto"
+    @test peto.pp2 == "petere"
+    @test peto.pp3 == "petivi"
+    @test peto.pp4 == "petitum"
+    @test_broken tabulaeclass(peto) == "conj3"
+ end
 
 #10880|urn:cite2:hmt:ls.markdown:n10879|contrā-pōno|to place opposite, oppose to|verb |3, contrā-pōno, -ere, -posui, -positum
 # "51263|urn:cite2:hmt:ls.markdown:n51260|vōcĭfĕro|rare form of vociferor|verb |1,vōcĭfĕro,vōcĭfĕrāre,-,-"
