@@ -550,7 +550,7 @@ function tabulaeclass(verb::LSVerb)
         end
         
     elseif verb.conjugation == 3
-        @info("Figure out tabulae class for verb $(verb)")
+        #@info("Figure out tabulae class for verb $(verb)")
         if endswith(verb.pp1, "or")
             conj3deponentclass(verb)
         else

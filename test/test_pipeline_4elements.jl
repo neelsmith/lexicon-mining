@@ -1,3 +1,11 @@
+# ADD:
+# 31712|urn:cite2:hmt:ls.markdown:n31709|oblīviscor|to forget|verb |3, oblīviscor, oblīviscī, oblītus
+
+@testset "Test verb pipeline: compound with omitted prefixes" begin
+    summary = "31712|urn:cite2:hmt:ls.markdown:n31709|oblīviscor|to forget|verb |3, oblīviscor, oblīviscī, oblītus"
+end
+
+
 @testset "Test verb pipeline: compound with omitted prefixes" begin
     
     summary = "725|urn:cite2:hmt:ls.markdown:n724|ad-dīco | verb | 3, ad-dīco, -dīxi, -dictum"
