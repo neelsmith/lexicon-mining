@@ -3,6 +3,21 @@
 
 @testset "Test verb pipeline: compound with omitted prefixes" begin
     summary = "31712|urn:cite2:hmt:ls.markdown:n31709|oblīviscor|to forget|verb |3, oblīviscor, oblīviscī, oblītus"
+
+
+    obliviscor = summary |> LexiconMining.readdataline |> verb
+    @test obliviscor isa LSVerb
+    @test obliviscor.conjugation == 3
+    @test obliviscor.pp1 == "obliviscor"
+    @test obliviscor.pp2 == "oblivisci"
+    @test_broken isempty(obliviscor.pp3)
+    @test_broken obliviscor.pp4 == "oblitus"
+    @test_broken tabulaeclass(obliviscor) == "c3pres"
+
+    # NEED TO IMPLEMENT CEXLINE FOR 3RD CONJ
+    cex = cexline(obliviscor)
+    @test_broken length(cex) == 3
+
 end
 
 
